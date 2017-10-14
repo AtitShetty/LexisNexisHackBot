@@ -1,0 +1,2813 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "LexisNexis",
+  "desc": "HackBot",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Communication.AddContact",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AddContact"
+      }
+    },
+    {
+      "name": "Communication.AddMore",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AddMore"
+      }
+    },
+    {
+      "name": "Communication.Answer",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Answer"
+      }
+    },
+    {
+      "name": "Communication.AssignContactNickname",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AssignContactNickname"
+      }
+    },
+    {
+      "name": "Communication.CallVoiceMail",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CallVoiceMail"
+      }
+    },
+    {
+      "name": "Communication.CheckIMStatus",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "CheckIMStatus"
+      }
+    },
+    {
+      "name": "Communication.Confirm",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Confirm"
+      }
+    },
+    {
+      "name": "Communication.Dail",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Dail"
+      }
+    },
+    {
+      "name": "Communication.FindContact",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "FindContact"
+      }
+    },
+    {
+      "name": "Communication.FindSpeedDial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "FindSpeedDial"
+      }
+    },
+    {
+      "name": "Communication.GetForwardingsStatus",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "GetForwardingsStatus"
+      }
+    },
+    {
+      "name": "Communication.Goback",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Goback"
+      }
+    },
+    {
+      "name": "Communication.Ignore",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Ignore"
+      }
+    },
+    {
+      "name": "Communication.IgnoreWithMessage",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "IgnoreWithMessage"
+      }
+    },
+    {
+      "name": "Communication.PressKey",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "PressKey"
+      }
+    },
+    {
+      "name": "Communication.ReadAloud",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ReadAloud"
+      }
+    },
+    {
+      "name": "Communication.Redial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Redial"
+      }
+    },
+    {
+      "name": "Communication.Reject",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Reject"
+      }
+    },
+    {
+      "name": "Communication.SendEmail",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SendEmail"
+      }
+    },
+    {
+      "name": "Communication.SendMessage",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SendMessage"
+      }
+    },
+    {
+      "name": "Communication.SetSpeedDial",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SetSpeedDial"
+      }
+    },
+    {
+      "name": "Communication.ShowNext",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ShowNext"
+      }
+    },
+    {
+      "name": "Communication.ShowPrevious",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ShowPrevious"
+      }
+    },
+    {
+      "name": "Communication.StartOver",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "StartOver"
+      }
+    },
+    {
+      "name": "Communication.TurnForwardingOff",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnForwardingOff"
+      }
+    },
+    {
+      "name": "Communication.TurnForwardingOn",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnForwardingOn"
+      }
+    },
+    {
+      "name": "Communication.TurnSpeakerOff",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnSpeakerOff"
+      }
+    },
+    {
+      "name": "Communication.TurnSpeakerOn",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "TurnSpeakerOn"
+      }
+    },
+    {
+      "name": "Help.me"
+    },
+    {
+      "name": "Incorrect.result"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "Communication.AudioDeviceType",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "AudioDeviceType"
+      }
+    },
+    {
+      "name": "Communication.Category",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Category"
+      }
+    },
+    {
+      "name": "Communication.ContactAttribute",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ContactAttribute"
+      }
+    },
+    {
+      "name": "Communication.ContactName",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "ContactName"
+      }
+    },
+    {
+      "name": "Communication.EmailSubject",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "EmailSubject"
+      }
+    },
+    {
+      "name": "Communication.Line",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Line"
+      }
+    },
+    {
+      "name": "Communication.Message",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "Message"
+      }
+    },
+    {
+      "name": "Communication.MessageType",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "MessageType"
+      }
+    },
+    {
+      "name": "Communication.OrderReference",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "OrderReference"
+      }
+    },
+    {
+      "name": "Communication.SenderName",
+      "inherits": {
+        "domain_name": "Communication",
+        "model_name": "SenderName"
+      }
+    },
+    {
+      "name": "Folder"
+    },
+    {
+      "name": "Result"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "yes",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "i am stuck",
+      "intent": "Help.me",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 0,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "sounds good",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "need help",
+      "intent": "Help.me",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 0,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "i don't know what to do",
+      "intent": "Help.me",
+      "entities": []
+    },
+    {
+      "text": "what to do",
+      "intent": "Help.me",
+      "entities": []
+    },
+    {
+      "text": "any help",
+      "intent": "Help.me",
+      "entities": []
+    },
+    {
+      "text": "how to do this",
+      "intent": "Help.me",
+      "entities": []
+    },
+    {
+      "text": "wrong answer",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "say my name",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "i want to go back",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "read new messages",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "send email hello",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 11,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "perfect thank you",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "go back to the main menu",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "that ' s right",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "return please",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "go to the next message",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "turn off call forwarding",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "reply text",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "Add Carolina to my contact list",
+      "intent": "Communication.AddContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 4,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "Save this email address lose at win stream dot net",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "add Merry to the contacts",
+      "intent": "Communication.AddContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 4,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "Contacts . Add Wayne William and phone number . Confirm",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "New contact for Carol",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "add new contact Marry",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "add ray contacts",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "put it into my contacts",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "Add mother to contacts",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "can i add a name and a number to my contacts ?",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "send more please",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "If you please add more",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "can you answer me now ?",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "put her through",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "go ahead and answer",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "Answer the phone",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "pick up the phone and answer",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "add nickname dad to contact Max",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "Save Martin as my brother",
+      "intent": "Communication.AssignContactNickname",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "add nickname of son",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "change contact name from Marina to daughter",
+      "intent": "Communication.AssignContactNickname",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 25,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "save Merry as my girlfriend",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "add nickname mom to Carol Marco",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "I want to give my sister a nickname in the contacts",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "call Josh voicemail",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "can i have my voicemail read to me ?",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "pull up my voice mails",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "call Mike voicemail",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "call voicemail using speakerphone",
+      "intent": "Communication.CallVoiceMail",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 21,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "get me the voicemail",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "give me my phone messages",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "can you check my voicemail",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "any of my contacts online ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "is Berry on IM right now ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "is Martha available ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "Is Nora available ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 0,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "who can I chat with ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "Is Paul online ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "Is Kate online ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "is Kale online ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "who is online ?",
+      "intent": "Communication.CheckIMStatus",
+      "entities": []
+    },
+    {
+      "text": "No doubt Okay",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "okay i hear that",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "yes call",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "any birthdays next month i should know about ?",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 4,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "Find for me Jack Robert from Florida beach",
+      "intent": "Communication.FindContact",
+      "entities": []
+    },
+    {
+      "text": "find Rosaline Keil",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "find Suzan",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "look up an address for Mark stewart in Wisconsin",
+      "intent": "Communication.FindContact",
+      "entities": []
+    },
+    {
+      "text": "Andrew Carlos address lincoln nebraska",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 14,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "show second contact",
+      "intent": "Communication.FindContact",
+      "entities": []
+    },
+    {
+      "text": "call forward off",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "do not forward calls",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "disable my call forwarding",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "please stop call forwarding",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "can you turn off call forward ?",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "set call forwarding off",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "call forwarding off",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "stop call forwarding",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "activate call forwarding",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "call forward home",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "call forwarding on",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "use call forwarding",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "put call forwarding on",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "forward all calls to Kate Paul",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 21,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "forward my calls",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "turn on call forwarding",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "am i set up for call forwarding right now ?",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "call forward setting . thanks",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "do all of my calls forward ?",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "display the current call forwarding setting",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "is call forwarding on or off ?",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "show me the call forwarding settings",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "do not read the text right now",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "i ' ll call his office line later",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "do not worry about this message",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "ignore all text messages from now on",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "don ' t read the message",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "ignore all of the calls",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "answer call with a text",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": []
+    },
+    {
+      "text": "please let them know i am driving and that this is an auto response",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 21,
+          "endPos": 66
+        }
+      ]
+    },
+    {
+      "text": "send text to this incoming caller",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": []
+    },
+    {
+      "text": "use text on incoming call",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": []
+    },
+    {
+      "text": "i can ' t answer the call . send a text instead",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": []
+    },
+    {
+      "text": "send text saying i am busy",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 17,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "text caller stating i am busy",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 20,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "reply Martha with please call me i am driving",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 18,
+          "endPos": 44
+        }
+      ]
+    },
+    {
+      "text": "send a text message that i am driving",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 25,
+          "endPos": 36
+        }
+      ]
+    },
+    {
+      "text": "call Miranda at home",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "ring Jack Fred please",
+      "intent": "Communication.Dail",
+      "entities": []
+    },
+    {
+      "text": "call Carlston tomorrow",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "call Manuel Cal",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "call Marry in thirty minutes",
+      "intent": "Communication.Dail",
+      "entities": []
+    },
+    {
+      "text": "call four two six seven nine one",
+      "intent": "Communication.Dail",
+      "entities": []
+    },
+    {
+      "text": "activate star or hash key",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "caller is requesting i press 1",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "need to enter a digit",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "click on the call button",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "please tap 5",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "press 8",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "dial star eight nine",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "press one pound",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "read latest nokia email",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 12,
+          "endPos": 16
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 18,
+          "endPos": 22
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "read loud email",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 10,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "read what Greg Martin is texting me",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 10,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "read my unopened sms",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 8,
+          "endPos": 15
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 17,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "Call last number dialed",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "call redial",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "please redial . thanks",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "redial on speaker phone",
+      "intent": "Communication.Redial",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 10,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "Can you call the person I called last ?",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "redial please",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "recall last number",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "redial last",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "I want to redial that number",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "create a gmail",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "Email Henry Matthew",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 6,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "email Andy Check",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 6,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "email pictures",
+      "intent": "Communication.SendEmail",
+      "entities": []
+    },
+    {
+      "text": "Email Robert hello",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 13,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "email Morris trip itinerary",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "email Max about n l p",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "New high priority message for Paul",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 4,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "can you please resend my last text message ?",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 25,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "whatsapp Manuel Greg hello",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 7
+        },
+        {
+          "entity": "Communication.Message",
+          "startPos": 21,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "text Martin Kelly",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "answer text from mom",
+      "intent": "Communication.SendMessage",
+      "entities": []
+    },
+    {
+      "text": "text Jeff Carlos in twenty minutes",
+      "intent": "Communication.SendMessage",
+      "entities": []
+    },
+    {
+      "text": "facebook Candy Bell",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "Add my wife to speed dial",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "Set mamma on key one",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "enable speed dial 4",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "save speed dial five zero six seven one five three six six nine",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "set speed dial",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "set up speed dial",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "six speed dial please",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "Please six speed dial",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "set speed dial two",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "move on and show me the next",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "Display the next message",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "show the next message",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "show me the next message",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "go to previous text",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "Please give me the one before",
+      "intent": "Communication.ShowPrevious",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 0,
+          "endPos": 28
+        }
+      ]
+    },
+    {
+      "text": "find previous calls",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "previous text please",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "show me the previous text",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "access phone settings and turn off speaker",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 35,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "disconnect speaker",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "please return to earpiece",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": []
+    },
+    {
+      "text": "cancel speaker phone",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 7,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "change from speaker to no speaker talk",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 12,
+          "endPos": 18
+        },
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 26,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "end speaker phone",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 4,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "set speaker to normal",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 4,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "speaker mode off",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "speaker off please",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 0,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "activate speaker phone",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 9,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "change call to bluetooth",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 15,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "change current call to speakerphone",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 23,
+          "endPos": 34
+        }
+      ]
+    },
+    {
+      "text": "speaker mode on please",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": []
+    },
+    {
+      "text": "do it all over again ?",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "get out of the call",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "Restart now",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "I would like to see the speed dial list",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "contact 5 call",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "contact option one",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "list of speed dials",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "open speed dial",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "set speed dial off",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "speed dial now please",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "speed dial list",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "Do not call anyone right now",
+      "intent": "Communication.Reject",
+      "entities": []
+    },
+    {
+      "text": "don ' t send a message",
+      "intent": "Communication.Reject",
+      "entities": []
+    },
+    {
+      "text": "Call mamma",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "how do i change the phone number for Jack ?",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 37,
+          "endPos": 40
+        }
+      ]
+    },
+    {
+      "text": "Conference Preparations subject in new email to Song and Hung",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 0,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "Email robert hello",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 13,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "Compose email to David with subject Hey .",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 36,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "send birthday card to robert",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 5,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "start a message about lyrics",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "make a new email for Maggie with the title Open Now .",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 43,
+          "endPos": 50
+        }
+      ]
+    },
+    {
+      "text": "can you read my email from Berry Chris",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 27,
+          "endPos": 37
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 16,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "read texts from Kyla Jack",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 16,
+          "endPos": 24
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "Please read my latest text from James",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 32,
+          "endPos": 36
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 22,
+          "endPos": 25
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 15,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "update contact from Martha to sister",
+      "intent": "Communication.AssignContactNickname",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 20,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "reliable contact from Martin to dad",
+      "intent": "Communication.AssignContactNickname",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "compose email to David with subject Hey",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 36,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "please send a low importance marked email to Gary",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 14,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "mark all email messages as read",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 27,
+          "endPos": 30
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "Flag new email to Emily",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 0,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "read my new text message",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 8,
+          "endPos": 10
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "read new message",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Category",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "please read my recent emails",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 22,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "search for latest contacts",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 11,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "i am trying to add last caller to my contact list",
+      "intent": "Communication.AddContact",
+      "entities": [
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 19,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "read new text messages",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 9,
+          "endPos": 12
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "please forward the last call",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": [
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 19,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "read my most recent email",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 20,
+          "endPos": 24
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 8,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "can you read me the last email that came into the live downtown miami account august eleven",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 50,
+          "endPos": 68
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 25,
+          "endPos": 29
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 20,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "whose birthday is today",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "call Fred from my cell",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 18,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "facebook message Greg",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "skype Martha please",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "call five on the skype",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 17,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "skype Alex please",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "\" yes please , send it  \"",
+      "intent": "Communication.Confirm",
+      "entities": []
+    },
+    {
+      "text": "\" Add a contact , please  \"",
+      "intent": "Communication.AddContact",
+      "entities": []
+    },
+    {
+      "text": "\" answer call , please  \"",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "\" Add , please  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "answer using hands - free",
+      "intent": "Communication.Answer",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 13,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "\" can you add it , please  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "\" answer it , please  \"",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "\" Add more , please  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "\" answer phone messages , please  \"",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "\" Please , add more  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "\" answer that , please  \"",
+      "intent": "Communication.Answer",
+      "entities": []
+    },
+    {
+      "text": "\" please , log last calling number to phonebook as Elaine  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "\" Can you add more for me , please  \"",
+      "intent": "Communication.AddMore",
+      "entities": []
+    },
+    {
+      "text": "Sarah ' s nickname is mom",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "change John name to Johnny",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "Add Husband as a nickname for Tim",
+      "intent": "Communication.AssignContactNickname",
+      "entities": []
+    },
+    {
+      "text": "call Jacky John ' s mobile",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "\" call voicemail now , please  \"",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "\" playback voicemail , please  \"",
+      "intent": "Communication.CallVoiceMail",
+      "entities": []
+    },
+    {
+      "text": "call Erwin holmes",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "call Geoffrey",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "what ' s Madonna ' s phone number ?",
+      "intent": "Communication.FindContact",
+      "entities": []
+    },
+    {
+      "text": "call Jenny Jim",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 5,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "contacts please",
+      "intent": "Communication.FindContact",
+      "entities": []
+    },
+    {
+      "text": "Which contact is on speed dial one ?",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "\" select speed dial , please  \"",
+      "intent": "Communication.FindSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "\" Go back , please  \"",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "take me to forwarding call ' s settings",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "\" forward call , please  \"",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "please tell Patrick he ' s a bad pool player",
+      "intent": "Communication.SendMessage",
+      "entities": []
+    },
+    {
+      "text": "\" forwarding settings , please  \"",
+      "intent": "Communication.GetForwardingsStatus",
+      "entities": []
+    },
+    {
+      "text": "go back . try again . go back",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "go on . go back",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "\" quit burgers and go back to the hamburgers , please  \"",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "text 426574 at 12 : 12",
+      "intent": "Communication.SendMessage",
+      "entities": []
+    },
+    {
+      "text": "\" no , go back  \"",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "\" nothing go back , please  \"",
+      "intent": "Communication.Goback",
+      "entities": []
+    },
+    {
+      "text": "text Carolina test",
+      "intent": "Communication.SendMessage",
+      "entities": []
+    },
+    {
+      "text": "\" can you read me my last text , please ?  \"",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 26,
+          "endPos": 29
+        }
+      ]
+    },
+    {
+      "text": "\" discard response , please  \"",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "read Verona ' s email",
+      "intent": "Communication.ReadAloud",
+      "entities": []
+    },
+    {
+      "text": "tell caller I ' ll call them back",
+      "intent": "Communication.IgnoreWithMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 12,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "\" ignore it , Chris George  \"",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "\" hold text , please  \"",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "please read text",
+      "intent": "Communication.ReadAloud",
+      "entities": []
+    },
+    {
+      "text": "\" It ' s Martha , ignore her  \"",
+      "intent": "Communication.Ignore",
+      "entities": []
+    },
+    {
+      "text": "\" press 6 , please  \"",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "I ' d like to set speed dial one",
+      "intent": "Communication.SetSpeedDial",
+      "entities": []
+    },
+    {
+      "text": "ask for hash key",
+      "intent": "Communication.PressKey",
+      "entities": []
+    },
+    {
+      "text": "\" redial , yeah yeah for sure  \"",
+      "intent": "Communication.Redial",
+      "entities": []
+    },
+    {
+      "text": "\" nothing else , thank you  \"",
+      "intent": "Communication.Reject",
+      "entities": []
+    },
+    {
+      "text": "\" show next message , please  \"",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "Can you send an email to Keil Mark at gmail . com ?",
+      "intent": "Communication.SendEmail",
+      "entities": []
+    },
+    {
+      "text": "don ' t call Kate ' s cell phone",
+      "intent": "Communication.Reject",
+      "entities": []
+    },
+    {
+      "text": "\" Show the next , please  \"",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "\" next , please  \"",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "\" next message , please  \"",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "\" show the next message , please  \"",
+      "intent": "Communication.ShowNext",
+      "entities": []
+    },
+    {
+      "text": "\" Please , restart now  \"",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "\" previous one , please  \"",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "i ' ll start again",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "what ' s my last text ?",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "let ' s try this whole thing over",
+      "intent": "Communication.StartOver",
+      "entities": []
+    },
+    {
+      "text": "\" previous incoming contact , please  \"",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "\" display the previous text , please  \"",
+      "intent": "Communication.ShowPrevious",
+      "entities": []
+    },
+    {
+      "text": "i don ' t need my speaker now",
+      "intent": "Communication.TurnSpeakerOff",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 18,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "conversation hands - free",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 13,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "Turn on the hands - free mode",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 12,
+          "endPos": 23
+        }
+      ]
+    },
+    {
+      "text": "\" hands - free connect , please  \"",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 2,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "i need hands - free now",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": []
+    },
+    {
+      "text": "let me answer by hands - free",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": []
+    },
+    {
+      "text": "i want to use the speaker",
+      "intent": "Communication.TurnSpeakerOn",
+      "entities": []
+    },
+    {
+      "text": "\" cancel call forwarding , please  \"",
+      "intent": "Communication.TurnForwardingOff",
+      "entities": []
+    },
+    {
+      "text": "select Jenna Samuel please",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactName",
+          "startPos": 7,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "\" auto forward text messages , please  \"",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "set call forwarding on",
+      "intent": "Communication.TurnForwardingOn",
+      "entities": []
+    },
+    {
+      "text": "reply to Kelly ' s email about process",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 31,
+          "endPos": 37
+        }
+      ]
+    },
+    {
+      "text": "Send an email with the subject Dog to Martha Keil",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 31,
+          "endPos": 33
+        }
+      ]
+    },
+    {
+      "text": "Send message to Richard and add message to subject line",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 5,
+          "endPos": 11
+        },
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 32,
+          "endPos": 38
+        }
+      ]
+    },
+    {
+      "text": "I want to send an email to my friends with a subject My wedding invitation",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 53,
+          "endPos": 73
+        }
+      ]
+    },
+    {
+      "text": "lets send a message to Kiel the subject is .  . tomorrow meeting .",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.EmailSubject",
+          "startPos": 48,
+          "endPos": 63
+        }
+      ]
+    },
+    {
+      "text": "read Miranda ' s text",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.SenderName",
+          "startPos": 5,
+          "endPos": 11
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "read last fujitsu ' s email",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 10,
+          "endPos": 16
+        },
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 22,
+          "endPos": 26
+        },
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "reply Suzzane mama wants you",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 14,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "Take me to tennessee",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 0,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "tell Max i ' m running late on viber",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 31,
+          "endPos": 35
+        },
+        {
+          "entity": "Communication.Message",
+          "startPos": 9,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "text Paul don ' t worry i won ' t",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 10,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "send an email to gigi greg apress . net hi",
+      "intent": "Communication.SendEmail",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 40,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "send wife a message I love u",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 20,
+          "endPos": 27
+        }
+      ]
+    },
+    {
+      "text": "text 342 - 990 - 6232 let ' s meet tomorrow",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 22,
+          "endPos": 42
+        }
+      ]
+    },
+    {
+      "text": "i would like you to text that i will call later",
+      "intent": "Communication.SendMessage",
+      "entities": [
+        {
+          "entity": "Communication.Message",
+          "startPos": 30,
+          "endPos": 46
+        }
+      ]
+    },
+    {
+      "text": "read recent emails",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "read text from wife",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "read mum ' s text",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 13,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "read text from mum",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.MessageType",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "can you read me my son ' s last text",
+      "intent": "Communication.ReadAloud",
+      "entities": [
+        {
+          "entity": "Communication.OrderReference",
+          "startPos": 27,
+          "endPos": 30
+        }
+      ]
+    },
+    {
+      "text": "start speaker . cancel",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 6,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "call 7693539813 on speaker",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.AudioDeviceType",
+          "startPos": 19,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "when ' s Berry ' s birthday",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 19,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "who ' s birthday today",
+      "intent": "Communication.FindContact",
+      "entities": [
+        {
+          "entity": "Communication.ContactAttribute",
+          "startPos": 8,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "skype Berry please",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 0,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "call on skype Garofalo Fred",
+      "intent": "Communication.Dail",
+      "entities": [
+        {
+          "entity": "Communication.Line",
+          "startPos": 8,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "it is incorrect",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "it isn't what i was expecting",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "this is wrong result",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "i wasn't looking for this",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "not correct result",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "this isn't what i was looking for",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "wrong response",
+      "intent": "Incorrect.result",
+      "entities": []
+    },
+    {
+      "text": "incorrect response",
+      "intent": "Incorrect.result",
+      "entities": []
+    }
+  ]
+}
