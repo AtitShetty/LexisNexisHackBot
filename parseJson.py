@@ -57,13 +57,22 @@ def get_abstract( text ):
 
 
 #Tutorial: Getting Started with Lexis Advance\u00ae
-            
-
-     
-
+text_file = open("output.tsv", "w")           
 for val in j_array:
-        if (val['abstract']):
-            print constructfull(val['abstract'])
+    abstract=''
+    title=''
+    if (val['title']):
+        title=constructfull(val['title'])
+    if(val['abstract']):
+        abstract=constructfull(val['abstract'])
+    dictionary = {'summary':abstract,'additionalLinks':'None'}
+    row=title+'\t'+  json.dumps(dictionary)+'\n'
+    row = ''.join(i for i in row if ord(i)<128)
+    text_file.write(row)    
+        
+                    
+text_file.close()		
+
             
         
     
