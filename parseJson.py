@@ -25,6 +25,24 @@ def add_single_or_array(s):
             #print arr
             ret = ret + add_single_or_array(arr)
         return ret
+
+def flatten(keys):
+    ret=''
+    if isinstance(keys,OrderedDict):
+        if 'name' in keys:
+            ret = ret + keys['name']
+        return ret
+    else:
+        count = 0
+        for arr in keys:
+            #print arr
+            if count == 0:
+                ret = ret + flatten(arr)
+                count = count+1
+            else:
+                ret = ret + ','+flatten(arr)
+        return ret
+    
             
             
 #uni_code_text = ''.join(i for i in row['comments'] if ord(i)<128)        
@@ -50,10 +68,26 @@ def constructfull(innerjson):
 def get_abstract( text ):
     for val in j_array:
         if val['title'] == text:
-            return val['abstract']
+            return val
 
 
-#p = get_abstract('What is a results list?')
+p = get_abstract('What is narrowing my results?')
+
+
+
+def get_add_links(conrefs):
+    if isinstance(conrefs, basestring):
+        return conrefs
+    retref=''
+    count = 0
+    for keys in conrefs:
+        if count == 0:
+            retref = retref + flatten(conrefs[keys])
+            count = count+1
+        else:
+            retref = retref +','+ flatten(conrefs[keys])
+    return retref
+        
 
 
 #Tutorial: Getting Started with Lexis Advance\u00ae
@@ -65,7 +99,11 @@ for val in j_array:
         title=constructfull(val['title'])
     if(val['abstract']):
         abstract=constructfull(val['abstract'])
-    dictionary = {'summary':abstract,'additionalLinks':'None'}
+    if(val['conrefs']):
+        add_links = get_add_links(val['conrefs'])
+    else:
+        add_links = None
+    dictionary = {'summary':abstract,'additionalLinks':add_links}
     row=title+'\t'+  json.dumps(dictionary)+'\n'
     row = ''.join(i for i in row if ord(i)<128)
     text_file.write(row)    
