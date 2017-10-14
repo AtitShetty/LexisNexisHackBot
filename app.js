@@ -35,7 +35,7 @@ var qnarecognizer = new cognitiveservices.QnAMakerRecognizer({
     knowledgeBaseId: process.env.QNA_KB_ID,
     subscriptionKey: process.env.QNA_SUB_KEY,
     top: 3,
-    qnaThreshold: 0.6
+    qnaThreshold: 0.85
 });
 
 var intents = new builder.IntentDialog({
@@ -82,11 +82,11 @@ intents.matches('qna', [
     }
 ]);
 
-intents.matches('Help', [
-    function(session) {
-        session.send("How can I help you?<br>You can ask questions like \"How do I filter results after search?\" or \"How to create a new folder?\"");
-    }
-]);
+// intents.matches('Help', [
+//     function(session) {
+//         session.send("How can I help you?<br>You can ask questions like \"How do I filter results after search?\" or \"How to create a new folder?\"");
+//     }
+// ]);
 
 intents.onDefault([
     function(session) {
