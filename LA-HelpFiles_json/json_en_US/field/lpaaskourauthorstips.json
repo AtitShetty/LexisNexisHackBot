@@ -1,0 +1,131 @@
+{
+    "reference": {
+        "@otherprops": "lpaaskourauthorstips",
+        "@audience": "lpa",
+        "@id": "lpaaskourauthorstips",
+        "title": "Ask Our Authors Form",
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-11-14"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-07-18"
+                    },
+                    {
+                        "@modified": "2014-08-06"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "authors are ready to answer your questions. To submit a question, complete the following fields."
+                    }
+                },
+                "note": {
+                    "@type": "important",
+                    "uicontrol": {
+                        "#tail": ") are required.  You must complete such fields before you can submit your question.",
+                        "#text": "*"
+                    },
+                    "#text": "Fields that display an asterisk ("
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Item",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "Questions",
+                        "propdesc": {
+                            "p": "This field requires you to type the text of your question.",
+                            "note": {
+                                "@type": "tip",
+                                "#text": "You may type more than one question in the this field."
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Name",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "lpaname",
+                                "#tail": "ID appears in this field by default."
+                            },
+                            "#text": "This field allows you to type an identifier you want to use for your question. Your"
+                        }
+                    },
+                    {
+                        "propvalue": "Email Address",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "lpaname",
+                                "#tail": "ID appears in this field by default."
+                            },
+                            "#text": "This field requires you to type an email address at which the author may reach you with a reply or other follow-up. The email address associated with your"
+                        }
+                    },
+                    {
+                        "propvalue": "Phone Number",
+                        "propdesc": "This field allows you to type a telephone number at which the author may reach you with a reply or other follow-up."
+                    },
+                    {
+                        "propvalue": "Company",
+                        "propdesc": "This field allows you to type the name of your company."
+                    },
+                    {
+                        "propvalue": "Send",
+                        "propdesc": {
+                            "p": {
+                                "uicontrol": {
+                                    "#tail": "button to submit your question to our authors.",
+                                    "#text": "Send"
+                                },
+                                "#text": "Select the"
+                            },
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "button at any time to return to the",
+                                    "#text": "Close"
+                                },
+                                "ph": {
+                                    "@keyref": "lpaname",
+                                    "#tail": "page without taking any action."
+                                },
+                                "#text": "You can select the"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

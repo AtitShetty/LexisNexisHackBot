@@ -1,0 +1,140 @@
+{
+    "reference": {
+        "@otherprops": "shepardsblinktips",
+        "@audience": "blink",
+        "@id": "shepardsblinktips",
+        "title": "Shepard's\u00ae BriefLink Form",
+        "prolog": {
+            "author": "Dea Henrich",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-14"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": null,
+            "properties": {
+                "property": [
+                    {
+                        "@id": "title",
+                        "propvalue": "Browse",
+                        "propdesc": "Select the brief you want to upload."
+                    },
+                    {
+                        "@id": "shepardsinfo",
+                        "propvalue": "Include Shepard's information",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Insert Shepardize\u00ae links",
+                                        "dd": "Select this option to create a link that will provide an updated Shepard's report for your citation."
+                                    },
+                                    {
+                                        "dt": "Insert Shepard's Signal\u0099 indicators",
+                                        "dd": "Select this option to insert the current Shepard's Signal\u0099 indicators after each of your applicable citations. \n\t\t\t\t\t\t\tIf a Shepard's Signal indicator is not available for your citation, BriefLink will insert a Shepardize link."
+                                    }
+                                ]
+                            },
+                            "#text": "Select how you would like the Shepardize\u00ae links to be displayed."
+                        }
+                    },
+                    {
+                        "@id": "existing_links",
+                        "propvalue": "Existing Links",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Overwrite existing citation links",
+                                        "dd": "BriefLink will overwrite any citation links that are in the document you upload."
+                                    },
+                                    {
+                                        "dt": "Don't overwrite existing citation links",
+                                        "dd": "BriefLink will not overwrite your existing links."
+                                    }
+                                ]
+                            },
+                            "#text": "Select whether or not you want BriefLink to overwrite any existing links in your brief."
+                        }
+                    },
+                    {
+                        "@id": "document_type",
+                        "propvalue": "Document type",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Word Document (Doc)",
+                                        "dd": "Choose this option to send the brief in .doc format. Files in .doc format can be edited."
+                                    },
+                                    {
+                                        "dt": "Portable Document Format (PDF)",
+                                        "dd": "Choose this option to sent the brief in .pdf format. PDF files can be opened and viewed \n\t\t\t\t\t\t\tusing the Adobe\u00ae Acrobat Reader, an application that may be downloaded free if you do not already have it."
+                                    }
+                                ]
+                            },
+                            "#text": "Select the file format for the brief you want emailed."
+                        }
+                    },
+                    {
+                        "@id": "zip_files",
+                        "propvalue": "Compress files in .ZIP format",
+                        "propdesc": {
+                            "ul": {
+                                "li": [
+                                    "Some email servers are unable to accept large file sizes. Smaller, compressed files are more likely to be received.",
+                                    "Compressed files take up less space in the recipient's mailbox.",
+                                    "When downloading, compressed files take up less space on your computer's local drive."
+                                ]
+                            },
+                            "note": {
+                                "@type": "note",
+                                "#text": "Files send in ZIP format can be opened and viewed using WinZip\u00ae, an application that may be purchased from this location: http://www.winzip.com/downwz.htm if the recipient does not already have it."
+                            },
+                            "#text": "Select this checkbox if you want to send the files in a compressed (ZIP) file format."
+                        }
+                    },
+                    {
+                        "@id": "doc_name",
+                        "propvalue": "Document name",
+                        "propdesc": "Enter up to 100 characters."
+                    },
+                    {
+                        "@id": "to",
+                        "propvalue": "To",
+                        "propdesc": "If you enter more than one email address, separate them with a semicolon. The default value is the email address associated with your Lexis Advance\u00ae account."
+                    },
+                    {
+                        "@id": "subject",
+                        "propvalue": "Subject",
+                        "propdesc": {
+                            "i": {
+                                "#tail": ". You can, however, choose your own subject line value of up to 80 characters. There is also an optional box for entering text for the body of the email.",
+                                "#text": "Report Name"
+                            },
+                            "#text": "The default value for the subject line is \"Email:"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

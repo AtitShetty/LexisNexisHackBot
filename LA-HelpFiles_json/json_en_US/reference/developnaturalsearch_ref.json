@@ -1,0 +1,46 @@
+{
+    "reference": {
+        "@otherprops": "natlang",
+        "@audience": "res",
+        "@id": "developnaturalsearch_ref",
+        "title": "Developing a Natural Language Search",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-11-30"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "To develop a natural language search, use terms that you might use when describing your research topic to another person. For example, to find articles about efforts in the fast food industry to use recyclable packaging, you might use this search:",
+                    {
+                        "userinput": "What efforts has the fast food industry made to use recyclable packages?"
+                    },
+                    "Or, you can use just the most important terms and phrases, in any order.",
+                    {
+                        "userinput": "recycle package fast food"
+                    }
+                ]
+            }
+        }
+    }
+}

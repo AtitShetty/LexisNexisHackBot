@@ -1,0 +1,52 @@
+{
+    "concept": {
+        "@otherprops": "bcheck",
+        "@audience": "bcheck",
+        "@id": "shepardsbcheck_cpt",
+        "title": "What is Shepard's\u00ae BriefCheck\u0099",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Dea Henrich"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-11"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Shepard's\u00ae BriefCheck\u0099",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": "Shepard's\u00ae BriefCheck\u0099 is a wizard-like feature that extracts citations from documents you upload. Then, BriefCheck takes you through the process of generating reports for your citations. You have the option to request Shepard's reports for citations, to retrieve the document a citation points to, or to check cited quotations for accuracy. For more information, please refer to:"
+        },
+        "concept": [
+            {
+                "@conref": "shepards_cpt.xml",
+                "@id": "shepards_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "shepardsbcheckquotecheck_cpt.xml",
+                "@id": "shepardsbcheckquotecheck_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ]
+    }
+}

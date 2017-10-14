@@ -1,0 +1,70 @@
+{
+    "reference": {
+        "@otherprops": "fulldocmain;fulldoctips",
+        "@id": "paginationinreporters_ref",
+        "title": "Page Numbering in Reporter Documents",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-09-13"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "service indicates where the individual page breaks appear in the reporter. Page numbers where these breaks appear are shown in brackets, for example:"
+                        },
+                        "#text": "The"
+                    },
+                    {
+                        "userinput": "\"...which represents [118] his net loss for the period between his discharge and the judgment below.\""
+                    },
+                    "In this example, the word \"represents\" is the last word on page 117, and \"his\" is the first word on page 118.",
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "segment near the top of the case, or select the reporter from the",
+                                "#text": "Reporter"
+                            },
+                            {
+                                "#tail": "drop-down list in the top-left of the document.",
+                                "#text": "Reporter"
+                            }
+                        ],
+                        "#text": "To change the reporter you see in a case, select the link for the reporter in the"
+                    }
+                ],
+                "note": {
+                    "@type": "note",
+                    "i": {
+                        "#tail": "service, asterisks denote reporter pagination.",
+                        "#text": "lexis.com\u00ae"
+                    },
+                    "#text": "In the"
+                }
+            },
+            "data": "reporter page number numbers pagination brackets bracket bold break"
+        }
+    }
+}

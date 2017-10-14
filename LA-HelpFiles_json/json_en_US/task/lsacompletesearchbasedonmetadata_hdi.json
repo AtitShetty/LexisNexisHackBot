@@ -1,0 +1,89 @@
+{
+    "task": {
+        "@otherprops": "lsa",
+        "@id": "lsacompletesearchbasedonmetadata_hdi",
+        "title": "How do I complete a search for similar organization documents based on client name, matter, document type, or document author?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "lsanamefirst",
+                        "#tail": "is available by subscription. Please contact your sales representative if you'd like more information."
+                    }
+                },
+                "p": [
+                    "While viewing the list of documents your search retrieved from your organization's document repository, you can use the information you know about a document to search for related documents. For example, if you are viewing a pleading, you can search your organization's repository for other pleadings. Or, you can search for other documents written by the author of the document you are currently viewing.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "gh_search.xml",
+                                "#tail": ".",
+                                "#text": "Complete your Lexis Advance search"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lsalimitresultstomyfirm_hdi.xml",
+                                "#tail": ".",
+                                "#text": "View just those documents from your organization"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": ". For example, to search for other documents that reference the client, select the link next to",
+                                    "#text": "Search Law Firm for \u2026"
+                                },
+                                {
+                                    "#tail": "and choose",
+                                    "#text": "Client"
+                                },
+                                {
+                                    "#tail": ". A results list of related documents appears.",
+                                    "#text": "Search Law Firm for [client name]"
+                                }
+                            ],
+                            "#text": "Using the links below each type of metadata listed for a document, click the link and select the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

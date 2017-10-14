@@ -1,0 +1,49 @@
+{
+    "reference": {
+        "@otherprops": "icwstudent",
+        "@audience": "icw",
+        "@id": "icwcitationmanuals_ref",
+        "title": "Citation Manuals",
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-02-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "icwnamefirst",
+                        "#tail": "correspond with the following references, which students should use to find citation rules:"
+                    },
+                    "#text": "The exercises in"
+                },
+                "ul": {
+                    "li": [
+                        "The Bluebook\u00ae: A Uniform System of Citation (20th ed.) (Bluebook)",
+                        "The ALWD Guide to Legal Citation, Fifth Edition (ALWD)"
+                    ]
+                }
+            }
+        }
+    }
+}

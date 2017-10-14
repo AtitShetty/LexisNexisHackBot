@@ -1,0 +1,173 @@
+{
+    "reference": {
+        "@otherprops": "connector",
+        "@id": "connectors_group_ref",
+        "title": {
+            "i": [
+                {
+                    "#tail": ",",
+                    "#text": "and"
+                },
+                {
+                    "#tail": ", etc.) and Commands (",
+                    "#text": "or"
+                },
+                {
+                    "#tail": ")",
+                    "#text": "atleast"
+                }
+            ],
+            "#text": "Using Search Connectors ("
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-16"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "data": "focus, narrow, filter",
+                "note": {
+                    "@type": "tip",
+                    "ul": {
+                        "li": [
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "connectors_quickref_ref.xml",
+                                    "#tail": "."
+                                },
+                                "#text": "To review all of the information about connectors and commands on a single page, see"
+                            },
+                            {
+                                "userinput": [
+                                    {
+                                        "#tail": "and",
+                                        "#text": "*"
+                                    },
+                                    {
+                                        "#tail": "are used in a search, see",
+                                        "#text": "?"
+                                    }
+                                ],
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "wildcards_ref.xml",
+                                    "#tail": "."
+                                },
+                                "#text": "For information on how the wildcard characters"
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "connectorpriority_ref.xml",
+                                    "#tail": "."
+                                },
+                                "#text": "To understand connector priority, see"
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "connectorswlnequivalents_ref.xml",
+                                    "#tail": "for connectors to use when searching"
+                                },
+                                "ph": {
+                                    "@keyref": "prodnamefirst",
+                                    "#tail": "."
+                                },
+                                "#text": "Familiar with using other connectors?  See"
+                            }
+                        ]
+                    }
+                },
+                "p": [
+                    {
+                        "userinput": [
+                            {
+                                "#tail": ",",
+                                "#text": "and"
+                            },
+                            {
+                                "#tail": ",",
+                                "#text": "or"
+                            },
+                            {
+                                "#tail": ", and",
+                                "#text": "near"
+                            },
+                            {
+                                "#tail": ", and commands, such as",
+                                "#text": "not"
+                            },
+                            {
+                                "#tail": ", help narrow a search by defining relationships between your search terms.",
+                                "#text": "atleast"
+                            }
+                        ],
+                        "#text": "Search connectors, such as"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "automatically interprets many common legal phrases, such as"
+                        },
+                        "userinput": [
+                            {
+                                "#tail": "or",
+                                "#text": "limited liability partnership"
+                            },
+                            {
+                                "#tail": ", as phrases, rather than as individual search terms.  However, if you want to be sure a phrase you are searching for is interpreted as a phrase, enclose it in quotation marks.",
+                                "#text": "summary judgment"
+                            }
+                        ]
+                    },
+                    {
+                        "userinput": "\"determination of deficiency\""
+                    },
+                    {
+                        "userinput": "\"right to work\""
+                    },
+                    {
+                        "@id": "shepards",
+                        "ph": {
+                            "@keyref": "shepardsfirst"
+                        },
+                        "uicontrol": [
+                            "Narrow By",
+                            {
+                                "#tail": "box and select",
+                                "#text": "Search Within Results"
+                            },
+                            {
+                                "#tail": ", that text is processed as a terms and connectors search.",
+                                "#text": "OK"
+                            }
+                        ],
+                        "#text": "When you enter text into the"
+                    },
+                    "The following articles provide descriptions and examples for each connector."
+                ]
+            }
+        }
+    }
+}

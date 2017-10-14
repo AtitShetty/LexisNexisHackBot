@@ -1,0 +1,62 @@
+{
+    "concept": {
+        "@otherprops": "bcheck",
+        "@id": "shepardsbcheckexcel_cpt",
+        "title": "What is Shepard's\u00ae BriefCheck\u0099",
+        "prolog": {
+            "author": "Dea Henrich",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-11"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Shepard's\u00ae BriefCheck\u0099",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                "You can now export Shepard's\u00ae reports to Microsoft\u0099 Excel\u0099. By delivering Shepard\u2019s reports in Excel format, you can take advantage of that application\u2019s features to manipulate those reports and the up to 10,000 citing referenced available each report. Please note that only Shepard's reports can be exported to Excel. If you choose this option, BriefCheck will clear other services.",
+                "Some the advantages of exporting to Excel include the ability to sort by column. You can sort on the Date column so that the most recent citing decisions bubble to the top. Or take advantage of multiple sort keys to:",
+                {
+                    "image": {
+                        "@alt": "Excel Sort Dialog",
+                        "@href": "Excel.png"
+                    }
+                },
+                "You can also filter the delivered Shepard\u2019s reports since you can filter on any of the available columns in Excel. You can filter by:"
+            ],
+            "ul": [
+                {
+                    "li": [
+                        "Group the citing decisions by Court",
+                        "Sort within each Court by the way the citing decisions treat your case (e.g., Warning, Questioned, Caution, Positive).",
+                        "Sort by reverse chronological date",
+                        "Search within columns for specific words or phrases"
+                    ]
+                },
+                {
+                    "li": [
+                        "Specific analysis codes",
+                        "Specific Courts at a more granular level than available online",
+                        "Shepard\u2019s Signal Indicator (e.g., only those with a red signal)",
+                        "Section of the report (e.g., view only the Appellate History portion of the reports)"
+                    ]
+                }
+            ]
+        }
+    }
+}

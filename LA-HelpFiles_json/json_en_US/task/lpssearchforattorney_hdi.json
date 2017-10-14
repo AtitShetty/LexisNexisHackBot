@@ -1,0 +1,123 @@
+{
+    "task": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpssearchforattorney_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I search for an attorney using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-10-07"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can search for professional information about attorneys that may be involved in the same cases as you. Types of information you might discover include a list of cases on which the attorney worked or perhaps a list of publications in which he or she is mentioned."
+                        },
+                        "#text": "Using"
+                    },
+                    "To search for an attorney:"
+                ],
+                "note": {
+                    "@type": "tip",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "lpssearchforattorneyjurisdiction_hdi.xml",
+                        "#tail": ".",
+                        "#text": "based on location only"
+                    },
+                    "#text": "If you don't know the name of the attorney, you can search"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "from the drop-down list to the left of the search field.",
+                                "#text": "Attorney"
+                            },
+                            "#text": "At the search form, choose"
+                        }
+                    },
+                    {
+                        "cmd": "Type the name of the attorney for which you want to search in the search field.",
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "#text": "As you type the name, a list of possible matches appears.  If the name you are searching for appears in the list, you can select it and the full name will be added to the Search box."
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list and then select a",
+                                "#text": "Filters"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchforattorneyjurisdiction_hdi.xml",
+                                "#tail": "to limit your search to a specific state.",
+                                "#text": "location"
+                            },
+                            "#text": "Optionally, select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "ph": [
+                                {
+                                    "@keyref": "lpsname",
+                                    "#tail": "searches the"
+                                },
+                                {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "databases for attorneys that meet your search criteria. It then displays any results that are found. (See"
+                                }
+                            ],
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchresults_cpt.xml",
+                                "#tail": "for details.)"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

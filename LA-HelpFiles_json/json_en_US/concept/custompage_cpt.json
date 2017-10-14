@@ -1,0 +1,106 @@
+{
+    "concept": {
+        "@otherprops": "res;custompage",
+        "@audience": "res",
+        "@id": "custompage_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "custom page?"
+            },
+            "#text": "What is a"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "Home page."
+                    },
+                    "#text": "Custom pages are pages you customize with your favorite sources and tools, to fit the way you work. You can select the sources and tools you use most often while still having access to all the content and products in your subscription from the"
+                },
+                {
+                    "uicontrol": {
+                        "#tail": "pod on the",
+                        "#text": "Custom Pages"
+                    },
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": "landing page.  You can also:"
+                    },
+                    "#text": "You can create as many custom pages as you wish - one for each focus of your practice. Once you create them, your custom pages will be available from the"
+                },
+                {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "custompagepods_ref.xml"
+                    },
+                    "#text": "For a list of pods you can include on your custom page, see"
+                }
+            ],
+            "ul": {
+                "li": [
+                    {
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": ".  For information about how to set a custom page as your start page, see"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "custompagesetstart_hdi.xml",
+                            "#tail": "."
+                        },
+                        "#text": "Set a custom page to be your start page (the page you see when you sign into"
+                    },
+                    {
+                        "@audience": "R7.6",
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "custompageshare_hdi.xml",
+                            "#tail": "."
+                        },
+                        "#text": "Share a custom page with others see"
+                    }
+                ]
+            }
+        },
+        "task": [
+            {
+                "@conref": "custompagecreate_hdi.xml",
+                "@id": "custompagecreate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "custompagesetstart_hdi.xml",
+                "@id": "custompagesetstart_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

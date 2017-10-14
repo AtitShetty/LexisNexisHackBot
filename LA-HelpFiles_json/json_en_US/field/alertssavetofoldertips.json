@@ -1,0 +1,92 @@
+{
+    "reference": {
+        "@otherprops": "alertssavetofoldertips",
+        "@id": "alertssavetofoldertips",
+        "title": "Save Alert Results to Folder Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": {
+                            "i": {
+                                "#tail": ") tab",
+                                "#text": "n"
+                            },
+                            "#text": "Selected Documents ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": ".)",
+                                "#text": "Edit all titles"
+                            },
+                            "#text": "Indicates the alert results that you have selected to save to the folder.  You can clear the checkboxes for some of the documents in the list above if you no longer want to save them. (To edit the document titles, select"
+                        }
+                    },
+                    {
+                        "propvalue": "Save Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Notes",
+                                        "dd": "Enter any notes you would like to store with the document."
+                                    },
+                                    {
+                                        "dt": "Save In",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to create the folder.)",
+                                                "#text": "Create New Folder"
+                                            },
+                                            "#text": "Select the name of the folder you want to save the alerts results to.  You can also select a folder in which to create a new sub-folder. (Click"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Share With Others tab",
+                        "propdesc": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "box and then enter the name or email address of the person you want to share with. Click",
+                                    "#text": "Select contacts to share"
+                                },
+                                {
+                                    "#tail": "to add them.",
+                                    "#text": "Add"
+                                }
+                            ],
+                            "#text": "To share the alert result with other users, enter the name or email address in the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

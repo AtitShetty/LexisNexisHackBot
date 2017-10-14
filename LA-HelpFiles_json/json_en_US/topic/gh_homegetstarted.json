@@ -1,0 +1,110 @@
+{
+    "topic": {
+        "@otherprops": "getstarted",
+        "@id": "gh_homegetstarted",
+        "title": "Getting Started",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "tutorialgettingstarted_cpt.xml",
+                "@id": "tutorialgettingstarted_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "resultsnarrowby_cpt.xml",
+                "@id": "resultsnarrowby_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "delivery_cpt.xml",
+                "@id": "delivery_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "hometips.xml",
+                "@id": "hometips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "fulldoctips.xml",
+                "@id": "fulldoctips",
+                "title": null,
+                "refbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "search_hdi.xml",
+                "@id": "search_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchbyshep_hdi.xml",
+                "@id": "searchbyshep_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchdocbycite_hdi.xml",
+                "@id": "searchdocbycite_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchlistofsources_hdi.xml",
+                "@id": "searchlistofsources_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertcreate_hdi.xml",
+                "@id": "alertcreate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "saveresearch_hdi.xml",
+                "@id": "saveresearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "savedocumenttofolder_hdi.xml",
+                "@id": "savedocumenttofolder_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

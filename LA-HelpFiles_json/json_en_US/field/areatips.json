@@ -1,0 +1,138 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "areatips",
+        "title": "Open a Specific Area",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u00ae URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": [
+                    {
+                        "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "lpaname",
+                            "#tail": "or LexisNexis\u00ae Practical Guidance support using the"
+                        },
+                        "uicontrol": {
+                            "#tail": "parameter.",
+                            "#text": "area"
+                        },
+                        "#text": "Currently, only the contexts"
+                    }
+                ],
+                "p": [
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "parameter to indicate the area of a specific product (such as",
+                                "#text": "area"
+                            },
+                            {
+                                "#tail": "parameter with the",
+                                "#text": "area"
+                            },
+                            {
+                                "#tail": "parameter to specify your product. For a list of values that can be used with the context parameter, see",
+                                "#text": "context"
+                            }
+                        ],
+                        "ph": {
+                            "@keyref": "lpanamefirst",
+                            "#tail": "or LexisNexis\u00ae Practical Guidance) to open. If you don't specify an area, your default practice area appears. Use the"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "contextips.xml"
+                        },
+                        "#text": "Use the"
+                    },
+                    "The area parameter is optional.",
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "areavalues_ref.xml",
+                            "#tail": ".",
+                            "#text": "Values for the Area Parameter"
+                        },
+                        "#text": "For a list of areas and the values to use for the parameter, see"
+                    },
+                    {
+                        "b": "URL Template"
+                    },
+                    {
+                        "b": "{area}",
+                        "#text": "http://advance.lexis.com/api/practice/home?{context}&"
+                    }
+                ],
+                "example": {
+                    "b": "area=1013004",
+                    "#text": "http://advance.lexis.com/api/practice/home?context=1000522&"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Value",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "practice",
+                        "propdesc": "Indicates the user wants to open a practice area."
+                    },
+                    {
+                        "propvalue": "home",
+                        "propdesc": "Indicates the user wants to open the practice area home page."
+                    },
+                    {
+                        "propvalue": "context",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "lpaname",
+                                "#tail": "context."
+                            },
+                            "#text": "Indicates the user wants to open the"
+                        }
+                    },
+                    {
+                        "propvalue": "area",
+                        "propdesc": {
+                            "p": "Query parameter that specifies the user's practice area.",
+                            "example": {
+                                "b": {
+                                    "#tail": "=1013004",
+                                    "#text": "area"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

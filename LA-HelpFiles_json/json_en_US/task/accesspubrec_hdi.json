@@ -1,0 +1,92 @@
+{
+    "task": {
+        "@otherprops": "pub",
+        "@id": "accesspubrec_hdi",
+        "title": "How do I access public records data?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "uicontrol": {
+                        "#tail": "menu for users who have a public records ID and password. To access public records data:",
+                        "#text": "Research"
+                    },
+                    "#text": "Access to public records data is available from the"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "using an ID and password that are valid for access to public records data."
+                            },
+                            "#text": "Sign in to"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Research"
+                            },
+                            "#text": "On the top navigation bar, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Public Records"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Confirm"
+                            },
+                            "#text": "Select a default DPPA use and a default GLBA use, and select"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": "ID and password are not valid for access to public records data, you can contact your sales representative for more information."
+                    },
+                    "#text": "If your"
+                }
+            }
+        }
+    }
+}

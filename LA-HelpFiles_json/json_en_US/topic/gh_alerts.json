@@ -1,0 +1,113 @@
+{
+    "topic": {
+        "@otherprops": "alerts",
+        "@id": "gh_alerts",
+        "title": "Working with Alerts",
+        "titlealts": {
+            "navtitle": {
+                "option": "Alerts, working with"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Read through the links below for more information about alerts."
+        },
+        "concept": {
+            "@conref": "alert_cpt.xml",
+            "@id": "alert_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "alertcreate_hdi.xml",
+                "@id": "alertcreate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertviewresults_hdi.xml",
+                "@id": "alertviewresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertedit_hdi.xml",
+                "@id": "alertedit_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertdelete_hdi.xml",
+                "@id": "alertdelete_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sharealert_hdi.xml",
+                "@id": "sharealert_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sharexistingalert_hdi.xml",
+                "@id": "sharexistingalert_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertupdate_hdi.xml",
+                "@id": "alertupdate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertpause_hdi.xml",
+                "@id": "alertpause_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertrestart_hdi.xml",
+                "@id": "alertrestart_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertsearch_hdi.xml",
+                "@id": "alertsearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertdocsearch_hdi.xml",
+                "@id": "alertdocsearch_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,322 @@
+{
+    "reference": {
+        "@otherprops": "lpasearch",
+        "@audience": "lpa",
+        "@id": "lpaforms_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst",
+                "#tail": "forms?"
+            },
+            "#text": "What are"
+        },
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis",
+                "Paul Claggett, 6.5"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-02-25"
+                    },
+                    {
+                        "@modified": "2014-07-18"
+                    },
+                    {
+                        "@modified": "2014-12-11"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "ph": [
+                        {
+                            "@keyref": "lpanamefirst",
+                            "#tail": "are the hundreds of forms available to you.  Our teams of legal experts have put together a number of forms and checklists for each topic within each of the"
+                        },
+                        {
+                            "@keyref": "lpaname",
+                            "#tail": "practice areas.  These blank forms contain standardized text, and are editable so you can supply the necessary information for each client's unique needs.  Where applicable,"
+                        },
+                        {
+                            "@keyref": "lpaname",
+                            "#tail": "forms also include links to alternate clauses you can add, and alternative clauses you can use in place of standard text.  The table below briefly explains the tools and icons available on most"
+                        },
+                        {
+                            "@keyref": "lpaname",
+                            "#tail": "form pages."
+                        }
+                    ],
+                    "#text": "The heart of"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "@id": "folder",
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add to folder",
+                                "@href": "AddToFolder.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "lpaname",
+                                "#tail": ". For more information, see"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "saveresearch_hdi.xml",
+                                "#tail": ".",
+                                "#text": "How do I save my research"
+                            },
+                            "#text": "Select this to save the entire document to a working folder in"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": [
+                                {
+                                    "@alt": "Print",
+                                    "@href": "print.png",
+                                    "@placement": "inline"
+                                },
+                                {
+                                    "@alt": "Save",
+                                    "@href": "download.png",
+                                    "@placement": "inline"
+                                },
+                                {
+                                    "@alt": "Email",
+                                    "@href": "email.png",
+                                    "@placement": "inline"
+                                },
+                                {
+                                    "@alt": "Send Document to Dropbox",
+                                    "@href": "dropbox.png"
+                                }
+                            ]
+                        },
+                        "propdesc": "Click the delivery icon drop-down for the type of delivery you want to complete in the delivery toolbar."
+                    },
+                    {
+                        "@id": "jumpto",
+                        "propvalue": "Go to",
+                        "propdesc": {
+                            "p": "This drop-down list appears at the top of document pages. The list displays the document's section headings, allowing you to navigate quickly through longer documents."
+                        }
+                    },
+                    {
+                        "propvalue": "Results List",
+                        "propdesc": "Select this link to return to the page (Work Folder, list of search results, or overview) from which you accessed the form."
+                    },
+                    {
+                        "@id": "docribbon",
+                        "propvalue": {
+                            "image": [
+                                {
+                                    "@alt": "Previous",
+                                    "@href": "Triangleleft.png",
+                                    "@placement": "inline",
+                                    "#tail": "Previous Document | Next Document"
+                                },
+                                {
+                                    "@alt": "Next",
+                                    "@href": "Triangleright.png",
+                                    "@placement": "inline"
+                                }
+                            ]
+                        },
+                        "propdesc": "Select these links to browse through the documents in the Work Folder, search results list, or topic overview from which you accessed the form."
+                    },
+                    {
+                        "@id": "editfield",
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Edit Field",
+                                "@href": "IconEditField.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon allows you to make changes to specific fields within the form.",
+                                "#text": "Edit Field"
+                            },
+                            "note": {
+                                "@type": "tip",
+                                "p": "You may edit these fields to customize forms or leave the default text, if available"
+                            },
+                            "#text": "This"
+                        }
+                    },
+                    {
+                        "@id": "draftingnote",
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add Drafting Note",
+                                "@href": "IconDraftingNote.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Display drafting notes available for a specific section of the form.  Drafting notes give you additional information from our legal experts to help you work through the form."
+                    },
+                    {
+                        "@id": "alternateclause",
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Alternate Clause",
+                                "@href": "IconClause.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "note": {
+                                "@type": "tip",
+                                "p": {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpaaddoptionalclause_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "How do I add an alternate clause to a form"
+                                    },
+                                    "#text": "For more information, see"
+                                }
+                            },
+                            "#text": "Display alternate or alternate clauses available for the associated section of the form.  You can choose to add any applicable alternate or alternate clauses, and remove existing clauses as needed."
+                        }
+                    },
+                    {
+                        "@id": "doctoolslpa",
+                        "propvalue": "Tools",
+                        "propdesc": {
+                            "p": "This drop-down list appears when you select text in a document. Tools you may see listed include the following:",
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Copy selected text",
+                                                "@href": "Copy.png",
+                                                "@placement": "inline",
+                                                "#tail": "Copy"
+                                            }
+                                        },
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "copytexttoclipboard_hdi.xml",
+                                                "#tail": ".",
+                                                "#text": "How do I copy text to the clipboard"
+                                            },
+                                            "#text": "Select this to copy the selected section of document text to your computer's clipboard. From the clipboard, you can paste the text into other programs (such as a word processor, spreadsheet, email, and so forth). For more information, see"
+                                        }
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Add to folder",
+                                                "@href": "folder.png",
+                                                "@placement": "inline",
+                                                "#tail": "Add to folder"
+                                            }
+                                        },
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "lpaname",
+                                                "#tail": "folder. For more information, see"
+                                            },
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "savetexttofolder_hdi.xml",
+                                                "#tail": ".",
+                                                "#text": "How do I save text to a folder"
+                                            },
+                                            "#text": "Select this to save a selected section of text to a"
+                                        }
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Add to search",
+                                                "@href": "addtosearch.png",
+                                                "@placement": "inline",
+                                                "#tail": "Add to search"
+                                            }
+                                        },
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "lpaname",
+                                                "#tail": "for the selected text."
+                                            },
+                                            "#text": "Select this to search"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@id": "aboutthisdoclpa",
+                        "propvalue": "About This Document",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Draft Now",
+                                                "@href": "iconDraftNow.png",
+                                                "@placement": "inline",
+                                                "#tail": "Quick Download"
+                                            }
+                                        },
+                                        "dd": "Select this to save a draft of the form with any changes (editable field entries, alternate/custom clauses, etc.) you have made."
+                                    },
+                                    {
+                                        "dt": "Form Summary",
+                                        "dd": "A brief summary of the selected form."
+                                    },
+                                    {
+                                        "dt": "Drafting Notes and Alternative Clauses",
+                                        "dd": "A list of all drafting notes and alternative clauses associated with the form you are viewing."
+                                    },
+                                    {
+                                        "dt": "Checklists",
+                                        "dd": "These links allow you to see lists of steps to follow to complete different activities related to the form you are viewing."
+                                    }
+                                ]
+                            },
+                            "#text": "Select these links to quickly display information about the selected document, including:"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

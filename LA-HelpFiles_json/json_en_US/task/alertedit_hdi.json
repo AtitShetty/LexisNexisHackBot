@@ -1,0 +1,116 @@
+{
+    "task": {
+        "@otherprops": "alerteditips;alerteditopictips;alerteditlegislativetips;alerteditpendinglegislativetips;alerteditpubtips;alerts",
+        "@id": "alertedit_hdi",
+        "title": "How do I edit an alert?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can edit an existing alert and change your selections for the following options:",
+                    "To edit an alert:"
+                ],
+                "ul": {
+                    "li": [
+                        "Title",
+                        {
+                            "ph": {
+                                "@keyref": "shepalertplural",
+                                "#tail": "only)"
+                            },
+                            "#text": "Changes the alert is monitoring for ("
+                        },
+                        "Client",
+                        "How you want this citation to be monitored",
+                        "How often you want to be notified of any results",
+                        "Duration of the alert",
+                        "Delivery options",
+                        "Sharing options"
+                    ]
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "While viewing your alerts results list, locate the alert you want to edit.",
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "ph": [
+                                    {
+                                        "@keyref": "vsanamefirst",
+                                        "#tail": "and you view your alerts, the list is limited to show only"
+                                    },
+                                    {
+                                        "@keyref": "vsaname",
+                                        "#tail": "-related alerts. You can clear this filter and view all of your available alerts (regardless of which experience you are working in) by clicking the X next to the filter name, above the"
+                                    }
+                                ],
+                                "uicontrol": {
+                                    "#tail": "pane.",
+                                    "#text": "Narrow By"
+                                },
+                                "#text": "When you first view the alerts list, it is filtered based on which experience you are working in when you view all alerts. For example, if you are working in"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button under the title of the alert. The Alert dialog box appears.",
+                                "#text": "Edit"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Save"
+                            },
+                            "#text": "Make whatever changes you need and select"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "alerteditips.xml",
+                                    "#tail": "for a description of the options available at this dialog box."
+                                },
+                                "#text": "See"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

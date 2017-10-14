@@ -1,0 +1,702 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "jurisdictionvalues_ref",
+        "title": "Values for the Jurisdiction Parameter",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "note": {
+                        "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                    },
+                    "p": [
+                        {
+                            "uicontrol": {
+                                "#tail": "parameter in a URL to indicate the jurisdiction to search.  You can use multiple jurisdictions, separated by a period.  If you don't specify a jurisdiction, all jurisdictions are searched.",
+                                "#text": "jurisdiction"
+                            },
+                            "#text": "Use the"
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "jurisdictiontips.xml",
+                                "#text": "Search in a Specific Jurisdiction"
+                            },
+                            "#text": "For more information and an example of a URL containing a jurisdiction parameter, see"
+                        }
+                    ]
+                },
+                {
+                    "simpletable": {
+                        "sthead": {
+                            "stentry": [
+                                "Jurisdiction",
+                                "Value"
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "International Content",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDk3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Non-jurisdictional",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMTAw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Military Courts",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDY1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Tax Court",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDY3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "United States Supreme Court",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDY4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Bankruptcy Courts",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDYx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "U.S. Federal",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDk5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Federal Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDYy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Federal Courts of Appeals",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDYz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Federal District Courts",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDY0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Other Federal Courts",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDY2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "1st Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDc2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "2nd Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDc3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "3rd Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDc4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "4th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDc5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "5th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDgw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "6th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDgx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "7th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDgy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "8th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDgz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "9th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDg0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "10th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDg1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "11th Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDg2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "D.C. Circuit",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDg3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Tribal",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDk4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Alabama",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDAx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Alaska",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDAy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Arizona",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDAz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Arkansas",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "California",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Colorado",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Connecticut",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Delaware",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Dist. of Columbia",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDA5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Florida",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDEw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Georgia",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDEx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Guam",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDEy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Hawaii",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDEz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Idaho",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Illinois",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Indiana",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Iowa",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Kansas",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Kentucky",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDE5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Louisiana",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDIw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Maine",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDIx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Maryland",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDIy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Massachusetts",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDIz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Michigan",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Minnesota",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Mississippi",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Missouri",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Montana",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Nebraska",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDI5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Nevada",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDMw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "New Hampshire",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDMx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "New Jersey",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDMy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "New Mexico",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDMz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "New York",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "North Carolina",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "North Dakota",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Northern Marianas",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Ohio",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Oklahoma",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDM5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Oregon",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Pennsylvania",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Puerto Rico",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Rhode Island",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "South Carolina",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "South Dakota",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ1"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Tennessee",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ2"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Texas",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ3"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Utah",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ4"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Vermont",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDQ5"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Virgin Islands",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDUw"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Virginia",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDUx"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Washington",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDUy"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "West Virginia",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDUz"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Wisconsin",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDU0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Wyoming",
+                                    {
+                                        "userinput": "dXJuOmpwZjoxMDU1"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

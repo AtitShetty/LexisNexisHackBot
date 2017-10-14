@@ -1,0 +1,82 @@
+{
+    "task": {
+        "@otherprops": "searchbasic",
+        "@id": "searchall_hdi",
+        "title": "How do I search all content?",
+        "prolog": {
+            "author": "Barb Bruns; Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-09-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "developnaturalsearch_ref.xml",
+                                    "#tail": "or",
+                                    "#text": "natural language"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "connectors_group_ref.xml",
+                                    "#tail": "search construction.",
+                                    "#text": "Boolean"
+                                }
+                            ],
+                            "#text": "Enter your search terms in the search box, using either"
+                        },
+                        "info": {
+                            "ul": {
+                                "li": [
+                                    "Legal phrases and documents - If the terms you are typing are closely related to a legal phrase or document, you'll see a list of suggestions you can select from. Select one of these if you want to see the results for the suggestion instead of what you are typing. The legal phrase or document name will replace the terms you were entering in the search box.",
+                                    "Sources - If the terms you are typing are closely related to a source name, you'll see a list of possible source names displayed beneath the search box. Select one of these if you want to search in the source. Your selections will display to the right of your search terms."
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "redmagnifyglass.png",
+                                "@placement": "inline",
+                                "#tail": ")."
+                            },
+                            "#text": "Click the search button ("
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "#text": "In general, the longer the search query, the less likely you are to find documents containing all the search terms you entered. Any query can result in zero documents being found, but very long queries are more likely to do so."
+                }
+            }
+        }
+    }
+}

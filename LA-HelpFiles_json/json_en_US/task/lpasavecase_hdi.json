@@ -1,0 +1,70 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "exclude",
+        "@id": "lpasavecase_hdi",
+        "title": "How do I save a copy of the case?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "You can save a copy of a case you are viewing in the Cite List. This can be useful if you want to review the information later or share it with others in your firm or office. The saved document will be in PDF format."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". The view changes to show a list of cases associated with your search.",
+                                "#text": "Cite List"
+                            },
+                            "#text": "In the menu, select"
+                        }
+                    },
+                    {
+                        "cmd": "Locate the document you want to view and select its link. A tab appears showing the case."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "(",
+                                "#text": "Save"
+                            },
+                            "image": {
+                                "@alt": "Save",
+                                "@href": "Download.png",
+                                "#tail": ") button, located on the right-hand side of the document. The web browser displays instructions for saving the document as PDF or opening the document in Adobe Reader."
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": "Follow the web browser's instructions."
+                    }
+                ]
+            }
+        }
+    }
+}

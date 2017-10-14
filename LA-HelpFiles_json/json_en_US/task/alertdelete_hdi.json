@@ -1,0 +1,119 @@
+{
+    "task": {
+        "@otherprops": "alertlistips",
+        "@id": "alertdelete_hdi",
+        "title": "How do I delete an alert?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can delete an alert you no longer want to run or is no longer available. When you delete an alert, you will no longer receive notifications about it and it will be removed from your list of alerts.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "Home page, either select"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "View all alerts"
+                                },
+                                {
+                                    "#tail": "pod, or choose",
+                                    "#text": "Alerts"
+                                },
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Alerts"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page. The Alerts page appears.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "On the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "ph": [
+                                    {
+                                        "@keyref": "vsanamefirst",
+                                        "#tail": "and you view your alerts, the list is limited to show only"
+                                    },
+                                    {
+                                        "@keyref": "vsaname",
+                                        "#tail": "-related alerts. You can clear this filter and view all of your available alerts (regardless of which experience you are working in) by clicking the X next to the filter name, above the"
+                                    }
+                                ],
+                                "uicontrol": {
+                                    "#tail": "pane.",
+                                    "#text": "Narrow By"
+                                },
+                                "#text": "When you first view the alerts list, it is filtered based on which experience you are working in when you view all alerts. For example, if you are working in"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "In the list of alerts, locate and select the alert you want to delete."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "Delete"
+                            },
+                            "image": {
+                                "@alt": "Delete Alert",
+                                "@href": "closeremove.png",
+                                "#tail": ") in the toolbar above the alerts list. The Delete Alerts dialog box appears."
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Delete Alert"
+                            },
+                            "#text": "Confirm you want to delete the alert by selecting"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "concept": {
+        "@otherprops": "tutorials",
+        "@audience": "res",
+        "@id": "tutorialshepover_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "shepardsfirst",
+                "#tail": "Citations Service"
+            },
+            "#text": "Tutorial: Overview of the"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "shepardsfirst",
+                        "#tail": "."
+                    },
+                    "xref": [
+                        {
+                            "@scope": "local",
+                            "@href": "bigtutorialshepov_cpt-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "and",
+                            "#text": "Full-size"
+                        },
+                        {
+                            "@scope": "local",
+                            "@href": "tutorialshepovertext_ref-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "versions are also available.",
+                            "#text": "text-only"
+                        }
+                    ],
+                    "#text": "The tutorial below introduces you to using the"
+                },
+                {
+                    "object": {
+                        "@classid": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
+                        "@type": "application/x-shockwave-flash",
+                        "@height": "361",
+                        "@codebase": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0",
+                        "@width": "590",
+                        "@data": "http://web.lexis.com/help/multimedia/nl/nl_shep_overview.swf",
+                        "@id": "newlexis",
+                        "param": [
+                            {
+                                "@name": "movie",
+                                "@value": "http://web.lexis.com/help/multimedia/nl/nl_shep_overview.swf"
+                            },
+                            {
+                                "@name": "wmode",
+                                "@value": "transparent"
+                            },
+                            {
+                                "@name": "quality",
+                                "@value": "high"
+                            },
+                            {
+                                "@name": "bgcolor",
+                                "@value": "#FFFFFF"
+                            },
+                            {
+                                "@name": "pluginspage",
+                                "@value": "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

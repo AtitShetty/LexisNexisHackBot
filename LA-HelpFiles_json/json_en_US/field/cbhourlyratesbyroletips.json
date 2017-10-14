@@ -1,0 +1,112 @@
+{
+    "reference": {
+        "@otherprops": "cbhourlyratesbyroletips",
+        "@audience": "cb",
+        "@id": "cbhourlyratesbyroletips",
+        "title": "Hourly Rates by Role Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-08-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "page provides a table and graph that let you view hourly rates by role. You can view this information in smaller chunks using the",
+                                "#text": "Hourly Rates"
+                            },
+                            {
+                                "#tail": "options on the left side of the page.",
+                                "#text": "Filter by..."
+                            }
+                        ],
+                        "#text": "The"
+                    },
+                    "When viewing this data, please keep the following in mind:",
+                    "The graph shows the following data:",
+                    {
+                        "image": {
+                            "@alt": "Hourly Rates by Role",
+                            "@href": "cbhourlyratesrole.png"
+                        }
+                    }
+                ],
+                "ul": [
+                    {
+                        "li": [
+                            {
+                                "b": {
+                                    "#tail": "Despite the breadth of data available in the CounselLink database, you can still select combinations of filters for which there is insufficient data to provide a meaningful response. In those situations, you will receive a message indicating that there is insufficient data. You should then alter the search by expanding the search criteria to include a broader data set. This expansion of the data included in the metrics will allow the Counsel Benchmarking application to deliver a response.",
+                                    "#text": "Insufficient data:"
+                                }
+                            },
+                            {
+                                "b": {
+                                    "#tail": "Despite the breadth of data available in the CounselLink database, you can still select combinations of filters for which there is insufficient data to provide a meaningful response to customers. Only if insufficient actual data is available and only on the Hourly Rates page, a statistical model has been incorporated to forecast hourly rates. This tool uses a quantile regression model to forecast each of the percentile metrics for partners, associates and paralegals. For more information on quantile regression models, see",
+                                    "#text": "Statistical modeling:"
+                                },
+                                "xref": {
+                                    "@scope": "external",
+                                    "@href": "http://en.wikipedia.org/wiki/Quantile_regression",
+                                    "#tail": ". The statistical model only functions when you select either one or no filters in any or all filter categories. The statistical projection model does not forecast rates when you select multiple filter options within a category. When statistical data is displayed, you will see a message indicating that statistically modeled data is being displayed.",
+                                    "#text": "http://en.wikipedia.org/wiki/Quantile_regression"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "li": [
+                            "90th percentile",
+                            "75th percentile",
+                            "50th percentile (median)",
+                            "25th percentile",
+                            "10th percentile"
+                        ]
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Hourly Rates / Percentiles",
+                        "propdesc": "The 25th to 75th percentile should be viewed as the normal range of rates. The 90th and 10th percentiles are the high rates and the low rates in the database, excluding outlier rates."
+                    },
+                    {
+                        "propvalue": "Sample Size",
+                        "propdesc": {
+                            "p": "Indicates the number (N) of matters and timekeepers included in the data.",
+                            "ul": {
+                                "li": [
+                                    "Matters (N) - Represents the number of matters in the dataset that meet the criteria you have selected in the filters.",
+                                    "Timekeepers (N) - Represents the number of timekeepers in the dataset that meet the criteria you have selected in the filters."
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

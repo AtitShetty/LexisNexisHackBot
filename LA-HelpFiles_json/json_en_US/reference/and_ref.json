@@ -1,0 +1,94 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "and_ref",
+        "title": {
+            "userinput": {
+                "#tail": "Connector",
+                "#text": "and"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-02-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "userinput": [
+                            {
+                                "#tail": "connector to find words that are far apart from one another or in different sections. Searches using",
+                                "#text": "and"
+                            },
+                            {
+                                "#tail": "usually find more documents than searches using the",
+                                "#text": "and"
+                            },
+                            {
+                                "#tail": "connector. As a general rule, use",
+                                "#text": "near"
+                            },
+                            {
+                                "#tail": "when it doesn't matter where your search words appear in a document. Use the",
+                                "#text": "and"
+                            },
+                            {
+                                "#tail": "connector when there is a connection between your search terms and you need to find the terms near each other.",
+                                "#text": "near"
+                            }
+                        ],
+                        "#text": "Use the"
+                    },
+                    "For example, to find general information about budget deficits, you could use this search:",
+                    {
+                        "userinput": "budget and deficit"
+                    },
+                    {
+                        "userinput": [
+                            {
+                                "#tail": "connector. For example, the following search will find more relevant documents than if the",
+                                "#text": "near"
+                            },
+                            {
+                                "#tail": "connector were used:",
+                                "#text": "and"
+                            }
+                        ],
+                        "#text": "However, to find documents that are relevant when your search terms are less specific, you may need to use the"
+                    },
+                    {
+                        "userinput": "fiduciary near/1 duty near/10 breach"
+                    }
+                ],
+                "note": {
+                    "userinput": {
+                        "#tail": ".  The two connectors operate the same way.",
+                        "#text": "and"
+                    },
+                    "#text": "You can use an ampersand (&) in place of"
+                }
+            }
+        }
+    }
+}

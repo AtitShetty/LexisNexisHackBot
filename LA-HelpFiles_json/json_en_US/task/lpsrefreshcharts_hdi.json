@@ -1,0 +1,85 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpsrefreshcharts_hdi",
+        "title": "How do I update various charts and graph s based on documents I've selected in the Cite List?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "cite list. You can filter what appears in these charts and graphs by selecting only those cases in the cite list that you want included in the graphs."
+                        },
+                        "#text": "Individual cases represented in the various types of charts and graphs appear in the associated"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab (expert witnesses),",
+                                    "#text": "Case Involvement"
+                                },
+                                {
+                                    "#tail": "tab (judges), or",
+                                    "#text": "Ruling History"
+                                },
+                                {
+                                    "#tail": "tab (attorneys). The view changes to show the related charts and graphs, and the Cite List appears below the graphs.",
+                                    "#text": "Practice History"
+                                }
+                            ],
+                            "#text": "At the Report tab for the specific expert, attorney, or judge, view one of the options on the"
+                        }
+                    },
+                    {
+                        "cmd": "In the Cite List, select which documents you want to use in the charts and graphs."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "Refresh"
+                            },
+                            "image": {
+                                "@alt": "Refresh",
+                                "@href": "refresh.png",
+                                "#tail": "). This updates both the Cite List and the charts and graphs to show only those documents you want to view."
+                            },
+                            "#text": "Click the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

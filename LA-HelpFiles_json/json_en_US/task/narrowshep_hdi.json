@@ -1,0 +1,138 @@
+{
+    "task": {
+        "@otherprops": "results;shepardsreportips",
+        "@audience": "res",
+        "@id": "narrowshep_hdi",
+        "title": {
+            "i": {
+                "#tail": "report?",
+                "#text": "Shepard's"
+            },
+            "#text": "How do I narrow or filter my"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "data": "focus, filter, narrow, search within results, report, analysis, court, depth of discussion, headnote, narrow by terms",
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "shepardizefirst",
+                            "#tail": "a document, your results are displayed using the following categories (where applicable):"
+                        },
+                        "#text": "When you"
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "pane. Each category has its own filters. For instance, if you select",
+                                "#text": "Narrow By"
+                            },
+                            {
+                                "#tail": ", your",
+                                "#text": "Citing Decisions"
+                            },
+                            {
+                                "#tail": "options include:",
+                                "#text": "Narrow By"
+                            }
+                        ],
+                        "#text": "Once you select one of these categories, you can filter your results using the options available in the"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "pane, you can complete the following steps to manage your results set:",
+                            "#text": "Narrow By"
+                        },
+                        "#text": "As you work in the"
+                    }
+                ],
+                "ul": [
+                    {
+                        "li": [
+                            "Appellate History",
+                            "Citing Decisions",
+                            "Citing Law Reviews, Treatises, ...",
+                            "Table of Authorities"
+                        ]
+                    },
+                    {
+                        "li": [
+                            "Analysis",
+                            "Court",
+                            "Discussion",
+                            "Headnote",
+                            "Search Within Results",
+                            "Timeline"
+                        ]
+                    },
+                    {
+                        "li": [
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": ", select the checkboxes for the categories you want to narrow your results to, and select",
+                                        "#text": "Select Multiple"
+                                    },
+                                    {
+                                        "#tail": ".",
+                                        "#text": "OK"
+                                    }
+                                ],
+                                "#text": "To narrow by more than one category under a filter, select"
+                            },
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "link at the top of the",
+                                        "#text": "Clear"
+                                    },
+                                    {
+                                        "#tail": "pane. To remove a single filter, select the",
+                                        "#text": "Narrow By"
+                                    }
+                                ],
+                                "image": {
+                                    "@alt": "Remove Filter",
+                                    "@href": "Closeremove.png",
+                                    "#tail": "icon."
+                                },
+                                "#text": "To return to your original results after narrowing them one or more times, select the"
+                            }
+                        ]
+                    }
+                ],
+                "note": {
+                    "uicontrol": {
+                        "#tail": ", then to a specific time line within those cases, and then to a specific jurisdiction or court within those cases in the timeline.",
+                        "#text": "Cases"
+                    },
+                    "#text": "Each time you narrow your results, the results are cumulative. For example, you can narrow your results to"
+                }
+            }
+        }
+    }
+}

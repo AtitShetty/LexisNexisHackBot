@@ -1,0 +1,117 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpsprefilterbystate_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "search by state or location?"
+            },
+            "#text": "How do I pre-filter my"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-10-07"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "lpsnamefirst",
+                                "#tail": "search field."
+                            },
+                            "#text": "If you know the name of the expert witness or attorney you want to search for, enter it in the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list.",
+                                "#text": "Filters"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "option on the left side. The different locations are displayed.",
+                                "#text": "Locations"
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": "Select the checkboxes for the states you are interested in.",
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "uicontrol": {
+                                    "#tail": ".",
+                                    "#text": "Clear"
+                                },
+                                "#text": "To clear all existing selections, select"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".  You are returned to the search box.",
+                                "#text": "OK"
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "ph": [
+                                {
+                                    "@keyref": "lpsname",
+                                    "#tail": "searches the"
+                                },
+                                {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "databases for profiles that meet your search criteria. It then displays any results that are found. (See"
+                                }
+                            ],
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchresults_cpt.xml",
+                                "#tail": "for details.)"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

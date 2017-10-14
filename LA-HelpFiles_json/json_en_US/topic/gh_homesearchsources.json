@@ -1,0 +1,108 @@
+{
+    "topic": {
+        "@otherprops": "homesearch",
+        "@id": "gh_homesearchsources",
+        "title": "Searching Specific Sources & Topics and Using Pre-search Filters",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "task": [
+            {
+                "@conref": "sourceselect_hdi.xml",
+                "@id": "sourceselect_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchlistofsources_hdi.xml",
+                "@id": "searchlistofsources_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sourcefavorite_hdi.xml",
+                "@id": "sourcefavorite_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sourcerestrictby_hdi.xml",
+                "@id": "sourcerestrictby_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "browsetopics_hdi.xml",
+                "@id": "browsetopics_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchspecifictopic_hdi.xml",
+                "@id": "searchspecifictopic_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "topicfavorite_hdi.xml",
+                "@id": "topicfavorite_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "restrictsearchtolegaltopic_hdi.xml",
+                "@id": "restrictsearchtolegaltopic_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "restrictsearch_hdi.xml",
+                "@id": "restrictsearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "savefilter_hdi.xml",
+                "@id": "savefilter_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "stylesourceinfo_ref.xml",
+                "@id": "stylesourceinfo_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "sourcetips.xml",
+                "@id": "sourcetips",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

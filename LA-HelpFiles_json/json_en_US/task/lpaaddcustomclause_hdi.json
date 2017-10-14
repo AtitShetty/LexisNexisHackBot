@@ -1,0 +1,143 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "hidden",
+        "@id": "lpaaddcustomclause_hdi",
+        "title": "How do I add my own clauses to a form?",
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-03-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "allow you to replace existing standard clauses with your own custom clauses.  To replace a standard clause with a custom clause:"
+                    },
+                    "#text": "Editable forms in"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Alternate Clause",
+                                "@href": "iconsignalciteinfoonly.png",
+                                "@placement": "inline"
+                            },
+                            "ph": {
+                                "@audience": "lpa4.2",
+                                "image": {
+                                    "@alt": "Alternate Clause",
+                                    "@href": "iconsignalciteinfoonly.png",
+                                    "@placement": "inline"
+                                },
+                                "#tail": "."
+                            },
+                            "#text": "On the right side of the form beside the clause you want to replace, select"
+                        },
+                        "stepresult": {
+                            "uicontrol": "Clauses",
+                            "ph": [
+                                {
+                                    "@audience": "lpa4.2",
+                                    "#tail": "pop-up appears, displaying the text of the Alternate clause",
+                                    "#text": "A"
+                                },
+                                {
+                                    "@audience": "lpa",
+                                    "#tail": ".",
+                                    "#text": ", along with your options for adding clauses to the form"
+                                }
+                            ],
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Add Clause Button",
+                                "@href": "btn_addToForm.gif",
+                                "@placement": "inline",
+                                "#tail": "."
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "pop-up disappears, and the selected Alternate Clause appears below the standard clause.",
+                                "#text": "Clauses"
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Close Clause",
+                                "@href": "closeremove.png",
+                                "@placement": "inline",
+                                "#tail": "for the version of the clause (the standard clause or the selected Alternate) you DO NOT want to use."
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": {
+                            "note": {
+                                "@type": "tip",
+                                "image": {
+                                    "@alt": "Drafting Notes Icon",
+                                    "@href": "IconDraftingNote.png",
+                                    "@placement": "inline",
+                                    "#tail": ") will appear in the form's right margin."
+                                },
+                                "#text": "If you selected an Alternate Clause that has associated drafting notes, the Drafting Notes icon ("
+                            },
+                            "#text": "The selected clause disappears."
+                        }
+                    },
+                    {
+                        "cmd": "Complete your work in the form and save it.",
+                        "stepresult": {
+                            "note": {
+                                "@type": "note",
+                                "ph": {
+                                    "@keyref": "prodname",
+                                    "#tail": ", see the topic"
+                                },
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "saveresearch_hdi.xml",
+                                    "#tail": ".",
+                                    "#text": "How do I save my research"
+                                },
+                                "#text": "For more information on saving your work in"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

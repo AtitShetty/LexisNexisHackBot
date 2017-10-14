@@ -1,0 +1,142 @@
+{
+    "task": {
+        "@otherprops": "fulldocrhp;legalissuetrailtips",
+        "@audience": "res;lps;lpa",
+        "@id": "uselegalissuetrail_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "litnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I use the"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": [
+                        {
+                            "@keyref": "litnamefirst",
+                            "#tail": "lists cases that cite to the case you are viewing as well as cases your case has cited - for a specific legal issue or point of law. Not all legal documents have a"
+                        },
+                        {
+                            "@keyref": "litname",
+                            "#tail": "."
+                        }
+                    ],
+                    "#text": "The"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Run a search."
+                    },
+                    {
+                        "cmd": "From your results, display a case law document in full view."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "under",
+                                    "#text": "Activate Passages"
+                                },
+                                {
+                                    "#tail": "in the right frame.)",
+                                    "#text": "Deactivate Passages"
+                                }
+                            ],
+                            "b": {
+                                "ph": {
+                                    "@keyref": "litname"
+                                },
+                                "#tail": "in the right pane.  The passages in the document that contain references to specific legal issues will be outlined.  (To remove the passage outlines, select"
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": ". The list of citations for that passage appears, with the passage you selected displayed at the top of the citation list."
+                            },
+                            "#text": "Click an outlined passage in the document to display its"
+                        }
+                    },
+                    {
+                        "@id": "uselegalissuetrail",
+                        "cmd": "Do one of the following:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Open a document to see how it treats your legal issue",
+                                    "chdesc": "Click the document name in the list of citations.  The document appears with passages outlined and scrolls to the passage shown in the citation list."
+                                },
+                                {
+                                    "choption": "Return to your list of search results from an open document",
+                                    "chdesc": {
+                                        "p": {
+                                            "uicontrol": {
+                                                "#tail": "at the top right of the page.",
+                                                "#text": "Results List"
+                                            },
+                                            "#text": "Select"
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "ph": {
+                                            "@keyref": "shepsignalsingularfirst"
+                                        },
+                                        "#text": "View the definition of a"
+                                    },
+                                    "chdesc": "Leave your mouse pointer over the signal for a few seconds."
+                                },
+                                {
+                                    "choption": "Sort the citation list in a different order (the default order is by relevance)",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "list at the top right of the page.",
+                                            "#text": "Sort by"
+                                        },
+                                        "#text": "Select an option from the"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

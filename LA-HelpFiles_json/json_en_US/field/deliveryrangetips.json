@@ -1,0 +1,73 @@
+{
+    "reference": {
+        "@id": "deliveryrangetips",
+        "title": "Delivering a Range of Results from a Results List",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "When printing, downloading, emailing, or sending items from your search results list to Dropbox, you can deliver up to 250 consecutive as well as non-consecutive items. To do this, you can use dashes to connect consecutive results, and commas to connect non-consecutive results. Include spaces between each number.",
+                    "For example:"
+                ],
+                "note": [
+                    {
+                        "@type": "note",
+                        "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                    },
+                    {
+                        "@type": "note",
+                        "#text": "This option will deliver just items listed in the results list, not the actual documents. Additionally, you must select results from only the top 1,000 results in the list."
+                    }
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "userinput": {
+                                "#tail": ".",
+                                "#text": "5-186"
+                            },
+                            "#text": "To deliver a consecutive range of results, enter something like the following:"
+                        },
+                        {
+                            "userinput": {
+                                "#tail": ".",
+                                "#text": "1, 18, 20, 45"
+                            },
+                            "#text": "To deliver non-consecutive results, enter something like this:"
+                        },
+                        {
+                            "userinput": {
+                                "#tail": ".",
+                                "#text": "1-15, 20, 22, 83-90, 201"
+                            },
+                            "#text": "To deliver a combination of both, enter something like:"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

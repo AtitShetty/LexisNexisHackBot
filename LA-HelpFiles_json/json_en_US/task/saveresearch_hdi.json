@@ -1,0 +1,360 @@
+{
+    "task": {
+        "@otherprops": "results;savesearchtips",
+        "@id": "saveresearch_hdi",
+        "title": "How do I save my research?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "drop-down list at the top of any page.  Your last 5 searches are also available from the",
+                                "#text": "History"
+                            },
+                            {
+                                "#tail": "pod on the",
+                                "#text": "History"
+                            }
+                        ],
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "home page."
+                        },
+                        "#text": "The search terms, documents, and other activities from your research are automatically saved in your history for up to 90 days. You can access them by selecting the"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": ".",
+                            "#text": "Folders"
+                        },
+                        "#text": "If you want to save your search terms or documents from your results for an unlimited time, you can save them to"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "@id": "saveresearch",
+                        "cmd": "After running a search and reviewing your results, do one of the following:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Save a search",
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "drop-down list (near the top of the page) and select",
+                                                "#text": "Actions"
+                                            },
+                                            {
+                                                "#tail": ". The Add to Folder dialog box appears.",
+                                                "#text": "Add search to folder"
+                                            }
+                                        ],
+                                        "b": "Proceed to Step 3.",
+                                        "#text": "From the results list, select the"
+                                    }
+                                },
+                                {
+                                    "choption": "Save one or more documents from the results list",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "(",
+                                                        "#text": "Add to folder"
+                                                    },
+                                                    "image": {
+                                                        "@alt": "Add to folder",
+                                                        "@href": "folder.png",
+                                                        "@placement": "inline",
+                                                        "#tail": ") icon at the top of your results. A list of options for saving the document appears."
+                                                    },
+                                                    "#text": "Select the checkbox next to each document you want to save, then select the"
+                                                },
+                                                {
+                                                    "b": {
+                                                        "#tail": ".",
+                                                        "#text": "no further steps are required"
+                                                    },
+                                                    "#text": "To save the document or documents to a specific folder you've already created and used recently, choose that folder from the list. The documents are saved to the selected folder, and"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ". Then",
+                                                        "#text": "Choose a folder"
+                                                    },
+                                                    "b": {
+                                                        "#tail": ", below.",
+                                                        "#text": "proceed to step 2"
+                                                    },
+                                                    "#text": "To save the document set to a new folder or a folder that's not appearing in your recently used list, select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Save a document from the full document view",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "(",
+                                                        "#text": "Add to folder"
+                                                    },
+                                                    "image": {
+                                                        "@alt": "Add to folder",
+                                                        "@href": "folder.png",
+                                                        "@placement": "inline",
+                                                        "#tail": ") icon at the top of the document. A list of options for saving the document appears."
+                                                    },
+                                                    "#text": "While viewing the full document, select the"
+                                                },
+                                                {
+                                                    "b": {
+                                                        "#tail": ".",
+                                                        "#text": "no further steps are required"
+                                                    },
+                                                    "#text": "To save the document to a specific folder you've already created and used recently, choose that folder from the list. The document is saved to the selected folder, and"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ". Then",
+                                                        "#text": "Choose a folder"
+                                                    },
+                                                    "b": {
+                                                        "#tail": ", below.",
+                                                        "#text": "proceed to step 2"
+                                                    },
+                                                    "#text": "To save the document to a new folder or a folder that's not appearing in your recently used list, select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab of the",
+                                    "#text": "Selected Documents"
+                                },
+                                {
+                                    "#tail": "form that appears, enter a title for the items you want to save (select",
+                                    "#text": "Add to Folder"
+                                },
+                                {
+                                    "#tail": "to do this), or keep the title that is displayed.",
+                                    "#text": "Edit all titles"
+                                }
+                            ],
+                            "#text": "At the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab, choose any of the following options, depending on whether you're saving a search or saving a document:",
+                                "#text": "Save Options"
+                            },
+                            "#text": "At the"
+                        },
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": {
+                                        "uicontrol": {
+                                            "#tail": "option)",
+                                            "#text": "Add search to folder"
+                                        },
+                                        "#text": "Save Search ("
+                                    },
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "box.",
+                                            "#text": "Save Search"
+                                        },
+                                        "#text": "Enter a different name for the search in the"
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "uicontrol": {
+                                            "#tail": "option)",
+                                            "#text": "Add search to folder"
+                                        },
+                                        "#text": "Store Narrow By selections for ("
+                                    },
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "by choosing",
+                                                "#text": "Store Narrow By selections"
+                                            },
+                                            {
+                                                "#tail": "or",
+                                                "#text": "Category I'm currently viewing"
+                                            },
+                                            {
+                                                "#tail": ".",
+                                                "#text": "All categories"
+                                            }
+                                        ],
+                                        "#text": "Choose whether to save your"
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "note": {
+                                            "@type": "note",
+                                            "uicontrol": {
+                                                "#tail": "option isn't available.",
+                                                "#text": "Results list"
+                                            },
+                                            "#text": "If you are viewing the full document, the"
+                                        },
+                                        "#text": "What do you want to save?"
+                                    },
+                                    "chdesc": {
+                                        "note": {
+                                            "@type": "note",
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "box. See",
+                                                    "#text": "Results  list for ..."
+                                                },
+                                                {
+                                                    "#tail": "to include a graph that shows the location and distribution of each of your search terms in each of your results.",
+                                                    "#text": "Include the graphical view of search terms (PDF only)"
+                                                }
+                                            ],
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "deliveryrangetips.xml",
+                                                "#tail": "for a description of how to do this. Additionally, select"
+                                            },
+                                            "#text": "If you select to save results to the folder, you can specify exactly which results by entering the range of results in the"
+                                        },
+                                        "#text": "Choose whether you want to save the documents you've specifically selected or the full results list for your search."
+                                    }
+                                },
+                                {
+                                    "choption": "Notes",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "box.",
+                                            "#text": "Notes"
+                                        },
+                                        "#text": "Type any notes about your research in the"
+                                    }
+                                },
+                                {
+                                    "choption": "Save In",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "button to create a new folder.",
+                                            "#text": "Create New Folder"
+                                        },
+                                        "#text": "Select the folder you want to add the items to, or select the"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab and then enter the name or email address of the person you want to share with. Then click",
+                                    "#text": "Share with Others"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Add"
+                                }
+                            ],
+                            "#text": "To share the folder with other users, select the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "to add the name to the list.",
+                                    "#text": "Add to Share"
+                                },
+                                "#text": "To share with others within your network or group of users, enter the peer's name. To share with users outside your group, enter the user's email address. Click"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to save the items.",
+                                "#text": "Save"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "link from",
+                            "#text": "Folders"
+                        },
+                        {
+                            "#tail": "drop-down list at the top of any page or select the item from the",
+                            "#text": "More"
+                        },
+                        {
+                            "#tail": "pod on the home page.",
+                            "#text": "Folders"
+                        }
+                    ],
+                    "#text": "To retrieve your saved items, select the"
+                }
+            }
+        }
+    }
+}

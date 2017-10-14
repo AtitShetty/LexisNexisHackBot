@@ -1,0 +1,283 @@
+{
+    "reference": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpsjudgesources_ref",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "Sources for Judge Profiles"
+            }
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "searches to find the judge profiles associated with your search keywords. Additionally, information about how the search is submitted is listed."
+                        },
+                        "#text": "The following tables list the different content types"
+                    },
+                    "note": {
+                        "@type": "note",
+                        "ph": {
+                            "@keyref": "company",
+                            "#tail": "first pulls data from both national and state judge listings. However, if you do not find the judge for which you are searching, please contact Customer Support at 1-800-543-6862."
+                        },
+                        "#text": "To build and maintain its extensive list of judges (shown below),"
+                    }
+                },
+                {
+                    "@id": "rulinghistory",
+                    "title": "Ruling Trends",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsjudgesources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Dockets",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Jury Verdicts & Settlements",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Cases",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Expert Witness Analysis",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Briefs, Pleadings, and Motions",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Jury Instruction Filings",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Administrative Materials",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "publications",
+                    "title": "Publications",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsjudgesources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Law Reviews and Journals",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Judge Directories",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Administrative Materials",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "news",
+                    "title": "News",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsjudgesources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "News",
+                                    {
+                                        "userinput": "(first w/3 last) w/5 Judge or judges or magistrate or ALJ or A.L.J. or panel or justice or honorable or chancellor or JJ or CJ or C.J. or hon."
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Legal News",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "web",
+                    "title": "Web",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsjudgesources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": {
+                            "stentry": [
+                                {
+                                    "p": "Content from thousands of Web sites and millions of Web pages, with more being added each day:",
+                                    "ul": {
+                                        "li": [
+                                            "Governmental agency information (federal, state, local)",
+                                            "Informal commentary on legal issues (e.g., blogs specifically for lawyers and legal professionals)",
+                                            "General Web information about legal topics"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "userinput": "first w/2 last"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@id": "legend",
+                    "p": "* Legend:",
+                    "ul": {
+                        "li": [
+                            {
+                                "userinput": [
+                                    {
+                                        "#tail": "= A given judge's first name and alias (connected using",
+                                        "#text": "first"
+                                    },
+                                    {
+                                        "#tail": ")",
+                                        "#text": "or"
+                                    }
+                                ]
+                            },
+                            {
+                                "userinput": {
+                                    "#tail": "= A given judge's last name",
+                                    "#text": "last"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

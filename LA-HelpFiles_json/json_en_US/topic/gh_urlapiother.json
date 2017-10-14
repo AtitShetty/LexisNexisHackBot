@@ -1,0 +1,121 @@
+{
+    "topic": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "gh_urlapiother",
+        "title": {
+            "ph": {
+                "@audience": "hide",
+                "#tail": "Other URLs",
+                "#text": "4"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u2122 URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "note": {
+                "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+            },
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": "URLs to do other tasks in Lexis Advance\u2122."
+                    },
+                    "#text": "You can use"
+                },
+                null
+            ]
+        },
+        "reference": [
+            {
+                "@conref": "displayshepreportips.xml",
+                "@id": "displayshepreportips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "openpubrectips.xml",
+                "@id": "openpubrectips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "contextips.xml",
+                "@id": "contextips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "areatips.xml",
+                "@id": "areatips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "browsetopicstips.xml",
+                "@id": "browsetopicstips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "viewsettingstips.xml",
+                "@id": "viewsettingstips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "sourcetips.xml",
+                "@id": "sourcetips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "displayTOCtips.xml",
+                "@id": "displayTOCtips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "collectiontips.xml",
+                "@id": "collectiontips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "jurisdictiontips.xml",
+                "@id": "jurisdictiontips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "practiceareatips.xml",
+                "@id": "practiceareatips",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

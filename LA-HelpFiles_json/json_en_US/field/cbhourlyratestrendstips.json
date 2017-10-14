@@ -1,0 +1,85 @@
+{
+    "reference": {
+        "@otherprops": "cbhourlyratestrendstips",
+        "@audience": "cb",
+        "@id": "cbhourlyratestrendstips",
+        "title": "Hourly Rates Trends at a Glance Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-08-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "page is designed to provide a longer-term view on trends of legal rates over time. The current version of",
+                            "#text": "Hourly Rates Trends"
+                        },
+                        {
+                            "#tail": "page.",
+                            "#text": "Hourly Rates Comparison"
+                        }
+                    ],
+                    "ph": {
+                        "@keyref": "cbnamefirst",
+                        "#tail": "lets you sort this data by matter type only.  To accomplish this, the tool identifies common timekeepers across periods and calculates the change in their rate year over year. The metric shown is the average of those annual rate changes. The definitions on this page are the same as the definition used for the"
+                    },
+                    "#text": "The"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Hourly Rate",
+                        "propdesc": "Indicates the dollars per hour charged."
+                    },
+                    {
+                        "propvalue": "Partner",
+                        "propdesc": "Indicates the number of dollars charged per hour by partners."
+                    },
+                    {
+                        "propvalue": "Associate",
+                        "propdesc": "Indicates the rate charged per hour by legal associates."
+                    },
+                    {
+                        "propvalue": "Paralegal",
+                        "propdesc": "Indicates the rate charged per hour by paralegals."
+                    },
+                    {
+                        "propvalue": "<Date Ranges> Legend",
+                        "propdesc": "The differing colors in the Partner, Associate, and Paralegal columns are explained by the legend."
+                    },
+                    {
+                        "propvalue": "Hourly Rates / Date Ranges",
+                        "propdesc": "The date ranges defined in the legend serve as column headings for each category of Timekeeper Level information."
+                    },
+                    {
+                        "propvalue": "Timekeeper Level",
+                        "propdesc": "Partner, Associate, and Paralegal - corresponding to the columns in the Hourly Rate graph."
+                    }
+                ]
+            }
+        }
+    }
+}

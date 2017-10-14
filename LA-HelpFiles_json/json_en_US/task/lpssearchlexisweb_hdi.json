@@ -1,0 +1,97 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpssearchlexisweb_hdi",
+        "title": "How do I perform a Web search for information on an expert witness, judge, or attorney?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can search for legal resources on the Web. A Web search expands the number of information sources included in your search, since a Web search combines content from thousands of Web sites and millions of Web pages. Types of information you can search include:"
+                        },
+                        "#text": "Using"
+                    },
+                    "To search for profile information using Lexis Web:"
+                ],
+                "ul": {
+                    "li": [
+                        "Governmental agency information (federal, state, local)",
+                        "Informal commentary on legal issues (e.g., blogs specifically for lawyers and legal professionals)",
+                        "General web information about legal topics"
+                    ]
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": ", a",
+                                    "#text": "expert witness"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudge_hdi.xml",
+                                    "#tail": ", or an",
+                                    "#text": "judge"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorney_hdi.xml",
+                                    "#tail": ".",
+                                    "#text": "attorney"
+                                }
+                            ],
+                            "#text": "Complete your search for an"
+                        }
+                    },
+                    {
+                        "cmd": "At the results list, select the name for the profile you want to view. That profile appears."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the left-side pane. A search is performed using Lexis Web and the results are displayed on the page.",
+                                "#text": "Web"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": "Click the link for the specific content you want to view. The requested information appears."
+                    }
+                ]
+            }
+        }
+    }
+}

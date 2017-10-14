@@ -1,0 +1,104 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpssavereportaspdf_hdi",
+        "title": "How do I save a report as a PDF document?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-12-13"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can save a copy of the expert witness' report, which will include information from the different sections of the report, such as Case Involvement, Publications, and so forth. The report will be saved as a PDF document. Saving the report allows you to review the information later as well as share it with others in the firm."
+                        },
+                        "#text": "While using"
+                    },
+                    "To save the profile report:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": ",",
+                                    "#text": "expert witness"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudge_hdi.xml",
+                                    "#tail": ", or",
+                                    "#text": "judge"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorney_hdi.xml",
+                                    "#tail": ".",
+                                    "#text": "attorney"
+                                }
+                            ],
+                            "#text": "Complete your search for an"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab for that expert appears.",
+                                "#text": "Report"
+                            },
+                            "#text": "At the search results tab, select the name for the expert you want to view. The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "page.",
+                                "#text": "Overview"
+                            },
+                            "#text": "View the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link. A PDF document containing the report appears in a new window.",
+                                "#text": "Overview Report"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": "Save or print the document, using the options available in your PDF reader."
+                    }
+                ]
+            }
+        }
+    }
+}

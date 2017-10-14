@@ -1,0 +1,58 @@
+{
+    "topic": {
+        "@otherprops": "lpa;about;forms index",
+        "@audience": "lpa",
+        "@id": "gh_lpaformsindex",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst",
+                "#tail": "Forms Index"
+            }
+        },
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-02-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": {
+                "ph": {
+                    "@keyref": "lpaname",
+                    "#tail": "Forms Index."
+                },
+                "#text": "The links below give provide information on the"
+            }
+        },
+        "concept": {
+            "@conref": "lpaformsindex_cpt.xml",
+            "@id": "lpaformsindex_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "reference": {
+            "@conref": "lpaformsindextips.xml",
+            "@id": "lpaformsindextips",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

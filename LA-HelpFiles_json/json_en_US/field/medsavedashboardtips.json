@@ -1,0 +1,107 @@
+{
+    "reference": {
+        "@otherprops": "medsavedashboardtips",
+        "@audience": "obsolete",
+        "@id": "medsavedashboardtips",
+        "title": "Download Dashboard",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-08"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            },
+            "data": "medmal navigator medical malpractice litigator litigation"
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Download Options"
+                },
+                {
+                    "title": "Format Options"
+                }
+            ],
+            "properties": [
+                {
+                    "property": [
+                        {
+                            "propvalue": "What do you want to Download?",
+                            "propdesc": "Lists the topic you selected for your dashboard."
+                        },
+                        {
+                            "propvalue": "Document Type",
+                            "propdesc": "PDF is the only document type available."
+                        },
+                        {
+                            "propvalue": "Send as",
+                            "propdesc": "One file is the only option available."
+                        },
+                        {
+                            "propvalue": "Zip files",
+                            "propdesc": {
+                                "uicontrol": {
+                                    "#tail": "link to learn more about ZIP format.",
+                                    "#text": "What's this?"
+                                },
+                                "#text": "Select to send the files in ZIP format. Select the"
+                            }
+                        },
+                        {
+                            "propvalue": "Download",
+                            "propdesc": "Select to download your dashboard."
+                        },
+                        {
+                            "propvalue": "Cancel",
+                            "propdesc": "Select to cancel the download."
+                        }
+                    ]
+                },
+                {
+                    "property": [
+                        {
+                            "propvalue": {
+                                "ph": {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "logos"
+                                },
+                                "#text": "Print without"
+                            },
+                            "propdesc": {
+                                "ph": {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "branding."
+                                },
+                                "#text": "Select this if you want to download your documents without any"
+                            }
+                        },
+                        {
+                            "propvalue": "Display first and last name",
+                            "propdesc": "Select this to include both your first name and last name on the cover page and in the footer of your documents."
+                        },
+                        {
+                            "propvalue": "Include page number",
+                            "propdesc": "Select a position for the page number."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

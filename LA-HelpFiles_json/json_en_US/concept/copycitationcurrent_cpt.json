@@ -1,0 +1,59 @@
+{
+    "concept": {
+        "@otherprops": "fulldoctools",
+        "@id": "copycitationcurrent_cpt",
+        "title": "Currency Statement",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-02-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "uicontrol": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "."
+                        },
+                        "#text": "How current this code is in"
+                    },
+                    "#text": "To include the currency information in parentheses with the citation and the text you selected, select"
+                },
+                {
+                    "ph": {
+                        "@keyref": "companyfirst",
+                        "#tail": "is displayed at the top of the statute document.  Here are some examples of currency statements:"
+                    },
+                    "#text": "The currency information for the statute as provided by"
+                }
+            ],
+            "ul": {
+                "li": [
+                    "Current through the 1st Regular Session of the 55th Legislature (2015)",
+                    "Current through PL 114-115, approved 12/28/15",
+                    "This document is current through 2016 Public Act"
+                ]
+            }
+        }
+    }
+}

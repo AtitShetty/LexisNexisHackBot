@@ -1,0 +1,59 @@
+{
+    "topic": {
+        "@otherprops": "vsa;about",
+        "@audience": "vsa",
+        "@id": "gh_vsa",
+        "title": {
+            "ph": {
+                "@keyref": "vsanamefirst"
+            },
+            "#text": "About"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "VSAwhatisvsa_cpt.xml",
+                "@outputclass": "embed",
+                "@id": "VSAwhatisvsa_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialvsa_cpt.xml",
+                "@id": "tutorialvsa_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialvsarpt_cpt.xml",
+                "@id": "tutorialvsarpt_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "task": {
+        "@otherprops": "fulldocmain;results",
+        "@id": "fulldocworkwith_hdi",
+        "title": "How do I view a document in reading view?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-03-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "While viewing a full document, you can change your view to reading view, which removes most of the extra tools you use to work with the document.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "Reading View"
+                            },
+                            "image": {
+                                "@alt": "Reading View",
+                                "@href": "docreadingview.png",
+                                "#tail": "). The document appears in reading view."
+                            },
+                            "#text": "While viewing a full document, click the"
+                        }
+                    },
+                    {
+                        "cmd": "Complete any of the following optional tasks:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Shepardize the document",
+                                    "chdesc": "If available, click the Shepard's Signal indicator."
+                                },
+                                {
+                                    "choption": "Copy the citation associated with the document",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "button. See",
+                                            "#text": "Copy Citation"
+                                        },
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "copycitation_hdi.xml",
+                                            "#tail": "for details."
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "Change the font size to be larger or smaller",
+                                    "chdesc": {
+                                        "image": {
+                                            "@alt": "Larger/Smaller Text",
+                                            "@href": "doctextsize.png",
+                                            "#tail": ") (located in the upper-right corner of the page)"
+                                        },
+                                        "#text": "Click the appropriate button ("
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Return to Full Document",
+                                "@href": "docfullview.png",
+                                "#tail": "button to return to the full document."
+                            },
+                            "#text": "When you are finished viewing the document in reading view, click the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "topic": {
+        "@otherprops": "notifications",
+        "@audience": "res",
+        "@id": "gh_notifications",
+        "title": "Notifications",
+        "titlealts": {
+            "navtitle": {
+                "option": "Notifications"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Read through the links below for more information about notifications."
+        },
+        "concept": {
+            "@conref": "notifications_cpt.xml",
+            "@id": "notifications_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "reference": {
+            "@conref": "notificationstips.xml",
+            "@id": "notificationstips",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

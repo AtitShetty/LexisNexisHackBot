@@ -1,0 +1,172 @@
+{
+    "reference": {
+        "@otherprops": "cib",
+        "@audience": "res",
+        "@id": "cibcasepulltips",
+        "title": "CasePull\u2122 Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": ", either by party name or by entering the document citations."
+                        },
+                        "#text": "Use the CasePull\u2122 page to retrieve legal documents in"
+                    },
+                    "ul": {
+                        "li": [
+                            "If you have the multiple citation CasePull\u2122 page, you can retrieve up to 100 documents.",
+                            {
+                                "ph": {
+                                    "@keyref": "shepardizefirst",
+                                    "#tail": "a single document."
+                                },
+                                "#text": "If you have the single citation page, you can retrieve or"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "By Citation"
+                },
+                {
+                    "title": "By Party Name",
+                    "p": "Use this to retrieve a case by party name.  You must enter at least one party name."
+                }
+            ],
+            "properties": [
+                {
+                    "property": [
+                        {
+                            "propvalue": {
+                                "p": "Enter a citation or list of citations (maximum of 100) separated by semicolons (;) or on separate lines.",
+                                "note": "If you have the single citation page, you can enter only one citation."
+                            },
+                            "propdesc": {
+                                "p": [
+                                    {
+                                        "userinput": "480 us 102;812 f.2d 911;69 n.j 123",
+                                        "#text": "For example, enter"
+                                    },
+                                    {
+                                        "ph": {
+                                            "@keyref": "shepardsfirst",
+                                            "#tail": "citations formats, see"
+                                        },
+                                        "xref": {
+                                            "@scope": "external",
+                                            "@href": "https://web.lexis.com/help/research/shepardscitationformats_ref.htm",
+                                            "#text": "Shepard's(R) Citation Format List"
+                                        },
+                                        "#text": "For a list of all"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "propvalue": "Clear",
+                            "propdesc": "Select this to remove any citations you entered."
+                        },
+                        {
+                            "propvalue": "Get",
+                            "propdesc": "Select this to deliver your documents."
+                        },
+                        {
+                            "propvalue": {
+                                "ph": {
+                                    "@keyref": "shepardizefirst"
+                                }
+                            },
+                            "propdesc": {
+                                "ph": {
+                                    "@keyref": "shepardize",
+                                    "#tail": "your documents (available only on the single citation form)."
+                                },
+                                "#text": "Select this to"
+                            }
+                        },
+                        {
+                            "propvalue": "Status of Request",
+                            "propdesc": "The status of your delivery appears here.  If a document cannot be delivered because of insufficient information or some other reason, you may have the opportunity to correct the problem from this box."
+                        }
+                    ]
+                },
+                {
+                    "property": [
+                        {
+                            "propvalue": "Party Name 1",
+                            "propdesc": "Enter the name of the first party."
+                        },
+                        {
+                            "propvalue": "Party Name 2",
+                            "propdesc": "Enter the name of the second party if you know it."
+                        },
+                        {
+                            "propvalue": "Clear",
+                            "propdesc": "Select this to remove a party name you entered."
+                        },
+                        {
+                            "propvalue": "Jurisdiction",
+                            "propdesc": "Select this to narrow your search to one or more jurisdictions."
+                        },
+                        {
+                            "propvalue": "Category",
+                            "propdesc": "Select this to narrow your search to one or more categories."
+                        },
+                        {
+                            "propvalue": "Date Range",
+                            "propdesc": "Select this to enter a range of dates to narrow your search to."
+                        },
+                        {
+                            "propvalue": "Get",
+                            "propdesc": "Select this to retrieve your documents."
+                        },
+                        {
+                            "propvalue": {
+                                "ph": {
+                                    "@keyref": "shepardize"
+                                }
+                            },
+                            "propdesc": {
+                                "ph": {
+                                    "@keyref": "shepards",
+                                    "#tail": "report for the citation you entered (available only on the single citation form)."
+                                },
+                                "#text": "Select this to retrieve the"
+                            }
+                        },
+                        {
+                            "propvalue": "Status of Request",
+                            "propdesc": "The status of your delivery appears here.  If a document cannot be delivered because of insufficient information or some other reason, you may have the opportunity to correct the problem from this box."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

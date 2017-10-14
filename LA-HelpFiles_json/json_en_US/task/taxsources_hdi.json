@@ -1,0 +1,149 @@
+{
+    "task": {
+        "@otherprops": "taxsearch",
+        "@audience": "tax",
+        "@id": "taxsources_hdi",
+        "title": "How do I work with the different tax sources?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "taxnamefirst",
+                            "#tail": "includes several primary and secondary sources that can aid you in your research. These sources contain cases, codes, regulations, and analytical content, to name a few."
+                        }
+                    },
+                    "As you view these sources:",
+                    "To work with a source:"
+                ],
+                "ul": {
+                    "li": [
+                        "You can view information about the source. Choosing this option lets you see who published the source, its coverage, a description of its contents, and so forth.",
+                        "You can add a specific source to your search so that you can review specific results for it. You can include multiple sources in your search. Any results will be retrieved from just the sources you specify.",
+                        "You can view all of the documents related to the source."
+                    ]
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": [
+                                {
+                                    "@keyref": "taxnamefirst",
+                                    "#tail": "Home page, either locate the pod that contains the source type you are interested in viewing or click the"
+                                },
+                                {
+                                    "@keyref": "taxnamefirst",
+                                    "#tail": "Home page and locate the source in the list of sources."
+                                }
+                            ],
+                            "uicontrol": {
+                                "#tail": "link at the top of the",
+                                "#text": "Sources"
+                            },
+                            "#text": "At the"
+                        }
+                    },
+                    {
+                        "cmd": "Once you have located the source you want to view, do one of the following:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To view information about a source, such as its publisher, coverage, etc.",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "icon (",
+                                            "#text": "View source description"
+                                        },
+                                        "image": {
+                                            "@alt": "View Source Description",
+                                            "@href": "Info.png",
+                                            "#tail": ") next to the source name. A pop-up window appears, showing the information about the source. (Click X to close the pop-up window.)"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To add a source to a search",
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "icon (",
+                                                "#text": "Add to Search"
+                                            },
+                                            {
+                                                "#tail": "button.)",
+                                                "#text": "Search"
+                                            }
+                                        ],
+                                        "image": {
+                                            "@alt": "Add Source to Search",
+                                            "@href": "addtosearch.png",
+                                            "#tail": "). The source is added as a filter to the search box. (Complete your search by typing your search terms in the box and clicking the"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To view all documents associated with a source",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "from the list of options. The list of documents appears for you to review.",
+                                            "#text": "Get all source documents"
+                                        },
+                                        "#text": "Click the drop-down arrow next to the source name and choose"
+                                    }
+                                },
+                                {
+                                    "choption": "To save a source as a favorite so you can quickly access it at a later time",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "(",
+                                            "#text": "Save this source as a favorite"
+                                        },
+                                        "image": {
+                                            "@alt": "Save as Favorite",
+                                            "@href": "FavoriteEmpty.png",
+                                            "#tail": ") from the list of options. See"
+                                        },
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "taxsavefavorites_hdi.xml",
+                                            "#tail": "for details."
+                                        },
+                                        "#text": "Click the drop-down arrow next to the source name and choose"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

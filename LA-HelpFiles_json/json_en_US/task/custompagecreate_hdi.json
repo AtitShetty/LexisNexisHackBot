@@ -1,0 +1,267 @@
+{
+    "task": {
+        "@otherprops": "res;custompage",
+        "@audience": "res",
+        "@id": "custompagecreate_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "custom page?"
+            },
+            "#text": "How do I create a"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "pod on the",
+                            "#text": "Custom Pages"
+                        },
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "landing page.  You can also set one to be the first page you see when you sign in"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "custompagesetstart_hdi.xml",
+                            "#tail": "."
+                        },
+                        "#text": "You can create a custom page with the sources and tools you use most often. You can create as many custom pages as you wish - one for each focus of your practice. Once you create them, your custom pages will be available from the"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "custompagepods_ref.xml"
+                        },
+                        "#text": "A custom page is created one pod at a time.  Each pod can contain sources, tools, favorite links, or other items. For a list of pods you can include on your custom page, see"
+                    }
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "Home page, select the"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Create a custom page"
+                                },
+                                {
+                                    "#tail": "pod.",
+                                    "#text": "Custom Pages"
+                                }
+                            ],
+                            "#text": "On the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "pop-up, enter a name for the page (for example, \"Family Law\") and select",
+                                    "#text": "Create Custom Page"
+                                },
+                                {
+                                    "#tail": ". A new (blank) custom page opens.",
+                                    "#text": "Create Page"
+                                }
+                            ],
+                            "#text": "On the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "image": {
+                                    "@alt": "Edit",
+                                    "@href": "iconpencil.png",
+                                    "@placement": "inline",
+                                    "#tail": "."
+                                },
+                                "#text": "To edit the name, place your cursor over the title and select the edit icon"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". You will be selecting the content you want in the first pod on the page.",
+                                "#text": "Add Content"
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "Home page."
+                            },
+                            "#text": "A page opens displaying the same tabs you see on the"
+                        }
+                    },
+                    {
+                        "cmd": "Using the tabs, select the content type, or the Federal, state, practice or industry, or international sources you want in this pod. You can select sources that are within your subscription plan or outside of it.",
+                        "stepresult": "Your selections are displayed on the right side of the page as you make them."
+                    },
+                    {
+                        "cmd": "If you wish, change the order of your selections by dragging and dropping them (click on a source name and drag it to the position in the list where you want it, then release the mouse button)."
+                    },
+                    {
+                        "cmd": "When you are finished adding and re-ordering the sources, enter a name for the pod.",
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "image": {
+                                    "@alt": "Tools",
+                                    "@href": "Icontools.png",
+                                    "@placement": "inline",
+                                    "#tail": "and select"
+                                },
+                                "uicontrol": {
+                                    "#tail": ".",
+                                    "#text": "Edit"
+                                },
+                                "#text": "To edit the pod name, select the tools icon"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Save"
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": "Your custom page is displayed with the pod you created containing the sources you selected."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Add Tools"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": "Select the tools you want."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to see the custom page.",
+                                "#text": "Save"
+                            },
+                            "#text": "Select"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "#text": "You may want to create several pods for the page, each with specific content or tools.  For example, you might create one pod for sources, one for related news sources, and so on, as well as pods for several tools."
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": ", \nselect"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Make this my research start page"
+                                },
+                                {
+                                    "#tail": "drop-down menu at the top left of the page.",
+                                    "#text": "Actions"
+                                }
+                            ],
+                            "#text": "If you wish to make this custom page the first page you see when you open"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": [
+                                    {
+                                        "#tail": "and select",
+                                        "#text": "Settings"
+                                    },
+                                    {
+                                        "#tail": ", then select the page you want to be your start page.",
+                                        "#text": "General"
+                                    }
+                                ],
+                                "br": null,
+                                "image": {
+                                    "@alt": "Set start page",
+                                    "@href": "startpage.png",
+                                    "@placement": "inline",
+                                    "#tail": "."
+                                },
+                                "#text": "To change your start page again, go to"
+                            }
+                        }
+                    }
+                ]
+            },
+            "info": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "pod on the",
+                            "#text": "Custom Pages"
+                        },
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "landing page. When the page opens, select"
+                        },
+                        "image": {
+                            "@alt": "Add",
+                            "@href": "addropdown.png",
+                            "@placement": "inline",
+                            "#tail": "at the top of the page and add content or tools."
+                        },
+                        "#text": "You can add new pods to a custom page at any time (not just while you're creating the page).  Just select the page you want to add to from the"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "custompagedit_hdi.xml",
+                            "#tail": "."
+                        },
+                        "#text": "For more information about editing a custom page, see"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "concept": {
+        "@otherprops": "aboutLA",
+        "@audience": "res",
+        "@id": "whatisla_cpt",
+        "title": "What is Lexis Advance\u00ae?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-12-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "is a legal research tool that is efficient and easy to use, and includes the following product features."
+                    }
+                },
+                {
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": ", review these articles:"
+                    },
+                    "#text": "For more information about"
+                }
+            ],
+            "ul": [
+                {
+                    "li": [
+                        "Simplified search box",
+                        "No source selection needed, but if you choose, you can limit your search by source, topic, category, jurisdiction, or practice area.",
+                        "Shepard's\u00ae Citations Service",
+                        "Folders for organizing your research",
+                        {
+                            "ph": {
+                                "@keyref": "litnamefirst"
+                            }
+                        },
+                        {
+                            "ph": {
+                                "@keyref": "companyfirst",
+                                "#tail": "and Web content searching"
+                            }
+                        },
+                        {
+                            "ph": [
+                                {
+                                    "@keyref": "mednamefirst",
+                                    "#tail": ","
+                                },
+                                {
+                                    "@keyref": "lpsnamefirst",
+                                    "#tail": ","
+                                },
+                                {
+                                    "@keyref": "vsanamefirst",
+                                    "#tail": ", and"
+                                },
+                                {
+                                    "@keyref": "lpanamefirst"
+                                }
+                            ],
+                            "#text": "Additional features, such as"
+                        }
+                    ]
+                },
+                {
+                    "li": [
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "sourceselect_cpt.xml"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "search_cpt.xml"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "resultsnarrowby_cpt.xml"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

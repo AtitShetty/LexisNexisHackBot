@@ -1,0 +1,291 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "lpa",
+        "@id": "lpacreatealert_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I create an alert in"
+        },
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-07"
+                },
+                "revised": {
+                    "@modified": "2014-07-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "will monitor the selected content and notify you when new material is available.  Follow the steps below to create your own custom alert."
+                    },
+                    "#text": "Alerts are notifications you can choose to receive automatically whenever selected content changes.  When you create an alert,"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "What kind of alert do you want to create?",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To create a...",
+                                "chdeschd": "Do this..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Topic alert",
+                                    "chdesc": "Browse to the practice area and topic you want to monitor."
+                                },
+                                {
+                                    "choption": "Pending Legislative alert",
+                                    "chdesc": {
+                                        "ph": {
+                                            "@keyref": "lpaname",
+                                            "#tail": "to monitor."
+                                        },
+                                        "#text": "By either browsing or searching, navigate to the statute or legislation you want"
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "ph": {
+                                            "@keyref": "shepardsfirst",
+                                            "#tail": "alert"
+                                        }
+                                    },
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "ph": [
+                                                        {
+                                                            "@keyref": "shepards",
+                                                            "#tail": "status you want"
+                                                        },
+                                                        {
+                                                            "@keyref": "lpaname",
+                                                            "#tail": "to monitor."
+                                                        }
+                                                    ],
+                                                    "#text": "Navigate to the case, statute/legislation, or administrative code/regulation whose"
+                                                },
+                                                {
+                                                    "i": {
+                                                        "#tail": "the item.",
+                                                        "#text": "Shepardize"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Search alert",
+                                    "chdesc": {
+                                        "ph": {
+                                            "@keyref": "lpaname",
+                                            "#tail": "to run at scheduled intervals."
+                                        },
+                                        "#text": "Run the search you want"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Alert",
+                                "@href": "Alerts.png",
+                                "@placement": "inline",
+                                "#tail": ". The"
+                            },
+                            "b": {
+                                "i": {
+                                    "#tail": "Alert",
+                                    "#text": "search type"
+                                },
+                                "#tail": "dialog box appears."
+                            },
+                            "#text": "At the top of the page (any page of results if you're creating a Search alert), select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab, select the kinds of items for which you want to receive notices of updated content.",
+                                "#text": "Monitor"
+                            },
+                            "#text": "In the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab, select the beginning and end dates for your alert.",
+                                "#text": "Deliver"
+                            },
+                            "#text": "In the"
+                        }
+                    },
+                    {
+                        "cmd": "How do you want to receive alert results?",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "If you want to...",
+                                "chdeschd": "Then..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Always view alert results online",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "radio button.",
+                                            "#text": "Online only"
+                                        },
+                                        "#text": "Select the"
+                                    }
+                                },
+                                {
+                                    "choption": "View alert results online AND receive an email whenever the alert runs",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "radio button. Additional options appear.",
+                                                        "#text": "Email + Online"
+                                                    },
+                                                    "#text": "Select the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "field, type the address at which you want to receive alert notices.",
+                                                        "#text": "Email address"
+                                                    },
+                                                    "#text": "In the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "radio buttons, select whether you want the emails to be formatted as HTML or plain text.",
+                                                        "#text": "Delivery format"
+                                                    },
+                                                    "#text": "From the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "radio buttons, select how often you want to receive alert emails.",
+                                                        "#text": "Frequency"
+                                                    },
+                                                    "#text": "From the"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab, identify any other users you want",
+                                "#text": "Share"
+                            },
+                            "ph": {
+                                "@keyref": "lpaname",
+                                "#tail": "to notify when the selected content changes:"
+                            },
+                            "#text": "In the"
+                        },
+                        "info": {
+                            "ol": {
+                                "li": [
+                                    {
+                                        "uicontrol": {
+                                            "#tail": "field, type the name or email address of the first user you want to notify.",
+                                            "#text": "Enter a user's name..."
+                                        },
+                                        "note": {
+                                            "@type": "tip",
+                                            "ph": {
+                                                "@keyref": "lpaname",
+                                                "#tail": "displays a list of users matching what you type. You can select a name from the list."
+                                            },
+                                            "#text": "As you start typing,"
+                                        },
+                                        "#text": "In the"
+                                    },
+                                    {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "button.",
+                                                "#text": "Add to share"
+                                            },
+                                            {
+                                                "#tail": "list.",
+                                                "#text": "Added Contacts"
+                                            }
+                                        ],
+                                        "ph": {
+                                            "@keyref": "lpaname",
+                                            "#tail": "adds the name to the"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "Repeat the above step for each user you want to include."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button.",
+                                "#text": "Create Alert"
+                            },
+                            "#text": "Select the"
+                        },
+                        "stepresult": {
+                            "b": {
+                                "i": {
+                                    "#tail": "Alert",
+                                    "#text": "search type"
+                                },
+                                "#tail": "dialog box.  Your defined alert will run until the end date you selected."
+                            },
+                            "#text": "The system saves your selections, then closes the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,567 @@
+{
+    "reference": {
+        "@otherprops": "maptips",
+        "@audience": "res;lps;vsa;med",
+        "@id": "maptips",
+        "title": "Research History Map Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "automatically saves to History your activities, such as:"
+                        }
+                    },
+                    "These items are saved to your history for 90 days.",
+                    "You can display your research history in a graphic view, or \"map\", so you can see these items at a glance and select them for detailed information.",
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "at the top of any page, then",
+                                "#text": "History"
+                            },
+                            {
+                                "#tail": ". Or, on the",
+                                "#text": "Research Map"
+                            },
+                            {
+                                "#tail": "from the bottom of the History pod. See the descriptions below for more information about using the map feature of your research history.",
+                                "#text": "Research Map"
+                            }
+                        ],
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "home page, select"
+                        },
+                        "#text": "To display your history in a graphic view, select"
+                    }
+                ],
+                "ul": {
+                    "li": [
+                        "Searches",
+                        "Search terms",
+                        "Results",
+                        "Filters you applied or removed",
+                        "Deliveries"
+                    ]
+                },
+                "note": {
+                    "@type": "note",
+                    "uicontrol": [
+                        {
+                            "#tail": "from the bottom of the History pod, or choose",
+                            "#text": "View all history"
+                        },
+                        {
+                            "#tail": ". See",
+                            "#text": "History > View all history"
+                        }
+                    ],
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "historytips.xml",
+                        "#tail": "for details."
+                    },
+                    "#text": "To view your history in List view, either select"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Item",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "List / Research Map",
+                        "propdesc": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "to view your search history in a results list view. Click",
+                                    "#text": "List"
+                                },
+                                {
+                                    "#tail": "to view it in the map (graphical) view.",
+                                    "#text": "Research Map"
+                                }
+                            ],
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "propvalue": "Search Within History",
+                        "propdesc": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "Search.png",
+                                "@placement": "inline",
+                                "#tail": ").  (To clear your search and view the full history map again, select"
+                            },
+                            "uicontrol": {
+                                "#tail": "link under the search box.)",
+                                "#text": "Reset map to default state"
+                            },
+                            "#text": "To search your history for specific items, enter words (such as a search term or part of a document title) and select the search icon ("
+                        }
+                    },
+                    {
+                        "propvalue": "Reset map to default state",
+                        "propdesc": "Select this to restore the map to what it was before you made any selections."
+                    },
+                    {
+                        "propvalue": "View by",
+                        "propdesc": {
+                            "i": {
+                                "#tail": "\u0099 a case from the results).",
+                                "#text": "Shepardizing"
+                            },
+                            "#text": "Choose whether to display the list of searches by the date you originally conducted the search, or by the last time you modified the search (for example, by"
+                        }
+                    },
+                    {
+                        "propvalue": "Client",
+                        "propdesc": "Select this to display searches you assigned to a specific client or clients."
+                    },
+                    {
+                        "propvalue": "Date",
+                        "propdesc": "Select this to display searches for a specific date or date range."
+                    },
+                    {
+                        "propvalue": "Show Trails",
+                        "propdesc": {
+                            "image": {
+                                "@alt": "Jump to trail",
+                                "@href": "JumpDown.png",
+                                "#tail": "icon. (The list will be scrolled to that specific trail and it will be highlighted briefly.) To view everything in your history, select"
+                            },
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "All Trails"
+                            },
+                            "#text": "This list, located in the left pane, shows all the different items in your search history. To hide certain research trails from the map, clear the associated checkbox. To view where a specific research trail appears on the map, select the"
+                        }
+                    },
+                    {
+                        "propvalue": "View Tutorial",
+                        "propdesc": "Select this to view a short interactive tutorial introducing key features of the Research Map."
+                    },
+                    {
+                        "propvalue": "Tips",
+                        "propdesc": "Select this to view tips for using the research map."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add to folder",
+                                "@href": "addtofolder.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon at the top of the map.",
+                                "#text": "Add to folder"
+                            },
+                            "#text": "To save a copy of the history map in its current form to a folder, select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Print to attached printer",
+                                "@href": "print.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon from the delivery menu. (To specify your delivery settings before completing the delivery, click the",
+                                "#text": "Printer"
+                            },
+                            "image": {
+                                "@alt": "Delivery Settings",
+                                "@href": "deliverysettings.png",
+                                "#tail": "icon.)"
+                            },
+                            "#text": "To select one or more documents to print to an attached printer, select the checkboxes next to the documents in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Save",
+                                "@href": "download.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon from the delivery menu. (To specify your delivery settings before completing the delivery, click the",
+                                "#text": "Save"
+                            },
+                            "image": {
+                                "@alt": "Delivery Settings",
+                                "@href": "deliverysettings.png",
+                                "#tail": "icon.)"
+                            },
+                            "#text": "To select one or more documents to save to your computer, select the checkboxes next to the documents in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Email",
+                                "@href": "email.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon from the delivery toolbar.",
+                                "#text": "Email"
+                            },
+                            "#text": "To select one or more documents to email, select the checkboxes next to the documents in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Send to Dropbox",
+                                "@href": "dropbox.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon from the delivery menu. (To specify your delivery settings before completing the delivery, click the",
+                                "#text": "Send to Dropbox"
+                            },
+                            "image": {
+                                "@alt": "Delivery Settings",
+                                "@href": "deliverysettings.png",
+                                "#tail": "icon.)"
+                            },
+                            "#text": "To select one or more documents to send to Dropbox, select the checkboxes next to the documents in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Printable Page",
+                                "@href": "printablepage.png",
+                                "@placement": "inline",
+                                "#tail": "Printable page"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "from the delivery toolbar.",
+                                "#text": "Printer-Friendly View"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "propvalue": "Compare Search Results",
+                        "propdesc": "Compares the results sets of up to 3 searches to find all the documents of the same content type that are common to the results sets."
+                    },
+                    {
+                        "propvalue": "Find Similar Documents",
+                        "propdesc": "Finds documents that are similar to up to 3 documents you select from a results set."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "SearchRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about the search.",
+                                "#text": "Search"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Content type",
+                                "@href": "ContentTypeRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about the results documents in this content type.",
+                                "#text": "Content Type"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Filter added",
+                                "@href": "FilterAddedRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about the filters you applied to your results.",
+                                "#text": "Filter (Apply)"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Filter removed",
+                                "@href": "FilterRemovedRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about filters you removed from your results.",
+                                "#text": "Filter (Remove)"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Download",
+                                "@href": "DownloadRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about items that were saved to your computer.",
+                                "#text": "Download"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Email",
+                                "@href": "EmailRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about items that were sent as emails.",
+                                "#text": "Email"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Print",
+                                "@href": "PrintRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about items that were printed.",
+                                "#text": "Print"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Saved to folder",
+                                "@href": "SavedtoFolderRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details on items that were saved in a folder.",
+                                "#text": "Folder"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Compare search results",
+                                "@href": "FindCommonRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about a comparison that was done for a specific set of search results.",
+                                "#text": "Compare Search Results"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Send to Dropbox",
+                                "@href": "dropbox-rm.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details about items that were sent to Dropbox.",
+                                "#text": "Send to Dropbox"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Purchased item",
+                                "@href": "PurchasedItemRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details on items you chose to get.",
+                                "#text": "Get It Now"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Alert",
+                                "@href": "AlertsRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details on items that were accessed from a search alert and printed,",
+                                "#text": "Accessed from a search alert"
+                            },
+                            "i": {
+                                "#tail": "\u00ae, or had another action performed on it.",
+                                "#text": "Shepardized"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "History",
+                                "@href": "HistoryRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details on items that were accessed from your search history.",
+                                "#text": "Accessed from history"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Shepard's",
+                                "@href": "ShepardsSearchRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "b": {
+                                "ph": {
+                                    "@keyref": "shepardsfirst",
+                                    "#tail": "search item"
+                                },
+                                "#tail": "icon to view details on a"
+                            },
+                            "i": {
+                                "#tail": "\u00ae search.",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "VSA search",
+                                "@href": "VSASearchRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to view details on this type of search.",
+                                "#text": "Verdict & Settlement Analyzer search"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Open/Close list",
+                                "@href": "ListToggleRM.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon to open a list of additional items available to be viewed, or to close the list.",
+                                "#text": "Open"
+                            },
+                            "#text": "Click the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

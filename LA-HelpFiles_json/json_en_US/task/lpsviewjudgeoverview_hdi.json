@@ -1,0 +1,155 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewjudgeoverview_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I view a snapshot of the judge's profile using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", the"
+                        },
+                        "uicontrol": {
+                            "#tail": "page of a judge's profile shows a summary of how the judge has ruled, the types of cases he or she has presided over, case opinions, publications, and news articles in which the judge has been involved or has been mentioned. Using the Snapshot report, you can quickly review the content available for the judge, and then use the links on the page to focus on the particular details. In short, the Snapshot page provides a quick glance at what's available, but provides options for examining the full set of results.",
+                            "#text": "Snapshot"
+                        },
+                        "#text": "In"
+                    },
+                    "To view a summary of the judge's profile:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudge_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "judge name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudgejurisdiction_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "jurisdiction"
+                                }
+                            ],
+                            "#text": "Complete your search for a judge. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results list, select the judge's name. That judge's report is opened."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the left pane. A summary of the judge's profile appears:",
+                                "#text": "Snapshot"
+                            },
+                            "#text": "Click the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "page, you can select any of the links provided to view that specific type of information.",
+                                    "#text": "Snapshot"
+                                },
+                                "#text": "While viewing the"
+                            }
+                        },
+                        "choices": {
+                            "choice": [
+                                "Biographical information (such as jurisdictions and education) for the judge appears in the top section of the page.",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsworkwithgraphs_hdi.xml",
+                                        "#tail": "showing a visual representation of how a judge has been involved in the courts appear in the",
+                                        "#text": "Graphs"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": "boxes.",
+                                        "#text": "Ruling History"
+                                    }
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewpublications_hdi.xml",
+                                        "#tail": "boxes.",
+                                        "#text": "Publications"
+                                    },
+                                    "#text": "Different publications attributed to the judge or in which the judge has been listed appear in the different"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewnews_hdi.xml",
+                                        "#tail": "boxes.",
+                                        "#text": "In the News"
+                                    },
+                                    "#text": "New articles (including regular, legal, and Mealey's\u0099) in which the judge has been named appear in the different"
+                                },
+                                {
+                                    "i": {
+                                        "#tail": "and Lexis\u00ae Web appear in the",
+                                        "#text": "lexis.com\u00ae"
+                                    },
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpssearchlexisweb_hdi.xml",
+                                        "#tail": "box.",
+                                        "#text": "Web"
+                                    },
+                                    "#text": "Additional search results from both"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "#text": "If you are a judge reviewing your own profile and the biographical information about you is out of date or incorrect, please call Customer Support at 1-800-543-6862."
+                }
+            }
+        }
+    }
+}

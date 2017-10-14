@@ -1,0 +1,143 @@
+{
+    "task": {
+        "@otherprops": "lsa",
+        "@id": "lsaviewdocsinlsa_hdi",
+        "title": "How do I view my documents using Lexis\u00ae Search Advantage?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "lsanamefirst",
+                        "#tail": "is available by subscription. Please contact your sales representative if you'd like more information."
+                    }
+                },
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "lsanamefirst",
+                                "#tail": ". This allows you to view the document text while still having access to"
+                            },
+                            {
+                                "@keyref": "lsaname",
+                                "#tail": "features, such as About This Document and delivery options. (See"
+                            }
+                        ],
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "lsaviewdocsinnativeformat_hdi.xml",
+                            "#tail": "for instructions on directly opening the document in its native program, such as Adobe or Microsoft Word.)"
+                        },
+                        "#text": "Once you have searched for and found a document from your organization's repository, you can view the document in"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "gh_search.xml",
+                                "#tail": ".",
+                                "#text": "Complete your Lexis Advance search"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lsalimitresultstomyfirm_hdi.xml",
+                                "#tail": ".",
+                                "#text": "View just those documents from your organization"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": ", below the document title. The document is opened in a new",
+                                    "#text": "View in Lexis Search Advantage"
+                                },
+                                {
+                                    "#tail": "tab in your browser. You are no longer working directly in",
+                                    "#text": "Lexis Search Advantage"
+                                }
+                            ],
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "."
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lsauseaboutthisdoc_hdi.xml",
+                                "#tail": "to work with the document.",
+                                "#text": "Use the different features available in Lexis Search Advantage"
+                            }
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "ul": {
+                        "li": [
+                            "To return to Lexis Advance, select its tab in the browser window.",
+                            {
+                                "xref": [
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "printresults_hdi.xml",
+                                        "#tail": "or",
+                                        "#text": "printing them"
+                                    },
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "emailresults_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "emailing them"
+                                    }
+                                ],
+                                "#text": "You can deliver your results either by"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

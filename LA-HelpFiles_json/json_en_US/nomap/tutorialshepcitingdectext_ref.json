@@ -1,0 +1,144 @@
+{
+    "reference": {
+        "@audience": "res",
+        "@id": "tutorialshepcitingdectext_ref",
+        "title": {
+            "i": {
+                "#tail": "\u00ae Citing Decisions",
+                "#text": "Shepard's"
+            },
+            "#text": "Lexis Advance\u00ae Text-only Tutorial:"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Introduction",
+                    "p": [
+                        {
+                            "i": [
+                                {
+                                    "#tail": "\u00ae a citation, the results are presented in a",
+                                    "#text": "Shepardize"
+                                },
+                                {
+                                    "#tail": "\u00ae report.",
+                                    "#text": "Shepard's"
+                                }
+                            ],
+                            "#text": "When you"
+                        },
+                        "The report has four categories, each appearing as a subtab in the report.",
+                        "This tutorial describes the Citing Decisions portion of the report, which contains citing primary authority, including agency and case law decisions.",
+                        "You can view citing decisions as a List or a Grid. The Grid view depicts the complete set of citing decisions based on both court and date."
+                    ]
+                },
+                {
+                    "title": "Citing Decisions List",
+                    "p": [
+                        "The Citing Decisions list displays decisions sorted by:",
+                        "Use the column headings or the \"Sort by\" menu to change the order in which they appear.",
+                        "Color-coded icons indicate the signal-generating value of the editorial phrase next to each icon. Hover on an icon to display its meaning. You also can select the Legend button to display descriptions of all symbols used in the report.",
+                        {
+                            "i": {
+                                "#tail": "d\u00ae is first cited.",
+                                "#text": "Shepardize"
+                            },
+                            "#text": "Use the List and Detail links to choose how much information to display about each case. Detail view displays a portion of the document where the case you"
+                        },
+                        "Click a document's text link to open the document at the point where that text appears. The document is opened in a new tab",
+                        {
+                            "i": {
+                                "#tail": "d\u00ae case are discussed in each citing decision. Click the link to open the document at that point.",
+                                "#text": "Shepardize"
+                            },
+                            "#text": "Headnotes links show which headnotes from your"
+                        },
+                        "Use options in the left column to filter your report based on:",
+                        "The Headnotes category has a feature that lets you preview the headnote before applying it as a filter. Just place your cursor over a headnote to display its text.",
+                        "Narrowing search results is covered in other Help topics."
+                    ],
+                    "ul": [
+                        {
+                            "li": [
+                                "Court",
+                                "Analysis",
+                                "Discussion",
+                                "Date"
+                            ]
+                        },
+                        {
+                            "li": [
+                                "Analysis",
+                                "Court",
+                                "Discussion",
+                                "Headnotes",
+                                "Searching within the results",
+                                "Date range"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Citing Decisions Grid",
+                    "p": [
+                        "Citing decisions are represented graphically by 2 grids. One grid shows analysis by court, the other shows analysis over time.",
+                        {
+                            "i": {
+                                "#tail": "\u00ae report. You can select a:",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "These grids also let you filter your"
+                        },
+                        "When you select filters from the grid, you return to the list with the new filters applied. Any filters you previously set will be cleared.",
+                        {
+                            "i": {
+                                "#tail": "\u00ae Citations Service in other Help topics.",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "You can find more information about the"
+                        },
+                        "This concludes the tutorial."
+                    ],
+                    "ul": {
+                        "li": [
+                            "Row to view decisions with only that type of analysis",
+                            "Column to view decisions from only that court or year",
+                            "Cell to view only decisions with that analysis and court or year"
+                        ]
+                    }
+                }
+            ]
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialshepcitingdec_cpt.xml"
+                }
+            }
+        }
+    }
+}

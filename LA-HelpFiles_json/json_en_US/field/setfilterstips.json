@@ -1,0 +1,132 @@
+{
+    "reference": {
+        "@otherprops": "setfilterstips",
+        "@audience": "res;urlapi",
+        "@id": "setfilterstips",
+        "title": "Using Pre-filters",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u2122 URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                },
+                "p": [
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "content type), you'll receive a",
+                                "#text": "cases"
+                            },
+                            {
+                                "#tail": "error.",
+                                "#text": "No results found"
+                            }
+                        ],
+                        "#text": "Use this URL to specify a pre-filter for your search to narrow your search results. The filters won't be validated, so if you enter a filter that doesn't work for a particular collection (for example, if you request a statute source but use the collection parameter to indicate the"
+                    },
+                    "Only one of the pre-filter types (source, jurisdiction, or ssa/topics) can be used at one time.",
+                    {
+                        "b": "URL Template"
+                    },
+                    {
+                        "b": "{source|jurisdiction|ssa}",
+                        "#text": "http://advance.lexis.com/api/search?{collection}&"
+                    }
+                ],
+                "example": {
+                    "b": "jurisdiction=dXJuOmpwZjoxMDk5",
+                    "#text": "http://advance.lexis.com/api/search?collection=analytical-materials&"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Value",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "search",
+                        "propdesc": "Indicates the user wants to run a search and view the results."
+                    },
+                    {
+                        "propvalue": "{collection}",
+                        "propdesc": {
+                            "p": [
+                                "Query parameter that specifies the content type (Optional).",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "collectiontips.xml",
+                                        "#tail": "."
+                                    },
+                                    "#text": "For a list of values that can be used with the collection parameter, see"
+                                }
+                            ],
+                            "example": {
+                                "b": {
+                                    "#tail": "=analytical-materials",
+                                    "#text": "collection"
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "{source|jurisdiction|ssa}",
+                        "propdesc": {
+                            "p": [
+                                "Query parameter that specifies the pre-filter (Optional).",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "jurisdictionvalues_ref.xml",
+                                        "#tail": ".",
+                                        "#text": "Values for the Jurisdiction Parameter"
+                                    },
+                                    "#text": "For a list of jurisdictions and the values to use for the parameter, see"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "practicevalues_ref.xml",
+                                        "#tail": ".",
+                                        "#text": "Values for the Practice Area Parameter"
+                                    },
+                                    "#text": "For a list of practice areas (ssa) and the values to use for the parameter, see"
+                                }
+                            ],
+                            "example": {
+                                "b": {
+                                    "#tail": "=dXJuOmpwZjoxMDk5",
+                                    "#text": "jurisdiction"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

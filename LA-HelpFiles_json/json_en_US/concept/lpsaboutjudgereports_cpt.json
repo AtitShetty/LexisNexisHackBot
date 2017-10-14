@@ -1,0 +1,100 @@
+{
+    "concept": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsaboutjudgereports_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Understanding Judge Reports in"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpsnamefirst",
+                        "#tail": "profile you want to view, you can select his or her name to view that report:"
+                    },
+                    "#text": "Once you find a specific judge whose"
+                },
+                "ul": {
+                    "li": [
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewjudgeoverview_hdi.xml",
+                                "#tail": "contains an overall profile of the judge and the ways he or she has been involved in the courts. For example, you can review the judge's contact information, an overview of his or her ruling history, or an abbreviated list of  publications which the judge has written or in which he or she has been mentioned. You might also view a list of the top news articles in which the judge has been mentioned. (Each of these sections of the",
+                                "#text": "Snapshot"
+                            },
+                            "b": {
+                                "#tail": "view can be explored in greater detail by selecting the corresponding links in the other categories listed in the left-side navigation.)",
+                                "#text": "Snapshot"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewjudgerulinghistory_hdi.xml",
+                                "#tail": "lists the dockets, case opinions, verdicts and settlements, agency decisions, and so forth in which a judge may be involved.",
+                                "#text": "Ruling History"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewpublications_hdi.xml",
+                                "#tail": "lists the different publications the judge has published or in which the judge has been mentioned. It also lists the patents the judge has authored and the various professional directories in which the judge is listed.",
+                                "#text": "Publications"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewnews_hdi.xml",
+                                "#tail": "shows different news articles that mention or cite the judge. Types of articles include legal-specific sources as well as Mealey\u2019s\u0099 news articles.",
+                                "#text": "In the News"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchlexisweb_hdi.xml",
+                                "#tail": "includes legal content from both the World Wide Web and",
+                                "#text": "Web"
+                            },
+                            "ph": {
+                                "@keyref": "company",
+                                "#tail": "sources."
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

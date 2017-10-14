@@ -1,0 +1,60 @@
+{
+    "concept": {
+        "@otherprops": "alertserror",
+        "@id": "alertmaxthreshold_cpt",
+        "title": "Why was this alert paused?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "uicontrol": {
+                        "#tail": "notice under an alert in your list of alerts, it means that your alert was temporarily suspended because it retrieved an excessive number of results in the past 24 hours.  This could be because your search is not specific enough, or because it contained only one or two general search terms, such as",
+                        "#text": "Alert paused due to excessive results"
+                    },
+                    "userinput": [
+                        {
+                            "#tail": "or",
+                            "#text": "tax"
+                        },
+                        {
+                            "#tail": ".",
+                            "#text": "international"
+                        }
+                    ],
+                    "#text": "If you see the"
+                },
+                {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "useconnectors_hdi.xml"
+                    },
+                    "#text": "Please delete this alert and create a new one, using search terms that are closely related to your topic of interest, and perhaps making it more restrictive by using connectors.  A more specific search alert will retrieve fewer, more relevant results.  For more information about using connectors in a search, see"
+                }
+            ],
+            "note": "This alert will resume after being paused for 24 hours, but if it continues to retrieve excessive results it may be suspended again."
+        }
+    }
+}

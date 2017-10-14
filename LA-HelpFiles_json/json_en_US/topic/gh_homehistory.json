@@ -1,0 +1,126 @@
+{
+    "topic": {
+        "@otherprops": "homehistory",
+        "@id": "gh_homehistory.",
+        "title": "Viewing Your Research History in List or Map Format",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "history_cpt.xml",
+                "@id": "history_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "map_cpt.xml",
+                "@id": "map_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "mapcompare_cpt.xml",
+                "@id": "mapcompare_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "mapfindsimilar_cpt.xml",
+                "@id": "mapfindsimilar_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "naturalvsterms_cpt.xml",
+                "@id": "naturalvsterms_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialhistorylist_cpt.xml",
+                "@id": "tutorialhistory_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialresrchmap_cpt.xml",
+                "@id": "tutorialresrchmap_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "searchhistory_hdi.xml",
+                "@id": "searchhistory_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "findresearchitem_hdi.xml",
+                "@id": "findresearchitem_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "saveresearch_hdi.xml",
+                "@id": "saveresearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "viewresearchonmap_hdi.xml",
+                "@id": "viewresearchonmap_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "comparesults_hdi.xml",
+                "@id": "comparesults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "findsimilar_hdi.xml",
+                "@id": "findsimilar_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "rerunsearch_hdi.xml",
+                "@id": "rerunsearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "maptips.hdi.xml",
+                "@id": "maptips.hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

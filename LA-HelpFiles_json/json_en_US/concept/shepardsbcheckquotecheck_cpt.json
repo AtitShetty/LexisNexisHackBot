@@ -1,0 +1,45 @@
+{
+    "concept": {
+        "@otherprops": "bcheck",
+        "@audience": "bcheck",
+        "@id": "shepardsbcheckquotecheck_cpt",
+        "title": "What is QuoteCheck\u0099",
+        "prolog": {
+            "author": "Dea Henrich",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-11"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Shepard's\u00ae BriefCheck\u0099",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": "QuoteCheck\u0099 is a service offered through Shepard's\u00ae BriefCheck\u0099 that verifies the quotations in your brief are valid and correctly cited. You can select a report for each quote, and the service will let you know if:",
+            "ul": {
+                "li": [
+                    "Quote Check could not find a match for your quote.",
+                    "Your quote is substantially the same as retrieved quote.",
+                    "Your quote was found on a different page.",
+                    "Your quote is different from the retrieved quote.",
+                    "Your quote is different from the retrieved quote. A better match was found on a different page.",
+                    "The retrieved quote was found on a different page."
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "reference": {
+        "@otherprops": "attachdownloadfullreporttips",
+        "@id": "attachdownloadfullreporttips",
+        "title": "Download a Full Report Page",
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2017"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2017-06-13"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "Use the buttons and boxes on the left side of this page to select the results and result format you want to include in your report. Use the boxes and buttons on the right side of the page to select your report cover sheet and page numbering options.",
+                    {
+                        "uicontrol": {
+                            "#tail": ". You can highlight the default file name and overwrite it with the name you want to use, or you can use your backspace key to delete the default text, so you can enter a new name.",
+                            "#text": "Filename"
+                        },
+                        "#text": "If you want to change the name of your report, click to activate a cursor in the box next to"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "to compile and download your report.",
+                            "#text": "Download"
+                        },
+                        "#text": "When you are done setting your options, click"
+                    }
+                ],
+                "note": "The download process can take a few minutes."
+            }
+        }
+    }
+}

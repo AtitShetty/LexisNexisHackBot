@@ -1,0 +1,43 @@
+{
+    "concept": {
+        "@otherprops": "blink",
+        "@id": "shepardsblink_cpt",
+        "title": "What is Shepard's\u00ae BriefLink?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Dea Henrich"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-11"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": {
+                "uicontrol": {
+                    "#tail": "links to updated Shepard's reports for your citation, \n\t\twhen applicable. The updated brief is emailed to the recipients of your choice.",
+                    "#text": "Shepardize\u00ae"
+                },
+                "#text": "Shepard's\u00ae BriefLink changes citations in your document to live links to Lexis Advance\u00ae materials. \n\t\tSimply upload a document from your desktop or network drive. Next, choose the document type you want emailed, either a Word document \n\t\tor a PDF. Shepard's BriefLink creates a new version of the brief with active links to materials on \n\t\tLexis Advance\u00ae. You also have the option to create"
+            }
+        }
+    }
+}

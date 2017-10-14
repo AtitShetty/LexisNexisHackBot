@@ -1,0 +1,117 @@
+{
+    "reference": {
+        "@otherprops": "foldersharetips",
+        "@id": "foldersharetips",
+        "title": "Share Folder Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use this form to select individuals you want to share a folder with and set their permissions."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Document/Folder",
+                        "propdesc": "The name of the document or the folder you are sharing."
+                    },
+                    {
+                        "propvalue": "Shared by",
+                        "propdesc": "The name of the person who shared the folder."
+                    },
+                    {
+                        "propvalue": "Enter a peer's name and select to share. To share outside group, enter an email address.",
+                        "propdesc": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "or",
+                                    "#text": "Editor"
+                                },
+                                {
+                                    "#tail": "permission for each user in the list:",
+                                    "#text": "Viewer"
+                                }
+                            ],
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Editor",
+                                        "dd": "Indicates the user may view items in the folder, and add or modify notes for the items."
+                                    },
+                                    {
+                                        "dt": "Viewer",
+                                        "dd": "Indicates the user may only view items in the folder."
+                                    }
+                                ]
+                            },
+                            "#text": "Enter a user's first or last name or email address to find it in the list and add it to the list of users you want to share it with. The list of users shows who you are currently sharing the folder with. Select"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "note": "You'll only see this option if you have made annotations in the document and shared them with recipients.",
+                            "#text": "Allow recipients to view all your annotations and highlights?"
+                        },
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Leave permissions as is",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "for an annotation when you made it, the recipients you are sharing with now will be able to see the annotation.",
+                                                            "#text": "Allow recipients to view your annotation"
+                                                        },
+                                                        "#text": "If you selected"
+                                                    },
+                                                    "If you did not select that check box, the recipients will not see the annotation."
+                                                ]
+                                            },
+                                            "#text": "Select this to use the permissions you selected when you saved the annotation in the document."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Allow",
+                                        "dd": "If you select this, all recipients will be able to view all annotations and highlights in the document."
+                                    },
+                                    {
+                                        "dt": "Don't allow",
+                                        "dd": "If you select this, recipients will not be able to view any annotations and highlights in the document."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

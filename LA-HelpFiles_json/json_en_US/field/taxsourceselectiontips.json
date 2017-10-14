@@ -1,0 +1,68 @@
+{
+    "reference": {
+        "@otherprops": "taxsourceselectiontips",
+        "@audience": "tax",
+        "@id": "taxsourceselectiontips",
+        "title": "Tips on Searching Lexis Advance\u00ae Tax Sources",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "pane.",
+                            "#text": "Narrow By"
+                        },
+                        "#text": "This page contains all tax sources, including federal, state & local, and international tax sources. To find a specific source, click the letter that corresponds with its title in the list above the sources. To narrow the list of sources, use options in the"
+                    },
+                    "Please keep the following in mind when viewing this page:"
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "uicontrol": {
+                                "#tail": "tab.",
+                                "#text": "Search"
+                            },
+                            "#text": "If you select a source to add it to your search while viewing this page, this selection will be remembered (and applied) if you change tabs and view the"
+                        },
+                        {
+                            "uicontrol": {
+                                "#tail": "pod on the",
+                                "#text": "Recent & Favorite Sources"
+                            },
+                            "ph": {
+                                "@keyref": "taxnamefirst",
+                                "#tail": "Home page."
+                            },
+                            "#text": "If you mark a source on this page as a favorite, it will appear in the"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "task": {
+        "@otherprops": "fulldocrhp;legalissuetrailtips",
+        "@audience": "res;lps;lpa",
+        "@id": "displaylegalissuetrail_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "litnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I display the"
+        },
+        "prolog": {
+            "author": "Barbara Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "search form, run a search."
+                            },
+                            "#text": "From the"
+                        }
+                    },
+                    {
+                        "cmd": "From the results list view, select a case law document to display it in the full view."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "under",
+                                    "#text": "Activate Passages"
+                                },
+                                {
+                                    "ph": {
+                                        "@keyref": "litname"
+                                    },
+                                    "#tail": "in the right pane. (To remove the passage outlines, select"
+                                },
+                                {
+                                    "#tail": "in the right pane.)",
+                                    "#text": "Deactivate Passages"
+                                }
+                            ],
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "for it."
+                            },
+                            "#text": "Click an outlined passage in the text of the document in the left pane to display the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

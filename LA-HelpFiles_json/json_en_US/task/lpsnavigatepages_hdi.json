@@ -1,0 +1,79 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpsnavigatepages_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "tabs?"
+            },
+            "#text": "How do I navigate between the different"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpsnamefirst",
+                        "#tail": ", you may find you have several tabs open simultaneously:"
+                    },
+                    "#text": "As you work with"
+                },
+                "ul": {
+                    "li": [
+                        {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "List All Tabs"
+                            },
+                            "image": {
+                                "@alt": "List All Tabs",
+                                "@href": "triangledown.png",
+                                "#tail": "), which is located to the far right of the ribbon."
+                            },
+                            "#text": "To move between the search results and any reports you are reviewing, either you can select the appropriate tab, or you can select the"
+                        },
+                        {
+                            "image": [
+                                {
+                                    "@alt": "Scroll Right",
+                                    "@href": "triangleright.png",
+                                    "#tail": "and"
+                                },
+                                {
+                                    "@alt": "Scroll Left",
+                                    "@href": "triangleleft.png",
+                                    "#tail": "), which are located to the far right and far left of the tab bar, respectively."
+                                }
+                            ],
+                            "#text": "To scroll through the different tabs when more tabs are open than can appear on the page, select the right and left arrow icons ("
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

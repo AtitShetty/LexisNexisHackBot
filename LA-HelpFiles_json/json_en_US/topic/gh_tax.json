@@ -1,0 +1,137 @@
+{
+    "topic": {
+        "@otherprops": "tax",
+        "@audience": "tax",
+        "@id": "gh_tax",
+        "title": "Using Lexis Advance\u00ae Tax",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-01-01"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": {
+            "@conref": "taxabout_cpt.xml",
+            "@id": "taxabout_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "taxviewtaxproduct_hdi.xml",
+                "@id": "taxviewtaxproduct_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxchoosepracticearea_hdi.xml",
+                "@id": "taxchoosepracticearea_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxperformsearch_hdi.xml",
+                "@id": "taxperformsearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxfindocument_hdi.xml",
+                "@id": "taxfindocument_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxsearchnews_hdi.xml",
+                "@id": "taxsearchnews_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxviewoverview_hdi.xml",
+                "@id": "taxviewoverview_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxviewoverviewstate_hdi.xml",
+                "@id": "taxviewoverviewstate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxviewoverviewinternational_hdi.xml",
+                "@id": "taxviewoverviewinternational_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxsources_hdi.xml",
+                "@id": "taxsources_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxrestrictsearchtosources_hdi.xml",
+                "@id": "taxrestrictsearchtosources_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxsavefavorites_hdi.xml",
+                "@id": "taxsavefavorites_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxsearchccharchive_hdi.xml",
+                "@id": "taxsearchccharchive_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxviewresults_hdi.xml",
+                "@id": "taxviewresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxnarrowresults_hdi.xml",
+                "@id": "taxnarrowresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "taxviewdoc_hdi.xml",
+                "@id": "taxviewdoc_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "alertcreatetaxnewstips.xml",
+                "@id": "alertcreatetaxnewstips",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

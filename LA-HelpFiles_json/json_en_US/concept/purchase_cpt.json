@@ -1,0 +1,41 @@
+{
+    "concept": {
+        "@otherprops": "results;purchasetips;shepurchasepreviewtips;shepurchasetips;purchasepreviewtips",
+        "@audience": "res",
+        "@id": "purchase_cpt",
+        "title": "Why should I get items?",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-02-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": {
+                "ph": {
+                    "@keyref": "shepardsfirst",
+                    "#tail": "reports for a fee. Documents available are not included in your subscription, so will be marked \"out of plan\"."
+                },
+                "#text": "If you choose to, you can select \"Get It Now!\" to retrieve documents or"
+            }
+        }
+    }
+}

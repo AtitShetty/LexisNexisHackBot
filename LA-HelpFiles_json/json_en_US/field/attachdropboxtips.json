@@ -1,0 +1,551 @@
+{
+    "reference": {
+        "@otherprops": "attachdropboxtips",
+        "@id": "attachdropboxtips",
+        "title": "Send to Dropbox Page",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-09-09"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "note": {
+                        "@type": "note",
+                        "xref": [
+                            {
+                                "@scope": "external",
+                                "@href": "http://www.dropbox.com",
+                                "#tail": "to create a free account, or",
+                                "#text": "www.dropbox.com"
+                            },
+                            {
+                                "@scope": "external",
+                                "@href": "https://www.dropbox.com/tour",
+                                "#tail": ".",
+                                "#text": "take a Dropbox tour"
+                            }
+                        ],
+                        "#text": "To send documents to Dropbox, you must first set up a Dropbox account (if you have not done so already). Visit"
+                    }
+                },
+                {
+                    "p": {
+                        "uicontrol": {
+                            "#tail": "dialog box. Details about each item on the dialog box are provided below.",
+                            "#text": "Send to Dropbox"
+                        },
+                        "#text": "You can send either your results list or an individual document to Dropbox. To do this, provide the information for each tab of the"
+                    },
+                    "note": {
+                        "@type": "note",
+                        "#text": "Different options may be available depending on what type of document you are sending to Dropbox."
+                    }
+                }
+            ],
+            "properties": {
+                "property": [
+                    {
+                        "@id": "title",
+                        "propvalue": {
+                            "i": {
+                                "#tail": ") tab",
+                                "#text": "n"
+                            },
+                            "#text": "Selected Documents ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Select: None"
+                            },
+                            "#text": "The document titles of the documents you selected to send to Dropbox. If you want to remove any documents before sending them, you can either clear individual documents, or click"
+                        }
+                    },
+                    {
+                        "propvalue": "Basic Options tab",
+                        "propdesc": {
+                            "dl": [
+                                {
+                                    "dlentry": {
+                                        "dt": "What do you want to send to Dropbox?",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to send all the documents you selected to Dropbox.",
+                                                            "#text": "Full documents results (n)"
+                                                        },
+                                                        "note": {
+                                                            "@type": "note",
+                                                            "uicontrol": {
+                                                                "#tail": "to also include any attached documents associated with the items you are sending. See",
+                                                                "#text": "Include document attachments, where available"
+                                                            },
+                                                            "xref": {
+                                                                "@scope": "peer",
+                                                                "@href": "deliverattachments_hdi.xml",
+                                                                "#tail": "for details."
+                                                            },
+                                                            "#text": "Select"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- If any documents you want to send contain attachments, you can choose to send only those attachments (and not the related documents).",
+                                                            "#text": "Attachments only for selected results, where available"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to save the results list (not the documents themselves), and then enter the specific results you want saved to Dropbox. You can save up to 250 of the first 1,000 results.",
+                                                            "#text": "Results list for <Content Type>"
+                                                        },
+                                                        "note": [
+                                                            {
+                                                                "@type": "note",
+                                                                "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                                                            },
+                                                            {
+                                                                "@type": "note",
+                                                                "uicontrol": {
+                                                                    "#tail": "to include a graph that shows the location and distribution of each of your search terms in each of your results.",
+                                                                    "#text": "Include the graphical view of search terms (PDF only)"
+                                                                },
+                                                                "#text": "Select"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select this, followed by either",
+                                                                "#text": "Litigation Profile Suite report for < Name>"
+                                                            },
+                                                            {
+                                                                "#tail": "to send both the items from the results list you specify as well as the charts and graphs associated with the profile to Dropbox, or",
+                                                                "#text": "All charts and graphs with results list"
+                                                            },
+                                                            {
+                                                                "#tail": "to send just the charts and graphs. If you choose to deliver the results list, you can select any number or combination of results up to 250 total. (",
+                                                                "#text": "Charts and graphs only"
+                                                            }
+                                                        ],
+                                                        "ph": {
+                                                            "@keyref": "lpsname",
+                                                            "#tail": "users only.)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select this, followed by either",
+                                                                "#text": "Verdict & Settlement Analyzer report for < search term>"
+                                                            },
+                                                            {
+                                                                "#tail": "to send both the items from the results list you specify as well as the charts and graphs associated with the search to Dropbox, or",
+                                                                "#text": "All charts and graphs with results list"
+                                                            },
+                                                            {
+                                                                "#tail": "to send just the charts and graphs. If you choose to deliver the results list, you can select any number or combination of results up to 250 total. (",
+                                                                "#text": "Charts and graphs only"
+                                                            }
+                                                        ],
+                                                        "ph": {
+                                                            "@keyref": "vsaname",
+                                                            "#tail": "users only.)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select one of the following options:"
+                                        }
+                                    }
+                                },
+                                {
+                                    "dlentry": {
+                                        "dt": "Document type",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Sends the documents in .pdf document. Files sent in .pdf format can be opened and viewed using a PDF viewer, such as Adobe\u00ae Acrobat Reader. (Acrobat Reader is an application that may be downloaded free if you do not already have it.)",
+                                                            "#text": "Portable Document Format (.PDF)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Sends the documents in Microsoft Word 2007 format.",
+                                                            "#text": "Microsoft Word-compatible (.DOCX)"
+                                                        },
+                                                        "fn": "Once the document is saved and you are viewing it in Microsoft\u00ae Word, you can view any of the LexisNexis legal links in the footer by first double-clicking on the footer. Once you do this, the footer (along with the links in it) become active. From here, to open the corresponding web page, press Ctrl as you select the specific link you want to view."
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Sends the document in WordPerfect-compatible format.",
+                                                            "#text": "WordPerfect-compatible (.WPD)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select the format in which you would like the documents to be sent to Dropbox."
+                                        }
+                                    }
+                                },
+                                {
+                                    "dlentry": [
+                                        {
+                                            "dt": "When sending multiple documents to Dropbox",
+                                            "dd": {
+                                                "ul": {
+                                                    "li": [
+                                                        {
+                                                            "uicontrol": {
+                                                                "#tail": "- Select this to format all the documents you selected into a single file.",
+                                                                "#text": "Group and save documents as a single file"
+                                                            }
+                                                        },
+                                                        {
+                                                            "uicontrol": {
+                                                                "#tail": "- Select this to format each document you selected in separate files.",
+                                                                "#text": "Save as individual files"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "#text": "Select one of the following options:"
+                                            }
+                                        },
+                                        {
+                                            "dt": "Compress files in .ZIP format",
+                                            "dd": {
+                                                "note": {
+                                                    "@type": "tip",
+                                                    "#text": "Compressed files take up less space on your computer's local drive. Files saved in ZIP format can be opened and viewed using any file compression application. You can search the Internet for a list of programs (both paid and free) you can use to do this."
+                                                },
+                                                "#text": "Select this checkbox if you want to send the files to Dropbox in a compressed (ZIP) file format."
+                                            }
+                                        },
+                                        {
+                                            "dt": "Filename",
+                                            "dd": {
+                                                "p": "Enter a filename for the saved file."
+                                            }
+                                        },
+                                        {
+                                            "dt": "Dropbox Account",
+                                            "dd": {
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "form you are currently working on and click",
+                                                        "#text": "Send to Dropbox"
+                                                    },
+                                                    {
+                                                        "#tail": "to initiate access. To sign in as a different user, select",
+                                                        "#text": "Send"
+                                                    },
+                                                    {
+                                                        "#tail": "and click",
+                                                        "#text": "Sign in as a different user"
+                                                    },
+                                                    {
+                                                        "#tail": "to initiate access.",
+                                                        "#text": "Send"
+                                                    }
+                                                ],
+                                                "#text": "Shows the sign-in information you've used to link Lexis Advance to your Dropbox account. If you have no yet established this connection, please finish completing the"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "propvalue": "Formatting Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Include the following in the delivered document:",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want an introductory cover page as the first page in your document.",
+                                                            "#text": "Cover page"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want",
+                                                            "#text": "LexisNexis\u00ae logo"
+                                                        },
+                                                        "ph": {
+                                                            "@keyref": "companyfirst",
+                                                            "#tail": "branding in your document attachment."
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include both your first name and last name on the cover page and in the footer of your documents.",
+                                                            "#text": "First and last name on cover page and within footer"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select a position for the page number from the related options.",
+                                                            "#text": "Page numbering in document"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select to embed citations and other references within the document and hyperlink them. (Select",
+                                                                "#text": "Embedded references as links"
+                                                            },
+                                                            {
+                                                                "#tail": "if you want the embedded legal cites to appear in italic type in your documents).",
+                                                                "#text": "Italicize embedded legal citations"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select to include document markup from the user, and then specify what type of markup you want included: edits from all users (including your own) or just edits made by others (and not you).",
+                                                            "#text": "Users' annotations, highlights, and notes"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": "Font type",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "font is best for cases, statutory materials, and any long documents that are typically read in printed form.",
+                                                        "#text": "Times New Roman"
+                                                    },
+                                                    {
+                                                        "#tail": "is best for tables and other types of content that don't display well with varying font widths.",
+                                                        "#text": "Courier"
+                                                    }
+                                                ],
+                                                "#text": "The"
+                                            },
+                                            "#text": "Select the font to use in your documents."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Font size",
+                                        "dd": "Select the desired font size for your documents."
+                                    },
+                                    {
+                                        "dt": "Line spacing",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "ul": {
+                                                    "li": [
+                                                        "Double-spacing is not recommended for documents using dual column format.",
+                                                        "Double-spacing is not applied to tables, case citations, or spreadsheets."
+                                                    ]
+                                                }
+                                            },
+                                            "#text": "Choose either single or double spacing for your documents."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Styling",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want pagination to appear in bold type in your documents.",
+                                                            "#text": "Bold search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want your search terms to appear in italic type in your documents.",
+                                                            "#text": "Italicize search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want your search terms underlined.",
+                                                            "#text": "Underline search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want page numbers from the associated reporter to appear in bold type.",
+                                                            "#text": "Bold reporter page numbers"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Content-Specific Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Statutes",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to include any annotations that are associated with the statutes.",
+                                                "#text": "Include annotations"
+                                            },
+                                            "#text": "Select"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Deliver full case document",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the Shepard's Signal indicator symbol next to cites in the document. These indicators help you understand whether the cite references \"good law\".",
+                                                            "#text": "Show Shepard's Signal\u0099 indicators"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the headnotes for the case with each document.",
+                                                            "#text": "Show Headnotes"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the core terms for the case with each document.",
+                                                            "#text": "Show Core Terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the case summary with each document.",
+                                                            "#text": "Show Case Summary"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select this option to deliver the full case document, along with the following options:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Deliver Case Summary only",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "#text": "If no case summary for a delivered document exists, the document will be delivered instead."
+                                            },
+                                            "#text": "Choose this option to deliver only the case summary."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Number of Columns",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to save case law documents in dual column format.",
+                                                            "#text": "Dual"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to save documents formatted in a single column.",
+                                                            "#text": "Single"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Choose one of the following:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Secondary Materials",
+                                        "dd": [
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "- For secondary materials that are annotated, select this to include the annotations.",
+                                                    "#text": "Include Annotations"
+                                                }
+                                            },
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "- Some practice guides include instructional videos. Select this option to include the written transcripts for these videos in your delivery.",
+                                                    "#text": "Include video transcripts"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "dt": "Include classification information, like language, publication type, and subject keywords",
+                                        "dd": "Select this option to include metadata about the news article and how it was categorized."
+                                    },
+                                    {
+                                        "dt": "Statutes",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "- For statutes that are annotated, select this to include the annotations.",
+                                                "#text": "Include published annotations"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@id": "OK",
+                        "propvalue": "Send",
+                        "propdesc": "Click this to send your documents to Dropbox."
+                    },
+                    {
+                        "@id": "cancel",
+                        "propvalue": "Cancel",
+                        "propdesc": "Click this to return to your search results without sending your documents to Dropbox."
+                    }
+                ]
+            }
+        }
+    }
+}

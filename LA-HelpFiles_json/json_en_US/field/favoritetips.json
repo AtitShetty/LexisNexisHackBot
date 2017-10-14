@@ -1,0 +1,80 @@
+{
+    "reference": {
+        "@otherprops": "favoritetips",
+        "@id": "favoritetips",
+        "title": "Favorites",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "to display additional favorites.",
+                            "#text": "More"
+                        },
+                        "#text": "The Favorites pod displays the sources, topics, and filters you have recently used in your searches.  Select"
+                    },
+                    "Select a favorite to use it as a filter for your current search."
+                ],
+                "note": "Selecting a favorite from Recent & Favorites replaces any filters you have already selected."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Expand",
+                                "@href": "triangleright.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this to open the list of favorites."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add filter to search",
+                                "@href": "addtosearch.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this icon next to a filter to add it to your search."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Favorite",
+                                "@href": "triangledown.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this to close the list of favorites."
+                    }
+                ]
+            }
+        }
+    }
+}

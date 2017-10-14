@@ -1,0 +1,102 @@
+{
+    "reference": {
+        "@otherprops": "lpa;content",
+        "@audience": "exclude",
+        "@id": "lpapgtips",
+        "title": "Practical Guidance Content",
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                },
+                "revised": {
+                    "@modified": "2014-08-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "lpanamefirst",
+                                "#tail": "provides you with online access to expert practical guidance,"
+                            },
+                            {
+                                "@keyref": "company",
+                                "#tail": "commentary, cases, legislation, forms and precedents, as well as relevant legal practice steps, and up-to-date information."
+                            }
+                        ]
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "box, select",
+                                "#text": "Search"
+                            },
+                            {
+                                "#tail": "in the drop-down list under the",
+                                "#text": "Practical Guidance"
+                            },
+                            {
+                                "#tail": "box, then select",
+                                "#text": "Search"
+                            },
+                            {
+                                "#tail": ".",
+                                "#text": "Search"
+                            }
+                        ],
+                        "#text": "Enter your keyword in the"
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "icon (",
+                                "#text": "Save"
+                            },
+                            {
+                                "#tail": ". The results will display Practical Guidance documents related to your search terms.",
+                                "#text": "OK"
+                            }
+                        ],
+                        "image": {
+                            "@alt": "Save",
+                            "@href": "Download.png",
+                            "@placement": "inline",
+                            "#tail": "), the Download page appears.  To download your documents, complete the page and select"
+                        },
+                        "#text": "When you view practical guidance content from your results, or select one or more examples using the checkboxes, then select the"
+                    }
+                ]
+            }
+        },
+        "reference": {
+            "@conref": "fulldoctips.xml",
+            "@id": "fulldoctips",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

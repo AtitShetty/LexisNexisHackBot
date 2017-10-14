@@ -1,0 +1,89 @@
+{
+    "topic": {
+        "@otherprops": "lps",
+        "@audience": "lps",
+        "@id": "gh_lpsexpertsearch",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Searching for Expert Witnesses Using"
+        },
+        "titlealts": {
+            "navtitle": {
+                "option": "Expert witnesses, searching for"
+            }
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-19"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": {
+            "@conref": "lpsaboutprofilesearch_cpt.xml",
+            "@id": "lpsaboutprofilesearch_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "lpssearchforexpert_hdi.xml",
+                "@id": "lpssearchforexpert_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpssearchforareaofexpertise_hdi.xml",
+                "@id": "lpssearchforareaofexpertise_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsprefiltersearchresults_hdi.xml",
+                "@id": "lpsprefiltersearchresults_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "lpsexpertsources_ref.xml",
+                "@id": "lpsexpertsources_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "lpsattorneysources_ref.xml",
+                "@id": "lpsattorneysources_ref",
+                "title": null,
+                "refbody": null,
+                "reference": {
+                    "@conref": "lpssearchtips.xml",
+                    "@id": "lpssearchtips",
+                    "title": null,
+                    "refbody": null
+                }
+            }
+        ]
+    }
+}

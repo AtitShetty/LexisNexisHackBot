@@ -1,0 +1,57 @@
+{
+    "topic": {
+        "@otherprops": "pub;search",
+        "@audience": "pub",
+        "@id": "gh_pubrecords",
+        "title": "Searching Public Records",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-01-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": [
+                "You can search public records holdings for information about people, businesses, locations, and other entities by selecting the form for the kind of search you want to perform and entering the information you know in the fields provided. You don't need to enter data for every field.",
+                "Enter only alphabetic or numeric characters, spaces, hyphens, periods, or apostrophes. You can use wildcard characters (such a ! or *) in the fields, but not Boolean connectors (e.g., and, or, and w/2).",
+                {
+                    "ph": {
+                        "@keyref": "company",
+                        "#tail": "will record your user ID number and your selected permissible use for each search of the data regulated by the DPPA and the GLBA."
+                    },
+                    "#text": "Before performing a search, you must select a permissible use from the drop-down list on the form. By doing so, you are certifying that the data returned to you will be used only for the use you indicated. As required by law and its agreements with its data suppliers,"
+                },
+                "If you don't have a permissible use, you must select \"I do not have a permissible use\" from the drop-down list.",
+                "Each report in your results provides a summary of the information found related to the given subject (person, business, property, etc.). Each report also provides links to the source document from which the information was gathered and to other SmartLinx reports that have some form of association with this specific subject."
+            ],
+            "note": {
+                "@type": "tip",
+                "xref": {
+                    "@scope": "external",
+                    "@href": "http://help.lexisnexis.com/tabula-rasa/pubrec/home?lbu=US&locale=en_US&audience=all",
+                    "#tail": ".",
+                    "#text": "the separate Public Records help system"
+                },
+                "#text": "For more information, you can open a new window to"
+            }
+        }
+    }
+}

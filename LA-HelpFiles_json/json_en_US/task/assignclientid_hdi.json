@@ -1,0 +1,80 @@
+{
+    "task": {
+        "@otherprops": "clientid;setclientIDtips;changeclientIDtips;costrecoverytips;docinvalidIDtips;editclientIDtips;selectresdesctips;setclientIDtips;setidcostrectips",
+        "@id": "assignclientid_hdi",
+        "title": "How do I assign a client ID to my research?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can assign a client ID to associate with a search. The Client ID you assign \"stays\" with the search in your search history and folders, identifying the client for whom you were doing the research.  The active client ID is always displayed at the top of every page. If you don't assign a client ID, the client ID associated with your current research is \"None\".",
+                    "All your research is assigned to the active client ID, until you assign a new one (which then becomes the active one).",
+                    "To assign a client ID from any page:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "in the top navigation bar.",
+                                "#text": "Client ID"
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to enter a new client ID.",
+                                "#text": "Set Client"
+                            },
+                            "#text": "Select a client ID from the list, or select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "up to 1,000 characters long.",
+                                "#text": "Research Description"
+                            },
+                            "#text": "(Optional) Enter a"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button.",
+                                "#text": "OK"
+                            },
+                            "#text": "Click the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

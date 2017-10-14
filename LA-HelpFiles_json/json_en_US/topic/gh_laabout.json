@@ -1,0 +1,65 @@
+{
+    "topic": {
+        "@otherprops": "res;about",
+        "@audience": "res",
+        "@id": "gh_laabout",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst"
+            },
+            "#text": "About"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "whatisla_cpt.xml",
+                "@outputclass": "embed",
+                "@id": "whatisla_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "sourceselect_cpt.xml",
+                "@id": "sourceselect_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "search_cpt.xml",
+                "@id": "search_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "resultsnarrowby_cpt.xml",
+                "@id": "resultsnarrowby_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ]
+    }
+}

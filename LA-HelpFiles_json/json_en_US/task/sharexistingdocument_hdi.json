@@ -1,0 +1,148 @@
+{
+    "task": {
+        "@otherprops": "folders",
+        "@id": "sharexistingdocument_hdi",
+        "title": "How do I share an existing document with other users?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "data": null,
+                "p": [
+                    "You can share documents, notes, and other items stored in your folders.",
+                    "To share an item, follow these steps:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "link from the",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": "Select a document."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". The Share with Others dialog box appears.",
+                                "#text": "Share documents"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab.",
+                                "#text": "Add to Share"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "box. To share with users outside your group, enter the user's email address. Click",
+                                    "#text": "Enter a peer's name..."
+                                },
+                                {
+                                    "#tail": "to add the name to the list.",
+                                    "#text": "Add to Share"
+                                }
+                            ],
+                            "#text": "To share with others within your network or group of users, enter the peer's name in the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "or",
+                                    "#text": "Editor"
+                                },
+                                {
+                                    "#tail": ". Editors may view and modify notes you save with the folder, and add notes of their own. Viewers may only view notes.",
+                                    "#text": "Viewer"
+                                }
+                            ],
+                            "#text": "In the list of selected users, for each user, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Remove",
+                                "@href": "Closeremove.png",
+                                "@placement": "inline",
+                                "#tail": "to remove any users from the selected list."
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Save"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "folder.  You'll find the document in your",
+                            "#text": "Shared by others"
+                        },
+                        {
+                            "#tail": "folder.",
+                            "#text": "Shared by me"
+                        }
+                    ],
+                    "#text": "The users you have shared with will be notified by email, and will find the document in their"
+                }
+            }
+        }
+    }
+}

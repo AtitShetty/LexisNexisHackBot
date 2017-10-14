@@ -1,0 +1,72 @@
+{
+    "topic": {
+        "@otherprops": "res;custompage;search",
+        "@audience": "res",
+        "@id": "gh_custompage",
+        "title": "Custom Pages",
+        "titlealts": {
+            "navtitle": {
+                "option": "Custom pages"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Read through the links below for more information about custom pages."
+        },
+        "concept": {
+            "@conref": "custompage_cpt.xml",
+            "@id": "custompage_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "custompagecreate_hdi.xml",
+                "@id": "custompagecreate_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "custompagedit_hdi.xml",
+                "@id": "custompageedit_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "custompagesetstart_hdi.xml",
+                "@id": "custompagesetstart_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": {
+            "@conref": "custompagepods_ref.xml",
+            "@id": "custompagepods_ref",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

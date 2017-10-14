@@ -1,0 +1,90 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools",
+        "@audience": "res;lps;lpa",
+        "@id": "highlightext_hdi",
+        "title": "How do I highlight text in a document?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can highlight text in a document stored in one of your folders and save the document to retrieve and review later.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "From a full document you are viewing, use your mouse to select the text you want to highlight (there is no limit to the amount of text you can select). A shortcut menu appears at the end of the selection, showing the options for the selected text."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "and click the drop-down list next to the label. A list of highlight colors appears.",
+                                "#text": "Highlight"
+                            },
+                            "#text": "Navigate to"
+                        }
+                    },
+                    {
+                        "cmd": "Choose the color you want to use as the highlight.",
+                        "note": {
+                            "@type": "note",
+                            "uicontrol": {
+                                "#tail": "label. If you want to use this color for a new highlight, select it.",
+                                "#text": "Highlight"
+                            },
+                            "#text": "When choosing your highlight color, the last highlight color you used appears next to the"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "image": {
+                        "@alt": "Highlighted text",
+                        "@href": "highlight.png",
+                        "@placement": "inline",
+                        "#tail": "icon in the margin."
+                    },
+                    "#text": "The text is highlighted in the document and its location indicated by a highlighter"
+                },
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "hideshowdeletehighlight_hdi.xml",
+                        "#tail": "for details."
+                    },
+                    "#text": "You can edit, hide, or delete existing highlights. See"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "reference": {
+        "@otherprops": "lpamarketrackertips",
+        "@audience": "lpa",
+        "@id": "lpamarketrackertips",
+        "title": "Market Tracker",
+        "prolog": {
+            "author": "Robin Evans",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-05-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "Lexis\u00ae Market Tracker searches all the legal documents filed for the purchase of corporations in the United States so you can find information about recent developments in a particular industry, or about a single sale. You can open electronic copies of the original documents for sales, closing contracts, financing, etc., then search those documents for a specific name or phrase.",
+                    "You can print your results, or export information to Microsoft\u00ae Word or Excel for further analysis."
+                ]
+            }
+        }
+    }
+}

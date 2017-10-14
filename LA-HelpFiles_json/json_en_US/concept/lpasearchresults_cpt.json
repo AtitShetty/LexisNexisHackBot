@@ -1,0 +1,66 @@
+{
+    "concept": {
+        "@otherprops": "lparesults",
+        "@audience": "exclude",
+        "@id": "lpasearchresults_cpt",
+        "title": "Understanding Practice Advisor Search Results",
+        "prolog": {
+            "author": "Barbara Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-06-16"
+                }
+            },
+            "metadata": {
+                "keywords": null,
+                "prodinfo": {
+                    "prodname": "LexisNexis\u00ae Practice Advisor",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "reports provide a graphic view of verdict and settlement data for the cases in your results, presented through a number of"
+                    },
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "VSAgraphsdescrip_ref.xml",
+                        "#tail": ". To view individual cases, select the",
+                        "#text": "charts and graphs"
+                    },
+                    "uicontrol": {
+                        "#tail": "tab and select from the list of cases.",
+                        "#text": "Cite List"
+                    },
+                    "#text": "The"
+                },
+                {
+                    "uicontrol": {
+                        "#tail": ".",
+                        "#text": "Select multiple"
+                    },
+                    "#text": "Use the Narrow By ... pane on the left to filter your results by specific categories. To select several criteria in a category, select"
+                },
+                "As you view individual cases from the cite list, the case is opened in a new tab at the top of the search results page so you can easily move between a specific case and your search results."
+            ],
+            "note": {
+                "@type": "note",
+                "#text": "LexisNexis sometimes receives reports of the same case from multiple sources. While each case is represented in the total document count in your search results list, only unique cases are represented in the charts and graphs."
+            }
+        }
+    }
+}

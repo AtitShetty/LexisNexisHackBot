@@ -1,0 +1,135 @@
+{
+    "concept": {
+        "@otherprops": "fulldocmain",
+        "@audience": "res",
+        "@id": "fulldoc_cpt",
+        "title": "What is a full document page?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "b": {
+                        "ph": {
+                            "@keyref": "shepardsfirst"
+                        },
+                        "#tail": "pane to the right of the document lets you"
+                    },
+                    "i": {
+                        "#tail": "\u00ae the document.",
+                        "#text": "Shepardize"
+                    },
+                    "uicontrol": {
+                        "#tail": "provides more information about the document and access to the",
+                        "#text": "About This Document"
+                    },
+                    "ph": {
+                        "@keyref": "litnamefirst",
+                        "#tail": "so you can track the legal issues addressed in the case law document."
+                    },
+                    "#text": "When you select a document from your results, the full text of the document is displayed. The"
+                },
+                {
+                    "uicontrol": [
+                        {
+                            "#tail": "at the top of the page. Use",
+                            "#text": "Results List"
+                        },
+                        {
+                            "#tail": "and",
+                            "#text": "Previous Document"
+                        },
+                        {
+                            "#tail": "to display the previous or next document in your results. Use the",
+                            "#text": "Next Document"
+                        },
+                        {
+                            "#tail": "button (",
+                            "#text": "Reading View"
+                        },
+                        {
+                            "#tail": "button again.",
+                            "#text": "Reading View"
+                        }
+                    ],
+                    "image": {
+                        "@alt": "Full Doc View",
+                        "@href": "docreadingview.png",
+                        "#tail": ") to view just the document. (In this view, only a few tools will  be available for working with the document.) To access the full range of tools again, click the"
+                    },
+                    "#text": "To return to your results list, select"
+                },
+                "Additionally, you can search the document for either your search terms, or any other terms you specify."
+            ]
+        },
+        "reference": {
+            "@conref": "fulldoctips.xml",
+            "@id": "fulldoctips",
+            "title": null,
+            "refbody": null
+        },
+        "task": [
+            {
+                "@conref": "savedocumenttofolder_hdi.xml",
+                "@id": "savedocumenttofolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "savetexttofolder_hdi.xml",
+                "@id": "savetexttofolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "copytexttoclipboard_hdi.xml",
+                "@id": "copytexttoclipboard_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "uselegalissuetrail_hdi.xml",
+                "@id": "uselegalissuetrail_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "fulldocworkwith_hdi.xml",
+                "@id": "fulldocworkwith_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchfulldoc_hdi.xml",
+                "@id": "searchfulldoc_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

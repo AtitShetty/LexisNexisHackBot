@@ -1,0 +1,55 @@
+{
+    "concept": {
+        "@otherprops": "cb",
+        "@audience": "cb",
+        "@id": "cbabout_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "cbnamefirst",
+                "#tail": "?"
+            },
+            "#text": "What is"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-08-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "cbnamefirst",
+                        "#tail": "is a tool used to compare information about your costs against industry data gathered by LexisNexis."
+                    }
+                },
+                {
+                    "ph": {
+                        "@keyref": "cbname",
+                        "#tail": "is processed through the CounselLink\u00ae system. This data is made anonymous and aggregated so no single corporation or legal vendor can be recognized. The data is further protected for confidentiality as no data is shown if there are less than 5 different companies represented in the data set the user has requested. This provides a more statistically relevant sample and protects the anonymity of the data. Data in the tool is updated every month with data collected up to two months prior."
+                    },
+                    "#text": "The data in"
+                }
+            ]
+        }
+    }
+}

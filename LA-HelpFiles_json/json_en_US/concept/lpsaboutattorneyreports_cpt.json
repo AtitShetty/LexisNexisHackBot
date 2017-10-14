@@ -1,0 +1,100 @@
+{
+    "concept": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsaboutattorneyreports_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Understanding Attorney Reports for"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpsnamefirst",
+                        "#tail": "profile you want to view, you can select his or her name to view that report. Using the left-side navigation, select one of the profile categories to view specific information about that category:"
+                    },
+                    "#text": "Once you find a specific attorney whose"
+                },
+                "ul": {
+                    "li": [
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewattorneyoverview_hdi.xml",
+                                "#tail": "contains an overall profile of the attorney and the ways he or she has been involved in various cases. For example, you can review the attorney's contact information, an overview of his or her practice history, or an abbreviated list of publications the attorney has written or been mentioned in. You might also view a list of the top news articles the attorney has been mentioned in. (Each of these sections of the",
+                                "#text": "Snapshot"
+                            },
+                            "b": {
+                                "#tail": "view can be explored in greater detail by selecting the corresponding links in the other categories listed in the left-side navigation.)",
+                                "#text": "Snapshot"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewattorneypracticehistory_hdi.xml",
+                                "#tail": "lists the different ways in which the attorney has been involved in various cases. Using the graphs and charts, for example, you can view the number of cases he or she has tried by jurisdiction. You can also view case duration and several other details about the attorney's practice that may be relevant to your case.",
+                                "#text": "Practice History"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewpublications_hdi.xml",
+                                "#tail": "lists the different law reviews in which the attorney has been mentioned. It also lists the patents he or she has authored.",
+                                "#text": "Publications"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewnews_hdi.xml",
+                                "#tail": "shows different news articles that mention or cite the attorney.",
+                                "#text": "In the News"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchlexisweb_hdi.xml",
+                                "#tail": "includes legal content from both the World Wide Web and",
+                                "#text": "Web"
+                            },
+                            "ph": {
+                                "@keyref": "company",
+                                "#tail": "sources."
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

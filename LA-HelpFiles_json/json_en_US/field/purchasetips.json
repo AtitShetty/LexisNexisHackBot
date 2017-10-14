@@ -1,0 +1,81 @@
+{
+    "reference": {
+        "@otherprops": "purchasetips",
+        "@id": "purchasetips",
+        "title": "Multiple Documents Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-07-06"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "icon from your results, you can determine the total cost you will incur if you select the",
+                            "#text": "Get It Now!"
+                        },
+                        {
+                            "#tail": "button.",
+                            "#text": "Get the Full Document Now"
+                        }
+                    ],
+                    "#text": "When you select documents and select the"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "<n> Documents",
+                        "propdesc": "The number of documents you've selected is displayed. You can clear any documents you choose not to acquire."
+                    },
+                    {
+                        "propvalue": "Client",
+                        "propdesc": "Either a client name or \"-None-\" appears."
+                    },
+                    {
+                        "propvalue": "Price",
+                        "propdesc": {
+                            "ul": {
+                                "li": [
+                                    "How much getting the item will cost. For example, $3.00",
+                                    "Accessed ($)",
+                                    "In Plan"
+                                ]
+                            },
+                            "#text": "Indicates:"
+                        }
+                    },
+                    {
+                        "propvalue": "Get the Full Document Now",
+                        "propdesc": "Click this button to acquire the selected documents."
+                    },
+                    {
+                        "propvalue": "Cancel",
+                        "propdesc": "Click to return to your search results without purchasing the selected documents."
+                    }
+                ]
+            }
+        }
+    }
+}

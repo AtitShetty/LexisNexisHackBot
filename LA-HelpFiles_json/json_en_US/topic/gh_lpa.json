@@ -1,0 +1,102 @@
+{
+    "topic": {
+        "@otherprops": "lpa;about",
+        "@audience": "lpa",
+        "@id": "gh_lpa",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst"
+            },
+            "#text": "About"
+        },
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                },
+                "revised": {
+                    "@modified": "2014-07-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": {
+                "ph": [
+                    {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "gives attorneys the tools, guidance, and information they need so they can focus their expertise on what matters most.  The links below provide more information on specific aspects of"
+                    },
+                    {
+                        "@keyref": "lpaname",
+                        "#tail": "."
+                    }
+                ]
+            }
+        },
+        "concept": [
+            {
+                "@conref": "lpawhatislpa_cpt.xml",
+                "@id": "lpawhatislpa_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "lpaforms_cpt.xml",
+                "@id": "lpaformstips",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "lpaotherdocs_cpt.xml",
+                "@id": "lpaotherdocs",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "searchlpa_hdi.xml",
+                "@id": "searchlpa_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpaaskourauthors_hdi.xml",
+                "@id": "lpaaskourauthors_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpasubmitfeedback_hdi.xml",
+                "@id": "lpasubmitfeedback_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": {
+            "@conref": "lparesultips.xml",
+            "@id": "lparesultips",
+            "title": null
+        }
+    }
+}

@@ -1,0 +1,231 @@
+{
+    "reference": {
+        "@otherprops": "legalissuetrailtips",
+        "@audience": "res",
+        "@id": "legalissuetrailtips",
+        "title": {
+            "ph": {
+                "@keyref": "litnamefirst",
+                "#tail": "Page"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "litnamefirst",
+                                "#tail": "lists cases that cite to the case you are viewing as well as cases your case has cited - for a specific legal issue. Not all legal documents have a"
+                            },
+                            {
+                                "@keyref": "litname",
+                                "#tail": "."
+                            }
+                        ],
+                        "#text": "The"
+                    },
+                    "The information is presented in a citation list, with the cases your document cited for this issue listed first, followed by the cases that cited your document for the issue. Each entry in the list includes the document citation, jurisdiction, court, and date for each document, plus the first 75 words of the passage in the document.",
+                    {
+                        "ph": {
+                            "@keyref": "litname",
+                            "#tail": "for the passage appears in a new page. You can return to your search results or the previous or next document in your results using the links at the top right of the page."
+                        },
+                        "#text": "When you select a passage, the passage is outlined with a border. When you select the border, the"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "litname",
+                            "#tail": ", you may decide that changing your search terms or other parameters would produce better results. The search form is displayed at the top of your results so you can modify the terms, content, or topics you want to search, and run the search again."
+                        },
+                        "#text": "When viewing the"
+                    },
+                    "While viewing a specific trail, the following options are available to you:"
+                ]
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Item",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": {
+                            "i": {
+                                "#tail": "Citations (n)",
+                                "#text": "n"
+                            }
+                        },
+                        "propdesc": {
+                            "p": {
+                                "ph": {
+                                    "@keyref": "litname",
+                                    "#tail": "."
+                                },
+                                "#text": "The total number of documents in this"
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Selected Passage",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "to display the entire passage.",
+                                "#text": "Show more text"
+                            },
+                            "#text": "The first 3 lines of the passage you selected from the original document. If the passage is longer than 3 lines, select"
+                        }
+                    },
+                    {
+                        "propvalue": "Sort by",
+                        "propdesc": {
+                            "p": [
+                                "By default, the documents in your results list are sorted by relevance.",
+                                "Select an option from this list to sort in a different order.  You can sort based on relevance, document title, date, jurisdiction, or court."
+                            ]
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add to folder",
+                                "@href": "folder.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon at the top of the column.",
+                                "#text": "Add to folder"
+                            },
+                            "#text": "To select one or more documents to add to a folder, select the checkboxes next to the documents in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Printable Page",
+                                "@href": "Printablepage.png",
+                                "@placement": "inline",
+                                "#tail": "Printable page"
+                            }
+                        },
+                        "propdesc": "Click to view the list in a printer-friendly format."
+                    },
+                    {
+                        "propvalue": {
+                            "image": [
+                                {
+                                    "@alt": "Previous",
+                                    "@href": "Triangleleft.png",
+                                    "@placement": "inline",
+                                    "#tail": "n - n"
+                                },
+                                {
+                                    "@alt": "Next",
+                                    "@href": "Triangleright.png",
+                                    "@placement": "inline"
+                                }
+                            ]
+                        },
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "."
+                            },
+                            "#text": "Click the right or left arrow to display the previous or next group of documents in the"
+                        }
+                    },
+                    {
+                        "propvalue": "Document Title",
+                        "propdesc": "To view the full document, select the document title.  To sort your results alphabetically by document title, select the column header. Click it again to restore it to the original order."
+                    },
+                    {
+                        "propvalue": "Jurisdiction",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "by jurisdiction, select the column header. Click it again to restore it to the original order."
+                            },
+                            "#text": "The jurisdiction for the citation.  To sort the"
+                        }
+                    },
+                    {
+                        "propvalue": "Court",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "by court, select the column header. Click it again to restore it to the original order."
+                            },
+                            "#text": "The court for the citation.  To sort the"
+                        }
+                    },
+                    {
+                        "propvalue": "Date",
+                        "propdesc": "Click this column header to sort your results list by date (newest to oldest or oldest to newest). Click it again to restore it to the original order."
+                    },
+                    {
+                        "propvalue": "Cited by:",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "is for.  Your document"
+                            },
+                            "b": {
+                                "#tail": "the documents displayed in this section.",
+                                "#text": "cited"
+                            },
+                            "#text": "The citation of the document the"
+                        }
+                    },
+                    {
+                        "propvalue": "Cites to:",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "litname",
+                                "#tail": "is for.  The documents displayed in this section"
+                            },
+                            "b": {
+                                "#tail": ".",
+                                "#text": "cited your document"
+                            },
+                            "#text": "The citation of the document the"
+                        }
+                    },
+                    {
+                        "propvalue": "1 2 3 4 5 ...",
+                        "propdesc": "Indicates which page in your results set you are viewing. Click a different page number to display that page, or use the right or left arrows to scroll through your results set."
+                    },
+                    {
+                        "propvalue": "Items per page:",
+                        "propdesc": "Click this to select a different number of documents to display per page in the results list."
+                    }
+                ]
+            }
+        }
+    }
+}

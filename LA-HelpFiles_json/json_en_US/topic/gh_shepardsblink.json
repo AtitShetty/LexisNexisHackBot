@@ -1,0 +1,49 @@
+{
+    "topic": {
+        "@otherprops": "blink",
+        "@id": "gh_shepardsblink",
+        "title": "Using Shepard's\u00ae BriefLink",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Dea Henrich"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-11"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Shepard's\u00ae BriefLink creates links to Lexis Advance material in any \n\t\tbrief you choose. You also have the choice of adding special links that let users access updated \n\t\tShepard's reports for your references."
+        },
+        "concept": {
+            "@conref": "shepardsblink_cpt.xml",
+            "@id": "shepardsblink_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "reference": {
+            "@conref": "shepardsblinktips.xml",
+            "@id": "shepardsblinkref",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

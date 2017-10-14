@@ -1,0 +1,78 @@
+{
+    "topic": {
+        "@otherprops": "homesharing",
+        "@id": "gh_homedelivery",
+        "title": "Delivering Your Search Results and Documents",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "delivery_cpt.xml",
+                "@id": "delivery_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialdelivery_cpt.xml",
+                "@id": "tutorialdelivery_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "downloadresults_hdi.xml",
+                "@id": "downloadresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "emailresults_hdi.xml",
+                "@id": "emailresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "printresults_hdi.xml",
+                "@id": "printresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "dropboxresults_hdi.xml",
+                "@id": "dropboxresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "deliverattachments_hdi.xml",
+                "@id": "deliverattachments_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

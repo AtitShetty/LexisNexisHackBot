@@ -1,0 +1,16 @@
+{
+    "help-conf": {
+        "headings": {
+            "page": {
+                "title": "All About...",
+                "description": "From this page you can..."
+            },
+            "related": {
+                "singular": "Related Topic",
+                "plural": "Related Topics"
+            },
+            "also": "See Also",
+            "other": "Other Topics"
+        }
+    }
+}

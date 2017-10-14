@@ -1,0 +1,146 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools",
+        "@id": "savetexttofolder_hdi",
+        "title": "How do I save text to a folder?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "You can save a section of text from a document to a folder. From the full document view:"
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Use your mouse to highlight the text you want to save. A shortcut menu that contains options for working with the selected text appears."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". The Add to Folder dialog box appears.",
+                                "#text": "Add to folder"
+                            },
+                            "#text": "Choose"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab, in the",
+                                    "#text": "Selected Documents"
+                                },
+                                {
+                                    "#tail": "box, enter a title for the block of text you want to save, or keep the title that is displayed.",
+                                    "#text": "Document Title"
+                                }
+                            ],
+                            "#text": "At the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab.",
+                                "#text": "Save Options"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "box.",
+                                "#text": "Notes"
+                            },
+                            "#text": "Add any notes about your research to the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "section of the tab, select the folder you want to add the text to, or select",
+                                    "#text": "Save In"
+                                },
+                                {
+                                    "#tail": "to create a new folder.",
+                                    "#text": "Create New Folder"
+                                }
+                            ],
+                            "#text": "In the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab and then enter the name or email address of the person you want to share with. Then click",
+                                    "#text": "Share with Others"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Add to Share"
+                                }
+                            ],
+                            "#text": "To share the text with other users, select the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "to add the name to the list.",
+                                    "#text": "Add to Share"
+                                },
+                                "#text": "To share with others within your network or group of users, enter the peer's name. To share with users outside your group, enter the user's email address. Click"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to save the text.",
+                                "#text": "Save"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": {
+                        "#tail": "page of the application.",
+                        "#text": "Folders"
+                    },
+                    "#text": "The text will be saved for you to access from the"
+                }
+            }
+        }
+    }
+}

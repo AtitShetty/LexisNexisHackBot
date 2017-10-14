@@ -1,0 +1,82 @@
+{
+    "reference": {
+        "@otherprops": "fulldocmain",
+        "@audience": "res",
+        "@id": "unpublishedunreported_ref",
+        "title": "What is the difference between \"Unpublished\" and \"Unreported\" cases?",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-01-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "company",
+                            "#tail": "case law group views them as different types of cases."
+                        },
+                        "#text": "Although some people may use these two terms interchangeably,"
+                    },
+                    "note": {
+                        "@type": "tip",
+                        "#text": "When you are looking at a case, generally if there is a NOTICE segment, that case is unpublished. If there isn't a NOTICE segment, and if there is also no hardcopy cite, it is unreported."
+                    }
+                },
+                {
+                    "title": "Unpublished Case",
+                    "p": [
+                        "An unpublished case is one where:",
+                        {
+                            "ph": {
+                                "@keyref": "company",
+                                "#tail": "will typically have a notice on the case that the case is unpublished or not citable, where the language differs depending on how the court phrased it."
+                            },
+                            "#text": "For unpublished cases,"
+                        }
+                    ],
+                    "ul": {
+                        "li": [
+                            "The court has placed a citation limitation on the opinion \u2013 there will typically be some language in the document that provides explicit instructions on when the case can and cannot be cited to, or a reference to a court rule that delineates that information",
+                            "The court has rendered the opinion not citable",
+                            "The court will not release the opinion to the public",
+                            {
+                                "ph": {
+                                    "@keyref": "company",
+                                    "#tail": "has received the case from the court with a notice that it is unpublished"
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "Unreported Case",
+                    "p": [
+                        "An unreported case has not been published in a hard copy reporter series (like the West Regional and Federal Reporters \u2013 F.3d, N.E.2d, etc.).",
+                        "It is possible to have a published case that is unreported \u2013 for instance, if the editors of the hard copy reporters have chosen to not include a case, but the court has not placed any limitations on the citation to or the publication status of the opinion."
+                    ]
+                }
+            ]
+        }
+    }
+}

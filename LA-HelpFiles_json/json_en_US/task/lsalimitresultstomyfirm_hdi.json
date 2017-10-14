@@ -1,0 +1,171 @@
+{
+    "task": {
+        "@otherprops": "lsa",
+        "@id": "lsalimitresultstomyfirm_hdi",
+        "title": "How do I limit my search results to show only those documents for my organization?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "lsanamefirst",
+                        "#tail": "is available by subscription. Please contact your sales representative if you'd like more information."
+                    }
+                },
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": ". If you choose, you can view just a list of your organization's documents."
+                        },
+                        "#text": "Once you have completed your search, any of your organization's documents that contain your search term are included in your results list, along with all results from other sources available at"
+                    },
+                    "While viewing your organization document results list, you can search for related documents, based on client name, matter, document type, and document author. You can also filter the document list as well as open the document to view it in its native format (either Microsoft Word or PDF).",
+                    {
+                        "ph": {
+                            "@keyref": "shepsignalpluralfirst",
+                            "#tail": "for each individual document in your results list."
+                        },
+                        "#text": "Finally, you can view a summary of"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "gh_search.xml",
+                                "#tail": ".",
+                                "#text": "Complete your Lexis Advance search"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "Complete one of the following steps to view documents associated with your organization:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "field, select",
+                                            "#text": "Cited by my firm's documents"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "View the documents"
+                                        }
+                                    ],
+                                    "#text": "For the"
+                                },
+                                {
+                                    "note": {
+                                        "@type": "tip",
+                                        "uicontrol": {
+                                            "#tail": "in order to see this link.",
+                                            "#text": "More categories"
+                                        },
+                                        "#text": "You may need to select"
+                                    },
+                                    "#text": "Click the category type on the left side of the page named for your organization."
+                                }
+                            ]
+                        },
+                        "stepresult": {
+                            "p": "A list of just those documents available from your organization's document repository appears."
+                        }
+                    },
+                    {
+                        "cmd": "While viewing the results, complete any of the following optional steps:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lsafilterfirmdocumentlist_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "Filter your list of documents"
+                                    }
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lsaviewdocsinlsa_hdi.xml",
+                                        "#tail": ". (The document appears in a new web browser page.)",
+                                        "#text": "View your document in Lexis Search Advantage"
+                                    }
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lsacompletesearchbasedonmetadata_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "Complete a search for a similar organization document based on client name, matter, document type, or document author"
+                                    }
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lsaviewdocsinnativeformat_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "View the document in its native format"
+                                    }
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lsacitationscorecard_hdi.xml",
+                                        "#tail": ".",
+                                        "#text": "View a summary of citations used in the document by viewing the Citations scorecard"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "uicontrol": [
+                        {
+                            "#tail": "or",
+                            "#text": "Snapshot"
+                        },
+                        {
+                            "#tail": "link in the list of category types on the left side of the page.",
+                            "#text": "Cases"
+                        }
+                    ],
+                    "#text": "To return to your overall search results, select the"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,71 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "onear_ref",
+        "title": {
+            "userinput": {
+                "#tail": "Connector",
+                "#text": "onear/n"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "userinput": {
+                            "#tail": "connector to find documents in which the first word precedes the second by not more than \"n\" words.",
+                            "#text": "onear/n"
+                        },
+                        "#text": "Use the"
+                    },
+                    "For example, the following search finds documents where the word \"overtime\" occurs within 3 words of \"compensation\".",
+                    {
+                        "userinput": "overtime onear/3 compensation"
+                    },
+                    "onear/n is especially useful in situations where a different word order significantly alters meaning. For example, \"summary judgment\" is significantly different from \"judgment summary.\""
+                ],
+                "note": {
+                    "userinput": [
+                        {
+                            "#tail": "or",
+                            "#text": "pre/n"
+                        },
+                        {
+                            "#tail": "connector in the same way as the",
+                            "#text": "+n"
+                        },
+                        {
+                            "#tail": "connector.  All 3 connectors operate the same way.",
+                            "#text": "onear/n"
+                        }
+                    ],
+                    "#text": "You can use"
+                }
+            }
+        }
+    }
+}

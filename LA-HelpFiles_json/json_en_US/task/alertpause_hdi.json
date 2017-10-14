@@ -1,0 +1,119 @@
+{
+    "task": {
+        "@otherprops": "alerts",
+        "@id": "alertpause_hdi",
+        "title": "How do I pause an alert?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can temporarily stop an alert and start it again later.  If you pause an alert, you won't receive notifications about it during the period it is paused.  Details for paused alerts are shown in grayed-out text in your list of alerts.",
+                    "To pause an alert:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "home page, either select"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "View all alerts"
+                                },
+                                {
+                                    "#tail": "pod, or choose",
+                                    "#text": "Alerts"
+                                },
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Alerts"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page. The Alerts page appears.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "On the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "ph": [
+                                    {
+                                        "@keyref": "vsanamefirst",
+                                        "#tail": "and you view your alerts, the list is limited to show only"
+                                    },
+                                    {
+                                        "@keyref": "vsaname",
+                                        "#tail": "-related alerts. You can clear this filter and view all of your available alerts (regardless of which experience you are working in) by clicking the X next to the filter name, above the"
+                                    }
+                                ],
+                                "uicontrol": {
+                                    "#tail": "pane.",
+                                    "#text": "Narrow By"
+                                },
+                                "#text": "When you first view the alerts list, it is filtered based on which experience you are working in when you view all alerts. For example, if you are working in"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "In the list of alerts, locate and select the alert you want to pause."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "Pause"
+                            },
+                            "image": {
+                                "@alt": "Pause Alert",
+                                "@href": "alertpause.png",
+                                "#tail": ") in the toolbar above the alerts list. The Pause Alerts dialog box appears."
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Pause"
+                            },
+                            "#text": "Confirm you want to temporarily pause the alert by selecting"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

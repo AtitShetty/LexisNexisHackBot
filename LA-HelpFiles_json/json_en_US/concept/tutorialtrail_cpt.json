@@ -1,0 +1,136 @@
+{
+    "concept": {
+        "@otherprops": "tutorials",
+        "@audience": "res",
+        "@id": "tutorialtrail_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "litnamefirst"
+            },
+            "#text": "Tutorial: Using the Lexis Advance\u00ae"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-14"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "litnamefirst",
+                        "#tail": "and its key features."
+                    },
+                    "xref": [
+                        {
+                            "@scope": "local",
+                            "@href": "bigtutorialtrail_cpt-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "and",
+                            "#text": "Full-size"
+                        },
+                        {
+                            "@scope": "local",
+                            "@href": "tutorialtrailtext_ref-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "versions are also available.",
+                            "#text": "text-only"
+                        }
+                    ],
+                    "#text": "The tutorial below introduces you to using the"
+                },
+                {
+                    "object": {
+                        "@classid": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
+                        "@type": "application/x-shockwave-flash",
+                        "@height": "361",
+                        "@codebase": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0",
+                        "@width": "590",
+                        "@data": "http://web.lexis.com/help/multimedia/nl/nl_trail.swf",
+                        "@id": "newlexis",
+                        "param": [
+                            {
+                                "@name": "movie",
+                                "@value": "http://web.lexis.com/help/multimedia/nl/nl_trail.swf"
+                            },
+                            {
+                                "@name": "wmode",
+                                "@value": "transparent"
+                            },
+                            {
+                                "@name": "quality",
+                                "@value": "high"
+                            },
+                            {
+                                "@name": "bgcolor",
+                                "@value": "#FFFFFF"
+                            },
+                            {
+                                "@name": "pluginspage",
+                                "@value": "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "data": {
+                "ph": [
+                    {
+                        "@keyref": "litname",
+                        "#tail": ".\n\t\t\tIf you're trying to hone in on a particular legal issue or a point of law in the case you're viewing, then you need to know about the"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": ".\n\n\t\t\tIntroduction\n\n\t\t\tThe"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": "can help you track down other cases that contain legal passages similar to those in your case.\n\t\t\tHere's how it works...\n\n\t\t\t\tWe've identified reason-for-citing (RFC) passages in our documents, and provided an Activate Passages button that makes them visible.\n\t\t\t\tWhen selected, these passages connect you to cases that directly cite your case, as well as those your case cites.\n\t\t\t\tSome of these cases might not be in your original search results, which can provide a more thorough set of results related to your topic than your original search yielded.\n\t\t\t\n\t\t\tOpening a"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": ".\n\t\t\tAfter running a search and opening a relevant document, select the \"Activate Passages\" button. Activated passages appear with an outline, and the display jumps to the document\u2019s first RFC passage. The Navigate menu changes to Passages so you can step forward or backward through activated passages.\n\t\t\tClick an activated passage to display its"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": ". The passage\u2019s"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": "is opened in a new tab. Your selected passage appears in the left frame. The right frame displays cases cited by your case and cases that cite your case.\n\t\t\tWorking with a"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": ".\n\t\t\tCases appear in order depending on how similar their passages are to your case\u2019s passage. You can sort the documents in other ways using the Sort menu, or by selecting a column header.\n\t\t\tYou can mark documents to save to a work folder using the checkboxes and Folder icon.\n\t\t\tAnd you can view documents in \"Details\" view, which shows a portion of each document; or you can select \"List\" view, which shows more cases without scrolling.\n\t\t\tTo open the case in full view, select its document title. The document is opened in a new tab, and at the relevant passage, which is very similar to your original passage. If you'd like to pursue this passage, select it to display its"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": ".\n\t\t\tYou can return to your original document or results list by selecting the appropriate tab.\n\t\t\tSelect the Deactivate Passages button if you want to return the RFC passages to their original state.\n\n\t\t\tThis concludes the \"Using the"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": "\" tutorial."
+                    }
+                ],
+                "#text": "Using the"
+            }
+        }
+    }
+}

@@ -1,0 +1,88 @@
+{
+    "task": {
+        "@otherprops": "lsa",
+        "@id": "lsacitationscorecard_hdi",
+        "title": "How do I view the Lexis\u00ae Search Advantage scorecard?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "lsanamefirst",
+                        "#tail": "is available by subscription. Please contact your sales representative if you'd like more information."
+                    }
+                },
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lsanamefirst",
+                            "#tail": "search results, you can see a high-level report of citations used within the associated documents. Using links provided in this citation scorecard, you can view the actual citing document."
+                        },
+                        "#text": "While viewing your"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "gh_search.xml",
+                                "#tail": ".",
+                                "#text": "Complete your Lexis Advance search"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lsalimitresultstomyfirm_hdi.xml",
+                                "#tail": ".",
+                                "#text": "View just those documents from your organization"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "section, review the different Shepard's Signal\u0099 indicators. The number of citing documents appears next to each indicator.",
+                                "#text": "Citations Referenced"
+                            },
+                            "#text": "Under the"
+                        }
+                    },
+                    {
+                        "cmd": "Optionally, select the link associated with an indicator and choose the specific cited case you want to view. The case is opened."
+                    }
+                ]
+            }
+        }
+    }
+}

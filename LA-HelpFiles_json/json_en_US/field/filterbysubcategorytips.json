@@ -1,0 +1,91 @@
+{
+    "reference": {
+        "@otherprops": "filterbysubcategorytips",
+        "@id": "filterbysubcategorytips",
+        "title": "Applying filters for subcategories when narrowing results",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "If you select this checkbox, some categories will be automatically narrowed by specific subcategories.  If you don\u2019t want these categories to be automatically narrowed, clear this checkbox.",
+                    "Here is the list of categories and how they will be narrowed:"
+                ],
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Category",
+                            "Narrowed By"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                "Statutes & Legislation",
+                                "Codes"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Administrative Codes & Regulations",
+                                "Administrative Codes"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Secondary Materials",
+                                "Jurisprudence or Practice Guides or Treatises"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Briefs, Motions & Pleadings",
+                                "Briefs"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Jury Instructions",
+                                "Pattern Jury Instructions"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Expert Witness Materials",
+                                "Expert Witness Testimony & Reports"
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Company & Financial",
+                                "Company Profiles"
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

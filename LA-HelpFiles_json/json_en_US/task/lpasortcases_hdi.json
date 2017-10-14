@@ -1,0 +1,46 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "lpa",
+        "@id": "lpasortcases_hdi",
+        "title": "How do I sort the list of cases in the Cite List?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "By default, cases listed in the cite list are sorted by date, with the newest cases appearing first in the list.",
+                    {
+                        "uicontrol": {
+                            "#tail": "drop-down list and choosing a different option from the list.",
+                            "#text": "Sort by"
+                        },
+                        "#text": "While viewing the cite list, you can change this sort order either by selecting the"
+                    }
+                ]
+            }
+        }
+    }
+}

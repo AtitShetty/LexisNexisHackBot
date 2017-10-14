@@ -1,0 +1,40 @@
+{
+    "concept": {
+        "@otherprops": "alerts",
+        "@id": "alertfailure_cpt",
+        "title": "Your Alert Was Not Created",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": {
+                "uicontrol": {
+                    "#tail": "notice under an alert in your list of alerts, it means an error occurred that prevented this alert from being saved when you created it. Please delete the alert and create it again.  We are sorry for any inconvenience this has caused.",
+                    "#text": "Alert creation failure"
+                },
+                "#text": "If you see the"
+            }
+        }
+    }
+}

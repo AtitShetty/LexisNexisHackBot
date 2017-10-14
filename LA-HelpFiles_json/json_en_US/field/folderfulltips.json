@@ -1,0 +1,266 @@
+{
+    "reference": {
+        "@otherprops": "folderfulltips",
+        "@id": "folderfulltips",
+        "title": "Folders (Viewing a Full Document in Your Folder)",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "data": "hide, show",
+                "p": [
+                    "When you select an item from one of your folders, the full text of the item appears, with the name of the item, the date the item was updated, the name of the folder it is stored in, and the Client ID assigned to it displayed at the top.",
+                    "Additional information about the item and tools for working with it are are also located on the page, in the right pane.",
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "search form is displayed at the top of your results so you can run the search again if you wish."
+                        },
+                        "#text": "The"
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Document name",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon (",
+                                "#text": "Edit Document Properties"
+                            },
+                            "image": {
+                                "@alt": "Edit Document Properties",
+                                "@href": "edit.png",
+                                "#tail": ") next to the name.)"
+                            },
+                            "#text": "Shows the name assigned to the document. (You can edit this name by clicking the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Edit Document Properties",
+                                "@href": "edit.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Edit Document Properties icon ("
+                        },
+                        "propdesc": "Click this icon to view and edit the properties associated with the document. This includes editing the document title as well as assigning or changing the client ID associated with the document."
+                    },
+                    {
+                        "propvalue": "Folder name",
+                        "propdesc": "Shows the name of the folder the current item is stored in."
+                    },
+                    {
+                        "propvalue": "Client name",
+                        "propdesc": "The client's name associated with the document."
+                    },
+                    {
+                        "propvalue": "Add Note / View all notes link",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "link, you are scrolled to the bottom of the document where editing options are available for all of the notes associated with the document.)",
+                                "#text": "View all notes"
+                            },
+                            "#text": "Click this link to add a new note to the document or view existing notes so you can edit the note. (When you click the"
+                        }
+                    },
+                    {
+                        "propvalue": "Document toolbar",
+                        "propdesc": {
+                            "p": "Click a button on this toolbar to display a list of things you can do with the document you are viewing.",
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Delivery drop-down list (Delivery options are consolidated under the icon for the latest delivery option you used.",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "image": {
+                                                            "@alt": "Print Document",
+                                                            "@href": "Print.png",
+                                                            "#tail": "): Choose this option to print the document."
+                                                        },
+                                                        "#text": "Print icon ("
+                                                    },
+                                                    {
+                                                        "image": {
+                                                            "@alt": "Download Document",
+                                                            "@href": "download.png",
+                                                            "#tail": "): Select this to download the document."
+                                                        },
+                                                        "#text": "Download icon ("
+                                                    },
+                                                    {
+                                                        "image": {
+                                                            "@alt": "Email Document",
+                                                            "@href": "email.png",
+                                                            "#tail": "): Choose this to send the document to yourself or someone else by email."
+                                                        },
+                                                        "#text": "Email icon ("
+                                                    },
+                                                    {
+                                                        "image": {
+                                                            "@alt": "Send Document to Dropbox",
+                                                            "@href": "dropbox.png",
+                                                            "#tail": "): Choose this to send the document to Dropbox."
+                                                        },
+                                                        "#text": "Send to Dropbox icon ("
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Move Document to Another Folder",
+                                                "@href": "Move.png",
+                                                "#tail": ")"
+                                            },
+                                            "#text": "Move to another folder ("
+                                        },
+                                        "dd": "Click to move the items to a different folder."
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Remove Document From Folder",
+                                                "@href": "CloseRemove.png",
+                                                "#tail": ")"
+                                            },
+                                            "#text": "Delete ("
+                                        },
+                                        "dd": "Click to delete the items."
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Share with Other Users",
+                                                "@href": "SharedByMe.png",
+                                                "#tail": ")"
+                                            },
+                                            "#text": "Share ("
+                                        },
+                                        "dd": "Click this to share the document with another user."
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Copy to Another Folder",
+                                                "@href": "CopyToFolder.png",
+                                                "#tail": ")"
+                                            },
+                                            "#text": "Copy to another folder ("
+                                        },
+                                        "dd": "Click to copy the items to a different folder (leaving the original item in the current folder)."
+                                    },
+                                    {
+                                        "dt": {
+                                            "image": {
+                                                "@alt": "Printer-friendly View",
+                                                "@href": "PrintablePage.png",
+                                                "#tail": ")"
+                                            },
+                                            "#text": "Printer-friendly View ("
+                                        },
+                                        "dd": "Click this to display a text-only version of the item you're viewing, without any graphics, navigation bars, or options on the page."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Tools shortcut menu",
+                        "propdesc": {
+                            "p": "You can highlight text in the document and then use the tools in this shortcut menu to copy the text, add it to a folder, and highlight it, among other things. See the list below for more information.",
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Copy",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "copytexttoclipboard_hdi.xml",
+                                                "#tail": "."
+                                            },
+                                            "#text": "Click one of the two copy options to copy a selected section of document text to the clipboard so you can paste it into a word processor document, email, etc.  For more information, see"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Add to folder",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "savetexttofolder_hdi.xml",
+                                                "#tail": "."
+                                            },
+                                            "#text": "Click this to save a selected section of text to a folder. For more information, see"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Add to search",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "searchselectedtext_hdi.xml",
+                                                "#tail": "."
+                                            },
+                                            "#text": "Click this to search for documents that contain text similar to the text you selected. For more information, see"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Annotate",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "createannotation_hdi.xml",
+                                                "#tail": "."
+                                            },
+                                            "#text": "Click this to add notes to a document you have opened from one of your folders. For more information, see"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Highlight",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "highlightext_hdi.xml",
+                                                "#tail": "."
+                                            },
+                                            "#text": "Click this to highlight text in a document you have opened from one of your folders. For more information, see"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

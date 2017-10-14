@@ -1,0 +1,126 @@
+{
+    "task": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpssearchforexpert_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I search for a specific expert witness using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-10-07"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can search for professional information about expert witnesses. Types of information you might discover include areas of expertise, professional profiles, rulings, curricula vitae, tendencies, and successful cases."
+                        },
+                        "#text": "Using"
+                    },
+                    "To search for an expert witness:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "from the drop-down list to the left of the search field.",
+                                "#text": "Expert Witness"
+                            },
+                            "#text": "At the search form, choose"
+                        }
+                    },
+                    {
+                        "cmd": "Type the name of the expert for which you want to search in the search box.",
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "ul": {
+                                    "li": [
+                                        "As you type the name, a list of possible matches appears. If the name you are searching for appears in the list, you can select it and the full name will be added to the search box.",
+                                        {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "lpssearchforareaofexpertise_hdi.xml",
+                                                "#tail": "only.",
+                                                "#text": "area of expertise"
+                                            },
+                                            "#text": "If you don't know the name of the expert, you can search based on an"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list and select a",
+                                "#text": "Filters"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsprefiltersearchresults_hdi.xml",
+                                "#tail": ".",
+                                "#text": "pre-search filter"
+                            },
+                            "#text": "Optionally, select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "ph": [
+                                {
+                                    "@keyref": "lpsname",
+                                    "#tail": "searches the"
+                                },
+                                {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "databases for experts that meet your search criteria. It then displays any results that are found. (See"
+                                }
+                            ],
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchresults_cpt.xml",
+                                "#tail": "for details.)"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

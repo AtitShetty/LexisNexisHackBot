@@ -1,0 +1,97 @@
+{
+    "task": {
+        "@otherprops": "vsaresults",
+        "@audience": "vsa",
+        "@id": "VSAviewgraphdetail_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "vsanamefirst",
+                "#tail": "graphs?"
+            },
+            "#text": "How do I view details in individual"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "While viewing the results page, you can select a specific graph on the page and view details about the cases associated with your search.",
+                "note": {
+                    "@type": "note",
+                    "#text": "Viewing specific details in each graph is the same as applying filters on the left side of the page."
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "vsanamefirst",
+                                "#tail": "search and view your results."
+                            },
+                            "#text": "Complete your"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Explore graph"
+                            },
+                            "#text": "At the results page, locate the graph you want to view in detail and select"
+                        }
+                    },
+                    {
+                        "cmd": "Rest your mouse pointer over the different areas of the graph. Information appears in a tooltip, with instructions to select once more to narrow the case."
+                    },
+                    {
+                        "cmd": "Click on the portion of the graph in which you are most interested. Each of the other reports is updated using the filtered data."
+                    }
+                ]
+            },
+            "postreq": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "link  at the top of the",
+                            "#text": "Clear"
+                        },
+                        {
+                            "#tail": "pane. To close the graph and view the thumbnail again, select the",
+                            "#text": "Narrow By"
+                        },
+                        {
+                            "image": {
+                                "@alt": "Close",
+                                "@href": "closeremove.png"
+                            },
+                            "#tail": "at the top right of the graph."
+                        }
+                    ],
+                    "#text": "To return to your original results after narrowing them one or more times, select the"
+                }
+            }
+        }
+    }
+}

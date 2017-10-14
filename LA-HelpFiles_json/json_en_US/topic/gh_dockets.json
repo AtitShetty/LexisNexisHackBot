@@ -1,0 +1,36 @@
+{
+    "topic": {
+        "@status": "new",
+        "@otherprops": "cl",
+        "@audience": "post7.2",
+        "@id": "gh_dockets",
+        "title": "CourtLink Dockets",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2017"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2017-04-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "LexisNexis\u00ae Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "PARAGRAPH TEXT GOES HERE"
+        }
+    }
+}

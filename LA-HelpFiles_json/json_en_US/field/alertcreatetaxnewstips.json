@@ -1,0 +1,204 @@
+{
+    "reference": {
+        "@otherprops": "alertcreatetaxnewstips",
+        "@audience": "tax",
+        "@id": "alertcreatetaxnewstips",
+        "title": "Create a Search Alert Page (Lexis Advance\u00ae Tax)",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance Tax",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use this form to create a tax search alert and specify how often you want to be notified of any results, how you want to receive the results, and other options."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Overview tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Title",
+                                        "dd": "Give the alert a name that you will use later to retrieve it."
+                                    },
+                                    {
+                                        "dt": "Description",
+                                        "dd": "Enter a description you want to associate with the alert."
+                                    },
+                                    {
+                                        "dt": "Search terms",
+                                        "dd": "Enter the terms on which you want to search. These can be a business name, topic, name of person, and so forth."
+                                    },
+                                    {
+                                        "dt": "Search type",
+                                        "dd": "Displays the type of search you used."
+                                    },
+                                    {
+                                        "dt": "Client",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "and choose a client you've recently used from the drop-down list, or select",
+                                                    "#text": "Recent client"
+                                                },
+                                                {
+                                                    "#tail": "to enter the name of a new client.",
+                                                    "#text": "New client"
+                                                }
+                                            ],
+                                            "#text": "Either select"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Monitor tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": {
+                                    "dt": "Category",
+                                    "dd": {
+                                        "i": {
+                                            "#tail": "news sources, select",
+                                            "#text": "all"
+                                        },
+                                        "uicontrol": [
+                                            {
+                                                "#tail": ",  which sets the alert for all legal news sources and not just the recent news sources available for the filter. Once selected, the recent news sources shown under",
+                                                "#text": "Add all legal news sources"
+                                            },
+                                            {
+                                                "#tail": "will be hidden.",
+                                                "#text": "Narrow By"
+                                            }
+                                        ],
+                                        "#text": "Indicates what tax categories the alert will monitor for new documents. By default, the search alert monitors for all recent news sources. To monitor"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Deliver tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Duration",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "and",
+                                                    "#text": "Start"
+                                                },
+                                                {
+                                                    "#tail": "boxes (or select from the calendars) to indicate how long you want this alert to run.",
+                                                    "#text": "End"
+                                                }
+                                            ],
+                                            "#text": "Enter dates in the"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Delivery Type",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "and in the",
+                                                    "#text": "Email address"
+                                                },
+                                                {
+                                                    "#tail": "group, choose whether you want the email to be delivered in HTML or text format.",
+                                                    "#text": "Delivery format"
+                                                }
+                                            ],
+                                            "#text": "You can choose online delivery only or email plus online delivery.  If you select email, enter your"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Frequency",
+                                        "dd": {
+                                            "p": "Select how often you want to be notified of any results.",
+                                            "note": "Between notifications, you can go online at any time to view your results.",
+                                            "dl": {
+                                                "dlentry": [
+                                                    {
+                                                        "dt": "Daily",
+                                                        "dd": "Each day of the week."
+                                                    },
+                                                    {
+                                                        "dt": "Business daily",
+                                                        "dd": "Each day from Monday through Friday."
+                                                    },
+                                                    {
+                                                        "dt": "Weekly",
+                                                        "dd": "Once a week, on the day you select."
+                                                    },
+                                                    {
+                                                        "dt": "Monthly",
+                                                        "dd": {
+                                                            "uicontrol": {
+                                                                "#tail": ", you will be notified on March 1, because there is no 30th day in February.",
+                                                                "#text": "30"
+                                                            },
+                                                            "#text": "Once a month, on the date you select. If the date doesn't occur in a certain month, you will receive notification of any results on the first day of the following month.  For example, if you select"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Share tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Enter a user's name (using the format of last name, first name), or enter the user's email address.",
+                                        "dd": "To share the alert with other users in your organization, type the user's first name or last name. The alert will be shared immediately with him or her. To share the alert with users who are not part of your organization, type the user's email address. Outside recipients will need to accept the invitation to view the alert."
+                                    },
+                                    {
+                                        "dt": "Added Contacts",
+                                        "dd": "The list of users with whom you have shared this alert."
+                                    },
+                                    {
+                                        "dt": "Note",
+                                        "dd": "Enter a personal note you want to associate with the alert."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

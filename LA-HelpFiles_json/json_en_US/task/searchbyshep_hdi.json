@@ -1,0 +1,76 @@
+{
+    "task": {
+        "@otherprops": "shep",
+        "@audience": "res",
+        "@id": "searchbyshep_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "shepardizefirst",
+                "#tail": "a citation?"
+            },
+            "#text": "How do I"
+        },
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-09-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "userinput": {
+                                "#tail": "followed by a colon (:), followed by the document citation.",
+                                "#text": "shep"
+                            },
+                            "#text": "In the search box, type"
+                        },
+                        "info": {
+                            "codeblock": "shep: 800 F.2d 111 \nshep: 410 us 73",
+                            "p": {
+                                "ph": {
+                                    "@keyref": "shepardsfirst",
+                                    "#tail": "search and not a regular search."
+                                },
+                                "#text": "Punctuation, spacing, and capitalization within the citation are optional. However, the colon following \"shep\" is mandatory in order for the system to run a"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "redmagnifyglass.png",
+                                "@placement": "inline",
+                                "#tail": ")."
+                            },
+                            "#text": "Click the search button ("
+                        }
+                    }
+                ]
+            },
+            "result": null
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "concept": {
+        "@otherprops": "lpasearch;lpamarketrackertips",
+        "@audience": "lpa",
+        "@id": "lpawhatislpa_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst",
+                "#tail": "?"
+            },
+            "#text": "What is"
+        },
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-02-08"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-04-03"
+                    },
+                    {
+                        "@modified": "2014-07-18"
+                    },
+                    {
+                        "@modified": "2014-08-07"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpanamefirst",
+                            "#tail": "is an easy-to-use, intuitive practical guidance product that brings together key information and tools for attorneys who handle transactional matters."
+                        }
+                    }
+                },
+                {
+                    "title": {
+                        "ph": {
+                            "@keyref": "lpaname"
+                        }
+                    },
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpaname",
+                            "#tail": "provides users with a range of valuable features, including:"
+                        }
+                    },
+                    "ul": {
+                        "li": [
+                            {
+                                "xref": [
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "lpaforms_cpt.xml",
+                                        "#tail": "and",
+                                        "#text": "forms"
+                                    },
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "lpaotherdocs_cpt.xml",
+                                        "#tail": "built to meet the needs of attorneys who handle transactional matters",
+                                        "#text": "other content"
+                                    }
+                                ],
+                                "#text": "Relevant, practical"
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpawhatsnewtips.xml",
+                                    "#tail": "pane",
+                                    "#text": "Updates in..."
+                                },
+                                "#text": "Newly added content for selected practice areas listed in the"
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lparecentlyviewedtips.xml",
+                                    "#tail": "pane listing recent content activity",
+                                    "#text": "Recently Browsed Documents"
+                                },
+                                "#text": "A"
+                            },
+                            {
+                                "uicontrol": {
+                                    "#tail": "pane, containing content our contributing experts recommend",
+                                    "#text": "Editors' Picks"
+                                },
+                                "#text": "The"
+                            },
+                            {
+                                "uicontrol": {
+                                    "#tail": "pane",
+                                    "#text": "Law 360 Headlines"
+                                },
+                                "#text": "Access to the latest news and information from all relevant practice areas in the"
+                            },
+                            {
+                                "xref": [
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "lpatopicpanetips.xml",
+                                        "#tail": "pane on the left, and a",
+                                        "#text": "Topic"
+                                    },
+                                    {
+                                        "@scope": "peer",
+                                        "@href": "searchlpa_hdi.xml",
+                                        "#tail": "box at the top of the page",
+                                        "#text": "search"
+                                    }
+                                ],
+                                "#text": "Related topics that appear in the"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "External Resources",
+                    "p": [
+                        {
+                            "b": "Meet our Authors"
+                        },
+                        {
+                            "ph": {
+                                "@keyref": "lpaname"
+                            },
+                            "i": {
+                                "#tail": "feature allows you to access information about the firms and legal experts who provide our practical guidance and targeted, relevant legal content.",
+                                "#text": "Meet Our Authors"
+                            },
+                            "#text": "The"
+                        },
+                        {
+                            "b": "Lexis\u00ae Market Tracker"
+                        },
+                        "Lexis\u00ae Market Tracker searches all the legal documents filed for the purchase of corporations in the United States, so you can find information about recent developments in a particular industry or about a single sale. You can locate digital copies of the original documents for sales, closing contracts, financing, etc., then search those documents for a specific name or phrase."
+                    ]
+                }
+            ]
+        }
+    }
+}

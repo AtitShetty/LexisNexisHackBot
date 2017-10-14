@@ -1,0 +1,65 @@
+{
+    "topic": {
+        "@otherprops": "help",
+        "@id": "gh_helpsearchquery",
+        "title": "Searching the Online Help",
+        "titlealts": {
+            "navtitle": {
+                "option": "Online Help, searching the"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-02-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": [
+                "Use the search box at the top of any help page to search for words and phrases within help articles. You can also use connectors, use \"fuzzy\" and wildcard logic, search document metadata, boost the importance of individual terms, and use grouping syntax to create advanced search queries.",
+                "See the articles below for search examples."
+            ],
+            "note": {
+                "@type": "note",
+                "p": [
+                    "If you want to find help articles that contain the following characters, they must be preceded by the \\ character:",
+                    {
+                        "userinput": "+ - & | ! ( ) { } [ ] ^ \" ~ * ? : \\"
+                    }
+                ]
+            }
+        },
+        "reference": [
+            {
+                "@conref": "keywordhelpsearch_ref.xml",
+                "@id": "keywordhelpsearch_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "booleanhelpsearch_ref.xml",
+                "@id": "booleanhelpsearch_ref",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

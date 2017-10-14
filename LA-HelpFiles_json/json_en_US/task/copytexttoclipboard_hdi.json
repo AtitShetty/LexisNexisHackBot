@@ -1,0 +1,158 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools",
+        "@audience": "res;lps;lpa",
+        "@id": "copytexttoclipboard_hdi",
+        "title": "How do I copy text to the clipboard?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "You can copy a section of text to the clipboard, to paste into a word processor or other document.  If the text is part of a legal document, you can save the document citation (including the pinpoint cite, if any) as a link to the document.  From the full document view:"
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "While viewing a full document, use your mouse to select the text you want to copy.  A shortcut menu of options appears."
+                    },
+                    {
+                        "cmd": "Select one of the following options:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": {
+                                        "#tail": "to apply the system's default settings for either the style guide you last selected and used (which is the suggested style guide) or the style guide you select when you click the arrow next to the option.",
+                                        "#text": "Copy (Quick)"
+                                    },
+                                    "b": "The text is copied to your Windows clipboard so you can paste it in another application, and no further steps are required.",
+                                    "#text": "Choose"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "to select the options you want to apply to the text you are copying.",
+                                        "#text": "Copy (Advanced)"
+                                    },
+                                    "b": "The Copy Selected Text to Clipboard dialog box appears. Proceed to Step 3.",
+                                    "#text": "Choose"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "dialog box, review the citation format you want assigned to the copied text.",
+                                    "#text": "Copy Selected Text to Clipboard"
+                                },
+                                {
+                                    "#tail": "shows the last format used, or you can select a new format from the",
+                                    "#text": "Current format"
+                                },
+                                {
+                                    "#tail": "drop-down list and then click",
+                                    "#text": "New format"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Apply"
+                                }
+                            ],
+                            "#text": "While viewing the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "followed by the individual reporters for your style guide.",
+                                "#text": "Include these references"
+                            },
+                            "#text": "To include references in your citation, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Copy citation as a hyperlink"
+                            },
+                            "#text": "To copy the citation as a hyperlink that you can paste into a document, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "checkbox to include the parallel reporters in the citation.",
+                                "#text": "Include parallel citations"
+                            },
+                            "#text": "If it's available, select the"
+                        }
+                    },
+                    {
+                        "cmd": "Depending on which browser you are using, do one of the following to copy the text  and close the dialog box:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "button, use your browser tools to copy the text in the",
+                                            "#text": "Close"
+                                        },
+                                        {
+                                            "#tail": "box and then paste the text into a word processor or other text editor. For example, right-click on the highlighted text and choose",
+                                            "#text": "Preview"
+                                        },
+                                        {
+                                            "#tail": "from the browser's shortcut menu. Then, click",
+                                            "#text": "Copy"
+                                        },
+                                        {
+                                            "#tail": "to close the dialog box.",
+                                            "#text": "Close"
+                                        }
+                                    ],
+                                    "#text": "If the dialog box has only a"
+                                },
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "button, click the",
+                                            "#text": "Copy & Close"
+                                        },
+                                        {
+                                            "#tail": "button to copy the text and close the dialog box. Then, paste the text into a word processor or other text editor.",
+                                            "#text": "Copy & Close"
+                                        }
+                                    ],
+                                    "#text": "If the dialog box has a"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

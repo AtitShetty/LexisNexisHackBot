@@ -1,0 +1,122 @@
+{
+    "reference": {
+        "@otherprops": "shepardsavetofoldertips",
+        "@audience": "hidden",
+        "@id": "shepardsavetofoldertips",
+        "title": "Download Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "shepardsfirst",
+                        "#tail": "reports."
+                    },
+                    "#text": "You can download your"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "@id": "title",
+                        "propvalue": "Title",
+                        "propdesc": "Displays the report title."
+                    },
+                    {
+                        "propvalue": {
+                            "ph": {
+                                "@keyref": "shepards",
+                                "#tail": "report"
+                            },
+                            "#text": "Select the categories you'd like to include in your"
+                        },
+                        "propdesc": "Select one or more of the items, as desired."
+                    },
+                    {
+                        "propvalue": "Display first and last names",
+                        "propdesc": "Select this to include both your first name and last name on the cover page and in the footer of your report."
+                    },
+                    {
+                        "@id": "format",
+                        "propvalue": "Format",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "PDF",
+                                        "dd": "Choose this option to download the reports in .pdf format. Files downloaded in .pdf format can be opened and viewed using the Adobe\u00ae Acrobat Reader, an application that may be downloaded free if you do not already have it."
+                                    },
+                                    {
+                                        "dt": "RTF",
+                                        "dd": "Choose this option to email the documents in Rich Text Format. RTF files can be opened with most word processing applications."
+                                    }
+                                ]
+                            },
+                            "#text": "Select the format in which you would like the documents to be downloaded."
+                        }
+                    },
+                    {
+                        "@id": "send_as",
+                        "propvalue": "Send as",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "One File",
+                                        "dd": "Select this to send all the documents you selected in one file."
+                                    },
+                                    {
+                                        "dt": "Separate Files",
+                                        "dd": "Select this to send each document you selected in a separate file."
+                                    }
+                                ]
+                            },
+                            "#text": "Select an option from the drop-down list:"
+                        }
+                    },
+                    {
+                        "@id": "zip_files",
+                        "propvalue": "Zip files",
+                        "propdesc": {
+                            "ul": {
+                                "li": [
+                                    "Some email servers are unable to accept large file sizes. Smaller, compressed files are more likely to be received.",
+                                    "Compressed files take up less space in the recipient's mailbox.",
+                                    "When downloading, compressed files take up less space on your computer's local drive."
+                                ]
+                            },
+                            "note": {
+                                "@type": "note",
+                                "#text": "Files sent in ZIP format can be opened and viewed using WinZip\u00ae, an application that may be purchased from this location: http://www.winzip.com/downwz.htm if the recipient does not already have it."
+                            },
+                            "#text": "Select this checkbox if you want to send the files in a compressed (ZIP) file format."
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

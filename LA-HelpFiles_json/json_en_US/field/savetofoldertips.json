@@ -1,0 +1,142 @@
+{
+    "reference": {
+        "@otherprops": "savetofoldertips",
+        "@id": "savetofoldertips",
+        "title": "Add to Folder Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "You can save documents to a folder, assign a client to them, and save notes that will be displayed when you open the folder from your folder list."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "@id": "savedocuments",
+                        "propvalue": "Selected Documents tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "N Documents",
+                                        "dd": "The number here indicates how many of the listed documents you selected to save to this folder."
+                                    },
+                                    {
+                                        "dt": "Edit all titles",
+                                        "dd": "Click this link to edit the titles currently assigned the documents."
+                                    },
+                                    {
+                                        "dt": "Document List",
+                                        "dd": "Shows the documents and lets you clear any documents you don't want to save to the folder."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Save Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": {
+                                            "i": {
+                                                "#tail": ")",
+                                                "#text": "n"
+                                            },
+                                            "#text": "Full documents ("
+                                        },
+                                        "dd": "Select this to save the documents to your folder that you have selected."
+                                    },
+                                    {
+                                        "dt": "Results list for <Content Type>",
+                                        "dd": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "deliveryrangetips.xml",
+                                                "#tail": "for instructions on how to enter this range of results."
+                                            },
+                                            "note": {
+                                                "@type": "note",
+                                                "uicontrol": {
+                                                    "#tail": "to include a graph that shows the location and distribution of each of your search terms in each of your results.",
+                                                    "#text": "Include the graphical view of search terms (PDF only)"
+                                                },
+                                                "#text": "Select"
+                                            },
+                                            "#text": "Select this to save the results list for the search that is displayed (but none of the documents in the list). You can enter consecutive or non-consecutive numbers in this field to \"pick and choose\" exactly which results you want saved. See"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Notes",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "checked. If you want the notes to be visible only to you, clear the checkbox.",
+                                                "#text": "Allow recipients to view your notes"
+                                            },
+                                            "#text": "Enter any notes you would like to store with the documents.  The notes will be displayed in your folder list, under each of the documents you selected to save. If this is a shared document, and you want the notes to be visible to the other users you have shared it with, leave"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Save In",
+                                        "dd": "Select the name of the folder you want to save the documents or results list to.  You can also select a folder in which to create a new sub-folder."
+                                    },
+                                    {
+                                        "dt": "Create New Folder button",
+                                        "dd": "Select a folder where you want the new folder created, and click this button to create it."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@id": "sharingsettings",
+                        "propvalue": "Share With Others",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Enter a peer's name...",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to add the name to the list.",
+                                                "#text": "Add to Share"
+                                            },
+                                            "#text": "To share with others within your network or group of users, enter the peer's name. To share with users outside your group, enter the user's email address. Click"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Selected Users",
+                                        "dd": "The names of the users you will be sharing this folder with."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,161 @@
+{
+    "task": {
+        "@otherprops": "lpssearchresults",
+        "@audience": "lps",
+        "@id": "lpsviewindividualattorney_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "reports of individual attorneys?"
+            },
+            "#text": "How do I view"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can select his or her name in the search results list and"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "lpsaboutattorneyreports_cpt.xml",
+                            "#tail": ". Information might include cases that have been on the attorney's docket, any publications in which the attorney has been published, or news articles in which the attorney has been mentioned.",
+                            "#text": "view the information that is available for that lawyer"
+                        },
+                        "#text": "Once you find an attorney using"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorney_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorneyjurisdiction_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "location"
+                                }
+                            ],
+                            "#text": "Complete your search for an attorney. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results page, select the attorney's name. That attorney's report is opened."
+                    },
+                    {
+                        "cmd": "Once you are viewing the report, complete any of the following steps:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To ...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "View an overview of all the information available for the attorney",
+                                    "chdesc": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsviewattorneyoverview_hdi.xml",
+                                            "#tail": "link in the left pane.",
+                                            "#text": "Snapshot"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "View the ways in which an attorney has been involved in various cases",
+                                    "chdesc": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsviewattorneypracticehistory_hdi.xml",
+                                            "#tail": "section of the left pane.",
+                                            "#text": "Practice History"
+                                        },
+                                        "#text": "Choose an option from the"
+                                    }
+                                },
+                                {
+                                    "choption": "View the publications in which an attorney has been published",
+                                    "chdesc": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsviewpublications_hdi.xml",
+                                            "#tail": "section of the left pane.",
+                                            "#text": "Publications"
+                                        },
+                                        "#text": "Choose an option from the"
+                                    }
+                                },
+                                {
+                                    "choption": "View different news stories in which an attorney has been named",
+                                    "chdesc": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsviewnews_hdi.xml",
+                                            "#tail": "section of the left pane.",
+                                            "#text": "In the News"
+                                        },
+                                        "#text": "Choose an option from the"
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "ph": {
+                                            "@keyref": "company",
+                                            "#tail": "sources"
+                                        },
+                                        "#text": "View additional search results from the World Wide Web and"
+                                    },
+                                    "chdesc": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpssearchlexisweb_hdi.xml",
+                                            "#tail": "link in the left pane.",
+                                            "#text": "Web"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

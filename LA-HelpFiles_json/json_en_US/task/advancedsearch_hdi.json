@@ -1,0 +1,194 @@
+{
+    "task": {
+        "@otherprops": "practicepage",
+        "@audience": "res",
+        "@id": "advancedsearch_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "advanced search form?"
+            },
+            "#text": "How do I search using the"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "advanced search form, you can use the search box and select filters as usual, or you can create a search by completing some or all of the sections of the form. You can also narrow your search to a specific content type, or to specific segments (or both)."
+                        },
+                        "#text": "With the"
+                    },
+                    "The right side of the page has a number of tips for searching and links to more information.",
+                    {
+                        "uicontrol": {
+                            "#tail": "at the top of the page to associate your research with a specific client or matter.  Then search using one of the methods below.",
+                            "#text": "Client"
+                        },
+                        "#text": "To begin your research, select"
+                    }
+                ]
+            }
+        },
+        "task": [
+            {
+                "@id": "searchbox",
+                "title": "To use the search box:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": {
+                                    "xref": [
+                                        {
+                                            "@scope": "peer",
+                                            "@href": "developnaturalsearch_ref.xml",
+                                            "#tail": "or",
+                                            "#text": "natural language"
+                                        },
+                                        {
+                                            "@scope": "peer",
+                                            "@href": "connectors_group_ref.xml",
+                                            "#tail": "search construction.",
+                                            "#text": "Boolean"
+                                        }
+                                    ],
+                                    "#text": "Enter your search terms in the search box at the top of the page, using either"
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "Search",
+                                        "@href": "redmagnifyglass.png",
+                                        "@placement": "inline",
+                                        "#tail": ") and select the filters you want to use to narrow your search."
+                                    },
+                                    "#text": "Select the button to the left of the search button ("
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "Search",
+                                        "@href": "redmagnifyglass.png",
+                                        "@placement": "inline",
+                                        "#tail": ")."
+                                    },
+                                    "#text": "Select the search button ("
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "searchform",
+                "title": "To search by completing fields on the form:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "to narrow your search to that content type, or leave the form as it is to search all content types.",
+                                        "#text": "Select a specific content type"
+                                    },
+                                    "#text": "Click"
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": ",",
+                                            "#text": "All of these terms"
+                                        },
+                                        {
+                                            "#tail": ",",
+                                            "#text": "Any of these terms"
+                                        },
+                                        {
+                                            "#tail": ", or",
+                                            "#text": "This exact phrase"
+                                        },
+                                        {
+                                            "#tail": ") and select",
+                                            "#text": "Exclude these terms"
+                                        },
+                                        {
+                                            "#tail": ". The search terms will be displayed in the search box at the top of the form.",
+                                            "#text": "Add"
+                                        }
+                                    ],
+                                    "#text": "Enter your search terms in one of the fields ("
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "drop-down list if you want to limit your search to a specific date or date range.",
+                                        "#text": "Date"
+                                    },
+                                    "#text": "Select a date from the"
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "userinput": {
+                                        "#tail": "in the",
+                                        "#text": "reversed"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": "segment field to find cases with an outcome of \"Reversed\".",
+                                        "#text": "Outcome"
+                                    },
+                                    "#text": "Enter terms in any of the segment fields to search for them in a specific segment.  For example, enter"
+                                },
+                                "stepresult": {
+                                    "note": "Each content type will have different segments that you can select from to narrow your search further if you wish."
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "Search",
+                                        "@href": "redmagnifyglass.png",
+                                        "@placement": "inline",
+                                        "#tail": ")."
+                                    },
+                                    "#text": "Select the search button ("
+                                }
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "reference": {
+        "@otherprops": "lpssearchtips",
+        "@audience": "lps",
+        "@id": "lpssearchtips",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Search Tips for"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can search for expert witness profiles, judge profiles, or attorney profiles. Once you choose which type of search you want to perform, the following can help you fine-tune your search so you retrieve the best search results possible:"
+                        },
+                        "#text": "When using"
+                    }
+                },
+                {
+                    "title": "If you know the name of the expert witness, judge, or attorney you want to search for...",
+                    "ul": {
+                        "li": [
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": ",",
+                                        "#text": "Expert Witness"
+                                    },
+                                    {
+                                        "#tail": ", and",
+                                        "#text": "Judge"
+                                    },
+                                    {
+                                        "#tail": ".",
+                                        "#text": "Attorney"
+                                    }
+                                ],
+                                "#text": "Select the appropriate search type from the drop-down list next to the search box. Your options include:"
+                            },
+                            "Type the person's name in the search field, making sure you check the spelling.",
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpsprefiltersearchresults_hdi.xml",
+                                    "#tail": "to find profiles that more closely match your search criteria. (Choose these options from the",
+                                    "#text": "pre-search filter"
+                                },
+                                "uicontrol": {
+                                    "#tail": "drop-down list.)",
+                                    "#text": "Filters"
+                                },
+                                "#text": "Use a"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "title": "If you don't know the person's name, complete any of the following steps:",
+                    "ul": {
+                        "li": [
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "section of the",
+                                        "#text": "Areas of Expertise"
+                                    },
+                                    {
+                                        "#tail": "drop-down list. Customize your search further by choosing a location from the",
+                                        "#text": "Filters"
+                                    },
+                                    {
+                                        "#tail": "list.",
+                                        "#text": "Locations"
+                                    }
+                                ],
+                                "#text": "If you are searching for an expert witness, choose an area of expertise from the"
+                            },
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "section of the",
+                                        "#text": "Jurisdictions"
+                                    },
+                                    {
+                                        "#tail": "drop-down list.",
+                                        "#text": "Filters"
+                                    }
+                                ],
+                                "#text": "If you are searching for a judge, choose a jurisdiction from the"
+                            },
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "section of the",
+                                        "#text": "Locations"
+                                    },
+                                    {
+                                        "#tail": "drop-down list.",
+                                        "#text": "Filters"
+                                    }
+                                ],
+                                "#text": "If you are searching for an attorney, choose a jurisdiction from the"
+                            }
+                        ]
+                    },
+                    "note": {
+                        "@type": "note",
+                        "ph": {
+                            "@keyref": "lpsname",
+                            "#tail": "discovers the results it does, please see"
+                        },
+                        "xref": [
+                            {
+                                "@scope": "peer",
+                                "@href": "lpsexpertsources_ref.xml",
+                                "#tail": ","
+                            },
+                            {
+                                "@scope": "peer",
+                                "@href": "lpsjudgesources_ref.xml",
+                                "#tail": ", and"
+                            },
+                            {
+                                "@scope": "peer",
+                                "@href": "lpsattorneysources_ref.xml",
+                                "#tail": "."
+                            }
+                        ],
+                        "#text": "To better understand how"
+                    }
+                }
+            ]
+        }
+    }
+}

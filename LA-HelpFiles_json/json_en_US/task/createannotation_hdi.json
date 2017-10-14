@@ -1,0 +1,117 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools;annocreatetips",
+        "@audience": "res;lps;lpa",
+        "@id": "createannotation_hdi",
+        "title": "How do I make annotations in a document?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can annotate documents you are viewing.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "While viewing a full document, highlight the text you want to annotate. A shortcut menu appears with several options for working with the document."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". The Annotate Text dialog box appears.",
+                                "#text": "Annotate"
+                            },
+                            "#text": "Choose"
+                        }
+                    },
+                    {
+                        "cmd": "Enter the text in the text box, and format the text if you want to."
+                    },
+                    {
+                        "cmd": "Choose the color you want associated with the highlight in the document."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to allow other viewers to view the annotations.",
+                                "#text": "Allow recipients to view your note"
+                            },
+                            "#text": "If you have shared the document with someone, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to save the annotation. The annotation will be highlighted and underscored.",
+                                "#text": "Annotate"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": "Save the document to a folder."
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "link in",
+                            "#text": "Folders"
+                        },
+                        {
+                            "#tail": "drop-down list at the top of any page, or from the",
+                            "#text": "More"
+                        },
+                        {
+                            "#tail": "pod of the",
+                            "#text": "Folders"
+                        }
+                    ],
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "home page."
+                    },
+                    "#text": "You can access your folders from the"
+                },
+                "note": {
+                    "@type": "note",
+                    "uicontrol": {
+                        "#tail": ".",
+                        "#text": "Create annotation"
+                    },
+                    "#text": "You can create annotations within an annotation by selecting the annotated text in the document and selecting"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "reference": {
+        "@otherprops": "invalidIDtips",
+        "@id": "invalidIDtips",
+        "title": "Multiple Invalid Client ID Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-07-06"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "Use this page to select valid Client IDs for documents with an Invalid status.",
+                    {
+                        "uicontrol": {
+                            "#tail": ".",
+                            "#text": "Change"
+                        },
+                        "#text": "Select or clear checkboxes for items marked as Invalid, then select"
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "and",
+                                "#text": "New Client ID"
+                            },
+                            {
+                                "#tail": ", then select",
+                                "#text": "Research Description"
+                            },
+                            {
+                                "#tail": ".",
+                                "#text": "Update"
+                            }
+                        ],
+                        "#text": "Once you do so, you can modify the"
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "of Valid, the",
+                                "#text": "Status"
+                            },
+                            {
+                                "#tail": "button becomes active.",
+                                "#text": "Continue"
+                            }
+                        ],
+                        "#text": "When all items have a"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "completes the task of choosing valid Client IDs.",
+                            "#text": "Continue"
+                        },
+                        "#text": "Clicking"
+                    }
+                ]
+            }
+        }
+    }
+}

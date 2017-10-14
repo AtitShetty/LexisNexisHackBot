@@ -1,0 +1,107 @@
+{
+    "concept": {
+        "@otherprops": "natlang",
+        "@id": "naturalvsterms_cpt",
+        "title": {
+            "uicontrol": {
+                "#tail": "option do?",
+                "#text": "Run search as ..."
+            },
+            "#text": "What does the"
+        },
+        "titlealts": {
+            "navtitle": {
+                "option": "Run search as ... Option"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-11-30"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": [
+                        {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "automatically determines which type of search to perform from your search terms.  For example, if you enter"
+                        },
+                        {
+                            "@keyref": "prodname",
+                            "#tail": "will run a terms and connectors search, because the connector \"and\" is part of the search."
+                        }
+                    ],
+                    "userinput": {
+                        "#tail": ",",
+                        "#text": "budget and deficit"
+                    },
+                    "#text": "When you enter a search, you don't need to enter your terms using terms and connectors or natural language guidelines because"
+                },
+                {
+                    "uicontrol": [
+                        {
+                            "#tail": "drop-down menu at the top (next to your search terms).  When you select it, one of the options is either",
+                            "#text": "Actions"
+                        },
+                        {
+                            "#tail": "or",
+                            "#text": "Run search as natural language"
+                        },
+                        {
+                            "#tail": ", depending on which way your original search was run.  If you would like to see what your results are when the alternate search type is used, select the option. Your search will be run again automatically and your results will be displayed. You may find that your results are slightly different when run with the other search type.",
+                            "#text": "Run search as terms & connectors"
+                        }
+                    ],
+                    "#text": "When your search results are displayed, you'll see an"
+                },
+                "Refer to the help articles below for more information about natural language searching and terms and connectors searching."
+            ],
+            "note": {
+                "@type": "note",
+                "uicontrol": {
+                    "#tail": ".  For more information, see",
+                    "#text": "Research Map"
+                },
+                "xref": {
+                    "@scope": "peer",
+                    "@href": "rerunsearch_hdi.xml"
+                },
+                "#text": "You can also rerun a search from the history"
+            }
+        },
+        "reference": [
+            {
+                "@conref": "developnaturalsearch_ref.xml",
+                "@id": "developnaturalsearch_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "connectors_group_ref.xml",
+                "@id": "connectors_group_ref",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

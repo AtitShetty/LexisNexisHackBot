@@ -1,0 +1,83 @@
+{
+    "topic": {
+        "@otherprops": "lps",
+        "@audience": "lps",
+        "@id": "gh_lpsjudgesearch",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Searching for Judges Using"
+        },
+        "titlealts": {
+            "navtitle": {
+                "option": "Judges, searching for"
+            }
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-19"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": {
+            "@conref": "lpsaboutprofilesearch_cpt.xml",
+            "@id": "lpsaboutprofilesearch_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "lpssearchforjudge_hdi.xml",
+                "@id": "lpssearchforjudge_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpssearchforjudgejurisdiction_hdi.xml",
+                "@id": "lpssearchforjudgejurisdiction_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsprefiltersearchresults_hdi.xml",
+                "@id": "lpsprefiltersearchresults_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "lpsjudgesources_ref.xml",
+                "@id": "lpsjudgesources_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "lpssearchtips.xml",
+                "@id": "lpssearchtips",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "topic": {
+        "@otherprops": "res;practicepage;search",
+        "@audience": "res",
+        "@id": "gh_practicepage",
+        "title": "Using the Practice Center",
+        "titlealts": {
+            "navtitle": {
+                "option": "Using practice centers"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Read through the links below for more information about using practice centers."
+        },
+        "task": [
+            {
+                "@conref": "advancedsearch_hdi.xml",
+                "@id": "advancedsearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "practicepagefind_hdi.xml",
+                "@id": "practicepagefind_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "practicepagesetstart_hdi.xml",
+                "@id": "practicepagesetstart_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "practicepageuse_hdi.xml",
+                "@id": "practicepageuse_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "practicepagesearch_hdi.xml",
+                "@id": "practicepagesearch_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "concept": {
+            "@conref": "practicepage_cpt.xml",
+            "@id": "practicepage_cpt",
+            "title": null,
+            "conbody": null
+        }
+    }
+}

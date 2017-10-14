@@ -1,0 +1,156 @@
+{
+    "reference": {
+        "@otherprops": "notificationstips",
+        "@audience": "res",
+        "@id": "notificationstips",
+        "title": "Notifications List Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "The Notifications page shows all of the notices you have received regarding the status of documents, folders, and alerts that you have shared or that have been shared with you.  After viewing the notices, you can mark them as read or unread, or mark one or all of them to be deleted.",
+                    {
+                        "uicontrol": {
+                            "#tail": "page.",
+                            "#text": "Settings"
+                        },
+                        "#text": "If you prefer not to receive notifications, you can turn them off for one or all of the event types on the"
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": {
+                            "i": "n",
+                            "#text": "Notifications"
+                        },
+                        "propdesc": "The number of notifications in the list."
+                    },
+                    {
+                        "propvalue": "Search Within Notifications",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "to search all your notifications for a specific keyword.",
+                                "#text": "Search"
+                            },
+                            "#text": "Enter a keyword and select"
+                        }
+                    },
+                    {
+                        "propvalue": "Timeline",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "to select more than one of the displayed dates.",
+                                "#text": "Select Multiple"
+                            },
+                            "#text": "Use this to restrict the list of notifications to a specific date or date range.  Click"
+                        }
+                    },
+                    {
+                        "propvalue": "Delete Selected",
+                        "propdesc": "Deletes the notifications you have selected."
+                    },
+                    {
+                        "propvalue": "More drop-down list",
+                        "propdesc": {
+                            "p": "Click this to display a list of things you can do with the notifications you have selected using the checkboxes.",
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Delete all notifications",
+                                        "dd": "Select this to delete all the notifications in the list."
+                                    },
+                                    {
+                                        "dt": "Mark selected as read",
+                                        "dd": "Select this to mark the notification you selected as having been read."
+                                    },
+                                    {
+                                        "dt": "Mark all notifications as read",
+                                        "dd": "Select this to mark all the notifications in the list as having been read."
+                                    },
+                                    {
+                                        "dt": "Mark selected as unread",
+                                        "dd": "Select this to mark the notification you selected as not having been read."
+                                    },
+                                    {
+                                        "dt": "Mark all notifications as unread",
+                                        "dd": "Select this to mark all the notifications in the list as not having been read."
+                                    },
+                                    {
+                                        "dt": "Printer-friendly view",
+                                        "dd": "Click to view the list in a printer-friendly format."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Sort by:",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "to sort the list by oldest to newest.",
+                                "#text": "Date (Oldest)"
+                            },
+                            "#text": "By default, your notifications are sorted by date (newest to oldest). Select"
+                        }
+                    },
+                    {
+                        "propvalue": "Date",
+                        "propdesc": "The date you received the notification."
+                    },
+                    {
+                        "propvalue": {
+                            "i": {
+                                "#tail": "selected",
+                                "#text": "n"
+                            }
+                        },
+                        "propdesc": "The number of notifications you selected in the list using the checkboxes."
+                    },
+                    {
+                        "propvalue": {
+                            "image": [
+                                {
+                                    "@alt": "Previous",
+                                    "@href": "Triangleleft.png",
+                                    "@placement": "inline",
+                                    "#tail": "n - n"
+                                },
+                                {
+                                    "@alt": "Next",
+                                    "@href": "Triangleright.png",
+                                    "@placement": "inline"
+                                }
+                            ]
+                        },
+                        "propdesc": "Click the right or left arrow to display the previous or next group of notifications."
+                    }
+                ]
+            }
+        }
+    }
+}

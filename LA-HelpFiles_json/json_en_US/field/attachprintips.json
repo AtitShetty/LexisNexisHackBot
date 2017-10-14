@@ -1,0 +1,469 @@
+{
+    "reference": {
+        "@otherprops": "attachprintips",
+        "@id": "attachprintips",
+        "title": "Print Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                },
+                "revised": {
+                    "@modified": "2013-09-20"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "note": {
+                        "@type": "caution",
+                        "xref": {
+                            "@scope": "external",
+                            "@href": "https://get.adobe.com/reader/",
+                            "#tail": "to download the latest version.",
+                            "#text": "https://get.adobe.com/reader/"
+                        },
+                        "#text": "To have documents automatically printed when using Internet Explorer 8, you must first install Adobe Reader. Visit"
+                    }
+                },
+                {
+                    "p": {
+                        "uicontrol": {
+                            "#tail": "dialog box. Details about each item on the dialog box are provided below.",
+                            "#text": "Print"
+                        },
+                        "#text": "You can print either your results list or an individual document. To do this, provide the information for each tab of the"
+                    },
+                    "note": {
+                        "@type": "note",
+                        "#text": "Different options may be available depending on what type of document you are printing."
+                    }
+                }
+            ],
+            "properties": {
+                "property": [
+                    {
+                        "@id": "title",
+                        "propvalue": {
+                            "i": {
+                                "#tail": ") tab",
+                                "#text": "n"
+                            },
+                            "#text": "Selected Documents ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Select: None"
+                            },
+                            "#text": "The document titles of the documents you selected to print. If you want to remove any documents before printing them, you can either clear individual documents, or click"
+                        }
+                    },
+                    {
+                        "@id": "printoptions",
+                        "propvalue": "Basic Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "What do you want to print?",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to print all the documents you selected.",
+                                                            "#text": "Full documents (n)"
+                                                        },
+                                                        "note": {
+                                                            "@type": "note",
+                                                            "uicontrol": {
+                                                                "#tail": "to also include any attached documents associated with the items you are printing. See",
+                                                                "#text": "Include document attachments, where available"
+                                                            },
+                                                            "xref": {
+                                                                "@scope": "peer",
+                                                                "@href": "deliverattachments_hdi.xml",
+                                                                "#tail": "for details."
+                                                            },
+                                                            "#text": "Select"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- If any documents you want to print contain attachments, you can choose to print only those attachments (and not the related documents).",
+                                                            "#text": "Full document attachments only (where available)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to print the results list (not the documents themselves), and then enter the specific results you want delivered. You can download 250 of the first 1,000 results.",
+                                                            "#text": "Results list for <Content Type>"
+                                                        },
+                                                        "note": [
+                                                            {
+                                                                "@type": "note",
+                                                                "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                                                            },
+                                                            {
+                                                                "@type": "note",
+                                                                "uicontrol": {
+                                                                    "#tail": "to include a graph that shows the location and distribution of each of your search terms in each of your results.",
+                                                                    "#text": "Include the graphical view of search terms (PDF only)"
+                                                                },
+                                                                "#text": "Select"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select this, followed by either",
+                                                                "#text": "Litigation Profile Suite report for < Name>"
+                                                            },
+                                                            {
+                                                                "#tail": "to print both the items from the results list you specify as well as the charts and graphs associated with the profile, or",
+                                                                "#text": "All charts and graphs with results list"
+                                                            },
+                                                            {
+                                                                "#tail": "to print just the charts and graphs. If you choose to deliver the results list, you can select any number or combination of results up to 250 total. (",
+                                                                "#text": "Charts and graphs only"
+                                                            }
+                                                        ],
+                                                        "ph": {
+                                                            "@keyref": "lpsname",
+                                                            "#tail": "users only.)"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select this, followed by either",
+                                                                "#text": "Verdict & Settlement Analyzer report for < search term>"
+                                                            },
+                                                            {
+                                                                "#tail": "to print both the items from the results list you specify as well as the charts and graphs associated with the search, or",
+                                                                "#text": "All charts and graphs with results list"
+                                                            },
+                                                            {
+                                                                "#tail": "to print just the charts and graphs. If you choose to deliver the results list, you can select any number or combination of results up to 250 total. (",
+                                                                "#text": "Charts and graphs only"
+                                                            }
+                                                        ],
+                                                        "ph": {
+                                                            "@keyref": "vsaname",
+                                                            "#tail": "users only.)"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select one of the following options:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Printer type",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "#text": "Depending on your default printer selection, you may be prompted with other options for delivering the document. For example, if you have specified Microsoft XPS Document Writer as your default printer, you will be prompted to save the document, which you can then print."
+                                            },
+                                            "ul": {
+                                                "li": [
+                                                    "Attached printer - The documents will be printed on your attached printer.",
+                                                    "LexisNexis\u00ae printer - The document will be printed using the LexisNexis print utility, which streamlines the print and download request process."
+                                                ]
+                                            },
+                                            "#text": "Select one of the following options:"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Formatting Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Include the following in the delivered document:",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want an introductory cover page as the first page in your document.",
+                                                            "#text": "Cover page"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want",
+                                                            "#text": "LexisNexis\u00ae logo"
+                                                        },
+                                                        "ph": {
+                                                            "@keyref": "companyfirst",
+                                                            "#tail": "branding in your printed document attachment."
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include both your first name and last name on the cover page and in the footer of your documents.",
+                                                            "#text": "First and last name on cover page and within footer"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select a position for the page number from the related options.",
+                                                            "#text": "Page numbering in document"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "- Select to embed citations and other references within the document and hyperlink them. (Select",
+                                                                "#text": "Embedded references as links"
+                                                            },
+                                                            {
+                                                                "#tail": "if you want the embedded legal cites to appear in italic type in your documents).",
+                                                                "#text": "Italicize embedded legal citations"
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select to include document markup from the user, and then specify what type of markup you want included: edits from all users (including your own) or just edits made by others (and not you).",
+                                                            "#text": "Users' annotations, highlights, and notes"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": "Font type",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "font is best for cases, statutory materials, and any long documents that are typically read in printed form.",
+                                                        "#text": "Times New Roman"
+                                                    },
+                                                    {
+                                                        "#tail": "is best for tables and other types of content that don't display well with varying font widths.",
+                                                        "#text": "Courier"
+                                                    }
+                                                ],
+                                                "#text": "The"
+                                            },
+                                            "#text": "Select the font to use in your documents."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Font size",
+                                        "dd": "Select the desired font size for your documents."
+                                    },
+                                    {
+                                        "dt": "Line spacing",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "ul": {
+                                                    "li": [
+                                                        "Double-spacing is not recommended for documents using dual column format.",
+                                                        "Double-spacing is not applied to tables, case citations, or spreadsheets."
+                                                    ]
+                                                }
+                                            },
+                                            "#text": "Choose either single or double spacing for your documents."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Styling",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want pagination to appear in bold type in your documents.",
+                                                            "#text": "Bold search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want your search terms to appear in italic type in your documents.",
+                                                            "#text": "Italicize search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want your search terms underlined.",
+                                                            "#text": "Underline search terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this if you want page numbers from the associated reporter to appear in bold type.",
+                                                            "#text": "Bold reporter page numbers"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Content-Specific Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Statutes",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to include any annotations that are associated with the statutes.",
+                                                "#text": "Include annotations"
+                                            },
+                                            "#text": "Select"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Deliver full case document",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the Shepard's Signal indicator symbol next to cites in the document. These indicators help you understand whether the cite references \"good law\".",
+                                                            "#text": "Show Shepard's Signal\u0099 indicators"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the headnotes for the case with each document.",
+                                                            "#text": "Show Headnotes"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the core terms for the case with each document.",
+                                                            "#text": "Show Core Terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to include the case summary with each document.",
+                                                            "#text": "Show Case Summary"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select this option to deliver the full case document, along with the following options:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Deliver Case Summary only",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "#text": "If no case summary for a delivered document exists, the document will be delivered instead."
+                                            },
+                                            "#text": "Choose this option to deliver only the case summary."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Number of Columns",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to save case law documents in dual column format.",
+                                                            "#text": "Dual"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Select this to save documents formatted in a single column.",
+                                                            "#text": "Single"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Choose one of the following:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Secondary Materials",
+                                        "dd": [
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "- For secondary materials that are annotated, select this to include the annotations in the printed document.",
+                                                    "#text": "Include annotations"
+                                                }
+                                            },
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "- Some practice guides include instructional videos. Select this option to include the written transcripts for these videos in your delivery.",
+                                                    "#text": "Include video transcripts"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "dt": "Include classification information, like language, publication type, and subject keywords",
+                                        "dd": "Select this option to include metadata about the news article and how it was categorized."
+                                    },
+                                    {
+                                        "dt": "Statutes",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "- For statutes that are annotated, select this to include the annotations.",
+                                                "#text": "Include published annotations"
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@id": "OK",
+                        "propvalue": "Print",
+                        "propdesc": "Click this to print your documents."
+                    },
+                    {
+                        "@id": "cancel",
+                        "propvalue": "Cancel",
+                        "propdesc": "Click this to return to your search results without printing your documents."
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,382 @@
+{
+    "reference": {
+        "@id": "archivedcodescoveragecodes_ref",
+        "title": "Archived Codes Coverage Dates for Codes",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-05-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": "The table below shows coverage dates for the codes category, by jurisdiction."
+                },
+                {
+                    "p": {
+                        "note": "Because of variations in the frequency of legislative sessions, some jurisdictions may not provide an archived code for every year."
+                    }
+                }
+            ],
+            "simpletable": {
+                "sthead": {
+                    "stentry": [
+                        "Jurisdiction",
+                        "Coverage Dates"
+                    ]
+                },
+                "strow": [
+                    {
+                        "stentry": [
+                            "U.S. Federal",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Alabama",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Alaska",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Arizona",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Arkansas",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "California",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Colorado",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Connecticut",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Delaware",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Dist. of Columbia",
+                            "From 1990"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Florida",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Georgia",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Guam",
+                            "From 2004"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Hawaii",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Idaho",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Illinois",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Indiana",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Iowa",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Kansas",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Kentucky",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Louisiana",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Maine",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Maryland",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Massachusetts",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Michigan",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Minnesota",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Mississippi",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Missouri",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Montana",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Nebraska",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Nevada",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "New Hampshire",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "New Jersey",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "New Mexico",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "New York",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "North Carolina",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "North Dakota",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Ohio",
+                            "From 1996"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Oklahoma",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Oregon",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Pennsylvania",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Puerto Rico (English)",
+                            "From 1988"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Rhode Island",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "South Carolina",
+                            "From 1995"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "South Dakota",
+                            "From 1992"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Tennessee",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Texas",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Utah",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Vermont",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Virgin Islands",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Virginia",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Washington",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "West Virginia",
+                            "From 1991"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Wisconsin",
+                            "From 1989"
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Wyoming",
+                            "From 1991"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

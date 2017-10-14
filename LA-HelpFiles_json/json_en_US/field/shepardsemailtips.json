@@ -1,0 +1,169 @@
+{
+    "reference": {
+        "@otherprops": "shepardsemailtips",
+        "@audience": "hidden",
+        "@id": "shepardsemailtips",
+        "title": "Email Shepard's\u00ae Report Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Robin Stubbart"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "image": [
+                        {
+                            "@alt": "Delivery Settings",
+                            "@href": "deliverysettings.png",
+                            "#tail": "icon, next to the"
+                        },
+                        {
+                            "@alt": "Email",
+                            "@href": "Email.png",
+                            "@placement": "inline",
+                            "#tail": "), the Email page appears.  To email your documents, complete the page and select"
+                        }
+                    ],
+                    "uicontrol": [
+                        {
+                            "#tail": "icon (",
+                            "#text": "Email"
+                        },
+                        {
+                            "#tail": ".  Details about each item on the page are provided below.",
+                            "#text": "OK"
+                        }
+                    ],
+                    "#text": "When you view a document from your results, or select one or more using the checkboxes, then select the"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "@id": "title",
+                        "propvalue": "Title",
+                        "propdesc": "(Available only when you have selected a single document to email.) Enter a title for the email."
+                    },
+                    {
+                        "propvalue": {
+                            "ph": {
+                                "@keyref": "shepardsfirst",
+                                "#tail": "report"
+                            },
+                            "#text": "Select the categories you'd like to include in your"
+                        },
+                        "propdesc": "Select one or more of the items, as desired."
+                    },
+                    {
+                        "@id": "to",
+                        "propvalue": "To",
+                        "propdesc": "Enter up to 5 recipients' email addresses, separated by a semicolon (;)."
+                    },
+                    {
+                        "@id": "subject",
+                        "propvalue": "Subject",
+                        "propdesc": "Enter the text you want to appear on the subject line of the email."
+                    },
+                    {
+                        "@id": "notes",
+                        "propvalue": "Notes",
+                        "propdesc": "Enter any notes you want to appear in the body of the email, above the document text."
+                    },
+                    {
+                        "propvalue": "Display first and last names",
+                        "propdesc": "Select this to include both your first name and last name on the cover page and in the footer of your report."
+                    },
+                    {
+                        "@id": "format",
+                        "propvalue": "Format",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "PDF",
+                                        "dd": "Choose this option to email the documents in .pdf document. Files emailed in .pdf format can be opened and viewed using the Adobe\u00ae Acrobat Reader, an application that may be downloaded free you do not already have it."
+                                    },
+                                    {
+                                        "dt": "Docx",
+                                        "dd": "Choose this option to email the documents in Microsoft Word 2007 format."
+                                    }
+                                ]
+                            },
+                            "#text": "Select the format in which you would like the documents to be emailed."
+                        }
+                    },
+                    {
+                        "@id": "send_as",
+                        "propvalue": "Send as",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "One File",
+                                        "dd": "Select this to send all the documents you selected in one file."
+                                    },
+                                    {
+                                        "dt": "Separate Files",
+                                        "dd": "Select this to send each document you selected in a separate file."
+                                    }
+                                ]
+                            },
+                            "#text": "Select an option from the drop-down list:"
+                        }
+                    },
+                    {
+                        "@id": "zip_files",
+                        "propvalue": "Zip files",
+                        "propdesc": {
+                            "ul": {
+                                "li": [
+                                    "Some email servers are unable to accept large file sizes. Smaller, compressed files are more likely to be received.",
+                                    "Compressed files take up less space in the recipient's mailbox.",
+                                    "When downloading, compressed files take up less space on your computer's local drive."
+                                ]
+                            },
+                            "note": {
+                                "@type": "note",
+                                "#text": "Files sent in ZIP format can be opened and viewed using WinZip\u00ae, an application that may be purchased from this location: http://www.winzip.com/downwz.htm if the recipient does not already have it."
+                            },
+                            "#text": "Select this checkbox if you want to send the files in a compressed (ZIP) file format."
+                        }
+                    },
+                    {
+                        "@id": "OK",
+                        "propvalue": "OK",
+                        "propdesc": "Click this to email your reports."
+                    },
+                    {
+                        "@id": "cancel",
+                        "propvalue": "Cancel",
+                        "propdesc": "Click this to return to your search results without emailing your reports."
+                    }
+                ]
+            }
+        }
+    }
+}

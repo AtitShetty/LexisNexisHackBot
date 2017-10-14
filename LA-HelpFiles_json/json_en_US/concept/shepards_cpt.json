@@ -1,0 +1,55 @@
+{
+    "concept": {
+        "@otherprops": "shep;shepardsreportips",
+        "@audience": "res",
+        "@id": "shepards_cpt",
+        "title": {
+            "i": {
+                "#tail": "\u00ae citation search?",
+                "#text": "Shepard's"
+            },
+            "#text": "What is a"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-02-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "shepardsfirst",
+                        "#tail": "Citations Service provides a comprehensive report of the cases, statutes, secondary sources, and annotations that cite your authority, including more recent cases that rely on your starting case. You can use this report to quickly validate your research and ensure you have good law."
+                    },
+                    "#text": "The"
+                },
+                {
+                    "ph": {
+                        "@keyref": "shepards",
+                        "#tail": "editors assign editorial analysis phrases that best fit the citing case within their editorial guidelines, helping you make a \"good law/bad law\" determination."
+                    }
+                }
+            ]
+        }
+    }
+}

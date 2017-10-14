@@ -1,0 +1,65 @@
+{
+    "topic": {
+        "@otherprops": "homesearch",
+        "@audience": "res",
+        "@id": "gh_homeworkfolders",
+        "title": "Shepard's Tutorials",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": [
+            {
+                "@conref": "tutorialshepapphist_cpt.xml",
+                "@id": "",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepcitingdec_cpt.xml",
+                "@id": "tutorialshepcitingdec_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepheadnote_cpt.xml",
+                "@id": "tutorialshepheadnote_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepover_cpt.xml",
+                "@id": "tutorialshepover_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialsheptoa_cpt.xml",
+                "@id": "tutorialsheptoa_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ]
+    }
+}

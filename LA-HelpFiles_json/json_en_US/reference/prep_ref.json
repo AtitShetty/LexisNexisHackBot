@@ -1,0 +1,66 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "prep_ref",
+        "title": {
+            "userinput": {
+                "#tail": "Connector",
+                "#text": "pre/p"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "userinput": {
+                            "#tail": "connector to find documents in which the first word precedes the second within approximately 75 words of each other.",
+                            "#text": "pre/p"
+                        },
+                        "#text": "Use the"
+                    },
+                    "For example, the following search finds documents where the word \"overtime\" precedes the word \"compensation\" within approximately 75 words.",
+                    {
+                        "userinput": "overtime pre/p compensation"
+                    }
+                ],
+                "note": {
+                    "userinput": [
+                        {
+                            "#tail": "in place of",
+                            "#text": "+p"
+                        },
+                        {
+                            "#tail": "if you wish. Both commands function the same way.",
+                            "#text": "pre/p"
+                        }
+                    ],
+                    "#text": "You can use"
+                }
+            }
+        }
+    }
+}

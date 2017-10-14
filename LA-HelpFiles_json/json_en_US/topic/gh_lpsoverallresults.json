@@ -1,0 +1,76 @@
+{
+    "topic": {
+        "@otherprops": "lps;results",
+        "@audience": "exclude",
+        "@id": "gh_lpsoverallresults",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Viewing Overall Search Results in"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": {
+            "@conref": "lpssearchresults_cpt.xml",
+            "@id": "lpssearchresults_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "lpssortresults_hdi.xml",
+                "@id": "lpssortresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsfilterresults_hdi.xml",
+                "@id": "lpsfilterresults_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewindividualexpert_hdi.xml",
+                "@id": "lpsviewindividualexpert_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewindividualjudge_hdi.xml",
+                "@id": "lpsviewindividualjudge_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewindividualattorney_hdi.xml",
+                "@id": "lpsviewindividualattorney_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

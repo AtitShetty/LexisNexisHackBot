@@ -1,0 +1,739 @@
+{
+    "help-conf": {
+        "pagetitle": "Home",
+        "headings": [
+            {
+                "@audience": "all",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "Features"
+                        },
+                        "#text": "Help Topics for All"
+                    },
+                    "description": {
+                        "p": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "features, or select the"
+                            },
+                            "b": {
+                                "#tail": "drop-down list to show help content specific to only a particular Lexis Advance feature. Use the search box at the top of the page to find a specific term or idea you're looking for. All information about using the main Lexis Advance Research tool can be found in the top folder in the list below.",
+                                "#text": "Choose Your Feature / All Help"
+                            },
+                            "#text": "Use the links below to browse the help topics available for all of the different"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "res",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "Research"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": [
+                            {
+                                "b": [
+                                    {
+                                        "ph": {
+                                            "@keyref": "prodnamefirst"
+                                        },
+                                        "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                    },
+                                    {
+                                        "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                        "#text": "Lexis Advance\u00ae Help"
+                                    }
+                                ],
+                                "#text": "Use the links below to browse the help topics available for performing research using"
+                            },
+                            {
+                                "@audience": "lsa",
+                                "#text": "If you are entitled to view your search results using Lexis\u00ae Search Advantage, please see the help content related to using this feature."
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@audience": "mobile",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "for Mobile"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": {
+                                "ph": {
+                                    "@keyref": "prodname",
+                                    "#tail": "for Mobile"
+                                },
+                                "#tail": "."
+                            },
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "lpa",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "lpanamefirst"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "lpaname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "lps",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "lpsnamefirst"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "lpsname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content for a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "med",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "mednamefirst"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "medname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "pub",
+                "page": {
+                    "title": "Help Topics for Public Records",
+                    "description": {
+                        "p": [
+                            {
+                                "ph": {
+                                    "@keyref": "prodname",
+                                    "#tail": "help."
+                                },
+                                "#text": "The help for Public Records is separate from the"
+                            },
+                            "You can access that help system by:"
+                        ],
+                        "ul": {
+                            "li": [
+                                "Selecting a Help or Tips link while you are using the Public Records feature",
+                                {
+                                    "p": [
+                                        "Copying and pasting the following URL (from http: through all) into a new browser window:",
+                                        "http://help.lexisnexis.com/tabula-rasa/pubrec/home?lbu=US&locale=en_US&audience=all"
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "vsa",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "vsanamefirst"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "vsaname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content for a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "cb",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "cbnamefirst"
+                        },
+                        "#text": "Help Topics for the"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "prodname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "icw",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "icwnamefirst"
+                        },
+                        "#text": "Help Topics for the"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "icwname"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "tax",
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "taxnamefirst"
+                        },
+                        "#text": "Help Topics for the"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "ph": {
+                                        "@keyref": "taxnamefirst"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "blink",
+                "page": {
+                    "title": {
+                        "i": {
+                            "#tail": "BriefLink",
+                            "#text": "Shepard's"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "i": {
+                                        "#tail": "BriefLink",
+                                        "#text": "Shepard's"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "@audience": "bcheck",
+                "page": {
+                    "title": {
+                        "i": {
+                            "#tail": "BriefCheck",
+                            "#text": "Shepard's"
+                        },
+                        "#text": "Help Topics for"
+                    },
+                    "description": {
+                        "p": {
+                            "b": [
+                                {
+                                    "i": {
+                                        "#tail": "BriefCheck",
+                                        "#text": "Shepard's"
+                                    },
+                                    "#tail": ". Use the search box at the top of the page to find a specific term or idea you're looking for. Select the"
+                                },
+                                {
+                                    "#tail": "drop-down list to choose help content specific to a different Lexis Advance feature.",
+                                    "#text": "Lexis Advance\u00ae Help"
+                                }
+                            ],
+                            "#text": "Use the links below to browse the help topics available for performing research using"
+                        }
+                    }
+                }
+            },
+            {
+                "page": {
+                    "title": {
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "Help"
+                        }
+                    },
+                    "description": {
+                        "p": {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "feature. To focus the list of topics to a single feature, select that feature from the Lexis Advance\u00ae Help drop-down list at the top of this page. Use the search box, also at the top of the page, to find help for a specific term or idea."
+                            },
+                            "#text": "Use the links below to browse the help topics available for each"
+                        }
+                    }
+                }
+            }
+        ],
+        "topic-clusters": {
+            "@type": "manual",
+            "cluster": [
+                {
+                    "@audience": "res",
+                    "type": "research",
+                    "title": "Performing Research Using Lexis Advance\u00ae",
+                    "description": null,
+                    "subfolder": [
+                        {
+                            "title": "Getting Started",
+                            "topic": [
+                                {
+                                    "@href": "gh_homegetstarted.xml"
+                                },
+                                {
+                                    "@href": "gh_laabout.xml"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Searching With Lexis Advance\u00ae",
+                            "topic": [
+                                {
+                                    "@href": "gh_homesearch.xml"
+                                },
+                                {
+                                    "@href": "gh_homesearchsources.xml"
+                                },
+                                {
+                                    "@href": "gh_homeconnectors.xml"
+                                },
+                                {
+                                    "@href": "gh_homefavorites.xml"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Using the Shepard's\u00ae Citations Service",
+                            "topic": [
+                                {
+                                    "@href": "gh_shepards.xml"
+                                },
+                                {
+                                    "@href": "gh_alertsshep.xml"
+                                },
+                                {
+                                    "@href": "gh_homeworkfolders.xml"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Working with Your Search Results and Documents",
+                            "topic": [
+                                {
+                                    "@href": "gh_homeresults.xml"
+                                },
+                                {
+                                    "@href": "gh_homefulldoc.xml"
+                                },
+                                {
+                                    "@href": "gh_homeworkfolders.xml"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Delivering your Search Results and Documents",
+                            "topic": {
+                                "@href": "gh_homedelivery.xml"
+                            }
+                        },
+                        {
+                            "title": "Creating and Using Custom Pages",
+                            "topic": {
+                                "@href": "gh_custompage.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Your Search Results Using Lexis\u00ae Search Advantage",
+                            "topic": {
+                                "@href": "gh_lsa.xml"
+                            }
+                        },
+                        {
+                            "title": "Setting Up Alerts",
+                            "topic": {
+                                "@href": "gh_homealerts.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Your Research History",
+                            "topic": {
+                                "@href": "gh_homehistory.xml"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@audience": "cb",
+                    "type": "cb",
+                    "title": "LexisNexis\u00ae Counsel Benchmarking Help",
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_cb.xml"
+                    }
+                },
+                {
+                    "@audience": "lps",
+                    "type": "lps",
+                    "title": "LexisNexis\u00ae Litigation Profile Suite Help",
+                    "description": null,
+                    "subfolder": [
+                        {
+                            "title": "About LexisNexis\u00ae Litigation Profile Suite",
+                            "topic": {
+                                "@href": "gh_lpsabout.xml"
+                            }
+                        },
+                        {
+                            "title": "Searching with LexisNexis\u00ae Litigation Profile Suite",
+                            "topic": {
+                                "@href": "gh_lpssearchall.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Profile Reports for Individual Attorneys",
+                            "topic": {
+                                "@href": "gh_lpsattorneyreports.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Profile Reports for Individual Expert Witnesses",
+                            "topic": {
+                                "@href": "gh_lpsexpertreports.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Profile Reports for Individual Judges",
+                            "topic": {
+                                "@href": "gh_lpsjudgereports.xml"
+                            }
+                        },
+                        {
+                            "title": "Working with Your Search Results and Documents",
+                            "topic": [
+                                {
+                                    "@href": "gh_homefulldoc.xml"
+                                },
+                                {
+                                    "@href": "gh_homeworkfolders.xml"
+                                },
+                                {
+                                    "@href": "gh_homedelivery.xml"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@audience": "med",
+                    "type": "med",
+                    "title": "LexisNexis\u00ae MedMal Navigator\u00ae Help",
+                    "description": null,
+                    "subfolder": {
+                        "title": "Using LexisNexis\u00ae MedMal Navigator\u00ae",
+                        "topic": {
+                            "@href": "gh_medmalnav.xml"
+                        }
+                    }
+                },
+                {
+                    "@audience": "vsa",
+                    "type": "vsa",
+                    "title": "LexisNexis\u00ae Verdict & Settlement Analyzer Help",
+                    "description": null,
+                    "subfolder": [
+                        {
+                            "title": "About LexisNexis\u00ae Verdict & Settlement Analyzer",
+                            "topic": {
+                                "@href": "gh_vsa.xml"
+                            }
+                        },
+                        {
+                            "title": "Searching with LexisNexis\u00ae Verdict & Settlement Analyzer",
+                            "topic": {
+                                "@href": "gh_vsasearch.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing  LexisNexis\u00ae Verdict & Settlement Results",
+                            "topic": [
+                                {
+                                    "@href": "gh_vsaresults.xml"
+                                },
+                                {
+                                    "@href": "gh_homefulldoc.xml"
+                                },
+                                {
+                                    "@href": "gh_homeworkfolders.xml"
+                                },
+                                {
+                                    "@href": "gh_homedelivery.xml"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "@audience": "tax",
+                    "type": "tax",
+                    "title": "Lexis Advance\u00ae Tax Help",
+                    "description": null,
+                    "subfolder": [
+                        {
+                            "title": "Searching and Viewing Lexis Advance\u00ae Tax Documents",
+                            "topic": {
+                                "@href": "gh_tax.xml"
+                            }
+                        },
+                        {
+                            "title": "Working with Your Search Results and Documents",
+                            "topic": [
+                                {
+                                    "@href": "gh_homeresults.xml"
+                                },
+                                {
+                                    "@href": "gh_homefulldoc.xml"
+                                },
+                                {
+                                    "@href": "gh_homeworkfolders.xml"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Delivering My Research",
+                            "topic": {
+                                "@href": "gh_homedelivery"
+                            }
+                        },
+                        {
+                            "title": "Setting Up Alerts",
+                            "topic": {
+                                "@href": "gh_homealerts.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Your Research History",
+                            "topic": {
+                                "@href": "gh_homehistory.xml"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@audience": "lpa",
+                    "type": "lpa",
+                    "title": "Lexis Practice Advisor\u00ae Help",
+                    "description": null,
+                    "subfolder": [
+                        {
+                            "title": "About Lexis Practice Advisor\u00ae",
+                            "topic": {
+                                "@href": "gh_lpa.xml"
+                            }
+                        },
+                        {
+                            "title": "Lexis Practice Advisor\u00ae Forms",
+                            "topic": {
+                                "@href": "gh_lpaforms.xml"
+                            }
+                        },
+                        {
+                            "title": "Viewing Lexis Practice Advisor\u00ae Search Results",
+                            "topic": {
+                                "@href": "gh_lparesults.xml"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "@audience": "icw",
+                    "type": "icw",
+                    "title": "LexisNexis\u00ae Interactive Citation Workstation Help",
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_icw.xml"
+                    }
+                },
+                {
+                    "@audience": "bcheck",
+                    "type": "bcheck",
+                    "title": {
+                        "i": {
+                            "#tail": "BriefCheck Help",
+                            "#text": "Shepard's"
+                        }
+                    },
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_shepardsbcheck.xml"
+                    }
+                },
+                {
+                    "@audience": "blink",
+                    "type": "blink",
+                    "title": {
+                        "i": {
+                            "#tail": "BriefLink Help",
+                            "#text": "Shepard's"
+                        }
+                    },
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_shepardsblink.xml"
+                    }
+                },
+                {
+                    "@audience": "urlapi",
+                    "type": "urlapi",
+                    "title": "Lexis Advance\u00ae URL API Help",
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_urlapi.xml"
+                    }
+                },
+                {
+                    "@audience": "pub",
+                    "type": "pub",
+                    "title": "Public Records Help",
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_pubrecords.xml"
+                    }
+                },
+                {
+                    "type": "contact",
+                    "title": "Contacting LexisNexis",
+                    "description": null,
+                    "topic": {
+                        "@href": "gh_contactus.xml"
+                    }
+                }
+            ]
+        }
+    }
+}

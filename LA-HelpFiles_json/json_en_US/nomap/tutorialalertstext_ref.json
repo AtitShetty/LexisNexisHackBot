@@ -1,0 +1,172 @@
+{
+    "reference": {
+        "@audience": "res",
+        "@id": "tutorialalertstext_ref",
+        "title": "Lexis Advance\u00ae Text-only Tutorial",
+        "prolog": {
+            "author": [
+                "Multimedia Team",
+                "Mike Lloyd"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-03-24"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Using My Alerts",
+                    "p": [
+                        "Alerts are searches you set to run at scheduled intervals to stay updated on your subjects of interest.",
+                        "This tutorial describes how to create and manage alerts.",
+                        "You can create alerts for:"
+                    ],
+                    "ul": {
+                        "li": [
+                            "Searches",
+                            {
+                                "ph": {
+                                    "@keyref": "shepardsfirst",
+                                    "#tail": "reports"
+                                }
+                            },
+                            "Topics",
+                            "Compare Search Results",
+                            "Find Similar Documents"
+                        ]
+                    }
+                },
+                {
+                    "title": "Setting up a Search Alert",
+                    "p": [
+                        "To set up a search alert, run the search, then select the \"Create an alert\" icon on the results page.",
+                        "The \"Create New Search Alert\" box appears, where you can set options for your alert.",
+                        "These options differ, depending on which type of alert you\u2019re creating",
+                        "Click the \"Save\" button to save the alert."
+                    ],
+                    "ul": {
+                        "li": [
+                            "You can use the suggested \"Title\" (your search terms), or enter a title of your choice.",
+                            "\"Type\" tells you the type of alert you are creating.",
+                            "The \"Search Terms\" field shows your search terms.",
+                            "\"Client\" shows the client for which you ran the search. Use the \"Set Client\" link if you want to save the alert with a different client.",
+                            "Under \"Monitor for New Documents\", select the boxes of the content types you want the alert to search.",
+                            "The alert also will apply any filters you\u2019ve selected, which appear under \"You\u2019ve selected\" in the \"Narrow By\" pane on your results page.",
+                            "Use the \"How Often\" menu to choose how often you\u2019d like the alert to search for new documents. If you choose Weekly, select the day of the week; if you choose Monthly, select the day of the month",
+                            "Use \"Alert Duration\" to set the alert's \"From\" and \"To\" dates. You can either type the dates or choose them from the calendars. Alert durations can be up to 2 years.",
+                            "Use the \"Delivery Type\" menu to choose how you would like to receive updates. If you choose Email, enter your email address and choose whether you want to receive the email in HTML or text format."
+                        ]
+                    }
+                },
+                {
+                    "title": {
+                        "ph": {
+                            "@keyref": "shepalert"
+                        },
+                        "#text": "Setting up a"
+                    },
+                    "p": [
+                        {
+                            "i": {
+                                "#tail": "\u00ae the citation you want the alert to monitor. Then select the \"Create an alert\" icon at the top of your results list.",
+                                "#text": "Shepardize"
+                            },
+                            "#text": "First,"
+                        },
+                        {
+                            "ph": {
+                                "@keyref": "shepalert",
+                                "#tail": "\" box appears, where you can set options for the alert."
+                            },
+                            "#text": "The \"Create New"
+                        },
+                        "Click the \"Save\" button to save the alert."
+                    ],
+                    "ul": {
+                        "li": [
+                            "You can use the suggested \"Title\" (which is the name of the report), or enter a title of your choice.",
+                            "Select an option under \"Monitor this Citation for\" to choose the of changes you would like to be notified about.",
+                            "Custom settings will vary depending on whether the alert is for case law or a statute.",
+                            "The remaining options are the same as those for search alerts."
+                        ]
+                    }
+                },
+                {
+                    "title": "Setting up a Topic Alert",
+                    "p": [
+                        "A Topic alert notifies you when the content of a topic is updated.",
+                        "To select a topic for an alert, find the topic:",
+                        "To set up the alert, select the topic name (link), then select \"Set up an alert for topic\".",
+                        "The \"Create New Topic Alert\" box appears, where you can set options for the alert. These options are similar to those for other alerts.",
+                        "Click the \"Save\" button to save your alert."
+                    ],
+                    "ol": {
+                        "li": [
+                            "Click the \"Topic\" link above the search box.",
+                            "Click the \"Browse all topics...\" link.",
+                            "Choose a practice area and navigate to the desired topic."
+                        ]
+                    }
+                },
+                {
+                    "title": "Setting up a Compare Search Results or Find Similar Results Alert",
+                    "p": [
+                        "You can set up alerts for research map search results.",
+                        "Note that you can set up search alerts from the research map. Just select a results icon, then select the \"Create an alert\" link.",
+                        "You can also set up alerts for the \"Compare Search Results\" and \"Find Similar Results\" features.",
+                        "Display the results by selecting your results or documents, then selecting the appropriate \"Find\" button on the research map. Then select the \"Create an alert\" icon at the top of your results list, and set your alert options.",
+                        "Click the \"Save\" button to save the alert."
+                    ]
+                },
+                {
+                    "title": "Managing Alerts and Viewing their Results",
+                    "p": [
+                        "You can display alerts from the My Workspace menu:",
+                        "With this menu, you can view updates for an alert by selecting the alert name, or display the Alerts page by selecting the \"Alerts\" or \"Go to all alerts\" link.",
+                        "On the Alerts page, you can:",
+                        "This concludes the \"Using My Alerts\" tutorial."
+                    ],
+                    "ol": {
+                        "li": [
+                            "Click \"My Workspace\" at the top of the page to open the menu.",
+                            "Hover on \"Alerts\" to display more options."
+                        ]
+                    },
+                    "ul": {
+                        "li": [
+                            "Click an alert title to view its updates.",
+                            "Display specific alerts using the \"Search Alerts\" box and \"Narrow By\" options.",
+                            "Sort your alerts using the column headers or the \"Sort by\" menu.",
+                            "Perform tasks such as pausing/resuming alerts, editing them, etc., using links under its title for an individual alert. The \"Actions\" menu lets you perform similar tasks for 1 or more alerts you have selected using their checkboxes."
+                        ]
+                    }
+                }
+            ]
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialalerts_cpt.xml"
+                }
+            }
+        }
+    }
+}

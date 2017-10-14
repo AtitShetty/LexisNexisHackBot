@@ -1,0 +1,134 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "lpa",
+        "@id": "lpaaddalternateclause_hdi",
+        "title": "How do I add alternate clauses to a form?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                },
+                "revised": {
+                    "@modified": "2014-03-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "may have one or more nonstandard Alternate clauses you can choose to add in place of an existing standard clause.  To replace a standard clause with an Alternate clause:"
+                    },
+                    "#text": "Editable forms in"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Alternate Clause",
+                                "@href": "IconClause.png",
+                                "@placement": "inline",
+                                "#tail": "."
+                            },
+                            "#text": "On the right side of the form beside the clause you want to replace, select"
+                        },
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "pop-up appears, displaying an alternate clause you can choose to add in place of the form's standard text in that section.",
+                                "#text": "Alternative Clause"
+                            },
+                            "note": {
+                                "@type": "tip",
+                                "#text": "You will see a separate icon for each available clause."
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Add Clause Button",
+                                "@href": "btn_addToForm.png",
+                                "@placement": "inline",
+                                "#tail": "."
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "pop-up disappears, and the selected Alternate Clause appears below the standard clause.",
+                                "#text": "Alternative Clause"
+                            },
+                            "note": {
+                                "@type": "tip",
+                                "image": {
+                                    "@alt": "Drafting Notes Icon",
+                                    "@href": "IconDraftingNote.png",
+                                    "@placement": "inline",
+                                    "#tail": ") will appear in the form's right margin."
+                                },
+                                "#text": "If you selected an Alternate Clause that has associated drafting notes, the Drafting Notes icon ("
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Remove Clause",
+                                "@href": "IconRemove.png",
+                                "@placement": "inline",
+                                "#tail": "for the version of the clause (the standard clause or the Alternate) you DO NOT want to use."
+                            },
+                            "#text": "Select"
+                        },
+                        "stepresult": "The selected clause disappears."
+                    },
+                    {
+                        "cmd": "Complete your work in the form and save it.",
+                        "stepresult": {
+                            "note": {
+                                "@type": "note",
+                                "ph": {
+                                    "@keyref": "prodname",
+                                    "#tail": ", see the topic"
+                                },
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "saveresearch_hdi.xml",
+                                    "#tail": ".",
+                                    "#text": "How do I save my research"
+                                },
+                                "#text": "For more information on saving your work in"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

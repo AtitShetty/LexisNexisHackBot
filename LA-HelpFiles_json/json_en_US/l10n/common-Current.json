@@ -1,0 +1,256 @@
+{
+    "help-conf": {
+        "imagepath": "Snapshots/UXGlobal/UXGlobal/images",
+        "pagetitle": "Lexis Advance\u00ae Help",
+        "header": {
+            "logo": {
+                "image": null,
+                "alt": "Help",
+                "title": "Online Help for Lexis Advance\u00ae"
+            },
+            "search": {
+                "subtitle": "Enter a phrase, keywords, or Boolean query",
+                "image": "ButSearch.gif",
+                "alt": "Search Help",
+                "title": "Select the Search button to submit your search query",
+                "linktext": "More \u00bb",
+                "wipetext": "Clear Field"
+            },
+            "print": "Printer Friendly View",
+            "style": "new"
+        },
+        "navbar": {
+            "home": "View the Help file's home page",
+            "back": "Return to the previous page",
+            "link": [
+                {
+                    "text": "Content Listing",
+                    "uri": {
+                        "@context-suffix": "yes",
+                        "#text": "https://web.lexis.com/help/research/ContentListing.pdf"
+                    }
+                },
+                {
+                    "text": "Searching the Online Help",
+                    "uri": {
+                        "@context-suffix": "yes",
+                        "#text": "gh_helpsearchquery-topic"
+                    }
+                },
+                {
+                    "text": "Lexis Advance\u00ae Support Page",
+                    "uri": {
+                        "@context-suffix": "yes",
+                        "#text": "http://www.lexisnexis.com/en-us/support/lexis-advance/default.page"
+                    }
+                }
+            ],
+            "icon": [
+                {
+                    "@type": "link",
+                    "image": "lx-th-img-contact",
+                    "alt": "Contact",
+                    "title": "Contact us at 1-800-543-6862",
+                    "uri": {
+                        "@context-suffix": "yes",
+                        "#text": "gh_contactus-topic"
+                    }
+                },
+                {
+                    "@type": "link",
+                    "image": "lx-th-img-tutorial",
+                    "alt": "Tutorials",
+                    "title": "View product tutorials",
+                    "uri": {
+                        "@context-suffix": "yes",
+                        "#text": "gh_tutorial-topic"
+                    }
+                },
+                {
+                    "@type": "rtf",
+                    "image": "lx-th-img-rtf",
+                    "alt": "RTF",
+                    "title": "Create an RTF of this page"
+                },
+                {
+                    "@type": "pdf",
+                    "image": "lx-th-img-pdf",
+                    "alt": "PDF",
+                    "title": "Create a PDF of this page"
+                },
+                {
+                    "@type": "print",
+                    "image": "lx-th-img-print",
+                    "alt": "Print",
+                    "title": "View this page in printer-friendly mode"
+                }
+            ]
+        },
+        "content": {
+            "audiences": {
+                "@tooltip": "Select to choose Help content for a specific Lexis Advance\u00ae feature",
+                "@title": "All Help",
+                "audience": [
+                    {
+                        "@badge": "RSRCH",
+                        "@name": "res",
+                        "@title": "Research"
+                    },
+                    {
+                        "@badge": "URLAPI",
+                        "@name": "urlapi",
+                        "@title": "URL API"
+                    },
+                    {
+                        "@badge": "SHEP",
+                        "@name": "shep",
+                        "@title": "Shepard's\u00ae Citations Service"
+                    },
+                    {
+                        "@badge": "LPA",
+                        "@name": "lpa",
+                        "@title": "Lexis Practice Advisor\u00ae"
+                    },
+                    {
+                        "@badge": "LPS",
+                        "@name": "lps",
+                        "@title": "Litigation Profile Suite"
+                    },
+                    {
+                        "@badge": "MEDMAL",
+                        "@name": "med",
+                        "@title": "MedMal Navigator"
+                    },
+                    {
+                        "@badge": "PUB",
+                        "@name": "pub",
+                        "@title": "Public Records"
+                    },
+                    {
+                        "@badge": "VSA",
+                        "@name": "vsa",
+                        "@title": "Verdict & Settlement Analyzer"
+                    },
+                    {
+                        "@badge": "LSA",
+                        "@name": "lsa",
+                        "@title": "Lexis Search Advantage"
+                    },
+                    {
+                        "@badge": "CB",
+                        "@name": "cb",
+                        "@title": "Counsel Benchmarking"
+                    },
+                    {
+                        "@badge": "ICW",
+                        "@name": "icw",
+                        "@title": "Interactive Citation Workstation"
+                    },
+                    {
+                        "@badge": "TAX",
+                        "@name": "tax",
+                        "@title": "Lexis Advance\u00ae Tax"
+                    }
+                ]
+            },
+            "labels": {
+                "topic": "All About...",
+                "task": "How Do I...?",
+                "concept": "Overviews",
+                "reference": "Reference Material",
+                "field": "Page Descriptions",
+                "trouble": "Troubleshooting Tips"
+            }
+        },
+        "footer": {
+            "logo": {
+                "image": "LogoCore.gif",
+                "alt": "LexisNexis\u00ae",
+                "title": "LexisNexis\u00ae",
+                "uri": "http://www.lexisnexis.com/en-us/home.page"
+            },
+            "about": {
+                "text": "About LexisNexis",
+                "uri": "http://www.lexisnexis.com/about"
+            },
+            "terms": {
+                "text": "Terms & Conditions",
+                "uri": "http://www.lexisnexis.com/terms/general"
+            },
+            "copyright": {
+                "text": "Copyright \u00a9",
+                "uri": "http://www.lexisnexis.com/terms/copyright.asp"
+            },
+            "locale": {
+                "text": "LexisNexis.",
+                "uri": "http://www.lexisnexis.com"
+            },
+            "rights": {
+                "text": "All rights reserved."
+            }
+        },
+        "breadcrumb": {
+            "home": "Home",
+            "landing": "All About..."
+        },
+        "search": {
+            "tipthreshold": "50",
+            "badgetip": "This result is specific to {0}.",
+            "resultmsg": {
+                "text": [
+                    {
+                        "@null": "true",
+                        "#text": "Your search for {0} returned 0 results."
+                    },
+                    {
+                        "@null": "false",
+                        "#text": "Your search for {0} returned {1} {2} in {3} {4}. Indicators next to links indicate the specific features for which the Lexis Advance search results apply"
+                    },
+                    null
+                ],
+                "result": {
+                    "singular": "result",
+                    "plural": "results"
+                },
+                "category": {
+                    "singular": "category",
+                    "plural": "categories"
+                }
+            },
+            "error": {
+                "h1": "Search Error",
+                "p": [
+                    "There was a problem with the search you submitted. You may have:",
+                    {
+                        "a": {
+                            "@href": "javascript:history.go(-1)",
+                            "@onmouseover": "self.status=document.referrer;return true",
+                            "#tail": ".",
+                            "#text": "return to the previous page"
+                        },
+                        "#text": "You can submit a new search below, or"
+                    }
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "span": {
+                                "strong": {
+                                    "#tail": "button without entering any search terms",
+                                    "#text": "Search"
+                                },
+                                "#text": "Selected the"
+                            }
+                        },
+                        {
+                            "span": {
+                                "samp": "+ - & | ! ( ) { } [ ] ^ \" ~ * ? : \\",
+                                "#text": "Entered characters that must be preceded by a / character:"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

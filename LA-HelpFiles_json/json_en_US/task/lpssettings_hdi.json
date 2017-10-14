@@ -1,0 +1,98 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpssettings_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "settings?"
+            },
+            "#text": "How do I change my"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-01-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "lpsnamefirst",
+                                "#tail": ", you may find that you search for a specific type of profile more frequently than others. You can change"
+                            },
+                            {
+                                "@keyref": "lpsname",
+                                "#tail": "so it automatically defaults to this profile type when you access"
+                            },
+                            {
+                                "@keyref": "lpsname",
+                                "#tail": "."
+                            }
+                        ],
+                        "#text": "When using"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Litigation Profile Suite Settings"
+                                },
+                                {
+                                    "#tail": "drop-down list in the global navigation bar.",
+                                    "#text": "Settings"
+                                }
+                            ],
+                            "#text": "Choose"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list.",
+                                "#text": "Profile search default"
+                            },
+                            "#text": "Choose your default profile type from the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to save your  changes and close the Settings dialog box.",
+                                "#text": "Apply All Settings"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

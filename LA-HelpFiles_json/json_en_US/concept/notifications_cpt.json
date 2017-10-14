@@ -1,0 +1,72 @@
+{
+    "concept": {
+        "@otherprops": "notifications;notificationstips",
+        "@id": "notifications_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "Notifications?"
+            },
+            "#text": "What are"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": {
+                "p": [
+                    "When you share an item, such as a document, a folder, or an alert, you send a notification to the people you have shared the item with.  When someone shares an item with you, you will receive a notification about it.  Notifications are also sent when you or someone else stops sharing an item that has been shared, or adds or removes an item in a shared folder.",
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "from the",
+                                "#text": "Notifications"
+                            },
+                            {
+                                "#tail": "drop-down list at the top of any page, or you can view the",
+                                "#text": "More"
+                            },
+                            {
+                                "#tail": "pod on the",
+                                "#text": "Notifications"
+                            }
+                        ],
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "home page."
+                        },
+                        "#text": "To see the list of all the notifications you have sent or received, you can either select"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "page.",
+                            "#text": "Settings > General"
+                        },
+                        "#text": "If you prefer not to receive notifications, you can turn them off for one or all of the event types on the"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "topic": {
+        "@otherprops": "res",
+        "@audience": "res",
+        "@id": "gh_indexcanvas",
+        "title": "Selecting Topics",
+        "titlealts": {
+            "navtitle": {
+                "option": "Topics, browsing"
+            }
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-06-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": [
+                {
+                    "uicontrol": [
+                        {
+                            "#tail": "at the top of the",
+                            "#text": "Browse"
+                        },
+                        {
+                            "#tail": ". A list of topics is displayed alphabetically, and you can search for a topic or just browse through the list of topics to find the one you want to use.",
+                            "#text": "Topics"
+                        }
+                    ],
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "home page, then"
+                    },
+                    "#text": "You can browse all topics by selecting"
+                },
+                "Once you find your topic, you can:"
+            ],
+            "ul": {
+                "li": [
+                    "Get documents for the topic",
+                    "Add the topic as a search filter",
+                    "Create a topic alert"
+                ]
+            }
+        },
+        "task": [
+            {
+                "@conref": "search_hdi.xml",
+                "@id": "search_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "browsetopics_hdi.xml",
+                "@id": "browsetopics_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

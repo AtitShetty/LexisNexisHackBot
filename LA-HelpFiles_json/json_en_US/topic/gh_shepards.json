@@ -1,0 +1,146 @@
+{
+    "topic": {
+        "@otherprops": "shep;shepards;results;citations",
+        "@audience": "res",
+        "@id": "gh_shepards",
+        "title": {
+            "i": {
+                "#tail": "\u00ae Citations Service",
+                "#text": "Shepard's"
+            },
+            "#text": "Using the"
+        },
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Robin Stubbart"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": {
+                "ph": {
+                    "@keyref": "shepname",
+                    "#tail": "is and how to use its features."
+                },
+                "#text": "Read through the links below in order to understand what the"
+            }
+        },
+        "concept": [
+            {
+                "@conref": "shepards_cpt.xml",
+                "@id": "shepards_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "shepchicklets_cpt.xml",
+                "@id": "shepchicklets_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "shepdepthofdiscussion_cpt.xml",
+                "@id": "shepdepthofdiscussion_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepover_cpt.xml",
+                "@id": "tutorialshepover_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepapphist_cpt.xml",
+                "@id": "tutorialshepapphist_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepcitingdec_cpt.xml",
+                "@id": "tutorialshepcitingdec_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialshepheadnote_cpt.xml",
+                "@id": "tutorialshepheadnote_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialsheptoa_cpt.xml",
+                "@id": "tutorialsheptoa_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "shepardizebycitation_hdi.xml",
+                "@id": "shepardizebycitation_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "narrowshep_hdi.xml",
+                "@id": "narrowshep_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "shepsort_hdi.xml",
+                "@id": "shepsort_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "shepfocus_hdi.xml",
+                "@id": "shepfocus_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "shepardsignal_ref.xml",
+                "@id": "shepardsignal_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "shephistory_ref.xml",
+                "@id": "shephistory_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "citationformats_ref.xml",
+                "@id": "citationformats_ref",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

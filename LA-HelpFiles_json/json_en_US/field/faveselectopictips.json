@@ -1,0 +1,94 @@
+{
+    "reference": {
+        "@otherprops": "faveselectopictips",
+        "@audience": "obsolete",
+        "@id": "faveselectopictips",
+        "title": "Recent and Favorites Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "image": {
+                            "@alt": "Delete",
+                            "@href": "closeremove.png",
+                            "@placement": "inline",
+                            "#tail": "icon."
+                        },
+                        "#text": "The Recent & Favorites page lists topics you have marked as favorites and topics you selected for your current search. Topics remain in the list until you remove them by selecting the"
+                    },
+                    {
+                        "image": {
+                            "@alt": "Favorite",
+                            "@href": "closeremove.png",
+                            "@placement": "inline",
+                            "#tail": "icon to the right of the topic name."
+                        },
+                        "#text": "To remove a topic from your favorites, select the"
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Favorite",
+                                "@href": "favoriteempty.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this icon to mark a topic as a favorite."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Favorite",
+                                "@href": "favoritefull.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Indicates this topic is a favorite."
+                    },
+                    {
+                        "propvalue": "Edit",
+                        "propdesc": "Select this to edit a topic."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Favorite",
+                                "@href": "closeremove.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this icon to remove a topic from the list of Recent & Favorites."
+                    }
+                ]
+            }
+        }
+    }
+}

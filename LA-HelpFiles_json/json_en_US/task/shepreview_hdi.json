@@ -1,0 +1,85 @@
+{
+    "task": {
+        "@otherprops": "shep;shepardsreportips;shepurchasetips;shepurchasepreviewtips",
+        "@audience": "private",
+        "@id": "shepreview_hdi",
+        "title": {
+            "i": {
+                "#tail": "\u00ae reports?",
+                "#text": "Shepard's"
+            },
+            "#text": "How do I preview out of plan"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-06-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "prereq": {
+                "p": {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "runshepardsearch_hdi.xml",
+                        "#tail": "before you can preview out of plan results.",
+                        "#text": "Shepard's\u00ae search"
+                    },
+                    "#text": "You must first run a"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Out of plan"
+                            },
+                            "#text": "Select one or more reports marked as"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "links to get an idea of the information in each report.",
+                                "#text": "Show|Hide Free Preview"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": "Clear any reports you do not want to retrieve."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Get the Full Document Now"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

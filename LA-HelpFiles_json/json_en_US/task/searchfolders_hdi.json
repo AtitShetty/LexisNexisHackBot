@@ -1,0 +1,90 @@
+{
+    "task": {
+        "@otherprops": "folders",
+        "@id": "searchfolders_hdi",
+        "title": "How do I find an item saved in one of my folders?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can search your folders to find a document, a section of text, a note, or any other item you have saved to a folder.",
+                    "To search your folders:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "option from the",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page. The Folders page appears.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "box at the top left of the page, type the words you want to search for and select",
+                                    "#text": "Search Within All Folders"
+                                },
+                                {
+                                    "#tail": ".  For example, you can enter the name (or part of the name) of a document, a document citation, a term or terms from a previous search, a client/matter ID, and so on.",
+                                    "#text": "Search"
+                                }
+                            ],
+                            "#text": "In the"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "ul": {
+                        "li": [
+                            "You can also search your folders from the full view of an item in one of your folders. The search box is located at the top left of the page.",
+                            {
+                                "uicontrol": {
+                                    "#tail": "at the top of the page to return to the folder page you were viewing before searching your history.",
+                                    "#text": "Clear search"
+                                },
+                                "#text": "Select"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

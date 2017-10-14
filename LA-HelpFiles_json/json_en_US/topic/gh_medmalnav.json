@@ -1,0 +1,67 @@
+{
+    "topic": {
+        "@otherprops": "med;search;medmalnav",
+        "@audience": "med",
+        "@id": "gh_medmalnav",
+        "title": {
+            "ph": {
+                "@keyref": "mednamefirst"
+            },
+            "#text": "Using"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-08"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            },
+            "data": "medmal navigator medical malpractice litigator litigation"
+        },
+        "body": {
+            "p": {
+                "ph": {
+                    "@keyref": "mednamefirst",
+                    "#tail": "."
+                },
+                "#text": "Read through the links below in order to understand"
+            }
+        },
+        "concept": {
+            "@conref": "medpodescriptions_cpt.xml",
+            "@id": "medpodescriptions_cpt",
+            "title": null,
+            "conbody": null
+        },
+        "task": [
+            {
+                "@conref": "medfindtopic_hdi.xml",
+                "@id": "medfindtopic_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "medusedashboard_hdi.xml",
+                "@id": "medusedashboard_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ]
+    }
+}

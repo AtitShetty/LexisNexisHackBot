@@ -1,0 +1,72 @@
+{
+    "task": {
+        "@otherprops": "taxresults",
+        "@audience": "tax",
+        "@id": "taxnarrowresults_hdi",
+        "title": "How do I narrow or filter my Lexis Advance\u00ae Tax search results?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "taxnamefirst",
+                            "#tail": "displays your results in Snapshot view, which provides an at-a-glance view of your top results for all the categories you selected to search in. While you are viewing your search results, you can limit your results to specific categories."
+                        },
+                        "#text": "By default, when you first view the results of your tax search,"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "taxperformsearch_hdi.xml",
+                                "#tail": ".",
+                                "#text": "Perform your tax search"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "While viewing your results, select the category link on the left side the page to narrow your results to show just that category."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "pane.",
+                                "#text": "Narrow By"
+                            },
+                            "#text": "Optionally, once you have selected a specific category to view, you can further refine your results by choosing options from the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

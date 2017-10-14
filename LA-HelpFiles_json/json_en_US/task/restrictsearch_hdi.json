@@ -1,0 +1,293 @@
+{
+    "task": {
+        "@otherprops": "searchexplore",
+        "@id": "restrictsearch_hdi",
+        "title": "How do I restrict my search using filters?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "xref": [
+                        {
+                            "@scope": "peer",
+                            "@href": "restrictsearchtocontentype_hdi.xml",
+                            "#tail": ",",
+                            "#text": "category"
+                        },
+                        {
+                            "@scope": "peer",
+                            "@href": "restrictsearchtojurisdiction_hdi.xml",
+                            "#tail": ", or",
+                            "#text": "jurisdiction"
+                        },
+                        {
+                            "@scope": "peer",
+                            "@href": "restrictsearchtolegaltopic_hdi.xml",
+                            "#tail": ", so you have fewer results; you can also",
+                            "#text": "practice area and topic"
+                        },
+                        {
+                            "@scope": "peer",
+                            "@href": "sourcerestrictby_hdi.xml",
+                            "#tail": "or",
+                            "#text": "restrict your search to a specific source"
+                        },
+                        {
+                            "@scope": "peer",
+                            "@href": "restrictsearchtolegaltopic_hdi.xml",
+                            "#tail": ". When you get your results, you can narrow them further using the filters on your results page. Use one of the following methods to restrict your search.",
+                            "#text": "topic"
+                        }
+                    ],
+                    "#text": "You can restrict your search to a specific"
+                }
+            }
+        },
+        "task": [
+            {
+                "@id": "fromexplorecontent",
+                "title": "From Explore Content:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": ",",
+                                            "#text": "Content Type"
+                                        },
+                                        {
+                                            "#tail": ",",
+                                            "#text": "Federal"
+                                        },
+                                        {
+                                            "#tail": ", or",
+                                            "#text": "State"
+                                        },
+                                        {
+                                            "#tail": "under",
+                                            "#text": "Practice Area"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "Explore Content"
+                                        }
+                                    ],
+                                    "#text": "Select"
+                                }
+                            },
+                            {
+                                "cmd": "Select the content you want to search in."
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "or select the specific sources you want to search in.",
+                                        "#text": "Search all sources on this page"
+                                    },
+                                    "#text": "On the search form that appears, select"
+                                },
+                                "stepresult": {
+                                    "note": "If you have selected any other filters for this search, they will be replaced by your selection."
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "Search",
+                                        "@href": "redmagnifyglass.png",
+                                        "@placement": "inline",
+                                        "#tail": ")."
+                                    },
+                                    "#text": "Select the search button ("
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "fromsearchbox",
+                "title": "From the search box:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": "Enter your search terms."
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "more",
+                                        "@href": "TriangleDown.png",
+                                        "@placement": "inline",
+                                        "#tail": ") to the right of the"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": "button.",
+                                        "#text": "Search: Everything"
+                                    },
+                                    "#text": "Select the down arrow ("
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "or",
+                                            "#text": "Jurisdiction"
+                                        },
+                                        {
+                                            "#tail": ", or",
+                                            "#text": "Category"
+                                        },
+                                        {
+                                            "#tail": ", or",
+                                            "#text": "Practice Areas & Topics"
+                                        },
+                                        {
+                                            "#tail": "from the",
+                                            "#text": "Recent & Favorites"
+                                        },
+                                        {
+                                            "#tail": "pane on the left.",
+                                            "#text": "Narrow By:"
+                                        }
+                                    ],
+                                    "#text": "Select"
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "checkbox in the",
+                                            "#text": "Cases"
+                                        },
+                                        {
+                                            "#tail": "filter.",
+                                            "#text": "Category"
+                                        }
+                                    ],
+                                    "#text": "Select one or more checkboxes in the areas you want to restrict your search to. For example, to restrict your results to case law, select the"
+                                }
+                            },
+                            {
+                                "cmd": "Select more filters and make your selections, if you want to restrict your search further."
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "for a search, select it. If you made any other filter selections for the search, they will be replaced.",
+                                        "#text": "Recent & Favorites"
+                                    },
+                                    "#text": "To use a filter from your"
+                                },
+                                "stepresult": {
+                                    "uicontrol": {
+                                        "#tail": "as you select them.",
+                                        "#text": "Narrow By"
+                                    },
+                                    "#text": "The selections you make from the filters are displayed next to"
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "Search",
+                                        "@href": "redmagnifyglass.png",
+                                        "@placement": "inline",
+                                        "#tail": ")."
+                                    },
+                                    "#text": "Select the search button ("
+                                }
+                            }
+                        ]
+                    },
+                    "result": {
+                        "note": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "pod.  Open",
+                                    "#text": "Recent & Favorites"
+                                },
+                                {
+                                    "#tail": "to:",
+                                    "#text": "Recent & Favorites"
+                                }
+                            ],
+                            "ul": {
+                                "li": [
+                                    {
+                                        "image": {
+                                            "@alt": "Save as favorite filter",
+                                            "@href": "#FavoriteEmpty.png",
+                                            "@placement": "inline",
+                                            "#tail": ") next to a filter to make it a favorite."
+                                        },
+                                        "#text": "Select the star ("
+                                    },
+                                    {
+                                        "image": {
+                                            "@alt": "Remove filter",
+                                            "@href": "#CloseRemove.png",
+                                            "@placement": "inline",
+                                            "#tail": "next to it."
+                                        },
+                                        "#text": "To remove the filter from your favorites, select the"
+                                    }
+                                ]
+                            },
+                            "p": {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "from the",
+                                        "#text": "Settings"
+                                    },
+                                    {
+                                        "#tail": "drop-down list at the top of the page, then select",
+                                        "#text": "More"
+                                    },
+                                    {
+                                        "#tail": "from the options on the left. Select",
+                                        "#text": "Lexis Advance Research"
+                                    },
+                                    {
+                                        "#tail": ".",
+                                        "#text": "Retain search filters for future sessions"
+                                    }
+                                ],
+                                "#text": "To save a filter to be used in future sessions, select"
+                            },
+                            "#text": "The filters you use are added to the"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

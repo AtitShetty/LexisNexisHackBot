@@ -1,0 +1,137 @@
+{
+    "reference": {
+        "@otherprops": "savesearchtips",
+        "@audience": "res;lpa",
+        "@id": "savesearchtips",
+        "title": "Add Search to Folder Form",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "link in the",
+                            "#text": "Folders"
+                        },
+                        {
+                            "#tail": "drop-down list at the top of any page or by selecting an option from the",
+                            "#text": "More"
+                        },
+                        {
+                            "#tail": "pod on the",
+                            "#text": "Folders"
+                        }
+                    ],
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "home page."
+                    },
+                    "#text": "This form allows you to save your search so you can run it again in the future. After you save a search, you can access it again by selecting the"
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Save Options tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Save Search",
+                                        "dd": "Enter a title for the search, or keep the title that is displayed."
+                                    },
+                                    {
+                                        "dt": "Store Narrow By selections for",
+                                        "dd": {
+                                            "dl": {
+                                                "dlentry": [
+                                                    {
+                                                        "dt": {
+                                                            "i": {
+                                                                "#tail": ")",
+                                                                "#text": "Category Name"
+                                                            },
+                                                            "#text": "Category I'm currently viewing ("
+                                                        },
+                                                        "dd": "Select this to store the selections you made under the \"Narrow By\" filters for the category type you are viewing."
+                                                    },
+                                                    {
+                                                        "dt": "All categories",
+                                                        "dd": "Select this to store the selections for all the categories you searched in."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": "Notes",
+                                        "dd": "Enter any notes you wish to about the search."
+                                    },
+                                    {
+                                        "dt": "Save In",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to create a new folder.",
+                                                "#text": "Create New Folder"
+                                            },
+                                            "#text": "Select the folder you want to add the search to, or select"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Share With Others",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Enter a peer's name and select to share.",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to add the name to the list.",
+                                                "#text": "Add to Share"
+                                            },
+                                            "#text": "To share with others within your network or group of users, enter the peer's name. To share with users outside your group, enter the user's email address. Click"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Selected Users",
+                                        "dd": "The names of the users you will be sharing this folder with."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

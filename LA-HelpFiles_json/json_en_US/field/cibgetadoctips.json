@@ -1,0 +1,143 @@
+{
+    "reference": {
+        "@otherprops": "cib",
+        "@id": "cibgetadoctips",
+        "title": "Get a Document Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-10-19"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": ", either entering the document citation, by party name, or by docket number."
+                        },
+                        "#text": "Use the Get a Document pod to retrieve case law documents in"
+                    },
+                    "note": "The version of the Get a Document pod you are using may not have all the items that are described below."
+                },
+                {
+                    "title": "By Citation"
+                },
+                {
+                    "title": "By Party Name",
+                    "p": "Use this to retrieve a case law document by party name.  You must enter at least one party name."
+                },
+                {
+                    "title": "By Docket Number",
+                    "p": "Use this to retrieve a case law document by docket number."
+                }
+            ],
+            "properties": [
+                {
+                    "property": [
+                        {
+                            "propvalue": "Content type",
+                            "propdesc": "Select the content type from the drop-down list."
+                        },
+                        {
+                            "propvalue": "Jurisdiction",
+                            "propdesc": {
+                                "note": "The sources and citation formats available for the content type and jurisdiction you selected are displayed.  When you select one, a form is displayed for you to enter the citation in the proper format.",
+                                "#text": "Select the jurisdiction from the drop-down list."
+                            }
+                        },
+                        {
+                            "propvalue": "Back to citation formats",
+                            "propdesc": "Select this to return to the list of formats to select a different one."
+                        },
+                        {
+                            "propvalue": "Get Document",
+                            "propdesc": "Select this to retrieve your documents."
+                        },
+                        {
+                            "propvalue": {
+                                "ph": {
+                                    "@keyref": "shepardizefirst"
+                                }
+                            },
+                            "propdesc": {
+                                "ph": {
+                                    "@keyref": "shepardize",
+                                    "#tail": "the citation (if available)."
+                                },
+                                "#text": "Select this to"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "property": [
+                        {
+                            "propvalue": "Party",
+                            "propdesc": "Enter the name of the first party."
+                        },
+                        {
+                            "propvalue": "Party",
+                            "propdesc": "Enter the name of the second party if you know it."
+                        },
+                        {
+                            "propvalue": "Jurisdiction",
+                            "propdesc": "Select this to narrow your search to one or more jurisdictions."
+                        },
+                        {
+                            "propvalue": "Date",
+                            "propdesc": "Select this to narrow your search to a date or range of dates."
+                        },
+                        {
+                            "propvalue": "Get Document",
+                            "propdesc": "Select this to retrieve your document."
+                        }
+                    ]
+                },
+                {
+                    "property": [
+                        {
+                            "propvalue": "Docket Number",
+                            "propdesc": "Enter the docket number for the document you want."
+                        },
+                        {
+                            "propvalue": "Docket formats",
+                            "propdesc": "Select this to see a list of docket formats."
+                        },
+                        {
+                            "propvalue": "Jurisdiction",
+                            "propdesc": "Select this to narrow your search to one or more jurisdictions."
+                        },
+                        {
+                            "propvalue": "Date",
+                            "propdesc": "Select a date or range of dates to narrow your search to."
+                        },
+                        {
+                            "propvalue": "Get Document",
+                            "propdesc": "Select this to retrieve your document."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

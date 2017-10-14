@@ -1,0 +1,190 @@
+{
+    "reference": {
+        "@id": "keywordhelpsearch_ref",
+        "title": "Help System: Keyword and Wildcard Searching",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "."
+                    },
+                    "p": {
+                        "@audience": "res",
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": ", see"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "wildcards_ref.xml",
+                            "#tail": "."
+                        },
+                        "#text": "For information on searching"
+                    },
+                    "#text": "This article is related to searching the Online Help System - not"
+                },
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Example Query",
+                            "Description"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                {
+                                    "userinput": "research"
+                                },
+                                {
+                                    "userinput": {
+                                        "#tail": ".",
+                                        "#text": "research"
+                                    },
+                                    "note": {
+                                        "@type": "note",
+                                        "i": {
+                                            "#tail": ". A search for the word",
+                                            "#text": "stemming"
+                                        },
+                                        "userinput": [
+                                            {
+                                                "#tail": "will only return the whole word and not partial matches such as",
+                                                "#text": "alert"
+                                            },
+                                            {
+                                                "#tail": "or",
+                                                "#text": "alerts"
+                                            },
+                                            {
+                                                "#tail": ". To obtain results such as these you must use a wildcard, as shown below.",
+                                                "#text": "alerting"
+                                            }
+                                        ],
+                                        "#text": "The search feature does not support"
+                                    },
+                                    "#text": "Keyword search for documents containing the word"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "userinput": "research*"
+                                },
+                                {
+                                    "userinput": {
+                                        "#tail": ". For example:",
+                                        "#text": "research"
+                                    },
+                                    "ul": {
+                                        "li": [
+                                            {
+                                                "i": "ed",
+                                                "#text": "research"
+                                            },
+                                            {
+                                                "i": "er",
+                                                "#text": "research"
+                                            },
+                                            {
+                                                "i": "es",
+                                                "#text": "research"
+                                            },
+                                            {
+                                                "i": "ing",
+                                                "#text": "research"
+                                            }
+                                        ]
+                                    },
+                                    "#text": "Wildcard search for documents containing words that begin with the letters"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "userinput": "te?t"
+                                },
+                                {
+                                    "ul": {
+                                        "li": [
+                                            {
+                                                "i": {
+                                                    "#tail": "t",
+                                                    "#text": "n"
+                                                },
+                                                "#text": "te"
+                                            },
+                                            {
+                                                "i": {
+                                                    "#tail": "t",
+                                                    "#text": "s"
+                                                },
+                                                "#text": "te"
+                                            },
+                                            {
+                                                "i": {
+                                                    "#tail": "t",
+                                                    "#text": "x"
+                                                },
+                                                "#text": "te"
+                                            }
+                                        ]
+                                    },
+                                    "#text": "Single character wildcard search for documents containing words that match the query, but with a single character replaced. For example:"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "userinput": "smartlinks~"
+                                },
+                                {
+                                    "userinput": [
+                                        {
+                                            "#tail": "(e.g.,",
+                                            "#text": "smartlinks"
+                                        },
+                                        {
+                                            "#tail": ").",
+                                            "#text": "SmartLinx"
+                                        }
+                                    ],
+                                    "#text": "Fuzzy search for documents that contain words similar to"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

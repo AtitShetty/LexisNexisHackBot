@@ -1,0 +1,132 @@
+{
+    "reference": {
+        "@otherprops": "VSAsourcelistips",
+        "@audience": "vsa",
+        "@id": "VSAsourcelistips",
+        "title": {
+            "ph": {
+                "@keyref": "vsanamefirst"
+            },
+            "#text": "Sources Available to"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-05-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "uses the following sources for showing verdicts and settlements:"
+                        }
+                    },
+                    "Notable Jury Verdict & Settlement Sources include:"
+                ],
+                "ul": [
+                    {
+                        "li": [
+                            "Alaska Verdicts & Settlements",
+                            "Alabama Verdicts & Settlements",
+                            "Arizona Verdicts & Settlements",
+                            "Arkansas Verdicts & Settlements",
+                            "California Verdicts & Settlements",
+                            "Colorado Verdicts & Settlements",
+                            "Connecticut Verdicts & Settlements",
+                            "District of Columbia Verdicts & Settlements",
+                            "Delaware Verdicts & Settlements",
+                            "District of Columbia Verdicts & Settlements",
+                            "Delaware Verdicts & Settlements",
+                            "Florida Verdicts & Settlements",
+                            "Georgia Verdicts & Settlements",
+                            "Guam Verdicts & Settlements",
+                            "Hawaii Verdicts & Settlements",
+                            "Idaho Verdicts & Settlements",
+                            "Illinois Verdicts & Settlements",
+                            "Indiana Verdicts & Settlements",
+                            "Iowa Verdicts & Settlements",
+                            "Kansas Verdicts & Settlements",
+                            "Kentucky Verdicts & Settlements",
+                            "Louisiana Verdicts & Settlements",
+                            "Maine Verdicts & Settlements",
+                            "Maryland Verdicts & Settlements",
+                            "Massachusetts Verdicts & Settlements",
+                            "Michigan Verdicts & Settlements",
+                            "Minnesota Verdicts & Settlements",
+                            "Mississippi Verdicts & Settlements",
+                            "Missouri Verdicts & Settlements",
+                            "Montana Verdicts & Settlements",
+                            "National Verdicts and Settlements on Lexis Advance",
+                            "Nebraska Verdicts & Settlements",
+                            "Nevada Verdicts & Settlements",
+                            "New Hampshire Verdicts & Settlements",
+                            "New Jersey Verdicts & Settlements",
+                            "New Mexico Verdicts & Settlements",
+                            "New York Verdicts & Settlements",
+                            "North Carolina Verdicts & Settlements",
+                            "North Dakota Verdicts & Settlements",
+                            "Ohio Verdicts & Settlements",
+                            "Oklahoma Verdicts & Settlements",
+                            "Oregon Verdicts & Settlements",
+                            "Pennsylvania Verdicts & Settlements",
+                            "Puerto Rico Verdicts & Settlements",
+                            "Rhode Island Verdicts & Settlements",
+                            "South Carolina Verdicts & Settlements",
+                            "South Dakota Verdicts & Settlements",
+                            "Tennessee Verdicts & Settlements",
+                            "Texas Verdicts & Settlements",
+                            "Utah Verdicts & Settlements",
+                            "Vermont Verdicts & Settlements",
+                            "Virginia Verdicts & Settlements",
+                            "Washington Verdicts & Settlements",
+                            "West Virginia Verdicts & Settlements",
+                            "Wisconsin Verdicts & Settlements",
+                            "Wyoming Verdicts & Settlement"
+                        ]
+                    },
+                    {
+                        "li": [
+                            "American Association of Justice",
+                            "American Lawyer Media (ALM) VerdictSearch",
+                            "Dolan Media Verdicts and Settlements",
+                            "Expert Witness Verdicts and Settlements (IDEX\u00ae)",
+                            "Jury Verdict Publications",
+                            "Jury Verdict Review & Analysis",
+                            "Jury Verdicts Northwest",
+                            "LexisNexis Jury Verdicts and Settlements",
+                            "LexisNexis Jury Verdicts and Settlements \u2013 Mealey\u2019s\u0099",
+                            "Litigation Reports Publishing (LRP)",
+                            "Louisiana Trial Verdicts",
+                            "Matthew Bender\u2019s What's It Worth? A Guide to Personal Injury Awards and Settlements",
+                            "Trial Report Service",
+                            "TrialVerdicts.com",
+                            "Twin City Jury Verdicts Reporter",
+                            "Verdict Reporter"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

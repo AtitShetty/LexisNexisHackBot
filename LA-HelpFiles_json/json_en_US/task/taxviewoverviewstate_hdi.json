@@ -1,0 +1,198 @@
+{
+    "task": {
+        "@otherprops": "taxsearch",
+        "@audience": "tax",
+        "@id": "taxviewoverviewstate_hdi",
+        "title": "How do I view the contents of Bender's State Taxation: Principles and Practice?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "tab of",
+                            "#text": "Tax Overview"
+                        },
+                        "ph": {
+                            "@keyref": "taxnamefirst",
+                            "#tail": "to review the contents of Bender's State Taxation: Principles and Practice, which is divided into the following major topics:"
+                        },
+                        "#text": "You can use the"
+                    },
+                    "You can retrieve information in the following ways:",
+                    "To search Bender's State Taxation:"
+                ],
+                "ul": [
+                    {
+                        "li": [
+                            "Part 1: Foundations: Constitutional Law",
+                            "Part 2: Corporate Income Taxation",
+                            "Part 3: Personal Income Taxation",
+                            "Part 4: Sales & Use Taxation",
+                            "Part 5: Property Taxation",
+                            "Part 6: Special Issues in State Taxation"
+                        ]
+                    },
+                    {
+                        "li": [
+                            "Search for a keyword or phrase in just the headings of the table of contents.",
+                            "Search for a keyword in both the table of content's headings and documents.",
+                            "Search for a keyword in documents only.",
+                            "Browse the document using its Table of Contents navigation tool."
+                        ]
+                    }
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "taxnamefirst",
+                                "#tail": "Home page, while viewing the"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "practice area, select the",
+                                    "#text": "State & Local"
+                                },
+                                {
+                                    "#tail": "tab. The Bender's State Taxation: Principles and Practice page appears.",
+                                    "#text": "Tax Overview"
+                                }
+                            ],
+                            "#text": "On the"
+                        }
+                    },
+                    {
+                        "cmd": "Complete one of the following steps:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "To search for a specific keyword or phrase",
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "box in the",
+                                                "#text": "Search the Table of Contents"
+                                            },
+                                            {
+                                                "#tail": "pane, enter your search terms in the search box, and choose which parts of the document you want to search from the drop-down list.",
+                                                "#text": "Narrow By"
+                                            }
+                                        ],
+                                        "#text": "Locate the"
+                                    }
+                                },
+                                {
+                                    "choption": "To browse through the Table of Contents",
+                                    "chdesc": "Select the right-facing arrow to expand the related section. Repeat this step until you locate the section or part of the document you want to view, and then click its link to view it."
+                                },
+                                {
+                                    "choption": "To add a specific section of Federal Topical to your search",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "icon (",
+                                            "#text": "Add Source to Search"
+                                        },
+                                        "image": {
+                                            "@alt": "Add to Search",
+                                            "@href": "addtosearch.png",
+                                            "#tail": ") next to the section name."
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To add a section to a work folder",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "icon (",
+                                            "#text": "Add to Folder"
+                                        },
+                                        "image": {
+                                            "@alt": "Add to Folder",
+                                            "@href": "AddToFolder.png",
+                                            "#tail": "). See"
+                                        },
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "savedocumenttofolder_hdi.xml",
+                                            "#tail": "for details."
+                                        },
+                                        "#text": "Select it and click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To download, print, email, or send a section to Dropbox",
+                                    "chdesc": {
+                                        "image": [
+                                            {
+                                                "@alt": "Email",
+                                                "@href": "Email.png",
+                                                "#tail": "), the Download icon ("
+                                            },
+                                            {
+                                                "@alt": "Download",
+                                                "@href": "download.png",
+                                                "#tail": "), the Print icon ("
+                                            },
+                                            {
+                                                "@alt": "Print",
+                                                "@href": "print.png",
+                                                "#tail": "), or the Send to Dropbox icon ("
+                                            },
+                                            {
+                                                "@alt": "Send to Dropbox",
+                                                "@href": "dropbox.png",
+                                                "#tail": "). (To specify your delivery settings before completing the delivery, click the"
+                                            },
+                                            {
+                                                "@alt": "Delivery Settings",
+                                                "@href": "deliverysettings.png",
+                                                "#tail": "icon.) See"
+                                            }
+                                        ],
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "gh_delivery.xml",
+                                            "#tail": "for details."
+                                        },
+                                        "#text": "Select it and click either the Email icon ("
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

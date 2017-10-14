@@ -1,0 +1,287 @@
+{
+    "reference": {
+        "@otherprops": "shep",
+        "@audience": "res",
+        "@id": "shepardsignal_ref",
+        "title": {
+            "i": {
+                "#tail": "Signal\u2122 Indicators",
+                "#text": "Shepard's"
+            },
+            "#text": "The"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-02-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "shepsignalpluralfirst",
+                                "#tail": "are integrated into case law documents and provide an immediate indication of the subsequent history and treatment of a particular case. When these codes are present, the"
+                            },
+                            {
+                                "@keyref": "companyfirst",
+                                "#tail": "research service displays one of the following signals."
+                            }
+                        ],
+                        "#text": "The"
+                    },
+                    "When a signal is generated from the Subsequent Appellate History, the system looks at the Subsequent Appellate History as a chain of interconnected events. Thus, the phrase generating the signal may be assigned to a decision in that chain that does not apply directly to your case, but may be several links in the chain away from your case."
+                ],
+                "note": {
+                    "@type": "note",
+                    "ph": {
+                        "@keyref": "shepsignalsingular",
+                        "#tail": "."
+                    },
+                    "#text": "Not every case will have a"
+                },
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Indicator",
+                            "Description"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Red Stop Sign signal",
+                                        "@href": "Iconsignalnegative.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Warning: Negative treatment is indicated"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepardsfirst",
+                                                "#tail": "Citations Service contain strong negative history or treatment of your case (for example, overruled by or reversed)."
+                                            }
+                                        ],
+                                        "#text": "The red"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "red exclamation point icon",
+                                        "@href": "iconsignalalert.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Warning: Negative treatment is indicated for statute"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service contain"
+                                            }
+                                        ],
+                                        "i": {
+                                            "i": {
+                                                "#tail": "\u0099 section",
+                                                "#text": "Shepardized"
+                                            },
+                                            "#tail": "(for example, the section may have been found to be unconstitutional or void).",
+                                            "#text": "strong negative  treatment of the"
+                                        },
+                                        "#text": "The red exclamation point"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Orange Q signal",
+                                        "@href": "IconSignalQuestionedAnalysis.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Questioned: Validity questioned by citing references"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that the citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service contain treatment that questions the continuing validity or precedential value of your case because of intervening circumstances, including judicial or legislative overruling."
+                                            }
+                                        ],
+                                        "#text": "The orange"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Yellow Triangle signal",
+                                        "@href": "IconSignalPossibleNegative.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Caution: Possible negative treatment indicated"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service contain history or treatment that may have a significant negative impact on your case (for example, limited or criticized by)."
+                                            }
+                                        ],
+                                        "#text": "The yellow"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Positive Treatment (green diamond) signal",
+                                        "@href": "IconSignalPositive.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Positive treatment indicated"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service contain history or treatment that has a positive impact on your case (for example, affirmed or followed by)."
+                                            }
+                                        ],
+                                        "#text": "The green"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Blue A Circle signal",
+                                        "@href": "IconSignalAnalysisAvailable.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Citing references with analysis available"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service contain treatment of your case that is neither positive nor negative (for example, explained)."
+                                            }
+                                        ],
+                                        "#text": "The blue \"A\""
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "image": {
+                                        "@alt": "Blue I Circle signal",
+                                        "@href": "IconSignalCiteInfoAvailable.png",
+                                        "@placement": "inline"
+                                    }
+                                },
+                                {
+                                    "b": {
+                                        "i": "Citation information available"
+                                    },
+                                    "p": {
+                                        "ph": [
+                                            {
+                                                "@keyref": "shepsignalsingular",
+                                                "#tail": "indicates that citing references are available in the"
+                                            },
+                                            {
+                                                "@keyref": "shepards",
+                                                "#tail": "Citations Service for your case, but the references do not have history or treatment analysis (for example, the references are law review citations)."
+                                            }
+                                        ],
+                                        "#text": "The blue \"I\""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

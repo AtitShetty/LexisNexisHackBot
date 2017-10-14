@@ -1,0 +1,53 @@
+{
+    "task": {
+        "@otherprops": "shep",
+        "@id": "searchdocbycite_hdi",
+        "title": "How do I find a document when I know the citation?",
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-09-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Enter the citation in the search box."
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "redmagnifyglass.png",
+                                "@placement": "inline",
+                                "#tail": ")."
+                            },
+                            "#text": "Click the search button ("
+                        }
+                    }
+                ]
+            },
+            "result": null
+        }
+    }
+}

@@ -1,0 +1,190 @@
+{
+    "reference": {
+        "@otherprops": "alerteditopictips",
+        "@id": "alerteditopictips",
+        "title": "Edit Topic Alert Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use this form to create a topic alert and specify how often you want to be notified of any results, how you want to receive the results, and other options."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Overview tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Title",
+                                        "dd": "Shows the name that you assigned to the alert. You may edit this name if you choose."
+                                    },
+                                    {
+                                        "dt": "Description",
+                                        "dd": "Enter a description you want to associate with the alert."
+                                    },
+                                    {
+                                        "dt": "Topic",
+                                        "dd": "Displays the topic terms you used."
+                                    },
+                                    {
+                                        "dt": "Client",
+                                        "dd": "Shows the client you assigned to the alert. If you need to change the associated client, make your selection."
+                                    },
+                                    {
+                                        "dt": "Note",
+                                        "dd": "Enter a personal note you want to associate with the alert."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Monitor tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Category type",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "items from your results.",
+                                                "#text": "Narrowed By"
+                                            },
+                                            "#text": "Indicates which content types the alert will monitor for new documents. Select the categories you want the alert to monitor.  The categories displayed are the ones you selected when you ran your topic search, plus your"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Select all / Clear all",
+                                        "dd": "Use these options to select or clear all categories at once."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Deliver tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Duration",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "and",
+                                                    "#text": "Start"
+                                                },
+                                                {
+                                                    "#tail": "boxes (or select from the calendars) to indicate how long you want this alert to run.",
+                                                    "#text": "End"
+                                                }
+                                            ],
+                                            "#text": "Enter dates in the"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Delivery type",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "and in the",
+                                                    "#text": "Email address"
+                                                },
+                                                {
+                                                    "#tail": "group, choose whether you want the email to be delivered in HTML or text format.",
+                                                    "#text": "Delivery format"
+                                                }
+                                            ],
+                                            "#text": "You can choose online-only delivery or both online and email delivery.  If you select email, enter your"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Frequency",
+                                        "dd": {
+                                            "p": "Select how often you want to be notified of any results.",
+                                            "note": "Between notifications, you can go online at any time to view your results.",
+                                            "dl": {
+                                                "dlentry": [
+                                                    {
+                                                        "dt": "Daily",
+                                                        "dd": "Each day of the week."
+                                                    },
+                                                    {
+                                                        "dt": "Business daily",
+                                                        "dd": "Each day from Monday through Friday."
+                                                    },
+                                                    {
+                                                        "dt": "Weekly",
+                                                        "dd": "Once a week, on the day you select."
+                                                    },
+                                                    {
+                                                        "dt": "Monthly",
+                                                        "dd": {
+                                                            "uicontrol": {
+                                                                "#tail": ", you will be notified on March 1, because there is no 30th day in February.",
+                                                                "#text": "30"
+                                                            },
+                                                            "#text": "Once a month, on the date you select. If the date doesn't occur in a certain month, you will receive notification of any results on the first day of the following month.  For example, if you select"
+                                                        }
+                                                    },
+                                                    {
+                                                        "dt": "As updates are available",
+                                                        "dd": "As updates to the topic are available."
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Share tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Enter a user's name (using the format of last name, first name), or enter the user's email address.",
+                                        "dd": "To share the alert with other users in your organization, type the user's first name or last name. The alert will be shared immediately with him or her. To share the alert with users who are not part of your organization, type the user's email address. Outside recipients will need to accept the invitation to view the alert."
+                                    },
+                                    {
+                                        "dt": "Added contacts / Shared with",
+                                        "dd": "The list of users with whom you have shared this alert."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

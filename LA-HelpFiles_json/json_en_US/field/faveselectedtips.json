@@ -1,0 +1,71 @@
+{
+    "reference": {
+        "@otherprops": "faveselectedtips",
+        "@id": "faveselectedtips",
+        "title": "Recent & Favorites",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "The Recent & Favorites pod lists the filters (including sources and topics) you have selected in recent searches or saved as favorites. Select a filter to use it for your current search.",
+                "note": "Selecting a filter from Recent & Favorites replaces any other filters you have already selected."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add as favorite",
+                                "@href": "#FavoriteEmpty.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this to mark a filter as a favorite."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Favorite",
+                                "@href": "#FavoriteFull.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Indicates this filter is a favorite."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Remove favorite",
+                                "@href": "#CloseRemove.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": "Select this to remove a filter from the list of Recent & Favorites."
+                    }
+                ]
+            }
+        }
+    }
+}

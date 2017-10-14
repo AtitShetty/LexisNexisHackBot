@@ -1,0 +1,77 @@
+{
+    "concept": {
+        "@otherprops": "lpssearchresults",
+        "@audience": "lps",
+        "@id": "lpssearchresults_cpt",
+        "title": "Understanding Overall Search Results for LexisNexis\u00ae Litigation Profile Suite",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "button,",
+                            "#text": "Search"
+                        },
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "searches for profiles that match the terms you defined at the search form. It then displays your results at the search results page."
+                        },
+                        "#text": "Once you enter your search terms and filters and select the"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "lpssortresults_hdi.xml",
+                            "#tail": "to more quickly locate the profile you are most interested in.",
+                            "#text": "sort this information"
+                        },
+                        "#text": "The Results page lists the names of all profiles that match your search criteria. It also shows other identifying information about the person, such as the state in which he or she resides or the jurisdiction in which he or she practices. While viewing this list, you can"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "lpsfilterresults_hdi.xml",
+                            "#tail": "options to help you narrow your search results. For example, you can search for experts that live in either Washington or Oregon, or you can narrow your search results to show only judges that preside over specific courts. Filters provide a way to temporarily isolate just those profiles whose credentials you are most interested in viewing.",
+                            "#text": "Narrow By"
+                        },
+                        "#text": "Along the left side of the page, you will find"
+                    },
+                    "Once you locate a profile, you can select his or her name and view detailed information about that person. As you view individual profiles, categories of information appear along the left side of the page. You can select these links to view the information associated with the category."
+                ],
+                "note": {
+                    "@type": "note",
+                    "ul": {
+                        "li": [
+                            "If there are multiple pages of search results, select the right or left arrows (located at the bottom of the results list) to move through the pages.",
+                            "If you are viewing individual expert witness, judge, or attorney reports and you want to return to your full list of search results, click your browser's Back button until you see your results list again."
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,319 @@
+{
+    "task": {
+        "@otherprops": "resultsnarrow;shepardsreportips",
+        "@audience": "res;lpa;lps",
+        "@id": "narrowresults_hdi",
+        "title": "How do I narrow or filter my results after a search?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "data": "focus, filter, narrow, analysis, headnote, citation, category, keyword, legal topic, search within results, sources",
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "pane on the left side of your results.",
+                            "#text": "Narrow By"
+                        },
+                        "#text": "If your search has resulted in a large answer set, you can narrow your results to the documents most relevant to your search by using any of the filters in the"
+                    },
+                    "See the table below for more information about using filters.",
+                    {
+                        "note": {
+                            "@type": "note",
+                            "ul": {
+                                "li": [
+                                    {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "category,",
+                                                "#text": "Cases"
+                                            },
+                                            {
+                                                "#tail": "is not displayed in the",
+                                                "#text": "Category"
+                                            },
+                                            {
+                                                "#tail": "pane because your results are already narrowed to the Cases category and can't be narrowed any further.  However, some categories, such as",
+                                                "#text": "Narrow By"
+                                            },
+                                            {
+                                                "#tail": "can be further narrowed down, so the subcategories are displayed under",
+                                                "#text": "Analytical Materials"
+                                            },
+                                            {
+                                                "#tail": "when you are viewing your results in the Analytical Materials category.",
+                                                "#text": "Category"
+                                            }
+                                        ],
+                                        "#text": "If you are viewing your results in the"
+                                    },
+                                    "Documents may appear in more than one category. For example, case law documents would appear in the \"Cases\" category, in one of the jurisdictions, one of the sources, and would also contain a number of keywords and/or citations."
+                                ]
+                            }
+                        }
+                    },
+                    "After running a search and reviewing your results:"
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "uicontrol": {
+                                "#tail": "filter to find documents within your results that contain specific search terms. For example, if you entered the search terms:",
+                                "#text": "Search Within Results"
+                            },
+                            "userinput": [
+                                {
+                                    "#tail": "and your answer set is very large, you might enter the terms:",
+                                    "#text": "dog bite liability"
+                                },
+                                {
+                                    "#tail": "to narrow the results to only documents that also contain those terms.",
+                                    "#text": "assumed risk"
+                                }
+                            ],
+                            "#text": "Use the"
+                        },
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": ",",
+                                    "#text": "Category"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Jurisdiction"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Timeline"
+                                },
+                                {
+                                    "#tail": ", etc. to narrow your results to cases in your jurisdiction, a specific time frame, etc.  The filters that are available for narrowing your results depend on what kind of search you ran and what types of content your results contain.  For example, if you ran a legal search, the filters in the",
+                                    "#text": "Sources"
+                                },
+                                {
+                                    "#tail": "pane include",
+                                    "#text": "Narrow By"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Cases"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Statutes"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Court"
+                                },
+                                {
+                                    "#tail": ", etc.  If you ran a",
+                                    "#text": "Jurisdiction"
+                                },
+                                {
+                                    "#tail": ",",
+                                    "#text": "Jurisdiction"
+                                },
+                                {
+                                    "#tail": ", etc.",
+                                    "#text": "Analysis"
+                                }
+                            ],
+                            "ph": {
+                                "@keyref": "shepardsfirst",
+                                "#tail": "search, the filters include"
+                            },
+                            "#text": "Use the other filters, such as"
+                        }
+                    ]
+                }
+            },
+            "result": {
+                "simpletable": {
+                    "@id": "narrowby",
+                    "sthead": {
+                        "stentry": [
+                            "If you want to...",
+                            "Do this"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                "Narrow your results to documents containing specific search terms or a citation",
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "and select",
+                                            "#text": "Search Within Results"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "OK"
+                                        }
+                                    ],
+                                    "#text": "Enter your search terms or a citation in the box under"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "uicontrol": {
+                                        "#tail": "pane",
+                                        "#text": "Narrow By"
+                                    },
+                                    "#text": "Narrow your results by the other filters in the"
+                                },
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": ",",
+                                            "#text": "Category"
+                                        },
+                                        {
+                                            "#tail": "etc.) that you want to restrict your results to, and select",
+                                            "#text": "Legal Topic, Jurisdiction,"
+                                        },
+                                        {
+                                            "#tail": ".  For example, to restrict your results to case law only, select",
+                                            "#text": "OK"
+                                        },
+                                        {
+                                            "#tail": "under",
+                                            "#text": "Cases"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "Category"
+                                        }
+                                    ],
+                                    "#text": "Click the item under a filter heading (such as"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Narrow by more than one category under a filter",
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": ", select the checkboxes for the categories you want to narrow your results to, and select",
+                                            "#text": "Select multiple"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "OK"
+                                        }
+                                    ],
+                                    "#text": "Click"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Restrict your results to a particular date range",
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "filter of the",
+                                            "#text": "Timeline"
+                                        },
+                                        {
+                                            "#tail": "pane, use your mouse to move either of the sliders to the left or right until the date range you want is displayed, or enter the dates in the the year fields, and select",
+                                            "#text": "Narrow By"
+                                        },
+                                        {
+                                            "#tail": ".",
+                                            "#text": "OK"
+                                        }
+                                    ],
+                                    "#text": "Under the"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Return to a previous results set",
+                                {
+                                    "uicontrol": {
+                                        "#tail": "pane to close that version of your results.",
+                                        "#text": "Narrow By"
+                                    },
+                                    "#text": "Click the X next to your selections at the top of the"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Return to your original results after narrowing them one or more times",
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "link at the top of the",
+                                            "#text": "Clear"
+                                        },
+                                        {
+                                            "#tail": "pane.",
+                                            "#text": "Narrow By"
+                                        }
+                                    ],
+                                    "#text": "Click the"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                {
+                                    "uicontrol": {
+                                        "#tail": "search terms in a document",
+                                        "#text": "Search Within Results"
+                                    },
+                                    "#text": "Find your original or"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "tool at the top right side of the document.",
+                                        "#text": "Navigate"
+                                    },
+                                    "#text": "Open a document from your results, and select the terms you want to find from the"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "note": {
+                    "uicontrol": {
+                        "#tail": ", then to a specific time line within those cases, and then to a specific jurisdiction or court within those cases in the timeline.",
+                        "#text": "Cases"
+                    },
+                    "#text": "Each time you narrow your results, the results are cumulative. For example, you can narrow your results to"
+                }
+            }
+        }
+    }
+}

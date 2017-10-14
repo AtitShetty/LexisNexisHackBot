@@ -1,0 +1,70 @@
+{
+    "topic": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "gh_urlapisearch",
+        "title": {
+            "ph": {
+                "@audience": "hide",
+                "#tail": "Search Parameters",
+                "#text": "2"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u2122 URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "note": {
+                "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+            },
+            "p": {
+                "ph": {
+                    "@keyref": "prodname",
+                    "#tail": "."
+                },
+                "#text": "The links below provide information and examples for searching with the"
+            }
+        },
+        "reference": [
+            {
+                "@conref": "searchwithtermstips.xml",
+                "@id": "searchwithtermstips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "setfilterstips.xml",
+                "@id": "setfilterstips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "setdatetips.xml",
+                "@id": "setdatetips",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

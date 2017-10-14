@@ -1,0 +1,142 @@
+{
+    "task": {
+        "@otherprops": "taxsearch;taxsourceselectiontips",
+        "@audience": "tax",
+        "@id": "taxrestrictsearchtosources_hdi",
+        "title": "How do I restrict my tax search to specific sources?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "taxnamefirst",
+                            "#tail": ", you can limit your search to a specific set of primary and secondary tax sources within your federal, state and local, or U.S. international practice area. While viewing these sources, you can:"
+                        },
+                        "#text": "While searching with"
+                    },
+                    "To complete these different tasks:"
+                ],
+                "ul": {
+                    "li": [
+                        "Add the source to your search.",
+                        "View information about the source.",
+                        "Review the table of contents for each source."
+                    ]
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab at the top of the",
+                                "#text": "Sources"
+                            },
+                            "ph": {
+                                "@keyref": "taxnamefirst",
+                                "#tail": "page."
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "list. (For example, you can filter by Jurisdiction, Practice Area, and so forth.)",
+                                "#text": "Narrow By"
+                            },
+                            "#text": "Optionally, to narrow the list of sources, choose an option from the"
+                        }
+                    },
+                    {
+                        "cmd": "Complete any of the following steps:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": {
+                                        "#tail": "icon (",
+                                        "#text": "Add this source to search"
+                                    },
+                                    "image": {
+                                        "@alt": "Add to Search",
+                                        "@href": "addtosearch.png",
+                                        "#tail": "). The source is added to the search box."
+                                    },
+                                    "#text": "To add a source to your search, locate the source you want to view and click the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "icon (",
+                                        "#text": "View source information"
+                                    },
+                                    "image": {
+                                        "@alt": "View source information",
+                                        "@href": "Info.png",
+                                        "#tail": ")."
+                                    },
+                                    "#text": "To view information about the source, such as its publisher, coverage, and so forth, click the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "from the list of options. The list of documents appears for you to review.",
+                                        "#text": "Get all source documents"
+                                    },
+                                    "#text": "To view the documents related to the source, click the source name drop-down list and choose"
+                                },
+                                {
+                                    "ph": {
+                                        "@keyref": "taxname",
+                                        "#tail": "Home page, click the source name drop-down list and choose"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Save this source as a favorite"
+                                    },
+                                    "#text": "To save a filter to the Favorites pod of the"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "tip",
+                    "ph": {
+                        "@keyref": "taxnamefirst",
+                        "#tail": "Home > Search page. To do this,  locate the source you want to search in one of the source pods on the page. Then, select the"
+                    },
+                    "uicontrol": {
+                        "#tail": "icon for the source.",
+                        "#text": "Add this source to search filter"
+                    },
+                    "#text": "You can also filter your sources at the main"
+                }
+            }
+        }
+    }
+}

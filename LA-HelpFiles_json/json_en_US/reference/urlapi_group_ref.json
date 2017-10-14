@@ -1,0 +1,58 @@
+{
+    "reference": {
+        "@otherprops": "api",
+        "@audience": "res;urlapi",
+        "@id": "urlapi_group_ref",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "URL API"
+            },
+            "#text": "Using"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-16"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@type": "note",
+                    "@id": "urlapinote",
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "using URLs, rather than the standard user interface. Please contact your LexisNexis representative if you would like additional information about this feature."
+                    },
+                    "#text": "The information in this topic applies to Lexis Advance\u00ae URL API users. This application programming interface (API) lets users execute tasks in"
+                },
+                "p": {
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": "URL API. Click the headings below to view more detail."
+                    },
+                    "#text": "This page provides a list of help topics that describe how to use the"
+                }
+            }
+        }
+    }
+}

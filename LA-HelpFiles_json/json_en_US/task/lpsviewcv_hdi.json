@@ -1,0 +1,99 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewcv_hdi",
+        "title": "How do I view the expert witness' curriculum vitae?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can view an expert witness' curriculum vitae, which contains a description of his or her educational background, work experience, associations, awards, and so forth. This can augment the background information available for the expert witness."
+                        },
+                        "#text": "Using"
+                    },
+                    "To view the CV:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforareaofexpertise_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "area of expertise"
+                                }
+                            ],
+                            "#text": "Complete your search for an expert witness. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the results page, select the expert's name. That expert's report is opened."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the left-side pane. An overview of the expert witness' profile appears.",
+                                "#text": "Snapshot"
+                            },
+                            "#text": "Choose the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link. A list of curricula vitae appears.",
+                                "#text": "View all Curriculum Vitae"
+                            },
+                            "#text": "In the box containing the contact information, select the"
+                        }
+                    },
+                    {
+                        "cmd": "Select the link for the CV you want to view. The document appears.",
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "#text": "To either save the CV to a folder or Dropbox, or to print, download, or email a CV, select the appropriate delivery icon. (If you are viewing a results list of available CVs, first select the CVs you want to deliver before selecting the delivery option.)"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

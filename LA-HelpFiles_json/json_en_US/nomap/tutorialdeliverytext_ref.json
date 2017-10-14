@@ -1,0 +1,189 @@
+{
+    "reference": {
+        "@id": "tutorialdeliverytext_ref",
+        "title": "Lexis Advance\u00ae Text-only Tutorial",
+        "prolog": {
+            "author": [
+                "Multimedia Team",
+                "Mike Lloyd"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-03-24"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Delivering Your Results"
+                },
+                {
+                    "title": "Introduction",
+                    "p": [
+                        "Lexis Advance\u00ae offers a variety of ways for you to deliver your search results.",
+                        "This tutorial shows you how to print, download, and email:",
+                        "For these examples, we ran a search and selected some documents for delivery, viewed a full document, and displayed a Shepard's report for it.",
+                        "We'll take a look at delivering a Shepard's\u00ae report later in this tutorial.",
+                        "You can print, download, and email results using these icons, which appear on search results, work folders, history, and other pages.",
+                        "All you need to do is:",
+                        "To deliver multiple documents, first select their checkboxes.",
+                        "You can also deliver a document you are viewing.",
+                        "Although the print, download, and email forms are similar, we'll review them separately."
+                    ],
+                    "ul": {
+                        "li": [
+                            "Your results list (up to 1,000 items)",
+                            "Selected documents",
+                            "A document you are viewing",
+                            "A Shepard's\u00ae report"
+                        ]
+                    },
+                    "ol": {
+                        "li": [
+                            "Select the appropriate icon.",
+                            "Set your delivery options.",
+                            "Select the Print, Download, or Email button."
+                        ]
+                    }
+                },
+                {
+                    "title": "Printing Documents",
+                    "p": [
+                        "Let's start with the Print form.",
+                        "If you have not already done so, this link lets you install the LexisNexis\u00ae Print and Download utility.",
+                        "This easy-to-install utility streamlines the print and download request processes.",
+                        "Select the link if you want to install the utility, or select Dismiss to continue without installing it.",
+                        "If you selected any documents, they appear on the \"Selected Documents\" tab.",
+                        "You can clear the checkbox of any document you don't want to print.",
+                        "In most situations, the \"Basic Options\" tab lets you choose to print selected documents or your results list.",
+                        "Note that if you did not select any documents, you can print only the results list.",
+                        "Let's take a look at printing selected documents.",
+                        "They will print on your attached printer.",
+                        "Use these portions of the form to set formatting and content-specific options.",
+                        "Formatting options let you:",
+                        "You can also specify:",
+                        "You can also select content-specific options.",
+                        "These options vary depending on the type of content you selected.",
+                        "Select the Print button to print the documents on your attached printer.",
+                        "Let's look at printing your results list.",
+                        "If you have documents selected, choose this print option.",
+                        "Set your format options, then select the Print button."
+                    ],
+                    "ul": [
+                        {
+                            "li": [
+                                "Print a cover page",
+                                "Include LexisNexis\u00ae branding in your printouts",
+                                "Print your name on each page",
+                                "Include page numbers and specify where they appear",
+                                "Include links to embedded references"
+                            ]
+                        },
+                        {
+                            "li": [
+                                "The type of font to use",
+                                "The font size",
+                                "Whether to use single or double line spacing",
+                                "Choose how a variety of items appear"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Downloading Documents",
+                    "p": [
+                        "Now let's review the Download form.",
+                        "Selected documents appear on this tab, and you can clear the checkbox of any document you don't want to download.",
+                        "In most situations, the \"Basic Options\" portion of the form lets you choose to download selected documents or your results list.",
+                        "If you did not select any documents, you can download only the results list.",
+                        "To download the documents, select this option.",
+                        "Choose from available document types.",
+                        "If you choose PDF or Docx, you can also choose to download documents in 1 file or separate files.",
+                        "Select this checkbox to download in ZIP format.",
+                        "Choose your format options by selecting that tab.",
+                        "These format options are the same as those for printing.",
+                        "Content-specific options vary depending on what types of items you are downloading.",
+                        "Choose your options for each content type, then select the Download button to download your items.",
+                        "Follow the on-screen instructions to open or save them."
+                    ]
+                },
+                {
+                    "title": "Emailing Documents",
+                    "p": [
+                        "Now let's review the Email form.",
+                        "In most situations, the \"Basic Options\" tab lets you choose to download selected documents or your results list.",
+                        "Enter up to 5 email addresses in the To box, separated by a semicolon (;).",
+                        "Recent recipients' email addresses appear here. Choose an address and select Add to include that recipient.",
+                        "Use the recommended text or enter your own for the email subject line.",
+                        "You can enter and format up to 4,000 characters to be included in the email.",
+                        "Choose from available document types.",
+                        "If you choose PDF or Docx, you can also choose to download documents in 1 file or separate files.",
+                        "Select this checkbox to download in ZIP format.",
+                        "Choose your format options by selecting this tab.",
+                        "These format options are the same as those for printing and downloading.",
+                        "Content-specific options vary depending on what types of items you selected.",
+                        "Choose your options for each content type, then select the Email button to send your items.",
+                        "The \"Document Delivery\" window appears while your email request is processed.",
+                        "Closing the window will not affect your email delivery."
+                    ]
+                },
+                {
+                    "title": {
+                        "i": {
+                            "#tail": "\u00ae Report",
+                            "#text": "Shepard's"
+                        },
+                        "#text": "Delivering a"
+                    },
+                    "p": [
+                        {
+                            "i": {
+                                "#tail": "\u00ae report.",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "Next, we'll look at delivering a"
+                        },
+                        {
+                            "i": {
+                                "#tail": "report.",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "As with search results, you can print, download, and email your"
+                        },
+                        "Just select the appropriate icon and choose the options for your selected delivery method.",
+                        "You can also choose which portions of the report you want to deliver.",
+                        "Just select the checkboxes of those you want.",
+                        "Select the button to print, download, or email the report.",
+                        "Then follow the instructions that appear in any subsequent windows.",
+                        "You can find more information about delivering search results in other Help topics.",
+                        "This concludes the Delivering Results tutorial."
+                    ]
+                }
+            ]
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialsearch_cpt.xml"
+                }
+            }
+        }
+    }
+}

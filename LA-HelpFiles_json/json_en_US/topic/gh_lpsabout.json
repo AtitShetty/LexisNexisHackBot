@@ -1,0 +1,45 @@
+{
+    "topic": {
+        "@otherprops": "lps;about",
+        "@audience": "lps",
+        "@id": "gh_lpsabout",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "About"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "concept": {
+            "@conref": "lpsaboutprofilesuite_cpt.xml",
+            "@outputclass": "embed",
+            "@id": "lpsaboutprofilesuite_cpt",
+            "title": null,
+            "conbody": null
+        }
+    }
+}

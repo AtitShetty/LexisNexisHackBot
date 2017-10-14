@@ -1,0 +1,127 @@
+{
+    "concept": {
+        "@otherprops": "tutorials",
+        "@id": "tutorialgettingstarted_cpt",
+        "title": "Tutorial: Getting Started with Lexis Advance\u00ae",
+        "titlealts": {
+            "navtitle": {
+                "option": "Tutorial"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "system by highlighting many of the features and functions."
+                    },
+                    "xref": [
+                        {
+                            "@scope": "local",
+                            "@href": "bigtutorialgettingstarted_cpt-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "and",
+                            "#text": "Full-size"
+                        },
+                        {
+                            "@scope": "local",
+                            "@href": "tutorialgettingstartedtext_ref-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "versions are also available.",
+                            "#text": "text-only"
+                        }
+                    ],
+                    "#text": "The tutorial below will help get you started with using the"
+                },
+                {
+                    "object": {
+                        "@classid": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
+                        "@type": "application/x-shockwave-flash",
+                        "@height": "361",
+                        "@codebase": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0",
+                        "@width": "590",
+                        "@data": "http://web.lexis.com/help/multimedia/nl/nl_gettingstarted.swf",
+                        "@id": "newlexis",
+                        "param": [
+                            {
+                                "@name": "movie",
+                                "@value": "http://web.lexis.com/help/multimedia/nl/nl_gettingstarted.swf"
+                            },
+                            {
+                                "@name": "wmode",
+                                "@value": "transparent"
+                            },
+                            {
+                                "@name": "quality",
+                                "@value": "high"
+                            },
+                            {
+                                "@name": "bgcolor",
+                                "@value": "#FFFFFF"
+                            },
+                            {
+                                "@name": "pluginspage",
+                                "@value": "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                            }
+                        ]
+                    }
+                }
+            ],
+            "data": {
+                "ph": [
+                    {
+                        "@keyref": "companyfirst",
+                        "#tail": "! This tutorial will help get you started by highlighting many of the Lexis Advance features and functions.\n\nWe'll review:\n\n\u2022\tThe home page and searching\n\u2022\tSearch results\n\u2022\tThe Shepard's\u00ae Citations Service\n\u2022\tHelpful tools such as alerts, folders, and search history"
+                    },
+                    {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "Home Page\n\nAfter signing in, you'll see the Lexis Advance home page.\n\nAt the top of the page, you'll find a drop-down, which lets you choose from a variety of"
+                    },
+                    {
+                        "@keyref": "company",
+                        "#tail": "products that are available to you. If more than 1 are available to you, they will be listed there.\n\nThere are also tools that let you:\n\n\u2022\tSet up a new client ID or, after setting up client IDs, choose from a list of them\n\u2022\tGo to Alerts, Folders, or History (more on those later)\n\u2022\tSet your preferences\n\u2022\tFind Help\n\u2022\tProvide feedback\n\nThe My Workspace carousel gives you quick access to your work, including:\n\n\u2022\tAlerts\n\u2022\tWork folders\n\u2022\tSearch History, plus\n\u2022\tTop News from Law360\n\u2022\tCustomer Support Information\n\nTo search, enter your search terms, select which types of results you'd like, and select the Search button.\n\nAs you enter search terms, Lexis Advance\u2122 analyzes them and offers suggestions. Just select a suggestion to use it in your search.\n\nIf your search terms include connectors, Lexis Advance runs a Boolean search; otherwise, it runs a natural language search.\n\nNot sure how best to construct your search? Select the Search Tips link to get started.\n\nDo you prefer searching by topic or source? Click Browse Topics to display a list of research topics that you can search or browse. Or select Browse Sources to display a list of sources that you can also search or browse. For sources with a table of contents, select its link to start browsing.\n\nSearching is described in more detail in a separate tutorial.\nSearch Results \n\nResults are organized by content type, each with its own tab. Just select a content type to display its documents.\n\nOptions in the \"Narrow By\" pane let you filter your results in a variety of ways.\n\nYou can also search within your results, which lets you focus on more specific terms.\n\nSelect documents to:\n\n\u2022\tSave to a work folder\n\u2022\tPrint\n\u2022\tDownload\n\u2022\tEmail\n\nClick the \"Create an alert\" icon to set up an alert for the search.\n\nClick a document title to open it in a new tab.\n\nThis new tab has the full text of the document, along with some useful tools.  \n\nThe Tools menu lets you:\n\n\u2022\tPlace a copy of the document citation on your clipboard\n\u2022\tDo a number of things with text you have already selected in the document \n\nUse the Jump to... menu to go to a specific segment of the document.\nUse the Reporter menu or links to change pagination.\n\nThe"
+                    },
+                    {
+                        "@keyref": "litnamefirst",
+                        "#tail": "provides a map of the citations in your case and their citing references.\n\nWorking with search results and using the"
+                    },
+                    {
+                        "@keyref": "litname",
+                        "#tail": "are described in more detail in a separate tutorial.\nThe Shepard's\u00ae Citations Service\n\nThe Shepard's\u00ae Citations Service provides a comprehensive report of the cases, statutes, secondary sources, and annotations that cite your document.\n\nYou can Shepardize\u00ae a document by entering its citation in the search box and selecting the Shepard's\u00ae button, or by selecting its"
+                    },
+                    {
+                        "@keyref": "shepsignalsingularfirst",
+                        "#tail": "in a results list.\n\nThe Shepard's report has 4 categories, each containing different types of information about the document you Shepardized\u2122.\n\nThis report also includes graphical representations.\n\nThe Shepard's Citations Service is described in more detail in other tutorials."
+                    },
+                    {
+                        "@keyref": "companyfirst",
+                        "#tail": "Alerts\n\nAlerts let you set up a search to run automatically and notify you of the results.\n\nYou can set up alerts for:\n\n\u2022\tSearches\n\u2022\tTopics\n\u2022\tShepard's reports\n\u2022\tAnd more\n\nWorking with alerts is described in more detail in a separate tutorial.\n\nWork Folders\n\nWork folders help you keep all your research organized in one place.\n\nYou can save search results, documents, notes, and more for an unlimited time.\n\nWorking with folders is described in more detail in a separate tutorial.\n\nResearch History\n\nThe Lexis Advance History feature makes it easy for you to resume interrupted research, rerun a search from a previous session, and more.\n\nSearches, document views, Shepard's reports, document delivery, Web page views, topic summaries, and more are recorded.\n\nYou can view your research history in a list view or as a graphical research map.\n\nResearch history is described in more detail in other tutorials.\n\nThis concludes the tutorial."
+                    }
+                ],
+                "#text": "Welcome to"
+            }
+        }
+    }
+}

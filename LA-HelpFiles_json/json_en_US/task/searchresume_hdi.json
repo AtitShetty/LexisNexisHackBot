@@ -1,0 +1,66 @@
+{
+    "task": {
+        "@otherprops": "history",
+        "@id": "searchresume_hdi",
+        "title": "How do I resume a previous search?",
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-09-04"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "There are two ways to resume a previous search:",
+                "ul": {
+                    "li": [
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Searches"
+                                },
+                                {
+                                    "#tail": "pod, and then select the search you want to run.",
+                                    "#text": "History"
+                                }
+                            ],
+                            "#text": "Select"
+                        },
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "Documents"
+                                },
+                                {
+                                    "#tail": "pod, and then select the document you want to view.",
+                                    "#text": "History"
+                                }
+                            ],
+                            "#text": "Select"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

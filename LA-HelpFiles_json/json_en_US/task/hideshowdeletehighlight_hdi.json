@@ -1,0 +1,116 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools;edithighlightrangetips",
+        "@audience": "res;lps;lpa",
+        "@id": "hideshowdeletehighlight_hdi",
+        "title": "How do I hide or delete highlighting in a document?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "image": {
+                        "@alt": "Highlighted text",
+                        "@href": "highlight.png",
+                        "@placement": "inline",
+                        "#tail": "icon."
+                    },
+                    "#text": "You can hide, show, or delete highlighting you have made to text in a document stored in one of your folders.  If you \"hide\" the highlighting, the text is no longer highlighted, but the location of the highlighted text in the document is indicated with a gray highlighter"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Highlighted text",
+                                "@href": "highlight.png",
+                                "@placement": "inline",
+                                "#tail": ") below the document name in the list."
+                            },
+                            "#text": "Open the document from the folder where it is stored.  Documents that have highlighted text display a highlighter icon ("
+                        }
+                    },
+                    {
+                        "cmd": "Locate the highlighting you want to hide, delete, or show."
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Highlighted text",
+                                "@href": "highlight.png",
+                                "@placement": "inline",
+                                "#tail": ") in the margin of the document. The"
+                            },
+                            "uicontrol": {
+                                "#tail": "dialog box is displayed.",
+                                "#text": "Edit Highlight"
+                            },
+                            "#text": "Select the highlighter icon ("
+                        }
+                    },
+                    {
+                        "cmd": "Complete any of the following optional tasks:",
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": {
+                                        "#tail": "options.",
+                                        "#text": "Choose your highlight color"
+                                    },
+                                    "#text": "To change the highlight color, select it from the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Allow recipients to view your note"
+                                    },
+                                    "#text": "To share the highlight with users you've shared the document with, select"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Hide highlight"
+                                    },
+                                    "#text": "To hide (but not permanently remove) the highlight, select"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Delete Highlight"
+                                    },
+                                    "#text": "To permanently remove the highlighting, select"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

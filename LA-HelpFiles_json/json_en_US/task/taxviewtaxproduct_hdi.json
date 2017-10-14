@@ -1,0 +1,66 @@
+{
+    "task": {
+        "@otherprops": "taxsearch",
+        "@audience": "tax",
+        "@id": "taxviewtaxproduct_hdi",
+        "title": "How do I view the Lexis Advance\u00ae product?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "page, choose"
+                            },
+                            {
+                                "@keyref": "taxname",
+                                "#tail": "page appears."
+                            }
+                        ],
+                        "b": {
+                            "ph": {
+                                "@keyref": "taxnamefirst"
+                            },
+                            "#tail": "from the experience drop-down list (located at the top of the page). The"
+                        },
+                        "#text": "While viewing any"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "taxperformsearch_hdi.xml",
+                            "#tail": ".",
+                            "#text": "perform your search"
+                        },
+                        "#text": "Once you are viewing the tax product, you can"
+                    }
+                ]
+            }
+        }
+    }
+}

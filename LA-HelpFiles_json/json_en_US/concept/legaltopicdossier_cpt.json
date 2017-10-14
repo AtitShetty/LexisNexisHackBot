@@ -1,0 +1,88 @@
+{
+    "concept": {
+        "@otherprops": "fulldocrhp;legaltopicdossiertips",
+        "@audience": "res;lps",
+        "@id": "legaltopicdossier_cpt",
+        "title": "What are Topic Summaries?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "uicontrol": [
+                        {
+                            "#tail": "in the",
+                            "#text": "Topic Summaries"
+                        },
+                        {
+                            "#tail": "box to the right on the page.  Since a case may address multiple legal topics, you'll see a",
+                            "#text": "About This Document"
+                        },
+                        {
+                            "#tail": "icon",
+                            "#text": "View Reports"
+                        }
+                    ],
+                    "image": {
+                        "@alt": "Topic Summaries report",
+                        "@href": "Dossier-logo.png",
+                        "@placement": "inline",
+                        "#tail": "in each"
+                    },
+                    "ph": {
+                        "@keyref": "companyfirst",
+                        "#tail": "Headnote for which there is a topic summary.  Topic Summary reports include the following, when applicable (not all legal topic summaries have all of these):"
+                    },
+                    "#text": "Topic Summaries are a collection of information about a legal topic that is addressed in a case you are viewing.  If legal topic summaries related to the case are available, you'll see"
+                },
+                "For more information about Topic Summaries, read through the links below."
+            ],
+            "ul": {
+                "li": [
+                    "Definition of the legal topic",
+                    "Elements of the topic",
+                    "Burden of proof",
+                    "Standards of review",
+                    "Links to seminal cases",
+                    "Links to secondary sources"
+                ]
+            }
+        },
+        "reference": [
+            {
+                "@conref": "legaltopicdossiertips.xml",
+                "@id": "legaltopicdossiertips",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "topicsummaryreportips.xml",
+                "@id": "topicsummaryreportips",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

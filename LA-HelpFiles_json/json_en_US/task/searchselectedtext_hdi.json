@@ -1,0 +1,98 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools;searchselectedtips",
+        "@audience": "res;lpa",
+        "@id": "searchselectedtext_hdi",
+        "title": "How do I search based on text I have selected?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "uicontrol": {
+                        "#tail": "feature to find all the documents that contain text that is similar to text you have selected in a document from your results.  The search will be based on relevant terms in the passage you select, and can help you find other documents related to a topic you are researching.",
+                        "#text": "Search Selected Text"
+                    },
+                    "#text": "Use the"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "In an open document, use your mouse to select the text you want to base your search on.  You can select up to 1,000 characters. A menu appears with options for working with the selected text.",
+                        "info": {
+                            "note": "There is no minimum amount of text you can select, but you should select text containing the search terms that are important to your research."
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": ".  The",
+                                    "#text": "Add to search"
+                                },
+                                {
+                                    "#tail": "dialog box appears, displaying the text you selected.",
+                                    "#text": "Search Selected Text"
+                                }
+                            ],
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to remove them.",
+                                "#text": "Clear"
+                            },
+                            "#text": "The filters you used for the original search are displayed.  You can use the same filters or click"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": "Select from the Category, Jurisdictions, and Practice Areas and Topics filters if you wish to change these options.",
+                        "info": {
+                            "note": "Changing these options also changes them in the search box at the top of the results page."
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "#text": "If you select more than 1,000 characters, you'll see a notice displaying the first 1,000 characters of the text you selected, so you can review the text to ensure that it contains your relevant search terms."
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "task": {
+        "@otherprops": "delivery;attachdropboxtips;deliveryrangetips",
+        "@id": "dropboxresults_hdi",
+        "title": "How do I send my results or documents to Dropbox?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "allows you to send either documents you have open, or selected documents from a results list, to Dropbox, which is a third-party cloud storage application. (If you do not have a Dropbox account, visit"
+                        },
+                        "xref": [
+                            {
+                                "@scope": "external",
+                                "@href": "http://www.dropbox.com",
+                                "#tail": "to create a free account, or",
+                                "#text": "www.dropbox.com"
+                            },
+                            {
+                                "@scope": "external",
+                                "@href": "https://www.dropbox.com/tour",
+                                "#tail": ".)",
+                                "#text": "take a Dropbox tour"
+                            }
+                        ]
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Choose whether you want to send a single document to Dropbox, or send the results list:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To send results list items to Dropbox",
+                                    "chdesc": {
+                                        "note": [
+                                            {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "button located in the upper-right corner of the list, or by clicking the",
+                                                        "#text": "Clear All"
+                                                    },
+                                                    {
+                                                        "#tail": "next to the specific item you want to remove.",
+                                                        "#text": "X"
+                                                    }
+                                                ],
+                                                "#text": "You can easily clear items from your delivery tray by selecting the delivery count\tdrop-down list and then by either clicking the"
+                                            },
+                                            {
+                                                "@type": "note",
+                                                "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                                            }
+                                        ],
+                                        "#text": "While viewing your results list, select the specific results you want to send to Dropbox, or don't select anything to send 250 results from the first 1,000 in your list."
+                                    }
+                                },
+                                {
+                                    "choption": "To send a single document to Dropbox",
+                                    "chdesc": "While viewing the results list, open the specific document you want to send."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Choose whether to send your selections to Dropbox immediately (using your last-used Dropbox settings), or to select new Dropbox settings before completing the delivery:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To send your selections to Dropbox immediately",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "delivery icon (",
+                                            "#text": "Send to Dropbox"
+                                        },
+                                        "image": {
+                                            "@alt": "Send to Dropbox",
+                                            "@href": "dropbox.png",
+                                            "#tail": ") on the delivery toolbar. The delivery is started immediately and no further steps are required."
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To select new Dropbox settings before delivery",
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "icon (",
+                                                "#text": "Settings"
+                                            },
+                                            {
+                                                "#tail": "icon (",
+                                                "#text": "Send to Dropbox"
+                                            }
+                                        ],
+                                        "image": [
+                                            {
+                                                "@alt": "Delivery Settings",
+                                                "@href": "deliverysettings.png",
+                                                "#tail": ") next to the"
+                                            },
+                                            {
+                                                "@alt": "Send to Dropbox",
+                                                "@href": "dropbox.png",
+                                                "#tail": ") and provide the required information on the Send to Dropbox dialog box. (See"
+                                            }
+                                        ],
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "attachdropboxtips.xml",
+                                            "#tail": "for instructions on working with this dialog box.)"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "deliverattachments_hdi.xml",
+                        "#tail": "for details on including attachments with your delivery to Dropbox."
+                    },
+                    "#text": "See"
+                }
+            }
+        }
+    }
+}

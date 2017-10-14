@@ -1,0 +1,134 @@
+{
+    "task": {
+        "@otherprops": "shepardsreportips;shep",
+        "@audience": "res",
+        "@id": "shepfocus_hdi",
+        "title": {
+            "i": {
+                "#tail": "\u00ae?",
+                "#text": "Shepard's"
+            },
+            "#text": "How do I use the Search Within Results: feature in"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-06-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "prereq": {
+                "p": {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "runshepardsearch_hdi.xml",
+                        "#tail": "before you can narrow your results.",
+                        "#text": "Shepard's\u00ae search"
+                    },
+                    "#text": "You must first run a"
+                }
+            },
+            "context": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "tab, you can narrow your results by entering search terms into the",
+                            "#text": "Citing Decisions"
+                        },
+                        {
+                            "#tail": "box.",
+                            "#text": "Search Within Results"
+                        }
+                    ],
+                    "#text": "On the"
+                },
+                "note": [
+                    {
+                        "@type": "important",
+                        "b": {
+                            "i": "only in results of less than 10,000 citing documents",
+                            "#tail": ". If the number of citing document exceeds that limit,"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "narrowresults_hdi.xml",
+                            "#tail": "to reduce the number of results to fewer than 10,000.",
+                            "#text": "use another filter option first"
+                        },
+                        "#text": "Use this option"
+                    },
+                    {
+                        "@type": "note",
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "connectors_group_ref.xml",
+                            "#tail": "search terms.",
+                            "#text": "terms and connectors"
+                        },
+                        "#text": "These terms are treated as"
+                    },
+                    {
+                        "@type": "tip",
+                        "uicontrol": {
+                            "#tail": "filter only searches documents that are online.",
+                            "#text": "Search Within Results"
+                        },
+                        "#text": "The"
+                    }
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "shepardsfirst"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab, scroll down to the",
+                                    "#text": "Citing Decisions"
+                                },
+                                {
+                                    "#tail": "box, if necessary.",
+                                    "#text": "Search Within Results"
+                                }
+                            ],
+                            "#text": "On your"
+                        }
+                    },
+                    {
+                        "cmd": "Enter the search terms you want to use to narrow your results."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "OK"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

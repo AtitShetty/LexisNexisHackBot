@@ -1,0 +1,113 @@
+{
+    "reference": {
+        "@otherprops": "lpaeditableformstips",
+        "@audience": "lpa",
+        "@id": "lpaeditableformstips",
+        "title": "Form Content",
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-25"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-02-24"
+                    },
+                    {
+                        "@modified": "2014-08-06"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "uicontrol": {
+                            "#tail": "icon (",
+                            "#text": "Download"
+                        },
+                        "image": {
+                            "@alt": "Download",
+                            "@href": "Download.png",
+                            "@placement": "inline",
+                            "#tail": "), a drop-down list appears. You can choose to download your document immediately using default settings, or to change the settings before you download. For more information on downloading documents in"
+                        },
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": ", see the topic"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "downloadresults_hdi.xml",
+                            "#tail": ". You can access more information on actions you can take with forms below.",
+                            "#text": "How do I download results"
+                        },
+                        "#text": "When you view a form, or select one or more editable forms using the checkboxes, then select the"
+                    }
+                },
+                {
+                    "title": "Editable Forms Content",
+                    "p": "Forms content includes:",
+                    "ul": {
+                        "li": [
+                            "Searching for a specific form and viewing search results",
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpaopenform_hdi.xml",
+                                    "#tail": "selected forms",
+                                    "#text": "Opening"
+                                }
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpaeditform_hdi.xml",
+                                    "#tail": "selected forms",
+                                    "#text": "Editing"
+                                }
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpaaddalternateclause_hdi.xml",
+                                    "#tail": "to selected forms",
+                                    "#text": "Add Alternate Clauses"
+                                }
+                            },
+                            {
+                                "xref": {
+                                    "@scope": "peer",
+                                    "@href": "lpaaddoptionalclause_hdi.xml",
+                                    "#tail": "to selected forms",
+                                    "#text": "Add Alternate Clauses"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

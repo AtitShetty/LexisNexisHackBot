@@ -1,0 +1,128 @@
+{
+    "task": {
+        "@otherprops": "alerts",
+        "@id": "sharealert_hdi",
+        "title": "How do I share a new alert with other users?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can share new alerts you've created with other users.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Run your search and review the results."
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Alert",
+                                "@href": "Alerts.png",
+                                "@placement": "inline",
+                                "#tail": "at the top of your results. The Alert dialog box appears."
+                            },
+                            "#text": "Click the alert icon"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "and",
+                                    "#text": "Monitor"
+                                },
+                                {
+                                    "#tail": "tabs.",
+                                    "#text": "Deliver"
+                                }
+                            ],
+                            "#text": "Select the options you want from the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab.",
+                                "#text": "Share"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to add it to the added contacts list.",
+                                "#text": "Add to Share"
+                            },
+                            "#text": "Enter a user's first or last name or email address to find it in the list and select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Remove",
+                                "@href": "Closeremove.png",
+                                "@placement": "inline",
+                                "#tail": "associated with the contact."
+                            },
+                            "#text": "If you need to remove any users from the Added Contacts list, select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Create Alert"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "group of the left-side pane.  You will find the document in the",
+                            "#text": "Shared by others"
+                        },
+                        {
+                            "#tail": "group.",
+                            "#text": "Shared by me"
+                        }
+                    ],
+                    "#text": "The users you have shared with will be notified by email, and will find the document in the"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,200 @@
+{
+    "help-conf": {
+        "variable": [
+            {
+                "@id": "prodnamefirst",
+                "#text": "Lexis Advance\u00ae"
+            },
+            {
+                "@id": "prodname",
+                "#text": "Lexis Advance"
+            },
+            {
+                "@id": "companyfirst",
+                "#text": "LexisNexis\u00ae"
+            },
+            {
+                "@id": "company",
+                "#text": "LexisNexis"
+            },
+            {
+                "@id": "shepname",
+                "#text": "Shepard's\u00ae Citations Service"
+            },
+            {
+                "@id": "shepardsfirst",
+                "i": {
+                    "#tail": "\u00ae",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepards",
+                "i": "Shepard's"
+            },
+            {
+                "@id": "shepalert",
+                "i": {
+                    "#tail": "Alert\u00ae",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepalertplural",
+                "i": {
+                    "#tail": "Alert\u00ae searches",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepardizefirst",
+                "i": {
+                    "#tail": "\u00ae",
+                    "#text": "Shepardize"
+                }
+            },
+            {
+                "@id": "shepardize",
+                "i": "Shepardize"
+            },
+            {
+                "@id": "shepardizedfirst",
+                "i": {
+                    "#tail": "\u0099",
+                    "#text": "Shepardized"
+                }
+            },
+            {
+                "@id": "shepardized",
+                "i": "Shepardized"
+            },
+            {
+                "@id": "shepardizingfirst",
+                "i": {
+                    "#tail": "\u0099",
+                    "#text": "Shepardizing"
+                }
+            },
+            {
+                "@id": "shepardizing",
+                "i": "Shepardizing"
+            },
+            {
+                "@id": "shepsignalsingularfirst",
+                "i": {
+                    "#tail": "Signal\u0099 indicator",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepsignalsingular",
+                "i": {
+                    "#tail": "Signal indicator",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepsignalpluralfirst",
+                "i": {
+                    "#tail": "Signal\u0099 indicators",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "shepsignalplural",
+                "i": {
+                    "#tail": "Signal indicators",
+                    "#text": "Shepard's"
+                }
+            },
+            {
+                "@id": "urlapinamefirst",
+                "#text": "Lexis Advance\u00ae URL API"
+            },
+            {
+                "@id": "urlapiname",
+                "#text": "URL API"
+            },
+            {
+                "@id": "vsanamefirst",
+                "#text": "LexisNexis\u00ae Verdict & Settlement Analyzer"
+            },
+            {
+                "@id": "vsaname",
+                "#text": "Verdict & Settlement Analyzer"
+            },
+            {
+                "@id": "litnamefirst",
+                "#text": "Legal Issue Trail\u0099"
+            },
+            {
+                "@id": "litname",
+                "#text": "Legal Issue Trail"
+            },
+            {
+                "@id": "lpsnamefirst",
+                "#text": "LexisNexis\u00ae Litigation Profile Suite"
+            },
+            {
+                "@id": "lpsname",
+                "#text": "Litigation Profile Suite"
+            },
+            {
+                "@id": "mednamefirst",
+                "#text": "LexisNexis\u00ae MedMal Navigator\u00ae"
+            },
+            {
+                "@id": "medname",
+                "#text": "MedMal Navigator\u00ae"
+            },
+            {
+                "@id": "lpanamefirst",
+                "#text": "Lexis Practice Advisor\u00ae"
+            },
+            {
+                "@id": "lpaname",
+                "#text": "Lexis Practice Advisor"
+            },
+            {
+                "@id": "lsanamefirst",
+                "#text": "Lexis\u00ae Search Advantage"
+            },
+            {
+                "@id": "lsaname",
+                "#text": "Lexis Search Advantage"
+            },
+            {
+                "@id": "cibnamefirst",
+                "#text": "Lexis Advance\u00ae Custom Interface Builder"
+            },
+            {
+                "@id": "cibname",
+                "#text": "Lexis Advance Custom Interface Builder"
+            },
+            {
+                "@id": "cbnamefirst",
+                "#text": "LexisNexis\u00ae Counsel Benchmarking"
+            },
+            {
+                "@id": "cbname",
+                "#text": "Counsel Benchmarking"
+            },
+            {
+                "@id": "icwnamefirst",
+                "#text": "LexisNexis\u00ae Interactive Citation Workstation"
+            },
+            {
+                "@id": "icwname",
+                "#text": "Interactive Citation Workstation"
+            },
+            {
+                "@id": "taxnamefirst",
+                "#text": "Lexis Advance\u00ae Tax"
+            },
+            {
+                "@id": "taxname",
+                "#text": "Lexis Advance Tax"
+            }
+        ]
+    }
+}

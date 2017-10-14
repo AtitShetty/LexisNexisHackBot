@@ -1,0 +1,75 @@
+{
+    "concept": {
+        "@otherprops": "fulldocrhp",
+        "@id": "legislativeoutlook_cpt",
+        "title": "What is the Lexis Advance\u00ae bill tracking?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "consists of two main tools, the Progress Bar, and the Legislative Outlook."
+                    },
+                    "#text": "Bill tracking in"
+                },
+                "The Progress Bar provides a graphic representation of the progress of a state or Federal bill in the legislative process that appears on a bill text and bill track document. It provides an at-a-glance view of the current progress of a bill.",
+                "The Legislative Outlook is a feature that displays a statistical analysis of a bill\u2019s probability of passage to the next stage of the legislative process.  This is indicated on a bill text or track document by an icon that displays one of the following states:",
+                {
+                    "uicontrol": {
+                        "#tail": "to see additional political intelligence regarding the factors that impact a bill\u2019s movement. This detail includes:",
+                        "#text": "Legislative outlook in detail"
+                    },
+                    "#text": "Select"
+                }
+            ],
+            "ul": [
+                {
+                    "li": [
+                        "Low chance to pass next stage",
+                        "Medium chance to pass next stage",
+                        "High chance to pass next stage",
+                        "Outlook Pending",
+                        "Enacted",
+                        "Vetoed",
+                        "Failed"
+                    ]
+                },
+                {
+                    "li": [
+                        "Current status of the bill's progress",
+                        "Statistical probability of passage for each stage of the legislative process, by percentage",
+                        "Current legislative session status (In session, Adjourned, No session, Session not convened)",
+                        "Partisan makeup of each legislative chamber",
+                        "Bill sponsor's name, party association, and seniority",
+                        "Bill sponsor's legislative success rate from the previous session",
+                        "Bill sponsor\u2019s legislative success rate compared to the success rate of his or her party and chamber"
+                    ]
+                }
+            ]
+        }
+    }
+}

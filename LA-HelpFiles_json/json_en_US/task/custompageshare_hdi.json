@@ -1,0 +1,82 @@
+{
+    "task": {
+        "@otherprops": "res;custompage",
+        "@audience": "res;R7.6",
+        "@id": "custompageshare_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "custom page I have created?"
+            },
+            "#text": "How do I share a"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "users. To do this:"
+                    },
+                    "#text": "You can share a custom page with other"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "home page, select the custom page you want from the"
+                            },
+                            "uicontrol": {
+                                "#tail": "pod.",
+                                "#text": "Custom Pages"
+                            },
+                            "#text": "On the"
+                        },
+                        "stepresult": "The custom page opens."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "drop-down menu at the top left of the page, select",
+                                    "#text": "Actions"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Share page"
+                                }
+                            ],
+                            "#text": "From the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

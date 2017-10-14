@@ -1,0 +1,103 @@
+{
+    "concept": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsaboutexpertreports_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Understanding Expert Witness Reports for"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "profile you want to view, you can select his or her name to view that expert's report:"
+                        },
+                        "#text": "Once you find a specific expert witness whose"
+                    },
+                    "You can select any options on these pages to explore the different options available to you."
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewexpertoverview_hdi.xml",
+                                "#tail": "contains an overall profile of the expert witness and the ways he or she has been involved in various cases. For example, you can review the expert's contact information, an overview of his or her case involvement, or an abbreviated list of publications in which the expert has written or been mentioned. You might also view a list of the top news articles the expert has been mentioned in.  (Each of these sections of the",
+                                "#text": "Snapshot"
+                            },
+                            "b": {
+                                "#tail": "view can be explored in greater detail by selecting the corresponding links in the other categories listed in the left-side navigation.)",
+                                "#text": "Snapshot"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewexpertcaseinvolvement_hdi.xml",
+                                "#tail": "lists the different ways in which the expert witness has been involved in various cases. Using the graphs and charts, for example, you can compare which party the expert has worked with, the case's outcome (or resolution) by hiring party, and so forth. You can also view verdict reports of the cases in which the witness was involved, as well as expert reports, and so forth.",
+                                "#text": "Case Involvement"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewpublications_hdi.xml",
+                                "#tail": "lists the different publications the author has published or in which the author has been mentioned. It also lists administrative materials, secondary sources, and the various professional directories in which the expert is listed.",
+                                "#text": "Publications"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpsviewnews_hdi.xml",
+                                "#tail": "shows different news articles that mention or cite the witness.",
+                                "#text": "In the News"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchlexisweb_hdi.xml",
+                                "#tail": "includes legal content from both the World Wide Web and",
+                                "#text": "Web"
+                            },
+                            "ph": {
+                                "@keyref": "company",
+                                "#tail": "sources."
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

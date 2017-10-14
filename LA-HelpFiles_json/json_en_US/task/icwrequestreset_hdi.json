@@ -1,0 +1,131 @@
+{
+    "task": {
+        "@otherprops": "icwstudent",
+        "@audience": "icw",
+        "@id": "icwrequestreset_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "icwnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I request an exercise reset in"
+        },
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-04-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "Follow these steps to request that your professor reset an exercise you are currently working on, or one that you have completed."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Take one of the following actions:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To request a reset from...",
+                                "chdeschd": "Do this..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Within a given exercise",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                "Open the exercise you want to reset.",
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ". The Reset Exercise dialog appears.",
+                                                        "#text": "Request to reset this exercise"
+                                                    },
+                                                    "#text": "On the right side of the page, click"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "p": "The Status page for a set of exercises (i.e., Bluebook or ALWD)",
+                                        "note": {
+                                            "@type": "tip",
+                                            "#text": "This can be useful if you want to request resets for multiple exercises at one time."
+                                        }
+                                    },
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "ph": {
+                                                        "@keyref": "icwname",
+                                                        "#tail": "Home page, open the Status page for the exercises."
+                                                    },
+                                                    "#text": "From the appropriate pod on your"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "for the exercise you want to start over. The Reset Exercise dialog appears.",
+                                                        "#text": "Request reset"
+                                                    },
+                                                    "note": {
+                                                        "@type": "tip",
+                                                        "uicontrol": [
+                                                            {
+                                                                "#tail": "is an option in the",
+                                                                "#text": "Request reset"
+                                                            },
+                                                            {
+                                                                "#tail": "drop-down.",
+                                                                "#text": "Actions"
+                                                            }
+                                                        ],
+                                                        "#text": "If you have completed the exercise,"
+                                                    },
+                                                    "#text": "From the Actions column on the right side of the page, select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button.",
+                                "#text": "Submit Request"
+                            },
+                            "ph": {
+                                "@keyref": "icwname",
+                                "#tail": "sends a request to the professors associated with your account."
+                            },
+                            "#text": "Select the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

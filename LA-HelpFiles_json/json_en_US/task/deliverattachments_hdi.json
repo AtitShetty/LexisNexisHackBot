@@ -1,0 +1,173 @@
+{
+    "task": {
+        "@otherprops": "delivery",
+        "@id": "deliverattachments_hdi",
+        "title": "How do I download, print, email, and send to Dropbox the document attachments associated with my results?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2015"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2015-03-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "i": {
+                            "#tail": "those attachments, or just include them with their associated documents.",
+                            "#text": "only"
+                        },
+                        "#text": "When downloading, printing, emailing, or sending to Dropbox documents that have attachments, you can choose to deliver"
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Select the document or results list you want to deliver (download, print, email, or send to Dropbox):",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To deliver the results list",
+                                    "chdesc": {
+                                        "note": {
+                                            "@type": "tip",
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "button located in the upper-right corner of the list, or by clicking the",
+                                                    "#text": "Clear All"
+                                                },
+                                                {
+                                                    "#tail": "next to the specific item you want to remove.",
+                                                    "#text": "X"
+                                                }
+                                            ],
+                                            "#text": "You can easily clear items from your delivery tray by selecting the delivery count drop-down list and then by either clicking the"
+                                        },
+                                        "#text": "While viewing your results list, select the documents you want to deliver (or don't select any results to deliver the full list of results)."
+                                    }
+                                },
+                                {
+                                    "choption": "To deliver a single document",
+                                    "chdesc": "While viewing the results list, open the specific document you want to deliver."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": [
+                                {
+                                    "@alt": "Delivery Settings",
+                                    "@href": "deliverysettings.png",
+                                    "#tail": "next to the delivery task you want to perform. (For example, click the image next to one of the following:"
+                                },
+                                {
+                                    "@alt": "Download",
+                                    "@href": "Download.png",
+                                    "#tail": "),"
+                                },
+                                {
+                                    "@alt": "Print",
+                                    "@href": "print.png",
+                                    "#tail": "),"
+                                },
+                                {
+                                    "@alt": "Email",
+                                    "@href": "email.png",
+                                    "#tail": ") or"
+                                },
+                                {
+                                    "@alt": "Send to Dropbox",
+                                    "@href": "dropbox.png",
+                                    "#tail": "). The appropriate delivery dialog box appears."
+                                }
+                            ],
+                            "uicontrol": [
+                                {
+                                    "#tail": "(",
+                                    "#text": "Download"
+                                },
+                                {
+                                    "#tail": "(",
+                                    "#text": "Print"
+                                },
+                                {
+                                    "#tail": "(",
+                                    "#text": "Email"
+                                },
+                                {
+                                    "#tail": "(",
+                                    "#text": "Send to Dropbox"
+                                }
+                            ],
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab. The view changes to show your options for delivering your research.",
+                                "#text": "Basic Options"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "group, select one of the following options, depending on whether you want to deliver documents with their attachments or just attachments:",
+                                "#text": "What do you want to download/print/email/send to Dropbox?"
+                            },
+                            "#text": "In the"
+                        },
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": ", followed by",
+                                            "#text": "Full documents"
+                                        },
+                                        {
+                                            "#tail": "- Select these options to deliver the documents along with any attachments associated with the documents.",
+                                            "#text": "Include document attachments, where available"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "- Select this option to deliver just the attachments for the documents or results you are viewing.",
+                                        "#text": "Full document attachments only (where available)"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Select any other delivery-related options you want and complete the delivery."
+                    }
+                ]
+            }
+        }
+    }
+}

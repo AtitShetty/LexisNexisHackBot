@@ -1,0 +1,57 @@
+{
+    "concept": {
+        "@otherprops": "lpssearchresults",
+        "@audience": "lps",
+        "@id": "lpsunknowndata_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "results contain unknown data?"
+            },
+            "#text": "What if my"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-12-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "lpsnamefirst",
+                        "#tail": "searches to locate data for expert witnesses, judges, and attorneys is quite large.  As such, some documents in that repository may not contain all of the data types you might expect to see listed. For example, some documents may not list the jurisdiction for the result while others may not list the area of law. When this information isn't included in the document, it is graphed as \"unknown data\" in the results."
+                    },
+                    "#text": "The repository which"
+                },
+                {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "lpsfilterreports_hdi.xml",
+                        "#tail": "for instructions on how to do this."
+                    },
+                    "#text": "To help you view only known information, you can filter your search results to show only those documents that contain the specific data on which you are focusing. See"
+                }
+            ]
+        }
+    }
+}

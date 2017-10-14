@@ -1,0 +1,72 @@
+{
+    "task": {
+        "@audience": "exclude",
+        "@id": "lpsviewhistory_hdi",
+        "title": "How do I view a history of past searches?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-10-07"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "keeps a record of your searches for 24 hours from the time you performed your initial search. You can view these past searches during this time period without incurring additional charges."
+                        }
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "from the",
+                                    "#text": "History"
+                                },
+                                {
+                                    "#tail": "drop-down list. The History tab appears.",
+                                    "#text": "My Workspace"
+                                }
+                            ],
+                            "#text": "In the global navigation area, choose"
+                        }
+                    },
+                    {
+                        "cmd": "Review the list of past searches and select the link for the search or profile you want to view. The search is rerun and the report is displayed."
+                    }
+                ]
+            },
+            "postreq": {
+                "note": {
+                    "@type": "note",
+                    "#text": "When accessing historical searches, if the client ID you are using doesn't match the client ID associated with the original search, you can choose to either review the search using the current client ID, or review the search using the original client ID."
+                }
+            }
+        }
+    }
+}

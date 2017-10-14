@@ -1,0 +1,43 @@
+{
+    "reference": {
+        "@otherprops": "cl_docketrktips",
+        "@audience": "post7.2",
+        "@id": "cl_docketrktips",
+        "title": "FIELD HELP TITLE",
+        "prolog": {
+            "author": "YOUR NAME",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "LexisNexis\u00ae PRODUCT NAME",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "INTRODUCTORY PARAGRAPH."
+            },
+            "properties": {
+                "property": {
+                    "propvalue": "FIELD 1",
+                    "propdesc": "DESCRIPTION OF FIELD 1."
+                }
+            }
+        }
+    }
+}

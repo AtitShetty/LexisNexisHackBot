@@ -1,0 +1,147 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "contextips",
+        "title": "Open a Specific Context",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                },
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "supports a list of different experiences within the application. Include the context query parameter to open the Lexis Advance application to a specific context, such as Legal Research, Verdict & Settlement Analyzer, MedMal Navigator, etc."
+                        }
+                    },
+                    "A user must be entitled to an experience in order to use it.",
+                    "If a user accesses a URL API link containing a context value, and:",
+                    "If a user accesses a URL API link that does not contain a context value:",
+                    "The context parameter is optional. It is shown below in a URL that displays a user's list of alerts.",
+                    {
+                        "b": "URL Template"
+                    },
+                    {
+                        "b": "{context}",
+                        "#text": "http://advance.lexis.com/api/alert/myprofiles?"
+                    }
+                ],
+                "ul": [
+                    {
+                        "li": [
+                            "The user is entitled to an experience, the application sets the experience to the value specified by the context.",
+                            "The user is not entitled to that experience, the experience is set to the user\u2019s preferred experience. If the user does not have a preferred experience, the experience is set to the first entitled experience associated with the user\u2019s ID."
+                        ]
+                    },
+                    {
+                        "li": [
+                            "The experience is set to the user\u2019s preferred experience.",
+                            "If the user does not have a preferred experience, the experience is set to the first entitled experience associated with the user\u2019s ID."
+                        ]
+                    }
+                ],
+                "example": {
+                    "b": "context=1000516",
+                    "#text": "http://advance.lexis.com/api/alert/myprofiles?"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Value",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "alert",
+                        "propdesc": "Directs to the alerts feature."
+                    },
+                    {
+                        "propvalue": "myprofiles",
+                        "propdesc": "Directs to the list of all of your alerts."
+                    },
+                    {
+                        "propvalue": "{context}",
+                        "propdesc": {
+                            "p": [
+                                "Query parameter that indicates that the user wants to view results for a specific context (Optional).",
+                                "Possible values:"
+                            ],
+                            "example": {
+                                "b": {
+                                    "#tail": "=1000516",
+                                    "#text": "context"
+                                }
+                            },
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "1000117",
+                                        "dd": "Verdict & Settlement Analyzer"
+                                    },
+                                    {
+                                        "dt": "1000200",
+                                        "dd": "Public Records"
+                                    },
+                                    {
+                                        "dt": "1000516",
+                                        "dd": "U.S. Legal Research"
+                                    },
+                                    {
+                                        "dt": "1000503",
+                                        "dd": "Precision Searcher"
+                                    },
+                                    {
+                                        "dt": "1000522",
+                                        "dd": "LexisNexis\u00ae Practice Advisor"
+                                    },
+                                    {
+                                        "dt": "1000534",
+                                        "dd": "MedMal Litigator"
+                                    },
+                                    {
+                                        "dt": "1201009",
+                                        "dd": "LexisNexis\u00ae Practical Guidance"
+                                    },
+                                    {
+                                        "dt": "1201008",
+                                        "dd": "AU Legal Research"
+                                    },
+                                    {
+                                        "dt": "1000547",
+                                        "dd": "Litigation Profile Suite"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

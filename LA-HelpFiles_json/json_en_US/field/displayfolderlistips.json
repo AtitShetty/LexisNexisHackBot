@@ -1,0 +1,69 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "exclude",
+        "@id": "displayfolderlistips",
+        "title": "Display Your List of Folders",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u2122 URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                },
+                "p": [
+                    "Use this URL to display the list of your saved folders.",
+                    {
+                        "b": "URL Template"
+                    },
+                    {
+                        "b": "folder/myfolders",
+                        "#text": "http://advance.lexis.com/api/"
+                    }
+                ],
+                "example": {
+                    "b": "folder/myfolders",
+                    "#text": "http://advance.lexis.com/api/"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Value",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "folder",
+                        "propdesc": "Directs to the folder feature."
+                    },
+                    {
+                        "propvalue": "myfolders",
+                        "propdesc": "Directs to the list of all of your folders."
+                    }
+                ]
+            }
+        }
+    }
+}

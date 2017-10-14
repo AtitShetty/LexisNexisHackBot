@@ -1,0 +1,80 @@
+{
+    "task": {
+        "@otherprops": "results;resultips;purchasetips;purchasepreviewtips",
+        "@audience": "private",
+        "@id": "preview_hdi",
+        "title": "How do I preview out of plan documents?",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-06-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "prereq": {
+                "p": {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "search_hdi.xml",
+                        "#tail": "before you can preview out of plan results.",
+                        "#text": "search"
+                    },
+                    "#text": "You must first run a"
+                }
+            },
+            "context": null,
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Out of plan"
+                            },
+                            "#text": "Select one or more documents marked as"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link to preview information for each item. The Preview dialog box appears.",
+                                "#text": "Show Free Preview"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": "Clear any documents you do not want to retrieve."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to access the documents you selected.",
+                                "#text": "Get It Now!"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

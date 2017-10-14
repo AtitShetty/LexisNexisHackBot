@@ -1,0 +1,82 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "wsent_ref",
+        "title": {
+            "userinput": [
+                {
+                    "#tail": "or",
+                    "#text": "w/s"
+                },
+                {
+                    "#tail": "Connector",
+                    "#text": "/s"
+                }
+            ]
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "userinput": [
+                            {
+                                "#tail": "or",
+                                "#text": "w/s"
+                            },
+                            {
+                                "#tail": "(within sentence) connector to find documents with search words that appear within approximately 25 words of each other.",
+                                "#text": "/s"
+                            }
+                        ],
+                        "#text": "Use the"
+                    },
+                    "For example, the following finds \"earnings\" within 25 words of \"taxation\":",
+                    {
+                        "userinput": "earnings /s taxation"
+                    }
+                ],
+                "note": {
+                    "userinput": [
+                        {
+                            "#tail": "in place of",
+                            "#text": "w/sent"
+                        },
+                        {
+                            "#tail": "or",
+                            "#text": "/s"
+                        },
+                        {
+                            "#tail": "if you wish. All 3 function the same way.",
+                            "#text": "w/s"
+                        }
+                    ],
+                    "#text": "You can use"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,271 @@
+{
+    "task": {
+        "@otherprops": "folders;savetofoldertips",
+        "@id": "savedocumenttofolder_hdi",
+        "title": "How do I save a document from my results to a folder?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "After running a search and reviewing your results:"
+            },
+            "steps": {
+                "step": [
+                    {
+                        "@id": "saveresearch",
+                        "cmd": "Do one of the following:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Save one or more documents from the results list",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "(",
+                                                        "#text": "Add to folder"
+                                                    },
+                                                    "image": {
+                                                        "@alt": "Add to folder",
+                                                        "@href": "folder.png",
+                                                        "@placement": "inline",
+                                                        "#tail": ") icon at the top of your results. A list of options for saving the document appears."
+                                                    },
+                                                    "#text": "Select the checkbox next to each document you want to save, then select the"
+                                                },
+                                                {
+                                                    "b": {
+                                                        "#tail": ".",
+                                                        "#text": "no further steps are required"
+                                                    },
+                                                    "#text": "To save the document or documents to a specific folder you've already created and used recently, choose that folder from the list. The documents are saved to the selected folder, and"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ". Then",
+                                                        "#text": "Choose a folder"
+                                                    },
+                                                    "b": {
+                                                        "#tail": ", below.",
+                                                        "#text": "proceed to step 2"
+                                                    },
+                                                    "#text": "To save the document set to a new folder or a folder that's not appearing in your recently used list, select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Save a document from the full document view",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "(",
+                                                        "#text": "Add to folder"
+                                                    },
+                                                    "image": {
+                                                        "@alt": "Add to folder",
+                                                        "@href": "folder.png",
+                                                        "@placement": "inline",
+                                                        "#tail": ") icon at the top of the document. A list of options for saving the document appears."
+                                                    },
+                                                    "#text": "While viewing the full document, select the"
+                                                },
+                                                {
+                                                    "b": {
+                                                        "#tail": ".",
+                                                        "#text": "no further steps are required"
+                                                    },
+                                                    "#text": "To save the document to a specific folder you've already created and used recently, choose that folder from the list. The document is saved to the selected folder, and"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ". Then",
+                                                        "#text": "Choose a folder"
+                                                    },
+                                                    "b": {
+                                                        "#tail": ", below.",
+                                                        "#text": "proceed to step 2"
+                                                    },
+                                                    "#text": "To save the document to a new folder or a folder that's not appearing in your recently used list, select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "dialog box, click the",
+                                    "#text": "Add to Folder"
+                                },
+                                {
+                                    "#tail": "tab to review the documents you have selected. If you want to remove a document from a list that contains multiple documents, clear its checkbox.",
+                                    "#text": "Selected Documents"
+                                }
+                            ],
+                            "#text": "At the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": ", click in the box for the document you want to rename, and then enter the new text.",
+                                    "#text": "Edit all titles"
+                                },
+                                "#text": "To edit a title for a document, select"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "tab to specify how you want the document to be saved:",
+                                "#text": "Save Options"
+                            },
+                            "#text": "Select the"
+                        },
+                        "choices": {
+                            "choice": [
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "or your",
+                                            "#text": "Selected Documents"
+                                        },
+                                        {
+                                            "#tail": ", select the appropriate option.",
+                                            "#text": "Results list"
+                                        }
+                                    ],
+                                    "note": {
+                                        "@type": "note",
+                                        "uicontrol": {
+                                            "#tail": "box. See",
+                                            "#text": "The following results ..."
+                                        },
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "deliveryrangetips.xml",
+                                            "#tail": "for a description of how to do this."
+                                        },
+                                        "#text": "If you select to save results to the folder, you can specify exactly which results by entering the range of results in the"
+                                    },
+                                    "#text": "To select whether to save the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "box.",
+                                        "#text": "Notes"
+                                    },
+                                    "#text": "To include a note with the saved documents, enter it in the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Create New Folder"
+                                    },
+                                    "#text": "To create a new folder for the document, select the folder where you want the new folder to be saved and then click"
+                                },
+                                "To save the document or documents to a specific folder, select it in the list."
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "tab and then enter the name or email address of the person you want to share with. Then click",
+                                    "#text": "Share With Others"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Add to Share"
+                                }
+                            ],
+                            "#text": "To share the folder with other users, select the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "to add the name to the list.",
+                                    "#text": "Add to Share"
+                                },
+                                "#text": "To share the document with others within your network or group of users, enter the peer's name. To share with users outside your group, enter the user's email address. Click"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to save your changes and save the document or documents to the folder.",
+                                "#text": "Save"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "uicontrol": [
+                        {
+                            "#tail": "link in the",
+                            "#text": "Folders"
+                        },
+                        {
+                            "#tail": "drop-down list at the top of the page, or from the",
+                            "#text": "More"
+                        },
+                        {
+                            "#tail": "pod on the",
+                            "#text": "Folders"
+                        }
+                    ],
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "home page."
+                    },
+                    "#text": "The items will be saved for you to access from the"
+                }
+            }
+        }
+    }
+}

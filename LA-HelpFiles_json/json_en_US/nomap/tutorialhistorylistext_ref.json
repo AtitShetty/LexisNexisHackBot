@@ -1,0 +1,112 @@
+{
+    "reference": {
+        "@id": "tutorialhistorylistext_ref",
+        "title": "Lexis Advance\u00ae Text-only Tutorial",
+        "prolog": {
+            "author": [
+                "Multimedia Team",
+                "Barb Bruns"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-07-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "title": {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "History List."
+                    },
+                    "#text": "Using the"
+                },
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "History feature makes it easy for you to resume interrupted research, rerun a search from a previous session and more."
+                        },
+                        "#text": "The"
+                    },
+                    "Your 10 most recent searches appear on the Search History pod on the home page. Just select a link to rerun the search.",
+                    {
+                        "b": {
+                            "#tail": ".",
+                            "#text": "Displaying a History List"
+                        }
+                    },
+                    "You can also select the \"List View\" link on the Search History pod to display the History page.",
+                    "The History page lets you review your searches from the past 90 days.",
+                    {
+                        "ph": {
+                            "@audience": "res;lps;vsa;med",
+                            "#tail": ".",
+                            "#text": ", which is described in this tutorial, or as a Research Map, which is described in a separate tutorial"
+                        },
+                        "#text": "You can view history in list form"
+                    },
+                    "You also can display the History page using the \"My Workspace\" menu. This menu lets you return to any of your 10 most recent search activities, or display the history page. Click the \"Go to history list\" link to display the history list.",
+                    {
+                        "b": {
+                            "#tail": ".",
+                            "#text": "Sorting the History List"
+                        }
+                    },
+                    "Sort the list using the \"Sort by\" menu or the column headers.",
+                    "To display extra information (sources, content type, etc.) for each item, select the Details link. Click the List link to clear the details and display more items per page.",
+                    {
+                        "b": {
+                            "#tail": ".",
+                            "#text": "Rerunning a Search"
+                        }
+                    },
+                    "To rerun a search or display a document, select its title. The results are opened in a new tab.",
+                    "You can have more than one tab open at a time. Click its Close icon to close a tab.",
+                    {
+                        "b": {
+                            "#tail": ".",
+                            "#text": "Searching and Filtering List Items"
+                        }
+                    },
+                    "The left side of the page has options for searching and filtering items in history.",
+                    "Use the \"Search History\" box to find items that contain a particular term or terms, such as in a document or search.",
+                    "Use the \"Narrow By\" options to filter your history, for example to display items only for a particular client and/or date.",
+                    {
+                        "b": {
+                            "#tail": ".",
+                            "#text": "Save/Delivery Options"
+                        }
+                    },
+                    "Checkboxes next to items let you select items to save to a folder, download, email, or print.",
+                    "Just select the boxes, select the appropriate icon and follow the on-screen instructions.",
+                    "This concludes the \"Using the History List\" tutorial."
+                ]
+            }
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialresults_cpt.xml"
+                }
+            }
+        }
+    }
+}

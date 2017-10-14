@@ -1,0 +1,40 @@
+{
+    "reference": {
+        "@id": "gdegovt",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "Price Guide for Government Markets"
+            }
+        },
+        "prolog": {
+            "author": "Dave Montgomery",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-02-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Please contact Customer Support at 1-800-543-6862 for assistance."
+            }
+        }
+    }
+}

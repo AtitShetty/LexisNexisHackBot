@@ -1,0 +1,83 @@
+{
+    "reference": {
+        "@otherprops": "vsaresults",
+        "@audience": "vsa",
+        "@id": "VSAgraphsdescrip_ref",
+        "title": {
+            "ph": {
+                "@keyref": "vsanamefirst",
+                "#tail": "graphs represent?"
+            },
+            "#text": "What do each of the"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "ph": {
+                        "@keyref": "vsanamefirst",
+                        "#tail": "graphs and what they represent:"
+                    },
+                    "#text": "The following table discusses the six types of"
+                },
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Graph Name",
+                            "Description"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                "Number of Cases per Year by Resolution",
+                                "This graph shows, by year, how the cases that match your search criteria were resolved. Types of resolutions may include plaintiff and defendant verdicts, settlements, and unknown verdicts. This graph could indicate trends or spikes that might warrant further exploration."
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Award in US Dollars by Resolution",
+                                "This graph shows the average and median award amount for each resolution type (based on your search criteria). Types of resolutions may include plaintiff and defendant verdicts, settlements, and unknown verdicts. To see exact dollar amounts, rest the mouse pointer on the bar you are viewing."
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Number of Cases per Year",
+                                "This graph shows, based on years, the number of cases that match your search criteria. This graph could indicate trends or spikes that might warrant further exploration."
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Percentage of Cases by Resolution",
+                                "This chart uses percentages to show how the cases that matched your search criteria were resolved. Types of resolutions may include plaintiff and defendant verdicts, settlements, and unknown verdicts."
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

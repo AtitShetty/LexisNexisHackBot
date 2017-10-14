@@ -1,0 +1,96 @@
+{
+    "concept": {
+        "@otherprops": "tutorials",
+        "@audience": "vsa",
+        "@id": "tutorialvsarpt_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "vsanamefirst",
+                "#tail": "Report"
+            },
+            "#text": "Tutorial: Viewing a Sample"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-14"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "vsanamefirst",
+                        "#tail": "report and some of the report features."
+                    },
+                    "xref": [
+                        {
+                            "@scope": "local",
+                            "@href": "bigtutorialvsarpt_cpt-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "and",
+                            "#text": "Full-size"
+                        },
+                        {
+                            "@scope": "local",
+                            "@href": "tutorialvsarptext_ref-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "versions are also available.",
+                            "#text": "text-only"
+                        }
+                    ],
+                    "#text": "The tutorial below reviews a sample"
+                },
+                {
+                    "object": {
+                        "@classid": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
+                        "@type": "application/x-shockwave-flash",
+                        "@height": "361",
+                        "@codebase": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0",
+                        "@width": "590",
+                        "@data": "http://web.lexis.com/help/multimedia/nl/nl_vsa_report.swf",
+                        "@id": "newlexis",
+                        "param": [
+                            {
+                                "@name": "movie",
+                                "@value": "http://web.lexis.com/help/multimedia/nl/nl_vsa_report.swf"
+                            },
+                            {
+                                "@name": "wmode",
+                                "@value": "transparent"
+                            },
+                            {
+                                "@name": "quality",
+                                "@value": "high"
+                            },
+                            {
+                                "@name": "bgcolor",
+                                "@value": "#FFFFFF"
+                            },
+                            {
+                                "@name": "pluginspage",
+                                "@value": "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

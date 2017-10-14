@@ -1,0 +1,300 @@
+{
+    "reference": {
+        "@otherprops": "alertresultips",
+        "@id": "alertresultips",
+        "title": "Alert Results Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-23"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "When you select a specific alert from the list of all your saved alerts, a page displays all of the results for that alert. The results of your alert appear as a list of documents. You can choose the type of document you want to view by selecting its link in the left-side pod.",
+                    "Use the list to manage the results for your alert.  You can do any of the following:"
+                ],
+                "ul": {
+                    "li": [
+                        "View the results of an alert",
+                        "Mark results as read or unread",
+                        "Delete results",
+                        "Update the alert",
+                        "Pause the alert",
+                        "Delete the alert"
+                    ]
+                }
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "alert title",
+                        "propdesc": {
+                            "p": "The title you assigned to your alert."
+                        }
+                    },
+                    {
+                        "propvalue": "Properties",
+                        "propdesc": {
+                            "p": {
+                                "ph": {
+                                    "@keyref": "shepalert",
+                                    "#tail": ", how often it runs, notification options, and so on. To change these properties, select"
+                                },
+                                "uicontrol": {
+                                    "#tail": ".",
+                                    "#text": "Edit alert"
+                                },
+                                "#text": "Click this drop-down list (located after the alert title) to view the properties you set up for this alert, such as whether it is a search alert or"
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Sort by",
+                        "propdesc": {
+                            "p": [
+                                "By default, the results in the list are sorted by date and time in the order they were updated (newest to oldest).",
+                                "Select an option from this list to sort in a different order.  You can select from date and time in the order they were updated, by relevance, or by type of change."
+                            ]
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "i": [
+                                {
+                                    "#tail": "(",
+                                    "#text": "alert type"
+                                },
+                                {
+                                    "#tail": ")",
+                                    "#text": "nnn"
+                                }
+                            ]
+                        },
+                        "propdesc": {
+                            "p": "The type of alert, followed by the number of results for this alert."
+                        }
+                    },
+                    {
+                        "propvalue": "Category listing",
+                        "propdesc": "This list shows the categories in which results have been found. The number of unread results appears next to the category type."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add to Folder",
+                                "@href": "AddToFolder.png"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon.",
+                                "#text": "Add to folder"
+                            },
+                            "#text": "Select the documents you want added to a folder and click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Print",
+                                "@href": "Print.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Print ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon. (Delivery options are consolidated under the icon for the last delivery option you used.) See",
+                                "#text": "Print"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachprintips.xml",
+                                "#tail": "for details."
+                            },
+                            "#text": "Select the documents you want to print and click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Download",
+                                "@href": "Download.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Download ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon. (Delivery options are consolidated under the icon for the last delivery option you used.) See",
+                                "#text": "Download"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachdownloadtips.xml",
+                                "#tail": "for details."
+                            },
+                            "#text": "Select the documents you want to download and click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Email",
+                                "@href": "email.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Email ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon. (Delivery options are consolidated under the icon for the last delivery option you used.) See",
+                                "#text": "Email"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachemailtips.xml",
+                                "#tail": "for details."
+                            },
+                            "#text": "Select the documents you want to email and click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Send to Dropbox",
+                                "@href": "dropbox.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Send to Dropbox ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon. (Delivery options are consolidated under the icon for the last delivery option you used.) See",
+                                "#text": "Send to Dropbox"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachdropboxtips.xml",
+                                "#tail": "for details."
+                            },
+                            "#text": "Select the documents you want to send to Dropbox and click the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Delete",
+                                "@href": "closeremove.png",
+                                "#tail": ")"
+                            },
+                            "#text": "Delete Selected ("
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon.",
+                                "#text": "Delete"
+                            },
+                            "#text": "Select the documents you want to remove from the alerts results list (including any unavailable documents) and click the"
+                        }
+                    },
+                    {
+                        "propvalue": "More",
+                        "propdesc": {
+                            "p": "Click this to display a list of things you can do with items you have selected using the checkbox.",
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Delete all",
+                                        "dd": "Click this to delete all the results of this alert."
+                                    },
+                                    {
+                                        "dt": "Mark selected as read",
+                                        "dd": "Select the alert results in the list that you want to mark as read, then select this."
+                                    },
+                                    {
+                                        "dt": "Mark all as read",
+                                        "dd": "Click to mark all the results of this alert as having been read."
+                                    },
+                                    {
+                                        "dt": "Mark selected as unread",
+                                        "dd": "Select the alert results in the list that you want to mark as unread, then select this."
+                                    },
+                                    {
+                                        "dt": "Mark all as unread",
+                                        "dd": "Select the alert results in the list that you want to mark as unread, then select this."
+                                    },
+                                    {
+                                        "dt": "Access ($)",
+                                        "dd": "Select the alert results in the list that you want to pay to access, then select this."
+                                    },
+                                    {
+                                        "dt": "Printer-friendly view",
+                                        "dd": "Select the alert results in the list that you want to view in a printer-friendly version, then select this."
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Document Title",
+                        "propdesc": "The title of the document. Click this link to view the actual document."
+                    },
+                    {
+                        "propvalue": "Jurisdiction",
+                        "propdesc": "The jurisdiction associated with the document."
+                    },
+                    {
+                        "propvalue": "Court",
+                        "propdesc": "The court associated with the document."
+                    },
+                    {
+                        "propvalue": "Date",
+                        "propdesc": "The date of the results."
+                    },
+                    {
+                        "propvalue": {
+                            "image": [
+                                {
+                                    "@alt": "Previous",
+                                    "@href": "Triangleleft.png",
+                                    "@placement": "inline",
+                                    "#tail": "n - n"
+                                },
+                                {
+                                    "@alt": "Next",
+                                    "@href": "Triangleright.png",
+                                    "@placement": "inline"
+                                }
+                            ]
+                        },
+                        "propdesc": "Click the right or left arrow to display the previous or next group of alerts in your list."
+                    }
+                ]
+            }
+        }
+    }
+}

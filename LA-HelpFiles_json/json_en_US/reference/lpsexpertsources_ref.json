@@ -1,0 +1,307 @@
+{
+    "reference": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpsexpertsources_ref",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "Sources for Expert Witness Profiles"
+            }
+        },
+        "prolog": {
+            "author": [
+                "Christina Stommel",
+                "Paul Claggett"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "searches to find the expert witness profiles associated with your search keywords. Additionally, information about how the search is submitted is listed."
+                        },
+                        "#text": "The following tables list the different content types"
+                    }
+                },
+                {
+                    "@id": "snapshot",
+                    "title": "Snapshot",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                "Search Query Used to Retrieve Results"
+                            ]
+                        },
+                        "strow": {
+                            "stentry": [
+                                "Expert Witness Resumes and CVs",
+                                {
+                                    "i": "Results are editorially linked to the expert"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@id": "caseinvolvement",
+                    "title": "Testimonial History",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsexpertsources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Jury Verdicts and Settlements",
+                                    {
+                                        "i": "Results are editorially linked to the expert"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Expert Witness Analysis",
+                                    {
+                                        "i": "Results are editorially linked to the expert"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Cases",
+                                    {
+                                        "userinput": "( {first} w/2 {last} ) and ({last} w/20 {\"expert*\" or \"consultant\" or \"consulting\" or \"witness*\" or \"test*\" or \"cross*\" or \"discuss\" or \"discussed\" or \"declar*\" or \"rebut\" or \"rebutted\" or \"rebuttal\" or \"opinion\" or \"deposition\" or \"deposed\" or \"deo\" or \"affidavit\" or \"aff\" or \"report*\" or \"eviden*\" or \"fee\" or \"investigat*\" or \"doctor\" or \"dr\" or \"drs\" or \"prof\" or \"professor\" or \"phd\" or \"ph.d\" or \"m.d.\" or \"md\" or \"physician\" or \"university\" or \"school\" or \"college\" } )"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Briefs, Pleadings, and Motions",
+                                    {
+                                        "i": "Results are editorially linked to the expert"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "publications",
+                    "title": "Publications",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsexpertsources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Administrative Materials",
+                                    {
+                                        "i": "Results are editorially linked to the expert"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Law Reviews and Journals",
+                                    {
+                                        "userinput": "( {first} w/2 {last} ) and (     (  {last} w/20 { \u201cexpert*\u201d, \u201cdr\u201d, \u201cdrs\u201d} ) or (  {last} w/20 {experts specialty} )"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Expert Witness Directories",
+                                    {
+                                        "userinput": "( {first} w/2 {last} )"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Noteworthy Person Directories",
+                                    {
+                                        "userinput": "( {first} w/2 {last} )"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Scientist Directories",
+                                    {
+                                        "userinput": "( {first} w/2 {last} )"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "news",
+                    "title": "News",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsexpertsources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "News",
+                                    {
+                                        "userinput": "first w/2 last w/20 expert! or dr or drs or specialties"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Legal News",
+                                    {
+                                        "userinput": "first w/2 last w/20 expert! or consultant or consulting or witness! or test! or cross! or discuss or discussed or declar! or rebut or rebutted or rebuttal or opinion or deposition or deposed or dep or affidavit or aff or report! or eviden! or fee or investigat! or doctor or dr or drs or prof or professor or phd or ph.d or m.d. or md or physician or university or school or college"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "web",
+                    "title": "Web",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsexpertsources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": {
+                            "stentry": [
+                                {
+                                    "p": "Content from thousands of Web sites and millions of Web pages, with more being added each day:",
+                                    "ul": {
+                                        "li": [
+                                            "Governmental agency information (federal, state, local)",
+                                            "Informal commentary on legal issues (e.g., blogs specifically for lawyers and legal professionals)",
+                                            "General Web information about legal topics"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "userinput": "first w/2 last"
+                                }
+                            ]
+                        }
+                    },
+                    "note": {
+                        "@type": "note",
+                        "@conref": "lpsaboutexpertreports_cpt.xml#lpsaboutexpertreports_cpt/Results are editorially linked to the expert"
+                    }
+                },
+                {
+                    "@id": "legend",
+                    "p": "* Legend:",
+                    "ul": {
+                        "li": [
+                            {
+                                "userinput": [
+                                    {
+                                        "#tail": "= A given expert's first name and alias (connected using",
+                                        "#text": "first"
+                                    },
+                                    {
+                                        "#tail": ")",
+                                        "#text": "or"
+                                    }
+                                ]
+                            },
+                            {
+                                "userinput": {
+                                    "#tail": "= A given expert's last name",
+                                    "#text": "last"
+                                }
+                            },
+                            {
+                                "userinput": [
+                                    {
+                                        "#tail": "= a list of the expert's specialties (connected using",
+                                        "#text": "specialties"
+                                    },
+                                    {
+                                        "#tail": ")",
+                                        "#text": "or"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewexpertoverview_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I view a snapshot of an expert witness' profile using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "page of",
+                            "#text": "Snapshot"
+                        },
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "shows a summary of the different cases, publications, and news articles in which an expert witness has been involved or has been mentioned. Using the overview, you can quickly review the top content available for the expert witness, and then use the links on the page or the links in the left-side pane to focus on the full details. In short, the Snapshot provides a quick glance at what's available, but provides options for examining the full set of results."
+                        },
+                        "#text": "The"
+                    },
+                    "To view a summary of the expert witness' profile:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforareaofexpertise_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "area of expertise"
+                                }
+                            ],
+                            "#text": "Complete your search for an expert witness. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results page, select the expert's name. That expert's report is opened."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the left pane. A summary of the expert witness' profile appears:",
+                                "#text": "Snapshot"
+                            },
+                            "#text": "Click the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "page, you can select any of the links provided to view that specific type of information.",
+                                    "#text": "Snapshot"
+                                },
+                                "#text": "While viewing the"
+                            }
+                        },
+                        "choices": {
+                            "choice": [
+                                "Contact information for the expert witness appears in the top section of the page.",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsworkwithgraphs_hdi.xml",
+                                        "#tail": "boxes.",
+                                        "#text": "Case Involvement"
+                                    },
+                                    "#text": "Graphs showing a visual representation of how an expert witness has been involved in various cases appear in the"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewpublications_hdi.xml",
+                                        "#tail": "boxes.",
+                                        "#text": "Publications"
+                                    },
+                                    "#text": "Different publications attributed to the expert witness or in which the expert witness has been listed appear in the"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewnews_hdi.xml",
+                                        "#tail": "boxes.",
+                                        "#text": "In the News"
+                                    },
+                                    "#text": "New articles (including regular, legal, and Mealey's\u0099) in which the expert witness has been named appear in the"
+                                },
+                                {
+                                    "i": {
+                                        "#tail": "and the Web appear in the",
+                                        "#text": "lexis.com\u00ae"
+                                    },
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpssearchlexisweb_hdi.xml",
+                                        "#tail": "box.",
+                                        "#text": "Web"
+                                    },
+                                    "#text": "Additional search results from both"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

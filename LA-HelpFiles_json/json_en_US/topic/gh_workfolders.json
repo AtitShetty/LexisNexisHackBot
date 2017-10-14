@@ -1,0 +1,133 @@
+{
+    "topic": {
+        "@otherprops": "common",
+        "@id": "gh_workfolders",
+        "title": "Working with Folders",
+        "titlealts": {
+            "navtitle": {
+                "option": "Folders, working with"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": "Read through the links below for more information about how to create and use folders."
+        },
+        "concept": [
+            {
+                "@conref": "myfolders_cpt.xml",
+                "@id": "myfolders_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@conref": "tutorialfolders_cpt.xml",
+                "@id": "tutorialfolders",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "task": [
+            {
+                "@conref": "saveresearch_hdi.xml",
+                "@id": "saveresearch_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "createfolder_hdi.xml",
+                "@id": "createfolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "savedocumenttofolder_hdi.xml",
+                "@id": "savedocumenttofolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "savetexttofolder_hdi.xml",
+                "@id": "savetexttofolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sharefolder_hdi.xml",
+                "@id": "sharefolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sharexistingfolder_hdi.xml",
+                "@id": "sharexistingfolder_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "sharexistingdocument_hdi.xml",
+                "@id": "sharexistingdocument_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "searchfolders_hdi.xml",
+                "@id": "searchfolders_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "addnote_hdi.xml",
+                "@id": "addnote_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "editnote_hdi.xml",
+                "@id": "editnote_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "deletenote_hdi.xml",
+                "@id": "deletenote_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "linkcreate_hdi.xml",
+                "@id": "linkcreate_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "reference": {
+            "@conref": "recyclebinabout_ref.xml",
+            "@id": "recyclebinabout_ref",
+            "title": null,
+            "refbody": null
+        }
+    }
+}

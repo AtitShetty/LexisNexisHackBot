@@ -1,0 +1,122 @@
+{
+    "topic": {
+        "@otherprops": "lps;results",
+        "@audience": "lps",
+        "@id": "gh_lpsjudgereports",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst"
+            },
+            "#text": "Viewing Reports for Individual Judges Using"
+        },
+        "titlealts": {
+            "navtitle": {
+                "option": "Individual judges, viewing reports for"
+            }
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-26"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": null,
+        "task": [
+            {
+                "@conref": "lpsviewindividualjudge_hdi.xml",
+                "@id": "lpsviewindividualjudge_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewjudgeoverview_hdi.xml",
+                "@id": "lpsviewjudgeoverview_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewjudgerulinghistory_hdi.xml",
+                "@id": "lpsviewjudgerulinghistory_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsworkwithgraphs_hdi.xml",
+                "@id": "lpsworkwithgraphs_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewpublications_hdi.xml",
+                "@id": "lpsviewpublications_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsviewnews_hdi.xml",
+                "@id": "lpsviewnews_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpssearchlexisweb_hdi.xml",
+                "@id": "lpssearchlexisweb_hdi",
+                "title": null,
+                "taskbody": null
+            },
+            {
+                "@conref": "lpsfilterreports_hdi.xml",
+                "@id": "lpsfilterreports_hdi",
+                "title": null,
+                "taskbody": null
+            }
+        ],
+        "concept": [
+            {
+                "@conref": "lpsaboutjudgereports_cpt.xml",
+                "@id": "lpsaboutjudgereports_cpt",
+                "title": null,
+                "conbody": null
+            },
+            {
+                "@audience": "print",
+                "@conref": "lpsunknowndata_cpt.xml",
+                "@id": "lpsunknowndata_cpt",
+                "title": null,
+                "conbody": null
+            }
+        ],
+        "reference": [
+            {
+                "@conref": "lpsvsgraphs_ref.xml",
+                "@id": "lpsvsgraphs_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "lpsjudgesources_ref.xml",
+                "@id": "lpsjudgesources_ref",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

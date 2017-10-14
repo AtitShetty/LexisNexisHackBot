@@ -1,0 +1,55 @@
+{
+    "reference": {
+        "@otherprops": "annocreatetips",
+        "@id": "annocreatetips",
+        "title": "Create Annotation Page",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use this form to make notes in a document stored in one of your folders and save them to view later."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Notes text box",
+                        "propdesc": "Enter the text of your note (up to 4,000 characters) in this box. Use the formatting buttons above the box to apply bolding, underlining, or italics to the text."
+                    },
+                    {
+                        "propvalue": "Choose your highlight color",
+                        "propdesc": "Select the color you want to use to highlight the text you are annotating."
+                    },
+                    {
+                        "propvalue": "Allow recipients to view your note",
+                        "propdesc": "If this is a shared document, and you want your note to be visible to the other users you have shared it with, select this checkbox."
+                    }
+                ]
+            }
+        }
+    }
+}

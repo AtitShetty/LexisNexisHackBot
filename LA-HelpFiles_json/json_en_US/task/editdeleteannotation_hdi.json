@@ -1,0 +1,113 @@
+{
+    "task": {
+        "@otherprops": "fulldoctools;annovieweditips",
+        "@audience": "res;lpa",
+        "@id": "editdeleteannotation_hdi",
+        "title": "How do I edit or delete annotations I've made in a document?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can edit or delete annotations you have made in a document.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Open the document from the folder where it is stored."
+                    },
+                    {
+                        "cmd": "Locate the annotation you want to edit or delete (the text you annotated is highlighted and underscored)."
+                    },
+                    {
+                        "cmd": "Click the highlighted text.",
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "tab opens, displaying the annotations you made for this text.",
+                                "#text": "Notes"
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": "Click on the annotation you want to edit or delete."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ":",
+                                "#text": "Save"
+                            },
+                            "#text": "Do one of the following and then click"
+                        },
+                        "info": {
+                            "ul": {
+                                "li": [
+                                    {
+                                        "image": {
+                                            "@alt": "Edit",
+                                            "@href": "pencil.png",
+                                            "@placement": "inline",
+                                            "#tail": ") and make your changes in the notes text box that displays."
+                                        },
+                                        "#text": "To edit the text of the annotation, click the pencil icon ("
+                                    },
+                                    {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Choose your highlight color"
+                                        },
+                                        "#text": "To change the color of the highlight, click on the new color under"
+                                    },
+                                    {
+                                        "uicontrol": {
+                                            "#tail": "and then reapply the highlighting to the text in the document.",
+                                            "#text": "Edit Highlight"
+                                        },
+                                        "#text": "To change the highlight you've assigned to the text you've annotated, select"
+                                    },
+                                    {
+                                        "image": {
+                                            "@alt": "Delete",
+                                            "@href": "trashcan.png",
+                                            "@placement": "inline",
+                                            "#tail": "). Then confirm the action."
+                                        },
+                                        "#text": "To delete the annotation, select the trash can icon ("
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

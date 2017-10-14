@@ -1,0 +1,57 @@
+{
+    "reference": {
+        "@otherprops": "editclientIDtips",
+        "@id": "editclientIDtips",
+        "title": "Edit Client ID Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-07-06"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": "Use this page to modify the Client ID and associated Research Description."
+                },
+                {
+                    "@conref": "setclientIDtips.xml#setclientIDtips/details"
+                }
+            ],
+            "properties": {
+                "property": [
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/clientid"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/researchdesc"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/ok"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/cancel"
+                    }
+                ]
+            }
+        }
+    }
+}

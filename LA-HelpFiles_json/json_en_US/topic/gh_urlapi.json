@@ -1,0 +1,78 @@
+{
+    "topic": {
+        "@otherprops": "res",
+        "@audience": "res;urlapi",
+        "@id": "gh_urlapi",
+        "title": {
+            "ph": {
+                "@audience": "hide",
+                "#tail": "Using Lexis Advance\u00ae URL API",
+                "#text": "Z"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-27"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": [
+                {
+                    "ph": [
+                        {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "URL API provides a one-way Application Programming Interface (API) used to link into the Lexis Advance application.  If you are an authorized Lexis Advance user, you can use the"
+                        },
+                        {
+                            "@keyref": "prodname",
+                            "#tail": "URL API to run a search, view your alerts, view a"
+                        },
+                        {
+                            "@keyref": "prodname",
+                            "#tail": "user interface.  After entering a URL, you'll be asked to authenticate in Lexis Advance, and then the URL will execute.  Your ID must be authorized for the features accessed by a URL in order for it to work correctly."
+                        }
+                    ],
+                    "i": {
+                        "#tail": "\u00ae report, and do many other things using a URL, rather than the",
+                        "#text": "Shepard's"
+                    }
+                },
+                {
+                    "ph": {
+                        "@keyref": "prodname",
+                        "#tail": "URL API:"
+                    },
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "urlapi_group_ref.xml",
+                        "ph": {
+                            "@keyref": "prodname",
+                            "#tail": "URL API"
+                        },
+                        "#text": "Using"
+                    },
+                    "#text": "Select this link for a list of help topics that describe how to use the"
+                }
+            ]
+        }
+    }
+}

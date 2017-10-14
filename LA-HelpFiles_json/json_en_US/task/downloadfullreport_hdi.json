@@ -1,0 +1,82 @@
+{
+    "task": {
+        "@otherprops": "vsadelivery",
+        "@id": "downloadfullreport_hdi",
+        "title": "How do I download a full report?",
+        "prolog": {
+            "author": "Paul Claggett",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2017"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2017-06-16"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "Take the following steps to download a full report that contains all results list, graphs, and charts."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Run a search and view your results."
+                    },
+                    {
+                        "cmd": "Locate the Download button at the top of the results page."
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Download Full Report Options",
+                                "@href": "dowloadoptions.png",
+                                "#tail": "to open the"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachdownloadfullreporttips.xml",
+                                "#text": "Download Full Reports options page."
+                            },
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "cmd": "Use the boxes and buttons on the options page to customize your report."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to begin the download process.",
+                                "#text": "Download"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            },
+            "postreq": {
+                "p": {
+                    "uicontrol": {
+                        "#tail": "on the results page. The download process often takes a few minutes.",
+                        "#text": "Download"
+                    },
+                    "#text": "To download a full report using the default options, click"
+                }
+            }
+        }
+    }
+}

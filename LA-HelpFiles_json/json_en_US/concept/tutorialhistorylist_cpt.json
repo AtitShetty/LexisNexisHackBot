@@ -1,0 +1,85 @@
+{
+    "concept": {
+        "@otherprops": "tutorials",
+        "@id": "tutorialhistorylist_cpt",
+        "title": "Tutorial: Viewing Your Search History in the History List View",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-14"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "xref": [
+                        {
+                            "@scope": "local",
+                            "@href": "bigtutorialhistorylist_cpt-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "and",
+                            "#text": "Full-size"
+                        },
+                        {
+                            "@scope": "local",
+                            "@href": "tutorialhistorylistext_ref-nomap?lbu=US&locale=en_US&audience=all",
+                            "#tail": "versions are also available.",
+                            "#text": "text-only"
+                        }
+                    ],
+                    "#text": "The tutorial below shows you how to work with your search history in the History List view."
+                },
+                {
+                    "object": {
+                        "@classid": "clsid:D27CDB6E-AE6D-11cf-96B8-444553540000",
+                        "@type": "application/x-shockwave-flash",
+                        "@height": "361",
+                        "@codebase": "http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0",
+                        "@width": "590",
+                        "@data": "http://web.lexis.com/help/multimedia/nl/nl_history_list.swf",
+                        "@id": "newlexis",
+                        "param": [
+                            {
+                                "@name": "movie",
+                                "@value": "http://web.lexis.com/help/multimedia/nl/nl_history_list.swf"
+                            },
+                            {
+                                "@name": "wmode",
+                                "@value": "transparent"
+                            },
+                            {
+                                "@name": "quality",
+                                "@value": "high"
+                            },
+                            {
+                                "@name": "bgcolor",
+                                "@value": "#FFFFFF"
+                            },
+                            {
+                                "@name": "pluginspage",
+                                "@value": "http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

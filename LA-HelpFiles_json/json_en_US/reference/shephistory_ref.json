@@ -1,0 +1,58 @@
+{
+    "reference": {
+        "@otherprops": "shep",
+        "@audience": "res",
+        "@id": "shephistory_ref",
+        "title": {
+            "i": {
+                "#tail": "\u00ae Appellate History",
+                "#text": "Shepard's"
+            }
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-06-24"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "shepardsfirst",
+                            "#tail": "Appellate History categories are presented in an \"outline\" format, where indentations are used to identify the direct relationships between the listed cases."
+                        },
+                        "#text": "The"
+                    },
+                    {
+                        "image": {
+                            "@alt": "Shepard's History",
+                            "@href": "shephistory.png",
+                            "@placement": "inline"
+                        }
+                    }
+                ],
+                "example": "In the image below, item #3 falls under item #2, items #4, #5, #7, and #9 fall below item #3. Item #6 falls below #5, #8 below #7, and #10 & 11 fall below #9."
+            }
+        }
+    }
+}

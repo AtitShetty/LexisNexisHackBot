@@ -1,0 +1,166 @@
+{
+    "task": {
+        "@audience": "lps",
+        "@id": "lpsfilterresults_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "search results?"
+            },
+            "#text": "How do I narrow or filter my"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "search results, you can limit the information you are viewing to meet a specific subset of preferences. For example, if you want to view attorneys that practice in Idaho, Wyoming, and Montana, you could filter your list to show only those lawyers who meet these criteria."
+                        },
+                        "#text": "As you are viewing your"
+                    },
+                    "The filters that are available depend on which type of profiles you are viewing:",
+                    "To refine your search results:"
+                ],
+                "ul": {
+                    "li": [
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": ",",
+                                    "#text": "State"
+                                },
+                                {
+                                    "#tail": ", and",
+                                    "#text": "City"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Area of Expertise"
+                                }
+                            ],
+                            "#text": "If you are viewing expert witness profiles, your filters include:"
+                        },
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": "and",
+                                    "#text": "Jurisdiction"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Court"
+                                }
+                            ],
+                            "#text": "If you are viewing judge profiles, your filters include:"
+                        },
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": ",",
+                                    "#text": "State"
+                                },
+                                {
+                                    "#tail": ", and",
+                                    "#text": "City"
+                                },
+                                {
+                                    "#tail": ".",
+                                    "#text": "Employer"
+                                }
+                            ],
+                            "#text": "If you are viewing attorney profiles, your filters include:"
+                        }
+                    ]
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "pane on the left side of the page, locate the type of filter you want to apply.",
+                                "#text": "Narrow By"
+                            },
+                            "#text": "While viewing the"
+                        }
+                    },
+                    {
+                        "cmd": "Click the link for the specific filter."
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "ul": {
+                        "li": [
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "link. (To collapse the list again, select the",
+                                        "#text": "More"
+                                    },
+                                    {
+                                        "#tail": "link.)",
+                                        "#text": "Less"
+                                    }
+                                ],
+                                "#text": "Specific options available for each filter are listed in the order of priority, and only the first few options with the most profiles are listed by default. To view the full list of options, select the"
+                            },
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": ", select the options you are most interested in, and then select",
+                                        "#text": "Select multiple"
+                                    },
+                                    {
+                                        "#tail": ".",
+                                        "#text": "OK"
+                                    }
+                                ],
+                                "#text": "To select multiple filters, select"
+                            },
+                            {
+                                "image": {
+                                    "@alt": "Close",
+                                    "@href": "closeremove.png",
+                                    "#tail": "icon for that individual filter. To remove all filters, select"
+                                },
+                                "uicontrol": {
+                                    "#tail": ".",
+                                    "#text": "Clear"
+                                },
+                                "#text": "You can clear filters you have applied to your search results by selecting the"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,267 @@
+{
+    "reference": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpsattorneysources_ref",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "Sources for Attorney Profiles"
+            }
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "searches to find the attorney profiles associated with your search keywords. Additionally, information about how the search is submitted is listed."
+                        },
+                        "#text": "The following tables list the different content types"
+                    }
+                },
+                {
+                    "@id": "practicehistory",
+                    "title": "Ruling Trends",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsattorneysources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Dockets",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Jury Verdicts & Settlements",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Cases",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Expert Witness Analysis",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Briefs, Pleadings, and Motions",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Jury Instruction Filings",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Administrative Materials",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "publications",
+                    "title": "Publications",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsattorneysources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Law Reviews and Journals",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Attorney Directories",
+                                    {
+                                        "userinput": "attorney name: (first w/2 last)"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "news",
+                    "title": "News",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsattorneysources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "News",
+                                    {
+                                        "userinput": "first w/2 last w/20 (attorney* or atty or esq! or counsel! or lawyer* or legal represent! or prosecutor* or defen! or JD or J.D. or juris doctor or (doctor w/2 jurisprudence) or law firm or practice or represent!)"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Legal News",
+                                    {
+                                        "i": "LexisNexis proprietary linking technology"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@id": "web",
+                    "title": "Web",
+                    "simpletable": {
+                        "@relcolwidth": "50* 50*",
+                        "sthead": {
+                            "stentry": [
+                                "Source",
+                                {
+                                    "xref": {
+                                        "@scope": "local",
+                                        "@href": "#lpsattorneysources_ref/legend",
+                                        "#text": "*"
+                                    },
+                                    "#text": "Search Query Used to Retrieve Results"
+                                }
+                            ]
+                        },
+                        "strow": {
+                            "stentry": [
+                                {
+                                    "p": "Content from thousands of Web sites and millions of Web pages, with more being added each day:",
+                                    "ul": {
+                                        "li": [
+                                            "Governmental agency information (federal, state, local)",
+                                            "Informal commentary on legal issues (e.g., blogs specifically for lawyers and legal professionals)",
+                                            "General Web information about legal topics"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "userinput": "first w/2 last"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@id": "legend",
+                    "p": "* Legend:",
+                    "ul": {
+                        "li": [
+                            {
+                                "userinput": [
+                                    {
+                                        "#tail": "= A given attorney's first name and alias (connected using",
+                                        "#text": "first"
+                                    },
+                                    {
+                                        "#tail": ")",
+                                        "#text": "or"
+                                    }
+                                ]
+                            },
+                            {
+                                "userinput": {
+                                    "#tail": "= A given attorney's last name",
+                                    "#text": "last"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

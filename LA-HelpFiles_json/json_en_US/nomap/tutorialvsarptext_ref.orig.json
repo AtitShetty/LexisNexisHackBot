@@ -1,0 +1,127 @@
+{
+    "reference": {
+        "@id": "tutorialvsarptext_ref",
+        "title": "Lexis Advance\u00ae Text-only Tutorial",
+        "prolog": {
+            "author": [
+                "Multimedia Team",
+                "Barb Bruns"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-07-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "title": {
+                    "ph": {
+                        "@keyref": "vsanamefirst",
+                        "#tail": "Report."
+                    },
+                    "#text": "Tutorial - Viewing a Sample"
+                },
+                "p": [
+                    "Introduction.",
+                    {
+                        "ph": {
+                            "@keyref": "vsanamefirst",
+                            "#tail": "results appear in a series of graphs and charts, which provide a visual representation of your search results."
+                        },
+                        "#text": "Your"
+                    },
+                    "The left side of the report page shows how many cases your search found and provides some tools you can use to narrow your results.",
+                    "We'll take a closer look at those tools later in this demo.",
+                    "Chart and Graph Tabs.",
+                    "Besides displaying results in a variety of graphs, you can display individual cases that may be of particular interest or relevance.",
+                    "Click the right or left arrow to show more titles.",
+                    "You can select a title to display it in full view below the tabs.",
+                    "Cite List.",
+                    "The report also includes a cite list, which you can use to view individual cases.",
+                    "You can sort the cases a number of ways using the Sort by menu.",
+                    "Or you can select the column headers to sort the documents.",
+                    "Click a document title to see the full text. The document is opened in its own tab.",
+                    "Return to your results by selecting either the Report tab or the document tab\u2019s Close icon.",
+                    "\"At a Glance\" View.",
+                    "\"At a Glance\" shows thumbnail views of each graph. Click any of them to see it in full view.",
+                    "\"Cases/Year by Resolution\" Graph.",
+                    "The \"Number of Cases Per Year by Resolution\" graph shows, by year, how the cases that match your search were resolved.",
+                    "It can indicate trends or spikes that might warrant further exploration.",
+                    "Rest your mouse over a bar to display information about the verdict or settlement.",
+                    "Note that you can see more information this way on all of the graphs.",
+                    "\"Award by Resolution\" Chart.",
+                    "This chart shows the average and median award amount for each resolution type, based on your search criteria.",
+                    "Types of resolutions may include plaintiff and defendant verdicts, settlements, and unknown verdicts.",
+                    {
+                        "ph": {
+                            "@keyref": "vsaname",
+                            "#tail": "sometimes encounters incomplete data."
+                        },
+                        "#text": "Due to the vastness of its record repository,"
+                    },
+                    "This data is listed as \"unknown\", and you can filter it from your results.",
+                    "\"Cases/Year\" Graph.",
+                    "The \"Cases per Year\" graph shows the number of cases per year that match your search criteria.",
+                    "This graph could also indicate trends or spikes that might be worth further exploration.",
+                    "\"Percent Cases by Resolution\" Chart.",
+                    "The \"Percentage of Cases by Resolution\" chart groups your matched cases based on how they were resolved.",
+                    "Filtering Results.",
+                    "Tools for narrowing your results are located in the left pane.",
+                    "You can enter additional terms in the \"Search within results\" box to include only results with those terms.",
+                    "Or, you can filter your search results based on:",
+                    "Court,",
+                    "Practice areas and topics,",
+                    "Case resolution,",
+                    "Timeline,",
+                    "Award amount,",
+                    "Injuries,",
+                    "Known data.",
+                    "To display more options in a category, select its More link.",
+                    "To select more than 1 category for a filter, choose \"Select multiple\". Select checkboxes for the categories you want, then select the OK button.",
+                    "Use the Timeline to limit results to a date range. You can use the sliders to set the start and end dates, or type them in the date boxes. Then select the OK button to view the results.",
+                    "As you add filters, the \"Narrow By\" pane shows which filters you've selected. You can remove a filter by selecting its Remove icon. You can select the \"Clear all\" link to remove all filters and return to your original results list.",
+                    "To return to the main search page, select the logo in the upper left corner of the screen.",
+                    "Finding More Information.",
+                    {
+                        "ph": {
+                            "@keyref": "vsanamefirst",
+                            "#tail": "is available in other Help topics."
+                        },
+                        "#text": "More information about using"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "vsaname",
+                            "#tail": "Report\" tutorial."
+                        },
+                        "#text": "This concludes the \"Viewing a Sample"
+                    }
+                ]
+            }
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialresults_cpt.xml"
+                }
+            }
+        }
+    }
+}

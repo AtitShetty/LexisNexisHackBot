@@ -1,0 +1,149 @@
+{
+    "concept": {
+        "@otherprops": "icwprofessor",
+        "@audience": "icw",
+        "@id": "icwpodescriptionsprofessor_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "icwnamefirst",
+                "#tail": "for professors"
+            }
+        },
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-04-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "icwnamefirst",
+                        "#tail": "Home page for professors is a dashboard view allowing you to track and review your students' progress through their online citation manual exercises. In addition to managing student progress, the page's eight pods allow you to generate progress reports, alert you to possible issues to address in your classes, and request complimentary copies of the exercise books."
+                    },
+                    "#text": "The"
+                },
+                "The pod names and their descriptions follow:"
+            ],
+            "simpletable": {
+                "sthead": {
+                    "stentry": [
+                        "Pod Name",
+                        "Description",
+                        "How Does It Work?"
+                    ]
+                },
+                "strow": [
+                    {
+                        "stentry": [
+                            "Status Reports",
+                            "You can generate two kinds of report from this pod. Student Reports allow you to see how individual students are doing on a selected exercise manual. Exercise Reports allow you to see how your class as a whole are doing on a single exercise from a selected manual.",
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "or the",
+                                        "#text": "Get Status Report for Student"
+                                    },
+                                    {
+                                        "#tail": "button, as appropriate.",
+                                        "#text": "Get Status Report for Exercise"
+                                    }
+                                ],
+                                "ph": {
+                                    "@keyref": "icwname",
+                                    "#tail": "displays the report in a new page."
+                                },
+                                "#text": "Select the kind of report you want to see, the specific information you want the report to contain, then select the"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Areas for Attention (currently Problems for your Attention)",
+                            "Use this pod to help you identify areas that may need more attention in the classroom. The pod lists the top problems, by manual and exercise, that appear to be giving students trouble. You can also access more details on all the problems you may need to address.",
+                            {
+                                "uicontrol": {
+                                    "#tail": ".",
+                                    "#text": "View all problems for your attention"
+                                },
+                                "ph": {
+                                    "@keyref": "icwname",
+                                    "#tail": "displays the information in a new page."
+                                },
+                                "#text": "To see detailed information on all troublesome problems, click"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Student Progress by Exercise",
+                            {
+                                "p": "These pods show how your students are progressing through the five most recently-worked exercises. The page contains one pod for each exercise manual (Bluebook, Bluebook State, ALWD, and ALWD State). You can also access progress for every exercise in a selected manual.",
+                                "note": {
+                                    "@type": "note",
+                                    "ul": {
+                                        "li": [
+                                            "The Bluebook\u00ae: A Uniform System of Citation (20th ed.) (Bluebook)",
+                                            "The ALWD Guide to Legal Citation, Fifth Edition (ALWD)"
+                                        ]
+                                    },
+                                    "#text": "These exercises correspond with the following references, which students can use to find citation rules:"
+                                }
+                            },
+                            {
+                                "uicontrol": {
+                                    "#tail": "in any of these four pods to see progress statistics for every exercise in the selected manual.",
+                                    "#text": "View student progress for all...exercises"
+                                },
+                                "ph": {
+                                    "@keyref": "icwname",
+                                    "#tail": "displays the information in a new page."
+                                },
+                                "#text": "Select"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Complimentary Books",
+                            "Request your physical copies of the student exercise manuals here.",
+                            "Select the link to send us a request for your physical manuals."
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Student Citation Manual Exercises",
+                            "This pod allows you to review the exercise manuals and the exercises therein.",
+                            {
+                                "ph": {
+                                    "@keyref": "icwname",
+                                    "#tail": "takes you to the review page for that manual. From this page you can access any of the manual's exercises. This allows you to see the exercises as your students do."
+                                },
+                                "#text": "Select the title of the exercise manual you want to see."
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

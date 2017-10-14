@@ -1,0 +1,98 @@
+{
+    "task": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpssearchforjudgejurisdiction_hdi",
+        "title": "How do I search for a judge within a specific jurisdiction?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can view a list of judges for a specific jurisdiction. This might be useful if you need to find a judge but you don't have a specific name for which to search. You can select as many states to search in as necessary."
+                        },
+                        "#text": "Using"
+                    },
+                    "To search for a list of judges within a specific jurisdiction:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "from the drop-down list to the left of the search field.",
+                                "#text": "Judge"
+                            },
+                            "#text": "At the search form, choose"
+                        }
+                    },
+                    {
+                        "cmd": "Leave the search field blank."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list. A pop-up window showing a list of jurisdictions appears.",
+                                "#text": "Filters"
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": "Select the jurisdictions you are interested in."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "ph": [
+                                {
+                                    "@keyref": "lpsname",
+                                    "#tail": "searches the"
+                                },
+                                {
+                                    "@keyref": "companyfirst",
+                                    "#tail": "databases for judges that meet your search criteria. It then displays any results that are found. (See"
+                                }
+                            ],
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "lpssearchresults_cpt.xml",
+                                "#tail": "for details.)"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

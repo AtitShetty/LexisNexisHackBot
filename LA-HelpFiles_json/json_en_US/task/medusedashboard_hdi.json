@@ -1,0 +1,329 @@
+{
+    "task": {
+        "@otherprops": "medashboardtips;medmal",
+        "@audience": "med",
+        "@id": "medusedashboard_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "mednamefirst",
+                "#tail": "dashboard?"
+            },
+            "#text": "How do I use the"
+        },
+        "prolog": {
+            "author": [
+                "Robin Stubbart",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-08"
+                },
+                "revised": {
+                    "@modified": "2014-04-16"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            },
+            "data": "medmal navigator medical malpractice litigator litigation"
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "mednamefirst",
+                        "#tail": "dashboard to access all the tools available to help you evaluate and pursue your case."
+                    },
+                    "#text": "Use the"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Select the name of a tool from the options at the top of the page, or select one of the pods in the main body of the page."
+                    },
+                    {
+                        "cmd": "In the page that appears, take one of the following actions:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "For this pod...",
+                                "chdeschd": "Do this..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Case Value Assessment",
+                                    "chdesc": {
+                                        "p": {
+                                            "ph": {
+                                                "@keyref": "medname",
+                                                "#tail": "fills in the graph on the right."
+                                            },
+                                            "#text": "Answer the questions displayed in the panel on the left side of the page. As you provide answers,"
+                                        },
+                                        "ul": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "buttons. A list of the remaining questions will appear, allowing you to select the question you want to answer next.",
+                                                        "#text": "View Upcoming Questions"
+                                                    },
+                                                    "#text": "If you want to skip one or more questions, select the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button. A list of the questions you have answered appears, allowing you select the question you want to revisit.",
+                                                        "#text": "Change Previous Answer"
+                                                    },
+                                                    "#text": "If you want to change an answer you have provided, select the"
+                                                }
+                                            ]
+                                        },
+                                        "note": {
+                                            "@type": "note",
+                                            "uicontrol": {
+                                                "#tail": "button.",
+                                                "#text": "Related Topic"
+                                            },
+                                            "ph": {
+                                                "@keyref": "medname",
+                                                "#tail": "will take you to a new page displaying a list of similar topics. Select the appropriate topic to see an assessment graph based on your answers."
+                                            },
+                                            "#text": "You can review an assessment of your case for topics similar your selected topic by selecting the"
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Standard of Care",
+                                    "chdesc": {
+                                        "p": {
+                                            "ph": {
+                                                "@keyref": "medname",
+                                                "#tail": "identifies whether or not your answers represent a potential deviation from the standard of care on the right. Select"
+                                            },
+                                            "uicontrol": {
+                                                "#tail": "to see more information for a given answer.",
+                                                "#text": "Show Details"
+                                            },
+                                            "#text": "Answer the questions displayed in the panel on the left side of the page. As you provide answers,"
+                                        },
+                                        "ul": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "buttons. A list of the remaining questions will appear, allowing you to select the question you want to answer next.",
+                                                        "#text": "View Upcoming Questions"
+                                                    },
+                                                    "#text": "If you want to skip one or more questions, select the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button. A list of the questions you have answered appears, allowing you select the question you want to revisit.",
+                                                        "#text": "Change Previous Answer"
+                                                    },
+                                                    "#text": "If you want to change an answer you have provided, select the"
+                                                }
+                                            ]
+                                        },
+                                        "note": {
+                                            "@type": "tip",
+                                            "uicontrol": {
+                                                "#tail": "checkbox.",
+                                                "#text": "Show Only the Issues"
+                                            },
+                                            "#text": "You can choose to see only those items that are potential deviations by selecting the"
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Legal Analysis",
+                                    "chdesc": {
+                                        "p": {
+                                            "ph": [
+                                                {
+                                                    "@keyref": "medname",
+                                                    "#tail": "displays a"
+                                                },
+                                                {
+                                                    "@keyref": "prodnamefirst",
+                                                    "#tail": "search built from your answers. Checkboxes allow you to add more options to the search. Select the"
+                                                },
+                                                {
+                                                    "@keyref": "medname",
+                                                    "#tail": "takes you to a new page containing your search results."
+                                                }
+                                            ],
+                                            "uicontrol": {
+                                                "#tail": "button to run the search.",
+                                                "#text": "View Results Now"
+                                            },
+                                            "#text": "Answer the questions displayed in the panel on the left side of the page. Once you have answered all the questions,"
+                                        },
+                                        "ul": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "buttons. A list of the remaining questions will appear, allowing you to select the question you want to answer next.",
+                                                        "#text": "View Upcoming Questions"
+                                                    },
+                                                    "#text": "If you want to skip one or more questions, select the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button. A list of the questions you have answered appears, allowing you select the question you want to revisit.",
+                                                        "#text": "Change Previous Answer"
+                                                    },
+                                                    "#text": "If you want to change an answer you have provided, select the"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Expert Witness",
+                                    "chdesc": {
+                                        "p": {
+                                            "image": {
+                                                "@alt": "Search icon",
+                                                "@href": "search.png",
+                                                "@placement": "inline",
+                                                "#tail": "."
+                                            },
+                                            "ph": {
+                                                "@keyref": "medname",
+                                                "#tail": "displays your results on the right side of the page."
+                                            },
+                                            "#text": "Enter the witness' name in the box, then select"
+                                        },
+                                        "note": {
+                                            "@type": "tip",
+                                            "ph": {
+                                                "@keyref": "lpsname",
+                                                "#tail": ". You can narrow your result set using the tools on the left side of the page (such as Area of Expertise, State, etc.)."
+                                            },
+                                            "#text": "Search results are pulled from"
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Research Parties",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                "Select any listed name. A new page appears, displaying all the terms and conditions for using public records data.",
+                                                {
+                                                    "uicontrol": [
+                                                        {
+                                                            "#tail": "and the",
+                                                            "#text": "Choose a default DPPA Use"
+                                                        },
+                                                        {
+                                                            "#tail": "drop-down lists, select the appropriate values.",
+                                                            "#text": "Choose a default GLBA Use"
+                                                        }
+                                                    ],
+                                                    "#text": "From the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button. The Public Records Comprehensive Person Report page appears, with the appropriate fields populated fromt he Research Parties page.",
+                                                        "#text": "Confirm"
+                                                    },
+                                                    "#text": "Once you have read and understand the terms and conditions, select the"
+                                                },
+                                                "Provide any additional information about the person to help narrow your search.",
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button.",
+                                                        "#text": "Search"
+                                                    },
+                                                    "ph": {
+                                                        "@keyref": "prodnamefirst",
+                                                        "#tail": "performs the public records search, then displays all information found for the person."
+                                                    },
+                                                    "#text": "Select the"
+                                                }
+                                            ]
+                                        },
+                                        "note": {
+                                            "@type": "note",
+                                            "uicontrol": {
+                                                "#tail": "button and fill out the form to add persons you want to research to the dashboard. For more information, see the following topics:",
+                                                "#text": "Add New Party"
+                                            },
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "xref": {
+                                                            "@scope": "peer",
+                                                            "@href": "medaddparty_hdi.xml"
+                                                        }
+                                                    },
+                                                    {
+                                                        "xref": {
+                                                            "@scope": "peer",
+                                                            "@href": "mededitparty_hdi.xml"
+                                                        }
+                                                    },
+                                                    {
+                                                        "xref": {
+                                                            "@scope": "peer",
+                                                            "@href": "medeleteparty_hdi.xml"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "You can also edit or delete any listed party, or select the"
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "Elsevier's First Consult",
+                                    "chdesc": "Select the name of the medical topic you want to research."
+                                },
+                                {
+                                    "choption": "Medical References",
+                                    "chdesc": {
+                                        "p": [
+                                            {
+                                                "ph": {
+                                                    "@keyref": "medname",
+                                                    "#tail": "topic, select the title of an item for which you want more information. You can filter the result set using the"
+                                                },
+                                                "uicontrol": {
+                                                    "#tail": "controls on the left side of the page.",
+                                                    "#text": "Narrow By"
+                                                },
+                                                "#text": "From the list of results based on the current"
+                                            },
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "button at the top of the page to see your result set further filtered to show only images. These images cover anatomy, physiology, diagnosis and treatment of most medical conditions.",
+                                                    "#text": "Illustrations"
+                                                },
+                                                "#text": "You can also select the"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

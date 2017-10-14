@@ -1,0 +1,66 @@
+{
+    "concept": {
+        "@otherprops": "fulldocrhp",
+        "@id": "notes_cpt",
+        "title": "What are the About and Notes tabs?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "uicontrol": [
+                        {
+                            "#tail": "and",
+                            "#text": "About"
+                        },
+                        {
+                            "#tail": ".",
+                            "#text": "Notes"
+                        }
+                    ],
+                    "#text": "When you view a document, you'll see a box to the right of the document with tabs for"
+                },
+                {
+                    "uicontrol": {
+                        "#tail": "tab to see",
+                        "#text": "About"
+                    },
+                    "ph": {
+                        "@keyref": "shepardsfirst",
+                        "#tail": "information about the document, including whether prior history is available, citing decisions, and other citing sources."
+                    },
+                    "#text": "Select the"
+                },
+                {
+                    "uicontrol": {
+                        "#tail": "tab to see annotations you have made in the document and saved. Your notes are saved when you save the document to a folder.",
+                        "#text": "Notes"
+                    },
+                    "#text": "Select the"
+                }
+            ]
+        }
+    }
+}

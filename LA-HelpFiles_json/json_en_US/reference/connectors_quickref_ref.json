@@ -1,0 +1,192 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "connectors_quickref_ref",
+        "title": "Search Connectors Quick Reference Card",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-02-02"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "data": "focus, narrow, filter",
+                "note": {
+                    "@type": "tip",
+                    "image": [
+                        {
+                            "@alt": "Save as RTF",
+                            "@href": "IconRTF.png",
+                            "#tail": ". To save the page as a PDF document, select"
+                        },
+                        {
+                            "@alt": "Save as PDF",
+                            "@href": "IconPDF.png",
+                            "#tail": ". To print the page, select"
+                        },
+                        {
+                            "@alt": "Print",
+                            "@href": "Print.png",
+                            "#tail": "."
+                        }
+                    ],
+                    "#text": "You can save or print a copy of this page. To save the page as an RTF document, select"
+                }
+            }
+        },
+        "task": {
+            "@conref": "useconnectors_hdi.xml",
+            "@outputclass": "embed",
+            "@id": "useconnectors_hdi",
+            "title": null,
+            "taskbody": null
+        },
+        "reference": [
+            {
+                "@conref": "and_ref.xml",
+                "@outputclass": "embed",
+                "@id": "and_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "atleast_ref.xml",
+                "@outputclass": "embed",
+                "@id": "atleast_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "or_ref.xml",
+                "@outputclass": "embed",
+                "@id": "or_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "not_ref.xml",
+                "@outputclass": "embed",
+                "@id": "not_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "withinn_ref.xml",
+                "@outputclass": "embed",
+                "@id": "withinn_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "n_ref.xml",
+                "@outputclass": "embed",
+                "@id": "n_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "wpara_ref.xml",
+                "@outputclass": "embed",
+                "@id": "wpara_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "wsent_ref.xml",
+                "@outputclass": "embed",
+                "@id": "wsent_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "wseg_ref.xml",
+                "@outputclass": "embed",
+                "@id": "wseg_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "near_ref.xml",
+                "@outputclass": "embed",
+                "@id": "near_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "onear_ref.xml",
+                "@outputclass": "embed",
+                "@id": "onear_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "pren_ref.xml",
+                "@outputclass": "embed",
+                "@id": "pren_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "pres_ref.xml",
+                "@outputclass": "embed",
+                "@id": "pres_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "prep_ref.xml",
+                "@outputclass": "embed",
+                "@id": "prep_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "notproximity_ref.xml",
+                "@outputclass": "embed",
+                "@id": "notproximity_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "exclamation_ref.xml",
+                "@outputclass": "embed",
+                "@id": "exclamation_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "asterisk_ref.xml",
+                "@outputclass": "embed",
+                "@id": "asterisk_ref",
+                "title": null,
+                "refbody": null
+            },
+            {
+                "@conref": "question_ref.xml",
+                "@outputclass": "embed",
+                "@id": "question_ref",
+                "title": null,
+                "refbody": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "task": {
+        "@otherprops": "shep;shepardsreportips",
+        "@audience": "res",
+        "@id": "shepardizebycitation_hdi",
+        "title": {
+            "i": {
+                "#tail": "\u00ae a document when I know its citation?",
+                "#text": "Shepardize"
+            },
+            "#text": "How do I"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "shepardsfirst",
+                            "#tail": "report by citation can be done in a variety of ways."
+                        },
+                        "#text": "Retrieving a"
+                    },
+                    {
+                        "b": {
+                            "#tail": "or click the search button.",
+                            "#text": "ENTER"
+                        },
+                        "#text": "The most common method is to enter \"shep:\" in the search box, followed by your citation, then press"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "shepsignalsingularfirst",
+                            "#tail": "next to the document name."
+                        },
+                        "#text": "You could also enter just the citation name in the search box, then click the"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,104 @@
+{
+    "task": {
+        "@otherprops": "lpssearch",
+        "@audience": "lps",
+        "@id": "lpsprefiltersearchresults_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "search results by area of expertise?"
+            },
+            "#text": "How do I pre-filter my"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can fine-tune your search for an expert witness by specifying an area of expertise. For example, say you are searching for an expert that has a common first and/or last name. By specifying an area of expertise, you can limit your search results to show only those experts you are most interested in viewing."
+                        },
+                        "#text": "While using"
+                    },
+                    "To pre-filter your search results based on areas of experience:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "from the list of options located before the search field.",
+                                "#text": "Expert Witness"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": "If you know the name of the expert you want to search for, enter it in the search field."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list.",
+                                "#text": "Filters"
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Areas of Expertise"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": "Select the checkboxes for the areas you are interested in.",
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "#text": "To expand or collapse a list of areas, select the arrow next to the area term."
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Search"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

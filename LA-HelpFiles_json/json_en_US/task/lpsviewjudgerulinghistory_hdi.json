@@ -1,0 +1,190 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewjudgerulinghistory_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I view the ways a judge has been involved in the courts using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can view the different ways he or she has been involved within the court system. For example, you can view the judge's docket, categorized by cases per year, cases by area of law, and so forth. You can also view case opinions, agency decisions (both federal and state), and jury instructions, just to name a few."
+                        },
+                        "#text": "While viewing a particular judge using"
+                    },
+                    "To do this:"
+                ],
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "lpsfilterreports_hdi.xml",
+                        "#tail": "to further refine the information you are viewing.",
+                        "#text": "filter your search results"
+                    },
+                    "#text": "While viewing the different sections of the Ruling History page, you can"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudge_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudgejurisdiction_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "jurisdiction"
+                                }
+                            ],
+                            "#text": "Complete your search for a judge. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results page, select the judge's name. That judge's report is opened."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "section of the left pane, select the option you want to explore:",
+                                "#text": "Ruling History"
+                            },
+                            "#text": "In the"
+                        },
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsworkwithgraphs_hdi.xml",
+                                            "#tail": "that describes the judge's involvement in various court proceedings",
+                                            "#text": "view charts or graphs"
+                                        },
+                                        "#text": "To"
+                                    },
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Dockets"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsworkwithgraphs_hdi.xml",
+                                            "#tail": "that describes how cases the judge presided over were resolved",
+                                            "#text": "chart or graph"
+                                        },
+                                        "#text": "To view a"
+                                    },
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Jury Verdicts & Settlements"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": "To view opinions the judge has issued on various cases",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Cases"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": "To view administrative decisions in which the judge has been involved",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ". You can choose between viewing federal and state decisions.",
+                                            "#text": "Admininstrative Materials"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": "To view briefs, motions, and pleadings associated with the case",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Briefs, Pleadings, and Motions"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": "To view any legal rules the judge issued for jury members who heard a particular case",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Jury Instructions"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                },
+                                {
+                                    "choption": "To view analytical details about cases from an expert witness's point of view",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": ".",
+                                            "#text": "Expert Witness Analysis"
+                                        },
+                                        "#text": "Select"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Once the results for the Ruling History category you want to view appear, select the link for the specific document you want to view. The document appears for you to view."
+                    }
+                ]
+            }
+        }
+    }
+}

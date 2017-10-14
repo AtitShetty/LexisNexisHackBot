@@ -1,0 +1,96 @@
+{
+    "concept": {
+        "@otherprops": "lsa",
+        "@id": "lsaaboutsearchadvantage_cpt",
+        "title": {
+            "ph": {
+                "@keyref": "lsanamefirst"
+            },
+            "#text": "About"
+        },
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-06-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance - Lexis Search Advantage",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "note": {
+                "@type": "note",
+                "ph": {
+                    "@keyref": "lsanamefirst",
+                    "#tail": "is available by subscription. Please contact your sales representative if you'd like more information."
+                }
+            },
+            "p": [
+                {
+                    "ph": [
+                        {
+                            "@keyref": "lsanamefirst",
+                            "#tail": "is a tool that lets you include your internal document repository when performing research using"
+                        },
+                        {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "."
+                        }
+                    ]
+                },
+                {
+                    "ph": [
+                        {
+                            "@keyref": "lsaname",
+                            "#tail": "subscription and you want to perform some research on tip pooling. When you submit your search from"
+                        },
+                        {
+                            "@keyref": "prodname",
+                            "#tail": ", the tool searches not only the content available on"
+                        },
+                        {
+                            "@keyref": "prodname",
+                            "#tail": ", but it also searches your internal documents. If it finds documents that contain references to the cases or other legal documents for which you are searching, those documents will be listed in your search results."
+                        }
+                    ],
+                    "#text": "For example, let's say you have a"
+                },
+                {
+                    "ph": [
+                        {
+                            "@keyref": "prodname",
+                            "#tail": "includes high-level information about each specific document. For example, you can see who drafted the document as well as the client for whom it was drafted. You can also view real-time"
+                        },
+                        {
+                            "@keyref": "shepsignalpluralfirst",
+                            "#tail": "for each citation used in the document. This helps you identify whether your document contains \"good law.\" Using links in the results, you can search for documents similar to the one you are viewing. For example, you can search for documents by the same author or perhaps for the same matter."
+                        }
+                    ],
+                    "#text": "While viewing your search results,"
+                },
+                {
+                    "ph": {
+                        "@keyref": "lsaname",
+                        "#tail": "functionality you have access to is available within the document."
+                    },
+                    "#text": "Finally, you can select a document title to view the document. All the"
+                }
+            ]
+        }
+    }
+}

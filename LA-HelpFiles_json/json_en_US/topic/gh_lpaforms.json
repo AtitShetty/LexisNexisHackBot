@@ -1,0 +1,100 @@
+{
+    "topic": {
+        "@otherprops": "lpa;about;forms",
+        "@audience": "lpa",
+        "@id": "gh_lpaforms",
+        "title": {
+            "ph": {
+                "@keyref": "lpanamefirst",
+                "#tail": "Forms"
+            }
+        },
+        "titlealts": {
+            "navtitle": {
+                "option": "Forms, about"
+            }
+        },
+        "prolog": {
+            "author": [
+                "Robin Evans",
+                "Garth Lewis",
+                "Paul Claggett"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-09-18"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-07-18"
+                    },
+                    {
+                        "@modified": "2016-02-18"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "body": {
+            "p": {
+                "ph": {
+                    "@keyref": "lpaname",
+                    "#tail": "forms."
+                },
+                "#text": "The links below give you more information on finding and using"
+            }
+        },
+        "reference": {
+            "@conref": "lpaforms_cpt.xml",
+            "@id": "lpaforms",
+            "title": null
+        },
+        "concept": {
+            "@conref": "lpaformsindex_cpt.xml",
+            "@id": "lpaformsindex",
+            "title": null
+        },
+        "task": [
+            {
+                "@conref": "lpaopenform_hdi.xml",
+                "@id": "lpaopenform_hdi",
+                "title": null
+            },
+            {
+                "@conref": "lpaeditform_hdi.xml",
+                "@id": "lpaeditform_hdi",
+                "title": null
+            },
+            {
+                "@conref": "lpaopenlockedform_hdi.xml",
+                "@id": "lpaopenlockedform_hdi",
+                "title": null
+            },
+            {
+                "@conref": "lpaaddalternateclause_hdi.xml",
+                "@id": "lpaaddalternateclause_hdi",
+                "title": null
+            },
+            {
+                "@conref": "lpaaddoptionalclause_hdi.xml",
+                "@id": "lpaaddoptionalclause_hdi",
+                "title": null
+            }
+        ]
+    }
+}

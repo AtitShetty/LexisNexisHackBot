@@ -1,0 +1,159 @@
+{
+    "reference": {
+        "@audience": "res",
+        "@id": "tutorialshepapphisttext_ref",
+        "title": {
+            "i": {
+                "#tail": "\u00ae Appellate History",
+                "#text": "Shepard's"
+            },
+            "#text": "Lexis Advance\u00ae Text-only Tutorial:"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Introduction",
+                    "p": [
+                        {
+                            "i": [
+                                {
+                                    "#tail": "\u00ae a citation, the results are presented in a",
+                                    "#text": "Shepardize"
+                                },
+                                {
+                                    "#tail": "\u00ae report.",
+                                    "#text": "Shepard's"
+                                }
+                            ],
+                            "#text": "When you"
+                        },
+                        "The report has four categories, each appearing as a subtab in the report.",
+                        "This tutorial describes the Appellate History category, which contains direct and indirect case history treatment regarding your case.",
+                        "You can view the appellate history as a List or a Map. Map view provides a graphical representation of the relationships between the items in the appellate history."
+                    ]
+                },
+                {
+                    "title": "Appellate History List",
+                    "p": [
+                        {
+                            "i": {
+                                "#tail": "\u00ae, and shows its prior and subsequent appellate history.",
+                                "#text": "Shepardized"
+                            },
+                            "#text": "The Appellate History list highlights the citation you"
+                        },
+                        "The \"subsequent appellate history\" link lets you jump directly to that portion of the list.",
+                        "Prior and subsequent appellate history are presented in an \"outline\" format, where indentations are used to identify the direct relationships between the listed cases.",
+                        {
+                            "ph": {
+                                "@keyref": "shepardsignalpluralfirst",
+                                "#tail": ", which you can select to"
+                            },
+                            "i": {
+                                "#tail": "\u00ae the case.",
+                                "#text": "Shepardize"
+                            },
+                            "#text": "Cases have"
+                        },
+                        "The \"Show on map\" link lets you jump to the case's location on the appellate history map.",
+                        "Color-coded icons tell you the signal-generating value of the editorial phrase to the right of the icon. Hover on an icon to display it's meaning. You also can select the Legend button to display descriptions of all symbols used in the report."
+                    ]
+                },
+                {
+                    "title": "Appellate History Map",
+                    "p": [
+                        {
+                            "i": {
+                                "#tail": "\u00ae citation's appellate history.",
+                                "#text": "Shepardized"
+                            },
+                            "#text": "This is a graphical representation of your"
+                        },
+                        "Each item on the map represents a case.  These points correspond to the cases on the Appellate History list.",
+                        "The levels tell you which court made each ruling.",
+                        "You can hover on a case to display the full editorial phrase.",
+                        "Click its icon to highlight a case and display more information about it.  The information box also provides links that let you open the document  or jump to the document's location in the appellate history list."
+                    ]
+                },
+                {
+                    "title": "Map Display Options and Tools",
+                    "p": [
+                        {
+                            "i": {
+                                "#tail": "\u00ae case.",
+                                "#text": "Shepardized"
+                            },
+                            "#text": "Note that, when you highlight a case, a red line appears showing the direct path to your"
+                        },
+                        "Click the \"Reset highlight\" button to return the map to its original view.",
+                        "Tools let you resize the map, including:",
+                        "You can also place your mouse pointer on the map area, and zoom in and out using the scroll wheel.",
+                        "Use the Legend button to display the meanings of items used on the map.",
+                        "Use the Show menu to display or hide items on the map.",
+                        {
+                            "i": {
+                                "#tail": "\u00ae. Setting up an alert is described in a separate tutorial.",
+                                "#text": "Shepardized"
+                            },
+                            "#text": "Click the \"Create an alert\" icon to set up an alert for the citation you"
+                        },
+                        "Click the \"View a printer-friendly version of this page\" icon to display a printer-friendly version of the map.",
+                        {
+                            "i": {
+                                "#tail": "\u00ae Citations Service in other Help topics.",
+                                "#text": "Shepard's"
+                            },
+                            "#text": "You can find more information about the"
+                        },
+                        "This concludes the tutorial."
+                    ],
+                    "ul": {
+                        "li": [
+                            {
+                                "i": {
+                                    "#tail": "\u00ae",
+                                    "#text": "Shepardized"
+                                },
+                                "#text": "Zoom in on the case you"
+                            },
+                            "Expand the map to fill the page",
+                            "Return the page to normal",
+                            "Slider to zoom in or out"
+                        ]
+                    }
+                }
+            ]
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialshepapphist_cpt.xml"
+                }
+            }
+        }
+    }
+}

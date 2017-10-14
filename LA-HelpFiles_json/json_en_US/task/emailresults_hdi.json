@@ -1,0 +1,110 @@
+{
+    "task": {
+        "@otherprops": "delivery;attachemailtips;deliveryrangetips",
+        "@id": "emailresults_hdi",
+        "title": "How do I email my results or documents?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can email documents selected from your results list, or a document you have open, to yourself or others.",
+                    "To do this:"
+                ],
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "deliverattachments_hdi.xml",
+                        "#tail": "for details on emailing any attachments associated with your delivery."
+                    },
+                    "#text": "See"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Choose whether you want to email a single document, or email the results list:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To email the results list",
+                                    "chdesc": {
+                                        "note": [
+                                            {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "button located in the upper-right corner of the list, or by clicking the",
+                                                        "#text": "Clear All"
+                                                    },
+                                                    {
+                                                        "#tail": "next to the specific item you want to remove.",
+                                                        "#text": "X"
+                                                    }
+                                                ],
+                                                "#text": "You can easily clear items from your delivery tray by selecting the delivery count\tdrop-down list and then by either clicking the"
+                                            },
+                                            {
+                                                "@type": "note",
+                                                "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                                            }
+                                        ],
+                                        "#text": "While viewing your results list, select the specific results you want to email, or don't select any results to email 250 of the first 1,000 results in your list."
+                                    }
+                                },
+                                {
+                                    "choption": "To email a single document",
+                                    "chdesc": "While viewing the results list, open the specific document you want to email."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Click the email icon on the delivery toolbar."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ". For detailed information about completing the form, see",
+                                "#text": "Email"
+                            },
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "attachemailtips.xml",
+                                "#tail": ".",
+                                "#text": "email documents page"
+                            },
+                            "#text": "Complete the email form and select"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

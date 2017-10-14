@@ -1,0 +1,150 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewexpertcaseinvolvement_hdi",
+        "title": "How do I view the ways an expert witness has been involved in cases?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", you can view the different ways he or she has been involved in various cases. For example, you can view charts that show which parties retained the expert witness and how the cases were resolved, cite lists that describe the outcome of each case, opinions issued by judges associated with the case, and so forth."
+                        },
+                        "#text": "While viewing a particular expert witness using"
+                    },
+                    "To do this:"
+                ],
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "lpsfilterreports_hdi.xml",
+                        "#tail": "to further refine the information you are viewing.",
+                        "#text": "filter your search results"
+                    },
+                    "#text": "While viewing the different sections of the Case Involvement page, you can"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforareaofexpertise_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "area of expertise"
+                                }
+                            ],
+                            "#text": "Complete your search for an expert witness. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results page, select the expert's name. That expert's report is opened."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "section of the left pane, choose the option you want to explore:",
+                                "#text": "Case Involvement"
+                            },
+                            "#text": "In the"
+                        },
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "To...",
+                                "chdeschd": "Do This"
+                            },
+                            "chrow": [
+                                {
+                                    "choption": {
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "lpsvsgraphs_ref.xml",
+                                            "#tail": "that describes the expert witness' involvement in a case",
+                                            "#text": "chart or graph"
+                                        },
+                                        "#text": "View a"
+                                    },
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "link.",
+                                            "#text": "Jury Verdicts & Settlements"
+                                        },
+                                        "#text": "Select the"
+                                    }
+                                },
+                                {
+                                    "choption": "View different analyses for the expert witness",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "link.",
+                                            "#text": "Expert Witness Analysis"
+                                        },
+                                        "#text": "Select the"
+                                    }
+                                },
+                                {
+                                    "choption": "View a list of cases in which the expert witness was involved",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "link.",
+                                            "#text": "Cases"
+                                        },
+                                        "#text": "Select the"
+                                    }
+                                },
+                                {
+                                    "choption": "View briefs, motions, or pleadings which reference the expert",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "link.",
+                                            "#text": "Briefs, Pleadings, and Motions"
+                                        },
+                                        "#text": "Select the"
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Once the results for the Case Involvement category you want to view appear, select the link for the specific document you want to view. The document appears."
+                    }
+                ]
+            }
+        }
+    }
+}

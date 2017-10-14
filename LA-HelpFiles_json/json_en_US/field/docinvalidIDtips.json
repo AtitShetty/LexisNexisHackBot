@@ -1,0 +1,61 @@
+{
+    "reference": {
+        "@otherprops": "docinvalidIDtips",
+        "@id": "docinvalidIDtips",
+        "title": "Invalid Client ID Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-07-06"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": "Use this page to set up a new Client ID or to select one from previously used Client IDs, when the Client ID you selected doesn't match the format set by your firm."
+                },
+                {
+                    "@conref": "setclientIDtips.xml#setclientIDtips/details"
+                }
+            ],
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Most recent ten Client IDs",
+                        "propdesc": "Select a valid Client ID from the drop-down list."
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/clientid"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/researchdesc"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/ok"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/cancel"
+                    }
+                ]
+            }
+        }
+    }
+}

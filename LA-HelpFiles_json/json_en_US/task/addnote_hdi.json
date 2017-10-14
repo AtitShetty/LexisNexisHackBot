@@ -1,0 +1,111 @@
+{
+    "task": {
+        "@otherprops": "folders",
+        "@id": "addnote_hdi",
+        "title": {
+            "ph": {
+                "@audience": "hide",
+                "#tail": "How do I add a note to an item in one of my folders?",
+                "#text": "1"
+            }
+        },
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can add notes to any item, such as a document or a section of text, that you have stored in a folder. To add a note, follow the steps below.",
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "home page, select a folder from the"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "pod, or select the",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "link from",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "On the"
+                        }
+                    },
+                    {
+                        "cmd": "Select a folder from the list on the left side of the page."
+                    },
+                    {
+                        "cmd": "Open the item (for example, the document, alert, etc.) you want to add a note to."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link at the top left side of the item. The Add Notes dialog box appears.",
+                                "#text": "Add note"
+                            },
+                            "#text": "Select the"
+                        }
+                    },
+                    {
+                        "cmd": "Type the text of the note in the box and format it using the formatting options available above the text box."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Allow recipients to view your note"
+                            },
+                            "#text": "If this is a shared item, and you want the notes to be visible to the other users you have shared it with, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button.",
+                                "#text": "Save"
+                            },
+                            "#text": "Click the"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

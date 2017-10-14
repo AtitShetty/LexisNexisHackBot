@@ -1,0 +1,92 @@
+{
+    "reference": {
+        "@otherprops": "viewsettingstips",
+        "@audience": "res;urlapi",
+        "@id": "viewsettingstips",
+        "title": "Open the Settings Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-10-18"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance\u2122 URL API",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                },
+                "p": [
+                    "Use this URL to open the settings page to view or change your settings.",
+                    {
+                        "b": "URL Template"
+                    },
+                    {
+                        "b": {
+                            "#tail": "?{context}",
+                            "#text": "settings"
+                        },
+                        "#text": "http://advance.lexis.com/api/"
+                    }
+                ],
+                "example": {
+                    "b": {
+                        "#tail": "?context=1000516",
+                        "#text": "settings"
+                    },
+                    "#text": "http://advance.lexis.com/api/"
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Value",
+                    "propdeschd": "Description"
+                },
+                "property": [
+                    {
+                        "propvalue": "settings",
+                        "propdesc": "Directs to the global settings page."
+                    },
+                    {
+                        "propvalue": "{context}",
+                        "propdesc": {
+                            "p": [
+                                "Query parameter that indicates that the user wants to view the settings page in a specific context (Optional).",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "contextips.xml"
+                                    },
+                                    "#text": "For a list of values that can be used with the context parameter, see"
+                                }
+                            ],
+                            "example": {
+                                "b": {
+                                    "#tail": "=1000516",
+                                    "#text": "context"
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

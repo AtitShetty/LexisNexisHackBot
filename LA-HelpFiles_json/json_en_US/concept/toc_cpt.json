@@ -1,0 +1,79 @@
+{
+    "concept": {
+        "@id": "toc_cpt",
+        "title": "What is Table of Contents browsing?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-26"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "note": {
+                "@type": "note",
+                "#text": "The Table of Contents is only available for publications having this structure, such as statutes and treatises."
+            },
+            "p": [
+                "In full document view, you can use the Table of Contents to display a document's location within a publication and navigate to other documents in that publication. For example, if you are viewing a specific Statute section, the Table of Contents displays the structure of the entire statute, showing the names of the sections before and after the one you are viewing.",
+                {
+                    "uicontrol": {
+                        "#tail": "link in the results list.",
+                        "#text": "View Table of Contents"
+                    },
+                    "#text": "From the results list view, you can display the Table of Contents for a publication by selecting the"
+                },
+                "When the Table of Contents is displayed, you can:",
+                {
+                    "uicontrol": {
+                        "#tail": "to the left of the document. Select it again to close it.",
+                        "#text": "Table of Contents"
+                    },
+                    "#text": "When a section is open in the full-screen view, you can reopen the Table of Contents by selecting"
+                }
+            ],
+            "ul": {
+                "li": [
+                    {
+                        "image": {
+                            "@alt": "Expand",
+                            "@href": "TriangleRight.png",
+                            "@placement": "inline",
+                            "#tail": "to the left of a section to expand the section"
+                        },
+                        "#text": "Select the right-facing arrow"
+                    },
+                    "Search the headings and/or documents (or both) in the Table of Contents for specific search terms, publication names, or part of a name.",
+                    {
+                        "image": {
+                            "@alt": "Add to search",
+                            "@href": "addtosearch.png",
+                            "@placement": "inline",
+                            "#tail": "to the right of a section to search for specific search terms in that section."
+                        },
+                        "#text": "Select the search icon"
+                    },
+                    "Select links in the Table of Contents to quickly view other sections of the publication.",
+                    "Display a document in the publication in a full-screen view."
+                ]
+            }
+        }
+    }
+}

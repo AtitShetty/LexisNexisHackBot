@@ -1,0 +1,149 @@
+{
+    "task": {
+        "@otherprops": "delivery;deliveryrangetips;attachprintips",
+        "@id": "printresults_hdi",
+        "title": "How do I print my results or documents?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "allows you to print PDF versions of any document you have open, or selected documents from a results list."
+                        }
+                    },
+                    "To do this:"
+                ],
+                "note": {
+                    "@type": "note",
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "deliverattachments_hdi.xml",
+                        "#tail": "for details on printing any attachments associated with your delivery."
+                    },
+                    "#text": "See"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": "Choose whether you want to print a single document, or print the results list:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To print the results list",
+                                    "chdesc": {
+                                        "note": [
+                                            {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "button located in the upper-right corner of the list, or by clicking the",
+                                                        "#text": "Clear All"
+                                                    },
+                                                    {
+                                                        "#tail": "next to the specific item you want to remove.",
+                                                        "#text": "X"
+                                                    }
+                                                ],
+                                                "#text": "You can easily clear items from your delivery tray by selecting the delivery count\tdrop-down list and then by either clicking the"
+                                            },
+                                            {
+                                                "@type": "note",
+                                                "#text": "Public Records delivers up to 200 consecutive as well as non-consecutive items; not 250."
+                                            }
+                                        ],
+                                        "#text": "While viewing your results list, select the specific results you want to print, or don't select any results to print 250 of the first 1,000 results in your list."
+                                    }
+                                },
+                                {
+                                    "choption": "To print a single document",
+                                    "chdesc": "While viewing the results list, open the specific document you want to print."
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "cmd": "Choose whether you want to print your delivery immediately (using your last-used print settings), or select new print settings before completing the request:",
+                        "choicetable": {
+                            "chrow": [
+                                {
+                                    "choption": "To print your selection immediately",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "icon (",
+                                            "#text": "Print"
+                                        },
+                                        "image": {
+                                            "@alt": "Print",
+                                            "@href": "print.png",
+                                            "#tail": ") in the delivery toolbar. The printing process is started immediately and no further steps are required."
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                },
+                                {
+                                    "choption": "To select new print settings before printing your selection",
+                                    "chdesc": {
+                                        "uicontrol": {
+                                            "#tail": "icon (",
+                                            "#text": "Settings"
+                                        },
+                                        "image": [
+                                            {
+                                                "@alt": "Delivery Settings",
+                                                "@href": "deliverysettings.png",
+                                                "#tail": ") next to the Print icon ("
+                                            },
+                                            {
+                                                "@alt": "Print",
+                                                "@href": "print.png",
+                                                "#tail": ") and provide the required information on the Print dialog box. (See"
+                                            }
+                                        ],
+                                        "xref": {
+                                            "@scope": "peer",
+                                            "@href": "attachprintips.xml",
+                                            "#tail": ".)"
+                                        },
+                                        "#text": "Click the"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "#text": "Depending on your default printer selection, you may be prompted with other options for delivering the document. For example, if you have specified Microsoft XPS Document Writer as your default printer, you will be prompted to save the document, which you can then print."
+                }
+            }
+        }
+    }
+}

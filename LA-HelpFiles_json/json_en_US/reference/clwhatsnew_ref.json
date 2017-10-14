@@ -1,0 +1,48 @@
+{
+    "reference": {
+        "@otherprops": "TOPICKEYWORD1;PAGENAME1",
+        "@id": "FILENAME_ref",
+        "title": "REFERENCE ARTICLE TITLE",
+        "prolog": {
+            "author": "YOUR NAME",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-MM-DD"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "LexisNexis\u00ae PRODUCT NAME",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "title": "OPTIONAL SECTION TITLE",
+                "p": [
+                    {
+                        "userinput": {
+                            "#tail": ".",
+                            "#text": "INLINE EXAMPLE"
+                        },
+                        "#text": "PARAGRAPH TEXT"
+                    },
+                    {
+                        "userinput": "EXAMPLE TO SUPPORT PARAGRAPH ABOVE."
+                    }
+                ]
+            }
+        }
+    }
+}

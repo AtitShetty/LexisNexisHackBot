@@ -1,0 +1,40 @@
+{
+    "reference": {
+        "@otherprops": "cbmattersbyafatips",
+        "@audience": "cb",
+        "@id": "cbmattersbyafatips",
+        "title": "Alternative Fee Arrangements Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2013"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2013-08-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "This report is designed to provide a benchmark for how frequently alternative fee arrangements (AFAs) are being used. There are two metrics: 1) % of Matters - The number of matters that have an alternative fee charge divided by the total number of matters, and 2) % of Matter Cost - The charge amount of alternative fee charges divided by the total of all charges.",
+                    "Any matter set up in the CounselLink system as an alternative fee arrangement is included in this metric. This generally does not include standard discounts, but does include fixed fees, caps, and other forms of alternative billing. Additional checks have been put in place to ensure that even if matters have been registered as hourly but demonstrate characteristics of an AFA, then the system converts / counts those as AFAs."
+                ]
+            }
+        }
+    }
+}

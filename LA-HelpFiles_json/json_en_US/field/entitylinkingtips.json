@@ -1,0 +1,61 @@
+{
+    "reference": {
+        "@otherprops": "entitylinkingtips",
+        "@audience": "res",
+        "@id": "entitylinkingtips",
+        "title": "Entity Linking",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-12-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    "If you are searching for a judge, attorney, or law firm, an entity search retrieves documents containing the entity name in the document\u2019s section pertinent to that kind of an entity.",
+                    {
+                        "uicontrol": {
+                            "#tail": "section of the document will be rated with higher relevance than documents containing the name elsewhere. This makes your results more relevant.",
+                            "#text": "Judges"
+                        },
+                        "#text": "For example, if you are searching for a judge whose name is William O. Smith, the documents containing \"William O. Smith\" in the"
+                    },
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "search box for these entities:"
+                        },
+                        "#text": "An entity search is faster and more targeted than the same search terms entered in the"
+                    }
+                ],
+                "ul": {
+                    "li": [
+                        "Judge",
+                        "Attorney",
+                        "Law firm",
+                        "Company"
+                    ]
+                }
+            }
+        }
+    }
+}

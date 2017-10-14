@@ -1,0 +1,243 @@
+{
+    "task": {
+        "@otherprops": "practicepage",
+        "@audience": "res",
+        "@id": "practicepageuse_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "prodnamefirst",
+                "#tail": "practice center?"
+            },
+            "#text": "How do I use a"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-01-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": [
+                            {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "practice center provides customized, curated content with fast access to the top sources, news, and key legal topics for your practice area or a jurisdiction. You can perform much of your research from your practice center, while still having access to all"
+                            },
+                            {
+                                "@keyref": "prodname",
+                                "#tail": "content and products from the viewpoint of your practice area or jurisdiction."
+                            }
+                        ],
+                        "#text": "A"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "drop-down menu, or",
+                            "#text": "Browse"
+                        },
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "practicepagesetstart_hdi.xml",
+                            "#tail": ".",
+                            "#text": "set it to be the first page you see when you sign in"
+                        },
+                        "#text": "You can open a practice center from the"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "practicepagesearch_hdi.xml"
+                        },
+                        "#text": "For information about searching from a practice center, see"
+                    }
+                ]
+            }
+        },
+        "task": [
+            {
+                "@id": "selectopsource",
+                "title": "Select a Top Source",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": {
+                                    "image": {
+                                        "@alt": "open",
+                                        "@href": "openarrow.png",
+                                        "@placement": "inline",
+                                        "#tail": ") next to a top-level source to expand it and view the sources beneath it."
+                                    },
+                                    "#text": "Select an arrow ("
+                                },
+                                "note": {
+                                    "@type": "note",
+                                    "p": {
+                                        "uicontrol": {
+                                            "#tail": "to browse all available",
+                                            "#text": "View all sources"
+                                        },
+                                        "ph": {
+                                            "@keyref": "prodname",
+                                            "#tail": "sources for this practice center."
+                                        },
+                                        "#text": "Select"
+                                    }
+                                }
+                            },
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "to view the documents for the source.",
+                                        "#text": "Get documents"
+                                    },
+                                    "#text": "Select a source and then select"
+                                },
+                                "note": {
+                                    "@type": "note",
+                                    "p": {
+                                        "uicontrol": {
+                                            "#tail": "to display it.",
+                                            "#text": "Table of Contents"
+                                        },
+                                        "#text": "If a source has a table of contents, select"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@id": "selectfavorite",
+                "title": "Select a Favorite",
+                "taskbody": {
+                    "context": {
+                        "p": "Select a favorite source to search in it.",
+                        "note": {
+                            "@type": "note",
+                            "p": "Selecting a favorite will replace the filter that's already in effect as a result of searching from a practice center."
+                        }
+                    }
+                }
+            },
+            {
+                "@id": "selectkeytopic",
+                "title": "Select a Key Topic:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": "Select the topic you want to use."
+                            },
+                            {
+                                "cmd": "Choose one of the following options for how you want to use the topic:",
+                                "choicetable": {
+                                    "chrow": [
+                                        {
+                                            "choption": "Get documents",
+                                            "chdesc": "Choose this option if you want to view the documents associated with the topic."
+                                        },
+                                        {
+                                            "choption": "Create a topic alert",
+                                            "chdesc": "Choose this option if you want to be notified when updates to this topic are available."
+                                        },
+                                        {
+                                            "choption": "View in topic index",
+                                            "chdesc": "Choose this option to view the position of this topic in the topic index hierarchy."
+                                        },
+                                        {
+                                            "choption": "View topic summary report (if available)",
+                                            "chdesc": "Choose this option if you want to view high-level information about the topic."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "@otherprops": "search",
+                "@id": "selectnewsarticle",
+                "title": "Select a news article:",
+                "taskbody": {
+                    "steps": {
+                        "step": [
+                            {
+                                "cmd": {
+                                    "uicontrol": {
+                                        "#tail": "pod, select the tab for the news source you want.",
+                                        "#text": "News & Analysis"
+                                    },
+                                    "#text": "In the"
+                                },
+                                "note": [
+                                    {
+                                        "@type": "note",
+                                        "p": {
+                                            "uicontrol": {
+                                                "#tail": "to search in this source, the source will replace the filter that's already in effect as a result of searching from a practice center.",
+                                                "#text": "Add as a search filter"
+                                            },
+                                            "#text": "If you select"
+                                        }
+                                    },
+                                    {
+                                        "@type": "note",
+                                        "p": {
+                                            "image": {
+                                                "@alt": "more",
+                                                "@href": "TriangleDown.png",
+                                                "@placement": "inline",
+                                                "#tail": ") to the right of the tabs."
+                                            },
+                                            "#text": "For additional News & Analysis sources, click the down arrow ("
+                                        }
+                                    },
+                                    {
+                                        "@type": "note",
+                                        "p": {
+                                            "uicontrol": {
+                                                "#tail": "to browse all available",
+                                                "#text": "View all ... News"
+                                            },
+                                            "ph": {
+                                                "@keyref": "prodname",
+                                                "#tail": "news sources for this practice center."
+                                            },
+                                            "#text": "Select"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "cmd": "Select a news story."
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

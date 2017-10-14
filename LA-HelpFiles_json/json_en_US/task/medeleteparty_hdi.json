@@ -1,0 +1,109 @@
+{
+    "task": {
+        "@otherprops": "medmal",
+        "@audience": "med",
+        "@id": "medeleteparty_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "mednamefirst",
+                "#tail": "Research List?"
+            },
+            "#text": "How do I Remove a Party from My"
+        },
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-04-14"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            },
+            "data": "medmal navigator medical malpractice litigator litigation"
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "mednamefirst",
+                        "#tail": "Research Parties tool allows you to remove any persons you no longer need to research."
+                    },
+                    "#text": "The"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "medname",
+                                "#tail": "page, select"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": ". The",
+                                    "#text": "Research Parties"
+                                },
+                                {
+                                    "#tail": "page appears, displaying a list of the individuals already entered for this case.",
+                                    "#text": "Research Parties"
+                                }
+                            ],
+                            "#text": "At the top of any"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "uicontrol": {
+                                    "#tail": "pod on the Dashboard.",
+                                    "#text": "Research Parties"
+                                },
+                                "#text": "You can also reach this page by selecting the title of the"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Delete icon",
+                                "@href": "CloseRemove.png",
+                                "@placement": "inline",
+                                "#tail": "."
+                            },
+                            "#text": "In the row of the person you no longer wish to research, select"
+                        },
+                        "stepresult": {
+                            "ph": {
+                                "@keyref": "medname",
+                                "#tail": "prompts you to confirm the deletion."
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "Confirm that you want to remove the selected party from the list.",
+                        "stepresult": {
+                            "ph": {
+                                "@keyref": "medname",
+                                "#tail": "deletes the information for that person, then refreshes the page. The selected party should no longer appear in the list."
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

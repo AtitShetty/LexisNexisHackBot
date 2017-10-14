@@ -1,0 +1,94 @@
+{
+    "task": {
+        "@otherprops": "search",
+        "@id": "searchfocus_hdi",
+        "title": "How do I use the Search Within Results feature?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-04-26"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "search_hdi.xml",
+                            "#tail": ", you can narrow your results with the",
+                            "#text": "Lexis Advance\u00ae search"
+                        },
+                        "uicontrol": {
+                            "#tail": "feature.",
+                            "#text": "Search Within Results"
+                        },
+                        "#text": "After you run a"
+                    },
+                    {
+                        "userinput": [
+                            {
+                                "#tail": "and your answer set is very large, you might enter the terms:",
+                                "#text": "dog bite liability"
+                            },
+                            {
+                                "#tail": "to narrow the results to only documents that also contain those terms.",
+                                "#text": "assumed risk"
+                            }
+                        ],
+                        "#text": "For example, if you entered the search terms:"
+                    }
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "box (under",
+                                    "#text": "Search Within Results"
+                                },
+                                {
+                                    "#tail": ") if necessary.",
+                                    "#text": "Narrow By"
+                                }
+                            ],
+                            "#text": "On your results page, scroll down to the"
+                        }
+                    },
+                    {
+                        "cmd": "Enter the search terms you want to use to narrow your results."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "OK"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

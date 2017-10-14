@@ -1,0 +1,854 @@
+{
+    "reference": {
+        "@otherprops": "settingstips",
+        "@id": "settingstips",
+        "title": "Settings Page",
+        "prolog": {
+            "author": [
+                "Robin Stubbart",
+                "Christina Stommel (GDSI Release)",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-06-25"
+                },
+                "revised": [
+                    {
+                        "@modified": "2014-07-18"
+                    },
+                    {
+                        "@modified": "2015-03-24"
+                    }
+                ]
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use the Settings page to set your preferences.",
+                "note": {
+                    "@type": "note",
+                    "#text": "The options available to you depend on your subscription and the features available to you."
+                },
+                "ul": {
+                    "li": [
+                        {
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/global",
+                                "#text": "General tab"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/research",
+                                "#text": "Lexis Advance Research tab"
+                            }
+                        },
+                        {
+                            "@audience": "lps",
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/lps",
+                                "#text": "Lexis Advance Litigation Profile Suite tab"
+                            }
+                        },
+                        {
+                            "@audience": "lpa",
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/lpa",
+                                "#text": "Lexis Practice Advisor\u00ae tab"
+                            }
+                        },
+                        {
+                            "@audience": "icw",
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/icw_prof",
+                                "#text": "Citation Exercises tab (Instructors)"
+                            }
+                        },
+                        {
+                            "@audience": "icw",
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/icw_student",
+                                "#text": "Citation Exercises tab (Students)"
+                            }
+                        },
+                        {
+                            "@audience": "tax",
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/tax",
+                                "#text": "Lexis Advance Tax"
+                            }
+                        },
+                        {
+                            "xref": {
+                                "@scope": "local",
+                                "@href": "#settingstips/buttons",
+                                "#text": "Buttons"
+                            }
+                        }
+                    ]
+                }
+            },
+            "properties": {
+                "prophead": {
+                    "propvaluehd": "Settings Feature",
+                    "propdeschd": "Options Available"
+                },
+                "property": [
+                    {
+                        "@id": "global",
+                        "propvalue": "General tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Start page:",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    "Research",
+                                                    "Counsel Benchmarking",
+                                                    {
+                                                        "ph": {
+                                                            "@keyref": "lpsname"
+                                                        }
+                                                    },
+                                                    "MedMal Navigator",
+                                                    {
+                                                        "ph": {
+                                                            "@keyref": "lpanamefirst"
+                                                        }
+                                                    },
+                                                    "Public Records",
+                                                    {
+                                                        "ph": {
+                                                            "@keyref": "vsaname"
+                                                        }
+                                                    },
+                                                    {
+                                                        "ph": {
+                                                            "@keyref": "taxnamefirst"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Specifies which page is used as your start page. If applicable, you can choose between options including:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Number of results to display per page",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "ph": {
+                                                    "@keyref": "lpanamefirst",
+                                                    "#tail": "results, which always show 50 results per page."
+                                                },
+                                                "#text": "This option does not affect"
+                                            },
+                                            "#text": "Select how many results you want to view on each page of your results list. You can choose 10, 25, or 50."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Choose how much detail to include for each result",
+                                        "dd": {
+                                            "image": [
+                                                {
+                                                    "@alt": "Title Only",
+                                                    "@href": "titleview.png",
+                                                    "#tail": "), or if you want to include several lines of text that help provide context for the result (Full View"
+                                                },
+                                                {
+                                                    "@alt": "Full View",
+                                                    "@href": "fullview.png",
+                                                    "#tail": "). Selecting one of these options will set the default behavior, but you can change your view while viewing your actual results."
+                                                }
+                                            ],
+                                            "#text": "Select whether you want to include minimal text from each individual result (Title Only"
+                                        }
+                                    },
+                                    {
+                                        "dt": "When available, show the Graphical view",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to assign different colors to each search term in the graph.",
+                                                "#text": "Multicolor"
+                                            },
+                                            "#text": "Select this option to include a graph that visually indicates where in the document your search terms appear. Optionally, select"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Font size",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": ",",
+                                                    "#text": "Small"
+                                                },
+                                                {
+                                                    "#tail": ", and",
+                                                    "#text": "Medium"
+                                                },
+                                                {
+                                                    "#tail": ".",
+                                                    "#text": "Large"
+                                                }
+                                            ],
+                                            "#text": "Select the font size to be used when your results are displayed. Your options are"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Sort jurisdiction, location, and court filters",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "or",
+                                                    "#text": "By number of results"
+                                                },
+                                                {
+                                                    "#tail": "by default.",
+                                                    "#text": "Alphabetically"
+                                                }
+                                            ],
+                                            "#text": "Select whether you want location-related filters to be sorted"
+                                        }
+                                    },
+                                    {
+                                        "dt": "When displaying jurisdiction and location filters, always list these first",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "link to select your three most used jurisdictions and locations. These locations will be listed first in the associated",
+                                                    "#text": "Add preferred jurisdictions and locations"
+                                                },
+                                                {
+                                                    "#tail": "options in your results list. If you have already selected these locations, you can edit them by clicking the",
+                                                    "#text": "Narrow By"
+                                                },
+                                                {
+                                                    "#tail": "link.",
+                                                    "#text": "Edit"
+                                                }
+                                            ],
+                                            "#text": "Click the"
+                                        }
+                                    },
+                                    {
+                                        "dt": "When displaying court filters, always list these first",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "link to select your three most used courts. These courts will be listed first in the associated",
+                                                    "#text": "Add preferred courts"
+                                                },
+                                                {
+                                                    "#tail": "options in your results list. If you have already selected these courts, you can edit them by clicking the",
+                                                    "#text": "Narrow By"
+                                                },
+                                                {
+                                                    "#tail": "link.",
+                                                    "#text": "Edit"
+                                                }
+                                            ],
+                                            "#text": "Click the"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Document Display Settings",
+                                        "dd": {
+                                            "p": [
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "Select the font you want document text to be displayed in. Your options include Arial, Courier, Times New Roman, and Verdana.",
+                                                        "#text": "Font type:"
+                                                    }
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "Select the font size you want document text to be displayed in. Your options include Small, Medium, and Large.",
+                                                        "#text": "Font size:"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "dt": "Default 'Sort by' Settings",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": "option you prefer for",
+                                                    "#text": "Sort By"
+                                                },
+                                                {
+                                                    "#tail": "you frequently view. Click",
+                                                    "#text": "Content Types"
+                                                },
+                                                {
+                                                    "#tail": "to add types you want to define, or click the",
+                                                    "#text": "Add content types"
+                                                },
+                                                {
+                                                    "#tail": "next to already-listed content types to remove them.",
+                                                    "#text": "X"
+                                                }
+                                            ],
+                                            "#text": "Use these options to specify the default"
+                                        }
+                                    },
+                                    {
+                                        "@audience": "res;lps;vsa;med",
+                                        "dt": "History",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": ": Choose a number of days using the drop-down list:. Your options include 7, 15, or 30.",
+                                                "#text": "Number of days to show in Research Map"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": "Notify Me When:",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified when someone shares a folder or other item such as a document or alert with you.",
+                                                            "#text": "An item/folder is shared with me:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified when someone stops sharing an item or folder with you. Once it's unshared, you will no longer have access to it.",
+                                                            "#text": "An item/folder is no longer shared with me:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified when another user adds or changes the annotations or notes for an item that has been shared with you.",
+                                                            "#text": "Annotations or notes are added, modified, or deleted for a shared item:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified if the properties of the item are changed, such as the document name or client ID.",
+                                                            "#text": "The property of the shared item is changed:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified if the owner of the shared item changes any permissions associated with it.",
+                                                            "#text": "Permissions are changed for a shared item:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified if the contents of a shared document is updated.",
+                                                            "#text": "A shared document is updated:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified if someone you share the item with accepts or rejects the invitation to share the document.",
+                                                            "#text": "Another user accepts or rejects a sharing invitation:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified if someone unsubscribes from an item you have shared with them.",
+                                                            "#text": "Another user unsubscribes from a shared item:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified when delivery requests which take longer than expected are finished.",
+                                                            "#text": "A delivery request that was taking a long time is complete:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this to be notified when delivery requests over a page limit are finished.",
+                                                            "#text": "A delivery request over the page limit has occurred:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "b": {
+                                                            "#tail": "Select this if you want to be notified when your connection to Dropbox fails and a delivery request is unable to be completed.",
+                                                            "#text": "A delivery request to Dropbox is unable to be completed:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@audience": "icw",
+                                                        "b": {
+                                                            "#tail": "(Interactive Citation Workstation instructors): Select this to be notified when a student finishes a citation exercise.",
+                                                            "#text": "A student completes an exercise"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@audience": "icw",
+                                                        "b": {
+                                                            "#tail": "(Interactive Citation Workstation instructors): Select this option to be notified when a student asks to redo a citation exercise.",
+                                                            "#text": "A student requests to retake an exercise"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@audience": "icw",
+                                                        "b": {
+                                                            "#tail": "(Interactive Citation Workstation students): Select this to be notified when an instructor resets a citation exercise.",
+                                                            "#text": "My instructor resets an exercise"
+                                                        }
+                                                    },
+                                                    {
+                                                        "@audience": "icw",
+                                                        "b": {
+                                                            "#tail": "(Interactive Citation Workstation students): Select this to be notified when an instructor finishes grading a citation exercise.",
+                                                            "#text": "My instructor grades an exercise"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select the checkboxes that represent activities for which you'd like to have notifications emailed to you:"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@id": "research",
+                        "propvalue": "Lexis Advance Research tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Display this practice area by default when signing in",
+                                        "dd": "Select your preferred practice area from the drop-down list."
+                                    },
+                                    {
+                                        "dt": "Include legal phrase equivalents with search",
+                                        "dd": "Select to include equivalents in your search. For example, if you enter \"dog bite\", a legal equivalent might be \"bitten by a dog\"."
+                                    },
+                                    {
+                                        "dt": "Recognize and use legal entities when performing a search",
+                                        "dd": "Select to identify and include corporations, attorneys, expert witnesses, and so forth in your search."
+                                    },
+                                    {
+                                        "dt": "Keep my search filters from one search to the next",
+                                        "dd": {
+                                            "note": {
+                                                "@type": "note",
+                                                "#text": "Some users may see the filter options below in addition to the one described above."
+                                            },
+                                            "#text": "Select this to keep the filters you selected until you change them."
+                                        }
+                                    },
+                                    {
+                                        "dt": "Include search suggestions from the following groups",
+                                        "dd": {
+                                            "uicontrol": [
+                                                {
+                                                    "#tail": ",",
+                                                    "#text": "Legal phrases"
+                                                },
+                                                {
+                                                    "#tail": ",",
+                                                    "#text": "Documents"
+                                                },
+                                                {
+                                                    "#tail": ", and",
+                                                    "#text": "Sources"
+                                                },
+                                                {
+                                                    "#tail": ".",
+                                                    "#text": "Suggested questions"
+                                                }
+                                            ],
+                                            "#text": "Select the groups you want search suggestions to appear for in the search word wheel. Your options include"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Display search results in this category first",
+                                        "dd": "Click this drop-down list to choose the category for which you want to view your initial results. If you want, you can change this on a search-by-search basis at the search form."
+                                    },
+                                    {
+                                        "dt": "Preferred results set display",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Only the top results will be listed",
+                                                            "#text": "Standard"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- All results will be listed",
+                                                            "#text": "Expanded"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "note": {
+                                                "@type": "tip",
+                                                "uicontrol": [
+                                                    {
+                                                        "#tail": "or",
+                                                        "#text": "Fewer results"
+                                                    },
+                                                    {
+                                                        "#tail": ".",
+                                                        "#text": "Expanded results"
+                                                    }
+                                                ],
+                                                "#text": "This setting applies to Natural Language searches only.  It also determines the way your results will be displayed by default; however, while you are viewing your results, you can switch between the two types of results by selecting either"
+                                            },
+                                            "#text": "Select one of the following:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Category Display: Case law",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Shows an editorial summary of the document",
+                                                            "#text": "Show Overview"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Shows the overview plus a view of search terms in context",
+                                                            "#text": "Show Terms"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "- Shows the overview plus a view of a section of the document",
+                                                            "#text": "Show Extract"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select one of the following:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Category Display: Other categories",
+                                        "dd": {
+                                            "ul": {
+                                                "li": [
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "Select to show your search terms highlighted within the text of each document in your results list.",
+                                                            "#text": "Terms:"
+                                                        }
+                                                    },
+                                                    {
+                                                        "uicontrol": {
+                                                            "#tail": "Select to show the section of the document where the most search terms are located in each document in your results list.",
+                                                            "#text": "Extract:"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "#text": "Select one of the following:"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Narrow Results",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": ": Select this option to automatically narrow your results by",
+                                                "#text": "Apply filters for subcategories"
+                                            },
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "filterbysubcategorytips.xml",
+                                                "#tail": ". If you don\u2019t want these categories to be automatically narrowed, clear this checkbox.",
+                                                "#text": "specific subcategories"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "dt": "Sort 'Browse Sources' filter",
+                                        "dd": "Select whether you want to sort all the filters on the Browse Sources page based on number of results (where sources with the highest number of results will be listed first) or alphabetically."
+                                    },
+                                    {
+                                        "dt": "Show 'recently viewed' document icon (this will not apply to Public Records)",
+                                        "dd": {
+                                            "image": {
+                                                "@alt": "Viewed Document",
+                                                "@href": "vieweddocument.png",
+                                                "#tail": ") in your results list next to documents you have already viewed."
+                                            },
+                                            "#text": "Select if you'd like to see this icon ("
+                                        }
+                                    }
+                                ],
+                                "dl": {
+                                    "dlentry": [
+                                        {
+                                            "dt": "Apply filters as defaults based on my usage",
+                                            "dd": {
+                                                "ph": {
+                                                    "@keyref": "prodname",
+                                                    "#tail": "product to suggest the jurisdiction you use most often as your default for searching. If you accept the default, you can change the jurisdiction at any time while you\u2019re searching, but the default filter will be used for any search you start from your Home page, unless you change it from Settings."
+                                                },
+                                                "#text": "Select this option if you want the"
+                                            }
+                                        },
+                                        {
+                                            "dt": "Clear my filters for every new search",
+                                            "dd": "Select this if you want to select new filters each time you search, or you want to search everything."
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@id": "lps",
+                        "propvalue": "Lexis Advance Litigation Profile Suite tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": {
+                                    "dt": "Search Litigation Profile Suite using this default profile type",
+                                    "dd": {
+                                        "ul": {
+                                            "li": [
+                                                "Expert Witness",
+                                                "Judge",
+                                                "Attorney"
+                                            ]
+                                        },
+                                        "#text": "Select the party type you'd like to use as a default in your searches:"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@id": "lpa",
+                        "propvalue": "Practice Advisor tab",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Display this practice area by default when signing in",
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "lpanamefirst",
+                                                "#tail": ":"
+                                            },
+                                            "ul": {
+                                                "li": [
+                                                    "Banking & Finance",
+                                                    "Business & Commercial",
+                                                    "California Business & Commercial",
+                                                    "Corporate Counsel",
+                                                    "Financial Restructuring & Bankruptcy",
+                                                    "Intellectual Property & Technology",
+                                                    "Labor & Employment",
+                                                    "Mergers & Acquisitions",
+                                                    "Real Estate",
+                                                    "Securities & Capital Markets",
+                                                    "California"
+                                                ]
+                                            },
+                                            "#text": "Select the practice area you'd like to see first when you sign in to"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Search",
+                                        "dd": {
+                                            "uicontrol": {
+                                                "#tail": "to keep the filters you selected until you change them.",
+                                                "#text": "Retain search filters for future sessions"
+                                            },
+                                            "#text": "Select"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Display browse results in this content type first",
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "lpanamefirst",
+                                                "#tail": ":"
+                                            },
+                                            "ul": {
+                                                "li": [
+                                                    "Forms",
+                                                    "Practical Guidance",
+                                                    "Cases",
+                                                    "Legislative",
+                                                    "Secondary",
+                                                    "Emerging Issues",
+                                                    "News"
+                                                ]
+                                            },
+                                            "#text": "Select the content type you want to see first when you are browsing content in"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Display search results in this content type first",
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "lpanamefirst",
+                                                "#tail": ":"
+                                            },
+                                            "ul": {
+                                                "li": [
+                                                    "Forms",
+                                                    "Practical Guidance",
+                                                    "Cases",
+                                                    "Legislative",
+                                                    "Secondary",
+                                                    "Emerging Issues",
+                                                    "News"
+                                                ]
+                                            },
+                                            "#text": "Select the content type you want to see first when you perform a search in"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@audience": "icw",
+                        "@id": "icw_prof",
+                        "propvalue": "LexisNexis\u00ae Interactive Citation Workstation tab (Instructors)",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": {
+                                    "dt": "Select the maximum number of times a student can try to answer a question correctly",
+                                    "dd": {
+                                        "ph": {
+                                            "@keyref": "icwnamefirst",
+                                            "#tail": "marks the question wrong and moves on. You can choose a number from one to five."
+                                        },
+                                        "#text": "Select the number of times students will be able to attempt to answer questions before"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@audience": "icw",
+                        "@id": "icw_student",
+                        "propvalue": "LexisNexis\u00ae Interactive Citation Workstation tab (Students)",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Add up to two instructors who will receive notifications about your exercises",
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "icwnamefirst",
+                                                "#tail": "displays a list of instructors whose name begins with the letters you type. Select the name of the instructor you want to assign, then select the"
+                                            },
+                                            "uicontrol": {
+                                                "#tail": "button.",
+                                                "#text": "Add"
+                                            },
+                                            "#text": "Begin typing the name of the instructor you want to assign. As you type,"
+                                        }
+                                    },
+                                    {
+                                        "dt": "Assigned instructors, teaching assistants, or other assistants",
+                                        "dd": {
+                                            "ph": {
+                                                "@keyref": "icwname",
+                                                "#tail": "exercises. Select the X button to remove a instructor."
+                                            },
+                                            "note": {
+                                                "@type": "note",
+                                                "#text": "This box can contain a maximum of two names. If it already contains two names, you must remove one before you can assign a new instructor."
+                                            },
+                                            "#text": "This box displays the names of the instructors currently assigned to your"
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "@audience": "tax",
+                        "@id": "tax",
+                        "propvalue": {
+                            "ph": {
+                                "@keyref": "taxnamefirst",
+                                "#tail": "tab"
+                            }
+                        },
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": {
+                                    "dt": {
+                                        "ph": {
+                                            "@keyref": "taxnamefirst"
+                                        },
+                                        "#text": "Display this practice area by default in"
+                                    },
+                                    "dd": {
+                                        "ul": {
+                                            "li": [
+                                                "Federal",
+                                                "State & Local",
+                                                "U.S. International"
+                                            ]
+                                        },
+                                        "#text": "Select the practice area you'd like to use as a default in your tax-related searches:"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "@id": "buttons",
+                        "propvalue": "Buttons",
+                        "propdesc": {
+                            "dl": {
+                                "dlentry": [
+                                    {
+                                        "dt": "Save Changes to Settings & Close",
+                                        "dd": "Select to save your current selections as your new preferences."
+                                    },
+                                    {
+                                        "dt": "Close Settings Without Saving",
+                                        "dd": "Select to leave the Settings page without applying any of your changes."
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

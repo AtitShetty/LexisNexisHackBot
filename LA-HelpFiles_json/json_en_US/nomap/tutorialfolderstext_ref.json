@@ -1,0 +1,156 @@
+{
+    "reference": {
+        "@audience": "pendingpermikelloyd",
+        "@id": "tutorialfolderstext_ref",
+        "title": "Lexis Advance\u00ae Text-only Tutorial",
+        "prolog": {
+            "author": [
+                "Multimedia Team",
+                "Mike Lloyd"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-03-24"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "title": "Using Folders",
+                    "p": [
+                        "Folders can help you keep all your results organized in one place.",
+                        "This tutorial shows you how to create and manage folders, as well as how to save and use information in your folders.",
+                        "You can save search results, documents, notes, and more for an unlimited time.",
+                        "You can create as many folders and subfolders as you need, and save items such as full documents, excerpts, annotations, and searches.",
+                        "Items you purchase transactionally are saved for 90 days. Documents you subscribe to remain in your folder until you remove them."
+                    ]
+                },
+                {
+                    "title": "Creating Folders",
+                    "p": [
+                        "Let's start by creating a new folder.",
+                        "You can create a folder from the home page, the Folders , or a search results page.",
+                        "The history map appears on the right side of the screen.",
+                        "On the home page, select the New folder link in the Folders pod.",
+                        "Then type the folder name and select the Add button.",
+                        "If you are creating a subfolder, select the link beneath the folder you want to put it in.",
+                        "Now let\u2019s try it from the Folders tab. Click the \"Go to all my folders\" link.",
+                        "Folders you've created appear on the left side of the screen. We'll take a detailed look at the My Folders tab later.",
+                        "For now, let\u2019s create another folder by selecting the \"New Folder\" link.",
+                        "Type the folder name, and, if you're creating a top-level folder, just select the OK button.",
+                        "To create a subfolder, you need to select the folder it goes in. Click the -Select- menu, then select a folder name to make your selection. You can expand a folder and select 1 of its subfolders. Then select the OK button."
+                    ]
+                },
+                {
+                    "title": "Saving Searches",
+                    "p": [
+                        "You can save searches, documents, and selected text to folders.",
+                        "To save a search, select Options on the results page, then select \"Save search to folder\".",
+                        "Enter a title, if you don't want to use your search terms.",
+                        "Choose to save filters you've selected for the current content-type tab, or for all of them, by selecting the appropriate \"Store Narrow By selections for\" option.",
+                        "You can create a new folder for the search by selecting the \"New Folder\" link; or you can use the \"Save In\" menu to select an existing folder.",
+                        "Enter any notes you want in the Notes field, then select the OK button to save your search."
+                    ]
+                },
+                {
+                    "title": "Saving Documents",
+                    "p": [
+                        "Save documents to a folder from the results page by selecting their boxes and selecting the folder icon. Then choose a folder, enter any notes, and select the OK button.",
+                        "To save a document you are viewing, select the folder icon. Then choose a folder, enter any notes, and select the OK button."
+                    ]
+                },
+                {
+                    "title": "Saving Selected Text",
+                    "p": [
+                        "You can also save selected text to a folder.",
+                        "Just highlight the text you want to save, select the plus sign that appears, then select \"Save clip to folder\". Choose a folder, enter any notes, then select the OK button."
+                    ]
+                },
+                {
+                    "title": "Working with Folders",
+                    "p": [
+                        "On the My Folders tab, your folders are listed in the left pane.",
+                        "Use the \"Search my folders\" box to find items in your folders that match the terms you enter. Results appear in the right pane.",
+                        "Folders with plus signs have subfolders. Click the icon to show them.",
+                        "Click a folder name to display its contents. The folder name, its contents, and some useful tools appear in the right pane.",
+                        "Information displayed for each item includes the:",
+                        "Various items also show you:",
+                        "You can sort items by selecting one of the column headers or with the \"Sort by\" menu.",
+                        "The Actions button beside the folder name provides options for managing the folder you have open.",
+                        {
+                            "ph": {
+                                "@keyref": "shepardsignalsingular",
+                                "#tail": "for all of the documents in the folder. You can also download the folder contents."
+                            },
+                            "#text": "For example, you can update the"
+                        },
+                        "Tools above the Title column header provide options for managing items you've selected using the checkboxes. You can print, save, and email selected items. The Actions menu lets you move, copy or delete them. And you can select the \"n Selected\" link to display a list of selected items."
+                    ],
+                    "ul": [
+                        {
+                            "li": [
+                                "Title you entered when you saved it",
+                                "Item type, such as a document or search",
+                                "Client ID",
+                                "Date when you last modified (or saved) the item"
+                            ]
+                        },
+                        {
+                            "li": [
+                                {
+                                    "ph": {
+                                        "@keyref": "shepsignalsingularfirst",
+                                        "#tail": "and its effective date"
+                                    },
+                                    "#text": "The"
+                                },
+                                {
+                                    "ph": {
+                                        "@keyref": "shepardsignalsingular"
+                                    },
+                                    "#text": "A link to update the"
+                                },
+                                "Any notes you entered when you saved the item",
+                                "A link to add notes if you haven't entered any"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "Viewing Items",
+                    "p": [
+                        "To view an item, select its title. The item is opened in its own tab.",
+                        "Information about the item appears at the top, including the title and any notes you entered when you saved the item.",
+                        "Click the Edit button to change the title, client, or notes.",
+                        "If the item is a saved search, you can run it again. Choose \"Search these terms with current settings\" to run your search using the settings (such as Content Type) shown in the search box at the top of the screen. Or choose \"Search and apply settings below\" to run the search using the settings listed below the link. Results appear in a new tab.",
+                        "This concludes the \"Using My Folders\" tutorial."
+                    ]
+                }
+            ]
+        },
+        "related-links": {
+            "linklist": {
+                "link": {
+                    "@href": "tutorialsearch_cpt.xml"
+                }
+            }
+        }
+    }
+}

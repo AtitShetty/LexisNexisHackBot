@@ -1,0 +1,109 @@
+{
+    "task": {
+        "@otherprops": "shep",
+        "@audience": "res",
+        "@id": "shepsort_hdi",
+        "title": {
+            "i": {
+                "#tail": "\u00ae reports?",
+                "#text": "Shepard's"
+            },
+            "#text": "How do I sort the information within my"
+        },
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-10-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "shepardsfirst",
+                        "#tail": "report by using the"
+                    },
+                    "uicontrol": {
+                        "#tail": "drop-down list.",
+                        "#text": "Sort by:"
+                    },
+                    "#text": "You can sort information within the Citing Decisions and Table of Authorities tabs of your"
+                },
+                "note": {
+                    "@type": "tip",
+                    "uicontrol": [
+                        {
+                            "#tail": "from the drop-down list,",
+                            "#text": "Date (Newest to Oldest)"
+                        },
+                        {
+                            "#tail": "heading in the table.",
+                            "#text": "Date"
+                        }
+                    ],
+                    "b": {
+                        "#tail": ", you could just select the",
+                        "#text": "OR"
+                    },
+                    "#text": "You can also select the heading in the table you want to sort by. For instance, if you want to sort by Date, you can select"
+                },
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Tab",
+                            "Sort Order Choices"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                "Citing Decisions",
+                                {
+                                    "ul": {
+                                        "li": [
+                                            "Analysis (Red to Blue)",
+                                            "Discussion (High to Low)",
+                                            "Court (Highest to Lowest)",
+                                            "Date (Newest to Oldest)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Table of Authorities",
+                                {
+                                    "ul": {
+                                        "li": [
+                                            "Analysis (Red to Blue)",
+                                            "Court (Highest to Lowest)"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+{
+    "concept": {
+        "@otherprops": "fulldocrhp",
+        "@id": "lexmachina_cpt",
+        "title": "About Lex Machina\u0099?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2016"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "section": [
+                {
+                    "title": "What is Lex Machina?",
+                    "p": "Lex Machina provides Legal Analytics\u00ae to law firms and companies, providing you the tools you can use to craft successful strategies, win cases, and close business. Lex Machina mines litigation data, revealing insights about judges, law firms, lawyers, parties, and case subjects themselves, culled from millions of pages of litigation information. Because analytics involve the discovery and communication of meaningful patterns in data, these insights are called \"Legal Analytics\"."
+                },
+                {
+                    "title": {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "?"
+                        },
+                        "#text": "How Does Lex Machina Work with"
+                    },
+                    "p": [
+                        "There are several ways you can access Legal Analytics for judges and law firms in Lexis Advance:",
+                        {
+                            "ph": {
+                                "@keyref": "prodname",
+                                "#tail": "subscribers can view a free preview of Legal Analytics for the judge or law firm."
+                            },
+                            "#text": "Once you click a Lex Machina link, you will be taken to the Lex Machina service where"
+                        },
+                        {
+                            "xref": {
+                                "@scope": "external",
+                                "@href": "https://lexmachina.com/?utm_source=lexis&utm_campaign=learn_more&utm_medium=lexis_advance",
+                                "#tail": "for more information.",
+                                "#text": "Lex Machina"
+                            },
+                            "#text": "See"
+                        }
+                    ],
+                    "ul": {
+                        "li": [
+                            "Click the link for either a judge or a law firm in the Legal Analytics pod, located on the right side of the document page.",
+                            {
+                                "uicontrol": {
+                                    "#tail": "link.",
+                                    "#text": "View Lex Machina analytics"
+                                },
+                                "#text": "Click a linked judge or law firm in the document page to view additional information about the judge or law firm, and then click the"
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

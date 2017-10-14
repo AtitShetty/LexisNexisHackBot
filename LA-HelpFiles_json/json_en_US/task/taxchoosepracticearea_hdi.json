@@ -1,0 +1,79 @@
+{
+    "task": {
+        "@otherprops": "taxsearch",
+        "@audience": "tax",
+        "@id": "taxchoosepracticearea_hdi",
+        "title": "How do I choose my tax practice area?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "taxnamefirst",
+                            "#tail": "lets you perform your tax research in one of three practice areas: federal, state and local, and U.S. international. The options and sources available for each practice area vary."
+                        }
+                    },
+                    "To do this:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "taxviewtaxproduct_hdi.xml",
+                                "#tail": ".",
+                                "#text": "View the Lexis Advance\u00ae Tax Home page"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list and choose the area you want to search in.",
+                                "#text": "Practice Area"
+                            },
+                            "#text": "Click the"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "p": {
+                    "xref": {
+                        "@scope": "peer",
+                        "@href": "taxperformsearch_hdi.xml",
+                        "#tail": ".",
+                        "#text": "perform your search"
+                    },
+                    "#text": "Once you've chosen your practice area, you can"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+{
+    "concept": {
+        "@otherprops": "memberid",
+        "@id": "midbrowsersession_cpt",
+        "title": "What is starting a new browser session?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-21"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "conbody": {
+            "p": [
+                {
+                    "ph": {
+                        "@keyref": "prodnamefirst",
+                        "#tail": "session using a different ID without signing out or interrupting your current work, you can open a new browser session. To do this, go to your Internet browser (such as Google Chrome or Microsoft Internet Explorer\u00ae), and then do one of the following."
+                    },
+                    "#text": "To start a new"
+                },
+                "Doing either of these will start a separate new browser session. When you're finished with your work in either session, sign out of the session you no longer need."
+            ],
+            "simpletable": {
+                "strow": [
+                    {
+                        "stentry": [
+                            "In Microsoft Internet Explorer\u00ae",
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": ", and then",
+                                        "#text": "File"
+                                    },
+                                    "New Session"
+                                ],
+                                "#text": "Select"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "In Google Chrome",
+                            {
+                                "uicontrol": [
+                                    {
+                                        "#tail": "(or just open Chrome and click",
+                                        "#text": "New incognito window"
+                                    },
+                                    {
+                                        "#tail": ").",
+                                        "#text": "Ctrl+Shift+N"
+                                    }
+                                ],
+                                "#text": "Right-click the Google Chrome icon and select"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

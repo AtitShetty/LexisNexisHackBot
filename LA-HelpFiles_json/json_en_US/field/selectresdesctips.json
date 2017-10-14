@@ -1,0 +1,54 @@
+{
+    "reference": {
+        "@otherprops": "selectresdesctips",
+        "@id": "selectresdesctips",
+        "title": "Select Research Description Page",
+        "prolog": {
+            "author": "Robin Stubbart",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2011"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2011-07-06"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": "Use this page to specify a research description to be associated with a Client ID."
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "Use currently saved Research Description for <Client ID>",
+                        "propdesc": "Select this option, if applicable."
+                    },
+                    {
+                        "propvalue": "Use this Research Description",
+                        "propdesc": "Enter up to 1,000 characters to describe the research you are doing for this client."
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/ok"
+                    },
+                    {
+                        "@conref": "setclientIDtips.xml#setclientIDtips/cancel"
+                    }
+                ]
+            }
+        }
+    }
+}

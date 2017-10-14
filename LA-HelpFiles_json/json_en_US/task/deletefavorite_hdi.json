@@ -1,0 +1,89 @@
+{
+    "task": {
+        "@otherprops": "searchfilter;faveselectopictips",
+        "@audience": "res",
+        "@id": "deletefavorite_hdi",
+        "title": {
+            "uicontrol": {
+                "#tail": "pod?",
+                "#text": "Favorites"
+            },
+            "#text": "How do I remove a source or topic from the"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2012"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2012-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "To remove a filter from the Recent & Favorite pod, follow these steps."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Filters"
+                            },
+                            "#text": "On the search form, select"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "from the left pane.",
+                                "#text": "Recent & Favorite"
+                            },
+                            "#text": "Select"
+                        }
+                    },
+                    {
+                        "cmd": "Locate the item you want to remove."
+                    },
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Remove favorite",
+                                "@href": "#CloseRemove.png",
+                                "@placement": "inline",
+                                "#tail": "to its right."
+                            },
+                            "#text": "Click the"
+                        },
+                        "stepresult": "The item you selected is removed from the list."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "to confirm.",
+                                "#text": "Save"
+                            },
+                            "#text": "Click"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

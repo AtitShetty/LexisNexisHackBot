@@ -1,0 +1,102 @@
+{
+    "task": {
+        "@otherprops": "taxsearch",
+        "@audience": "tax",
+        "@id": "taxsearchccharchive_hdi",
+        "title": "How do I search the CCH tax archive?",
+        "prolog": {
+            "author": "Christina Stommel",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-12-15"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    "You can search archives of the CCH Internal Revenue Code (as early as 1978), Standard Federal Tax Reporter (as early as 2003), Master Tax Guide (as early as 1986), and State Tax archives (as early as 1999).",
+                    "To do this:"
+                ],
+                "note": {
+                    "@type": "note",
+                    "#text": "This is the only tool that can be used to search the tax archives."
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "lataxfirst",
+                                "#tail": "Home page."
+                            },
+                            "#text": "At the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "pod.",
+                                "#text": "Archives"
+                            },
+                            "#text": "Locate the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link. The Archived CCH page appears.",
+                                "#text": "Archived CCH Search"
+                            },
+                            "#text": "Expand the pod to view and select the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button (",
+                                "#text": "Add this source to search filter"
+                            },
+                            "image": {
+                                "@alt": "Add to Source",
+                                "@href": "addtosearch.png",
+                                "#tail": "). The source is added as a pre-search filter."
+                            },
+                            "#text": "Optionally, using the options below the search box, locate a specific archive you want to search and select its"
+                        }
+                    },
+                    {
+                        "cmd": "Enter your search terms in the search box and submit your search."
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "uicontrol": {
+                        "#tail": ".",
+                        "#text": "Get all documents for this source"
+                    },
+                    "#text": "To view the source documents for a particular archive, select the drop-down list next to the source name and choose"
+                }
+            }
+        }
+    }
+}

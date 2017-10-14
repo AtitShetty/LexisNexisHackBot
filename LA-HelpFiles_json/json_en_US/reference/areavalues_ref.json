@@ -1,0 +1,174 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "areavalues_ref",
+        "title": "Values for the Area Parameter",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "note": {
+                    "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                },
+                "p": [
+                    {
+                        "uicontrol": {
+                            "#tail": "parameter in a URL to indicate the area of a specific product (such as",
+                            "#text": "area"
+                        },
+                        "ph": {
+                            "@keyref": "lpanamefirst",
+                            "#tail": "or LexisNexis\u00ae Practical Guidance) to open. If you don't specify an area, your default practice area appears."
+                        },
+                        "#text": "Use the"
+                    },
+                    {
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "areatips.xml",
+                            "#text": "Search in a Specific Area"
+                        },
+                        "#text": "For more information and an example of a URL containing an area parameter, see"
+                    }
+                ]
+            },
+            "p": {
+                "b": {
+                    "ph": {
+                        "@keyref": "lpaname"
+                    },
+                    "#text": "Values for"
+                }
+            },
+            "simpletable": {
+                "sthead": {
+                    "stentry": [
+                        "Area",
+                        "Value"
+                    ]
+                },
+                "strow": [
+                    {
+                        "stentry": [
+                            "Banking & Finance",
+                            {
+                                "userinput": "1013003"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Corporate Counsel",
+                            {
+                                "userinput": "1000572"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Financial Restructuring & Bankruptcy",
+                            {
+                                "userinput": "1013000"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Intellectual Property & Technology",
+                            {
+                                "userinput": "1000574"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Labor & Employment",
+                            {
+                                "userinput": "1013004"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Mergers & Acquisitions",
+                            {
+                                "userinput": "1013001"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Real Estate",
+                            {
+                                "userinput": "1000573"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Securities & Capital Markets",
+                            {
+                                "userinput": "1013002"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "California Business & Commercial",
+                            {
+                                "userinput": "1000575"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "New York Business & Commercial",
+                            {
+                                "userinput": "1013006"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "Texas Business & Commercial",
+                            {
+                                "userinput": "1013005"
+                            }
+                        ]
+                    },
+                    {
+                        "stentry": [
+                            "California",
+                            {
+                                "userinput": "1000571"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

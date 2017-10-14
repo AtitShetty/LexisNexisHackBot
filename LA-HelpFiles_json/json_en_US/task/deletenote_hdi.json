@@ -1,0 +1,112 @@
+{
+    "task": {
+        "@otherprops": "folders",
+        "@id": "deletenote_hdi",
+        "title": "How do I delete a note in one of my folders?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Christina Stommel (GDSI Release)"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "You can delete notes you have added to any item, such as a document or a section of text, that you have stored in a folder. To delete a note, follow the steps below."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "ph": {
+                                "@keyref": "prodnamefirst",
+                                "#tail": "home page, select a folder from the"
+                            },
+                            "uicontrol": [
+                                {
+                                    "#tail": "pod, or select the",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "link from",
+                                    "#text": "Folders"
+                                },
+                                {
+                                    "#tail": "drop-down list at the top of any page and select a folder.",
+                                    "#text": "More"
+                                }
+                            ],
+                            "#text": "On the"
+                        }
+                    },
+                    {
+                        "cmd": "Open the item with the note you want to delete."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the document information bar, located above the document. The page is scrolled to the bottom of the document.",
+                                "#text": "View all notes"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button for the note you want to remove.",
+                                "#text": "Delete"
+                            },
+                            "#text": "Click the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Delete"
+                            },
+                            "#text": "Confirm the deletion by selecting"
+                        }
+                    }
+                ]
+            },
+            "result": {
+                "note": {
+                    "@type": "note",
+                    "uicontrol": [
+                        {
+                            "#tail": "from the",
+                            "#text": "Delete"
+                        },
+                        {
+                            "#tail": "drop-down list while viewing the full text of an item in your folder.",
+                            "#text": "Actions"
+                        }
+                    ],
+                    "#text": "You can also delete a note by selecting"
+                }
+            }
+        }
+    }
+}

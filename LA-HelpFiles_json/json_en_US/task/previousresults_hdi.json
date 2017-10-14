@@ -1,0 +1,65 @@
+{
+    "task": {
+        "@otherprops": "resultsfilter",
+        "@id": "previousresults_hdi",
+        "title": "How do I get back to my previous results after narrowing them one or more times?",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "ul": {
+                    "li": [
+                        {
+                            "image": {
+                                "@alt": "Close level",
+                                "@href": "Closeremove.png",
+                                "@placement": "inline",
+                                "#tail": ") next to each of your selections at the top of the"
+                            },
+                            "uicontrol": {
+                                "#tail": "pane.",
+                                "#text": "Narrow By"
+                            },
+                            "#text": "To return to previous versions of your results one step at a time, select the Remove icon ("
+                        },
+                        {
+                            "uicontrol": [
+                                {
+                                    "#tail": "link at the top of the",
+                                    "#text": "Clear"
+                                },
+                                {
+                                    "#tail": "pane.",
+                                    "#text": "Narrow By"
+                                }
+                            ],
+                            "#text": "To return to your original results after narrowing them one or more times, select the"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "notproximity_ref",
+        "title": {
+            "userinput": {
+                "#tail": "with proximity connectors",
+                "#text": "not"
+            },
+            "#text": "Using"
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2016-08-08"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": {
+                    "userinput": [
+                        {
+                            "#tail": "with proximity connectors. Here are the proximity connectors you can use with",
+                            "#text": "not"
+                        },
+                        {
+                            "#tail": "and examples of how they are used.",
+                            "#text": "not"
+                        }
+                    ],
+                    "#text": "You can use"
+                },
+                "simpletable": {
+                    "sthead": {
+                        "stentry": [
+                            "Proximity Connector",
+                            "Example",
+                            "Finds"
+                        ]
+                    },
+                    "strow": [
+                        {
+                            "stentry": [
+                                "w/n",
+                                {
+                                    "userinput": "trust NOT w/5 charitable"
+                                },
+                                "Documents where the word \"trust\" occurs but not within 5 words of \"charitable\""
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "w/sent",
+                                {
+                                    "userinput": "trust NOT w/sent charitable"
+                                },
+                                "Documents where the word \"trust\" occurs but not within 25 words of \"charitable\""
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "w/para",
+                                {
+                                    "userinput": "trust NOT w/para charitable"
+                                },
+                                "Documents where the word \"trust\" occurs but not within 75 words of \"charitable\""
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "w/seg",
+                                {
+                                    "userinput": "trust NOT w/seg charitable"
+                                },
+                                "Documents where the word \"trust\" occurs but not within 100 words of \"charitable\""
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "pre/n",
+                                {
+                                    "userinput": "trust NOT pre/3 charitable"
+                                },
+                                "Documents where the word \"trust\" and \"charitable\" appear in the same document, but not when \"trust\" precedes  \"charitable\" by 3 words or fewer."
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

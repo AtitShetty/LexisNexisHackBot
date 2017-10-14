@@ -1,0 +1,120 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "n_ref",
+        "title": {
+            "userinput": {
+                "#tail": "Connector",
+                "#text": "/n"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-04-29"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "p": [
+                        {
+                            "userinput": {
+                                "#tail": "connector to find documents in which the first word appears within \"n\" words of the second one.",
+                                "#text": "/n"
+                            },
+                            "#text": "Use the"
+                        },
+                        "For example, the following search finds documents where the word \"vicious\" occurs within 3 words of \"dog\".",
+                        {
+                            "userinput": "vicious /3 dog"
+                        }
+                    ],
+                    "note": {
+                        "userinput": [
+                            {
+                                "#tail": "connector in the same way as the",
+                                "#text": "/n"
+                            },
+                            {
+                                "#tail": "connector.  The two connectors operate the same way.",
+                                "#text": "w/n"
+                            }
+                        ],
+                        "#text": "You can use the"
+                    }
+                },
+                {
+                    "title": "Specifying the value of \"n\"",
+                    "p": "When choosing the value of n, these guidelines may prove useful:",
+                    "simpletable": {
+                        "sthead": {
+                            "stentry": [
+                                "Choose this...",
+                                "For search words to appear here..."
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "/3 - /5",
+                                    "in approximately the same phrase"
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "/25",
+                                    "in approximately the same sentence"
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "/75",
+                                    "in approximately the same paragraph"
+                                ]
+                            }
+                        ]
+                    },
+                    "note": {
+                        "@type": "tip",
+                        "#text": "Although you may choose any number for n, you may wish to choose a number less than 100. Choosing a number greater than 100 is likely to retrieve documents in which your search words are used in unrelated contexts."
+                    }
+                },
+                {
+                    "title": {
+                        "userinput": {
+                            "#tail": "Connectors",
+                            "#text": "/n"
+                        },
+                        "#text": "Using Multiple"
+                    },
+                    "p": {
+                        "userinput": {
+                            "#tail": "connectors are processed from the smallest to the largest.",
+                            "#text": "/n"
+                        },
+                        "#text": "Multiple"
+                    }
+                }
+            ]
+        }
+    }
+}

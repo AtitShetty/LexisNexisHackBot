@@ -1,0 +1,158 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsviewattorneyoverview_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "lpsnamefirst",
+                "#tail": "?"
+            },
+            "#text": "How do I view a snapshot of an attorney's profile using"
+        },
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-11-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": ", the Snapshot page of an attorney's profile shows a summary of the attorney's case history (including dockets and outcomes), case opinions, publications, and news articles in which the attorney has been involved or has been mentioned. Using the Snapshot report, you can quickly review the content available for the attorney, and then use the links on the page or the left side of the page to focus on the particular details. In short, the Snapshot page provides a quick glance at what's available, but provides options for examining the full set of results."
+                        },
+                        "#text": "In"
+                    },
+                    "To view a summary of the attorney's profile:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorney_hdi.xml",
+                                    "#tail": "or by",
+                                    "#text": "attorney name"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorneyjurisdiction_hdi.xml",
+                                    "#tail": ".)",
+                                    "#text": "jurisdiction"
+                                }
+                            ],
+                            "#text": "Complete your search for an attorney. (Search either by"
+                        }
+                    },
+                    {
+                        "cmd": "At the search results page, select the attorney's name. That attorney's report is displayed."
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link in the left-side pane. A summary of the attorney's profile appears:",
+                                "#text": "Snapshot"
+                            },
+                            "#text": "If it's not already showing, select the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": {
+                                    "#tail": "page, you can select any of the links provided to view that specific type of information.",
+                                    "#text": "Snapshot"
+                                },
+                                "#text": "While viewing the"
+                            }
+                        },
+                        "choices": {
+                            "choice": [
+                                "Biographical information for the attorney appears at the top of the page.",
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsworkwithgraphs_hdi.xml",
+                                        "#tail": "showing a visual representation of how an attorney has been involved in various cases appear in the",
+                                        "#text": "Graphs"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": "pods.",
+                                        "#text": "Practice History"
+                                    }
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": "pods. Jury verdicts and settlements, cases, administrative materials, briefs, pleadings, motions, jury instructions, and expert witness analysis also appear in the",
+                                        "#text": "Practice History"
+                                    },
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewattorneypracticehistory_hdi.xml",
+                                        "#tail": "pods.",
+                                        "#text": "Practice History"
+                                    },
+                                    "#text": "Documents associated with the different aspects of any attorney's practice are listed in other"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewpublications_hdi.xml",
+                                        "#tail": "pods.",
+                                        "#text": "Publications"
+                                    },
+                                    "#text": "Different publications attributed to the attorney or in which the attorney has been listed appear in the"
+                                },
+                                {
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpsviewnews_hdi.xml",
+                                        "#tail": "pods.",
+                                        "#text": "In the News"
+                                    },
+                                    "#text": "News articles (including regular, legal, and Mealey's\u0099) in which the attorney has been named appear in the"
+                                },
+                                {
+                                    "i": {
+                                        "#tail": "and the Web appear in the",
+                                        "#text": "lexis.com\u00ae"
+                                    },
+                                    "xref": {
+                                        "@scope": "peer",
+                                        "@href": "lpssearchlexisweb_hdi.xml",
+                                        "#tail": "pod.",
+                                        "#text": "Web"
+                                    },
+                                    "#text": "Additional search results from both"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

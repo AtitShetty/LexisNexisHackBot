@@ -1,0 +1,321 @@
+{
+    "reference": {
+        "@otherprops": "historytips",
+        "@audience": "res;lps;vsa;med",
+        "@id": "historytips",
+        "title": "Research History List Page",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-05"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "automatically saves to History your activities, such as:"
+                        }
+                    },
+                    {
+                        "uicontrol": [
+                            {
+                                "#tail": "at the top of any page, then",
+                                "#text": "History"
+                            },
+                            {
+                                "#tail": ". Or, on the",
+                                "#text": "View all history"
+                            },
+                            {
+                                "#tail": "pod, then select",
+                                "#text": "History"
+                            },
+                            {
+                                "#tail": "or",
+                                "#text": "List view"
+                            },
+                            {
+                                "#tail": "at the bottom of the pod.",
+                                "#text": "Research Map"
+                            }
+                        ],
+                        "ph": {
+                            "@keyref": "prodnamefirst",
+                            "#tail": "home page, select the"
+                        },
+                        "#text": "And so on, for up to 90 days. You can display your research history in a list view or a graphic (\"map\") view. You can access history by selecting"
+                    }
+                ],
+                "ul": {
+                    "li": [
+                        "Searches",
+                        "Search terms",
+                        "Results",
+                        "Filters you applied or removed",
+                        "Deliveries"
+                    ]
+                },
+                "note": [
+                    {
+                        "@type": "tip",
+                        "#text": "For Public Records, you can only find items in history for up to 10 days."
+                    },
+                    {
+                        "@type": "note",
+                        "uicontrol": [
+                            {
+                                "#tail": "from the History pod, or choose",
+                                "#text": "Research Map"
+                            },
+                            {
+                                "#tail": ". See",
+                                "#text": "History > Research Map"
+                            }
+                        ],
+                        "xref": {
+                            "@scope": "peer",
+                            "@href": "maptips.xml",
+                            "#tail": "for details."
+                        },
+                        "#text": "To view your history in the Map view, either select"
+                    }
+                ]
+            },
+            "properties": {
+                "property": [
+                    {
+                        "propvalue": "List / Research Map",
+                        "propdesc": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "to view your search history in a results list view. Click",
+                                    "#text": "List"
+                                },
+                                {
+                                    "#tail": "to view it in the map (graphical) view.",
+                                    "#text": "Research Map"
+                                }
+                            ],
+                            "#text": "Click"
+                        }
+                    },
+                    {
+                        "propvalue": "Narrow By",
+                        "propdesc": {
+                            "p": [
+                                {
+                                    "uicontrol": [
+                                        {
+                                            "#tail": "pane to filter your activities by date, type (such as searches only or emails only), or by Client/Matter. For example, to display only your activities from today, select",
+                                            "#text": "Narrow By"
+                                        },
+                                        {
+                                            "#tail": "in the",
+                                            "#text": "Today"
+                                        },
+                                        {
+                                            "#tail": "category.",
+                                            "#text": "Date"
+                                        }
+                                    ],
+                                    "#text": "Use the"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Select multiple"
+                                    },
+                                    "#text": "To select several criteria in a category, select"
+                                },
+                                {
+                                    "image": {
+                                        "@alt": "Close level",
+                                        "@href": "Closeremove.png",
+                                        "@placement": "inline",
+                                        "#tail": "next to your selections at the top of the"
+                                    },
+                                    "uicontrol": {
+                                        "#tail": "pane to close that version. When you have closed all the versions, your original results are displayed on the right side of the results view.",
+                                        "#text": "Narrow By"
+                                    },
+                                    "#text": "To return to a previous results set after filtering one or more times, select"
+                                },
+                                {
+                                    "uicontrol": {
+                                        "#tail": ".",
+                                        "#text": "Clear"
+                                    },
+                                    "#text": "You can also return to your original results by selecting"
+                                }
+                            ],
+                            "note": {
+                                "@type": "note",
+                                "p": [
+                                    {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "pane depend on the activities in the list. For example, if you have no activities from yesterday, you won't see",
+                                                "#text": "Narrow By"
+                                            },
+                                            {
+                                                "#tail": "listed in the",
+                                                "#text": "Yesterday"
+                                            },
+                                            {
+                                                "#tail": "category.",
+                                                "#text": "Date"
+                                            }
+                                        ],
+                                        "#text": "The criteria in the"
+                                    },
+                                    {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "in the",
+                                                "#text": "Today"
+                                            },
+                                            {
+                                                "#tail": "category and also under",
+                                                "#text": "Date"
+                                            },
+                                            {
+                                                "#tail": "in the",
+                                                "#text": "Legal search"
+                                            },
+                                            {
+                                                "#tail": "category.",
+                                                "#text": "Type"
+                                            }
+                                        ],
+                                        "#text": "Activities may appear in more than one category. For example, a legal search you ran today would appear under"
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "propvalue": "Search Within History",
+                        "propdesc": {
+                            "image": {
+                                "@alt": "Search",
+                                "@href": "Search.png",
+                                "@placement": "inline",
+                                "#tail": ").  (To clear your search and view the full history map again, select"
+                            },
+                            "uicontrol": {
+                                "#tail": "link under the search box.)",
+                                "#text": "Reset map to default state"
+                            },
+                            "#text": "To search your history for specific items, enter words (such as a search term or part of a document title) and select the search icon ("
+                        }
+                    },
+                    {
+                        "propvalue": "Date",
+                        "propdesc": {
+                            "uicontrol": [
+                                {
+                                    "#tail": "under",
+                                    "#text": "Change date range"
+                                },
+                                {
+                                    "#tail": "and select the dates from the calendar.",
+                                    "#text": "Date"
+                                }
+                            ],
+                            "#text": "You can view your history by date. To select the history for a specific date or date range, select"
+                        }
+                    },
+                    {
+                        "propvalue": "Type",
+                        "propdesc": {
+                            "ph": {
+                                "@keyref": "shepardsfirst",
+                                "#tail": "search, etc. To select the type of activity, select the activity name under"
+                            },
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Type"
+                            },
+                            "#text": "You can view your history by the type of activity, such as a legal search, document view,"
+                        }
+                    },
+                    {
+                        "propvalue": "Client",
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": ".",
+                                "#text": "Client"
+                            },
+                            "#text": "You can view your history by client name or matter ID. To select the history for a specific client or matter, select the client name or matter ID under"
+                        }
+                    },
+                    {
+                        "propvalue": "Originated In",
+                        "propdesc": "Shows which experience or area of the product you were in when you first searched the item listed in the history view."
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Add to folder",
+                                "@href": "folder.png",
+                                "@placement": "inline"
+                            }
+                        },
+                        "propdesc": {
+                            "uicontrol": {
+                                "#tail": "icon at the top of the column.",
+                                "#text": "Add to folder"
+                            },
+                            "#text": "To select one or more activities in the list to add to a folder, select the checkboxes next to the items in the list, and then select the"
+                        }
+                    },
+                    {
+                        "propvalue": {
+                            "image": {
+                                "@alt": "Printable Page",
+                                "@href": "Printablepage.png",
+                                "@placement": "inline",
+                                "#tail": "Printable page"
+                            }
+                        },
+                        "propdesc": "Click this icon to display a text-only version of the list, without any graphics, navigation bars, or options on the page."
+                    },
+                    {
+                        "propvalue": "Sort By",
+                        "propdesc": {
+                            "p": [
+                                "These options let you sort your results list. By default, the list of items in the folder is sorted by date saved, with the most recently saved activity first.",
+                                "Select an option from this list to sort in a different order. You can sort by date saved, client, type, and title."
+                            ]
+                        }
+                    },
+                    {
+                        "propvalue": "History item details",
+                        "propdesc": "Information about each item in your history is listed along with the history task. For example, entries will list where the search or other task originated, what client was assigned to the task, and so forth."
+                    }
+                ]
+            }
+        }
+    }
+}

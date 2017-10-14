@@ -1,0 +1,96 @@
+{
+    "reference": {
+        "@otherprops": "connectors",
+        "@id": "or_ref",
+        "title": {
+            "userinput": {
+                "#tail": "Connector",
+                "#text": "or"
+            }
+        },
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2009-01-16"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": {
+                "p": [
+                    {
+                        "userinput": [
+                            {
+                                "#tail": "connector to find documents that contain either or both of the words or phrases linked by",
+                                "#text": "or"
+                            },
+                            {
+                                "#tail": ". Use the",
+                                "#text": "or"
+                            },
+                            {
+                                "#tail": "connector to link search words that are synonyms, antonyms, alternative spellings, or abbreviations.",
+                                "#text": "or"
+                            }
+                        ],
+                        "#text": "Use the"
+                    },
+                    "The search looks for the words or phrases linked by the or connector, not the word \"or\" itself. The words or phrases linked by or can be in any part of a document."
+                ],
+                "simpletable": {
+                    "strow": [
+                        {
+                            "stentry": [
+                                "Synonyms",
+                                {
+                                    "userinput": "ship or vessel or boat"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Antonyms",
+                                {
+                                    "userinput": "reasonable or unreasonable"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Alternatives",
+                                {
+                                    "userinput": "takeover or take over"
+                                }
+                            ]
+                        },
+                        {
+                            "stentry": [
+                                "Abbreviations",
+                                {
+                                    "userinput": "british broadcasting corporation or b.b.c. or bbc"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

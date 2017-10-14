@@ -1,0 +1,142 @@
+{
+    "task": {
+        "@otherprops": "icwprofessor",
+        "@audience": "icw",
+        "@id": "icwresetexercise_hdi",
+        "title": {
+            "ph": {
+                "@keyref": "icwnamefirst",
+                "#tail": "exercise for a student?"
+            },
+            "#text": "How do I reset an"
+        },
+        "prolog": {
+            "author": "Garth Lewis",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2014"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2014-04-22"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": "Follow these steps to reset an exercise so a student can start over."
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list in the Status Reports pod on your",
+                                "#text": "First, select a student"
+                            },
+                            "ph": {
+                                "@keyref": "icwnamefirst",
+                                "#tail": "Home page, select the name of the student whose exercise you want to reset."
+                            },
+                            "#text": "From the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "drop-down list, choose the manual containing the exercises you want to reset.",
+                                "#text": "Then, select a citation manual"
+                            },
+                            "#text": "From the"
+                        },
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "button becomes active.",
+                                "#text": "Get Status Report for Student"
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "button.",
+                                "#text": "Get Status Report for Student"
+                            },
+                            "#text": "Select the"
+                        },
+                        "stepresult": "The Student Status page appears."
+                    },
+                    {
+                        "cmd": "Has the student completed the exercise?",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "If...",
+                                "chdeschd": "Then..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "Yes",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": [
+                                                        {
+                                                            "#tail": "column on the right side of the page, select the",
+                                                            "#text": "Actions"
+                                                        },
+                                                        {
+                                                            "#tail": "button. A drop-down list of the actions you can take for this exercise appears.",
+                                                            "#text": "Actions"
+                                                        }
+                                                    ],
+                                                    "#text": "From the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": ".",
+                                                        "#text": "Reset exercise"
+                                                    },
+                                                    "#text": "Select"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "No",
+                                    "chdesc": {
+                                        "uicontrol": [
+                                            {
+                                                "#tail": "column on the right side of the page, select",
+                                                "#text": "Actions"
+                                            },
+                                            {
+                                                "#tail": ".",
+                                                "#text": "Reset exercise"
+                                            }
+                                        ],
+                                        "#text": "From the"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,414 @@
+{
+    "reference": {
+        "@otherprops": "urlapi",
+        "@audience": "res;urlapi",
+        "@id": "practicevalues_ref",
+        "title": "Values for the Practice Area Parameter",
+        "prolog": {
+            "author": "Barb Bruns",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2009"
+                },
+                "copyrholder": "LexisNexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2007-07-10"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "refbody": {
+            "section": [
+                {
+                    "note": {
+                        "@conref": "urlapi_group_ref.xml#urlapi_group_ref/urlapinote"
+                    },
+                    "p": [
+                        {
+                            "uicontrol": {
+                                "#tail": "parameter in a URL to indicate the practice area to search.  You can use multiple practice areas, separated by a period.  If you don't specify a practice area, all practice areas are searched.",
+                                "#text": "practice area"
+                            },
+                            "#text": "Use the"
+                        },
+                        {
+                            "xref": {
+                                "@scope": "peer",
+                                "@href": "practiceareatips.xml",
+                                "#text": "Search in a Specific Practice Area"
+                            },
+                            "#text": "For more information and an example of a URL containing a practice area parameter, see"
+                        }
+                    ]
+                },
+                {
+                    "simpletable": {
+                        "sthead": {
+                            "stentry": [
+                                "Practice Area",
+                                "Value"
+                            ]
+                        },
+                        "strow": [
+                            {
+                                "stentry": [
+                                    "Administrative Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NjMxMjc0MUIzQjkzNEM4MEI4NkZGQjVCREJCRDk4OUM7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Admiralty & Maritime Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QzRDNDVDOTdGRUQ1NDE1M0I1RjRBRDFBRTI3ODFGMDk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Antitrust & Trade Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6REEyRTNDM0JGQzYyNEMyOEFGNTAwNUJEOUU1MDg4NjU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Banking Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QjQyMUFCOUJBNURBNEFDREE3MTNCNDk5QkQ4NUM3RjI7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Bankruptcy Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6RDJGRTFGMTM4NkMwNDhEMEE5NUU0QUZCN0QyMjlEREY7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Business & Corporate Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QjA4OEVGODBENzY4NDcxM0IyQzA1OTEwQzVDODRBOUE7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Civil Procedure",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MzUxNjJDMEQ5N0YwNDMzM0JDMjEzM0UzOTYzMzI3OTU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Civil Rights Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NURDOUM5MEJFQUZGNEFBMDgzMkM0RTgwODdDNTMxREM7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Commercial Law (UCC)",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QUI5QjdCNzBDNjY0NEY3QzlGRTNCQTMzQ0IwQ0MzRUQ7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Communications Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MEQxMkU0NzE2OEE2NDIxNEE3QzU0NjU2MDRERUNGNDE7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Computer & Internet Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6Qzk0QUJBRENDQzhBNDc2MDk5OTAyQzI3QkRFMkU0OUU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Constitutional Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QkI5QzFFRjAxMEFFNDMxOThENUE1RjVCQUYzQkQ2RjQ7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Contracts Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QzY0RTZFMzE0RjkwNDdFQUI5M0U5N0ZFMjYyREMyQzU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Copyright Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MzM3NEE0Qjk0NzRCNDhFM0E0NjM2RTE4M0QzNTczMTU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Criminal Law & Procedure",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NEU0RkE1OUQwNUQwNDgxODhEODZCMjkzOTg3NThBNzk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Education Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NDkzNUEzQzFBNEZBNEFBREIxNDM5MTc1MUU5QjI4MTY7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Energy & Utilities Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6OUUzODAyRDk1QzVFNEZGMEJDM0RGMDYxOTlEMEEzRDA7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Environmental Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NzFDRDYyNkI2QjhBNDg3NTkyRjRDRkZEQjlCRkRBQzM7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Estate, Gift & Trust Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6OENGNTY0MEQ2RTU2NDA2NTk4QjcyNzI2NTBERUU3NUI7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Evidence",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MUVGQkU0QjJFMTIzNDNBM0FCNTVEQjAxQTM3RDcwOTA7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Family Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NEI4M0U5Qzg3RTk0NDdBRUJGNDRGNkZEQkU3RDdFNDU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Governments",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MjdEQjE4OUJDMzQxNDNEMEI0RTI1QUFCMzJENjEwRTA7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Healthcare Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NkUxMkVDQjJDOEY5NDVDQ0E5NTFEMTlDMjIwNzVERjc7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Immigration Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QUI4OEMwN0ExMjQ4NDFBQjkyQTU0NzQzNkM0QUZGRTk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Insurance Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MDM4MzQ2QUYzMTY0NDQzQTkxRDQwRUUzRUM5RDg0OEM7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "International Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QUJBMkUzQ0QwN0E0NEM4RDgzMjM1QTREMkU3RDdBODQ7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "International Trade Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6RTRDNDkyQ0UwRkRGNEQ0MjgwNzM2NzI3NjlGODE0ODk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Labor & Employment Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MTE3QUQwOTA0MUYzNDlCMEFFMjUwRUNDM0RDRkM5QzM7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Legal Ethics",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NUNFOUIxOEI1QzlBNDc2NkFFNTM0QjBGMEJGOTQ5OEI7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Mergers & Acquisitions Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QjRDRTUzQzBCMEIyNDU5QkE4QjFDMEE2Qjg2MUZDOTk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Military & Veterans Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NzM1OUEyRDNERTdENEU2MTk3RTlCNEJCRUY0NjRGRjQ7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Patent Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QkQzRkZBQjVFNkJCNDdGOEE3MjZGQUY1NkVCRUQ1QjU7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Pensions & Benefits Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QzNEOEE3NjhDNTJBNDhCOTgxRkQzNzc1Q0JCMkU4Q0I7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Public Contracts Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MDA5QTlFMDVCQUY0NEY0NUE1QzMyQzA1QkQyQzJGRUY7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Public Health & Welfare Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NDYwRTY1MDg3MTk5NDUyNkFFRDI1RjJBRERGQ0UxNzI7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Real Property Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QUUyRTcxRURBNEY2NEE2MDk3QzBCNzRDOEY0NTZDQzk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Securities Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6RkFFMTQ3ODhCRDYyNDkyN0IwQkEyQzRCRDlFMEM5ODc7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Tax Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6OTNEM0E2OEE0RkQyNEY1MDhBQzdGMkQ4ODI4QTJDODE7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Torts",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6MDAwOEM2NTEzQkVDNEI4NzlGMEZERUEyRjQwODM4Njg7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Trade Secrets Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6RkE5RkIzRDg2MDIzNDY1Mjg0OURCRDlFNTQ3NkE0NDA7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Trademark Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6QUY4QzQ2QTdDQjY1NEFGMjlGQjMwMTYzM0FDN0IxRTA7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Transportation Law",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6RTYzRTk5RDVBQkQ2NDcwQzk2NTU3ODQ5OEE3NDlBNzk7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            },
+                            {
+                                "stentry": [
+                                    "Workers' Compensation & SSDI",
+                                    {
+                                        "userinput": "Z3VpZD11cm46dG9waWM6NTNGOEUzQTYwRUQ1NEFCN0FGMjg0Rjc5MjI3NjBDMEI7cGFyZW50Z3VpZD0"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+}

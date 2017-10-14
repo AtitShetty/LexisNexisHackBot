@@ -1,0 +1,231 @@
+{
+    "task": {
+        "@otherprops": "lparesults",
+        "@audience": "lpa",
+        "@id": "lpaaddoptionalclause_hdi",
+        "title": "How do I add an optional clause to a form?",
+        "prolog": {
+            "author": [
+                "Barb Bruns",
+                "Garth Lewis"
+            ],
+            "copyright": {
+                "copyryear": {
+                    "@year": "2007"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2006-10-03"
+                },
+                "revised": {
+                    "@modified": "2014-12-12"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": {
+                    "ph": {
+                        "@keyref": "lpanamefirst",
+                        "#tail": "may have one or more nonstandard Optional clauses you can choose to add to the end of a section in a form.  To add an Optional clause:"
+                    },
+                    "#text": "Editable forms in"
+                }
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "image": {
+                                "@alt": "Optional Clause",
+                                "@href": "IconClause.png",
+                                "@placement": "inline",
+                                "#tail": "."
+                            },
+                            "#text": "On the right side of the form, at the end of the section to which you will add the clause, select"
+                        },
+                        "stepresult": {
+                            "uicontrol": {
+                                "#tail": "pop-up appears.",
+                                "#text": "Alternative Clause"
+                            },
+                            "note": {
+                                "@type": "tip",
+                                "#text": "You will see a separate icon for each available standard clause."
+                            },
+                            "#text": "The"
+                        }
+                    },
+                    {
+                        "cmd": "What kind of alternate clause do you want to add?",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "If you want...",
+                                "chdeschd": "Then..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": "A standard alternate clause",
+                                    "chdesc": {
+                                        "p": [
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "button.",
+                                                    "#text": "Add to Form"
+                                                },
+                                                "#text": "Select the"
+                                            },
+                                            {
+                                                "uicontrol": {
+                                                    "#tail": "pop-up disappears, and the selected clause appears at the end of the section.",
+                                                    "#text": "Alternative Clause"
+                                                },
+                                                "#text": "The"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "choption": "A custom alternate clause",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": [
+                                                        {
+                                                            "#tail": "button. A custom clause dialog box replaces the",
+                                                            "#text": "Add Your Own Clause Text"
+                                                        },
+                                                        {
+                                                            "#tail": "pop-up.",
+                                                            "#text": "Alternate Clause"
+                                                        }
+                                                    ],
+                                                    "#text": "Select the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "box, enter the text of the clause you want to add.",
+                                                        "#text": "Directly enter text, or copy and paste from another document"
+                                                    },
+                                                    "#text": "In the"
+                                                },
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button. The custom clause dialog box disappears. The clause you entered appears at the end of the section.",
+                                                        "#text": "Add Text"
+                                                    },
+                                                    "#text": "Select the"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "tip",
+                                "image": {
+                                    "@alt": "Remove Clause",
+                                    "@href": "IconRemove.png",
+                                    "@placement": "inline",
+                                    "#tail": "to remove it from the form."
+                                },
+                                "#text": "If you change your mind about adding the clause, select"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "Complete any other work you want to do in the form."
+                    },
+                    {
+                        "cmd": "Save the form:",
+                        "choicetable": {
+                            "chhead": {
+                                "choptionhd": "If you want to save the form...",
+                                "chdeschd": "Then..."
+                            },
+                            "chrow": [
+                                {
+                                    "choption": {
+                                        "ph": {
+                                            "@keyref": "prodnamefirst"
+                                        },
+                                        "#text": "In"
+                                    },
+                                    "chdesc": {
+                                        "p": {
+                                            "xref": {
+                                                "@scope": "peer",
+                                                "@href": "saveresearch_hdi.xml",
+                                                "#tail": ".",
+                                                "#text": "How do I save my research"
+                                            },
+                                            "#text": "See the topic"
+                                        },
+                                        "note": {
+                                            "@type": "tip",
+                                            "#text": "Start with \"Save a document from the full document view\" in Step 1."
+                                        }
+                                    }
+                                },
+                                {
+                                    "choption": "On your computer",
+                                    "chdesc": {
+                                        "ol": {
+                                            "li": [
+                                                {
+                                                    "uicontrol": [
+                                                        {
+                                                            "#tail": "section on the right side of the page, select",
+                                                            "#text": "About This Document"
+                                                        },
+                                                        {
+                                                            "#tail": ". A delivery pop-up appears, displaying a message that the system is processing your request. Once the download request successfully finishes processing, the title of the form appears as a link.",
+                                                            "#text": "Draft Now"
+                                                        }
+                                                    ],
+                                                    "image": {
+                                                        "@alt": "Draft Now icon",
+                                                        "@href": "iconDraftNow.png",
+                                                        "@placement": "inline"
+                                                    },
+                                                    "note": {
+                                                        "@type": "note",
+                                                        "#text": "Make sure your browser is not set to block pop-up windows. If nothing appears to happen, check your browser pop-up settings."
+                                                    },
+                                                    "#text": "From the"
+                                                },
+                                                "Click the form title. Your browser downloads the form as a Microsoft Word document. Use your browser's standard controls to save the document where you want it.",
+                                                {
+                                                    "uicontrol": {
+                                                        "#tail": "button.",
+                                                        "#text": "Close"
+                                                    },
+                                                    "#text": "In the delivery pop-up, click the"
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

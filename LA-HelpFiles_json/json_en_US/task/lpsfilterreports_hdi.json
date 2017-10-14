@@ -1,0 +1,134 @@
+{
+    "task": {
+        "@otherprops": "lpsprofileresults",
+        "@audience": "lps",
+        "@id": "lpsfilterreports_hdi",
+        "title": "How do I restrict data about individual expert, attorney, and judge profiles?",
+        "prolog": {
+            "author": "Christina",
+            "copyright": {
+                "copyryear": {
+                    "@year": "2010"
+                },
+                "copyrholder": "Lexisnexis"
+            },
+            "critdates": {
+                "created": {
+                    "@date": "2010-12-17"
+                }
+            },
+            "metadata": {
+                "prodinfo": {
+                    "prodname": "Lexis Advance",
+                    "vrmlist": {
+                        "vrm": {
+                            "@version": "1"
+                        }
+                    }
+                }
+            }
+        },
+        "taskbody": {
+            "context": {
+                "p": [
+                    {
+                        "ph": {
+                            "@keyref": "lpsnamefirst",
+                            "#tail": "and viewing the different types of data available for individual expert witnesses, judges, and attorneys, you can filter the data to show only those documents you are most interested in viewing. For example, while viewing Verdicts & Settlements, you may want to view only cases that were tried in a specific court or jurisdiction. Using filtering tools, you can focus your review on the details that are important to you. You can add, remove, and change as many filters as you need."
+                        },
+                        "#text": "While using"
+                    },
+                    {
+                        "uicontrol": {
+                            "#tail": "pane of the different reports.",
+                            "#text": "Narrow By"
+                        },
+                        "#text": "The filtering tools are located in the"
+                    },
+                    "To apply a filter to your profile results:"
+                ]
+            },
+            "steps": {
+                "step": [
+                    {
+                        "cmd": {
+                            "xref": [
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforexpert_hdi.xml",
+                                    "#tail": ",",
+                                    "#text": "expert witness"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforjudge_hdi.xml",
+                                    "#tail": ", or",
+                                    "#text": "judge"
+                                },
+                                {
+                                    "@scope": "peer",
+                                    "@href": "lpssearchforattorney_hdi.xml",
+                                    "#tail": ".",
+                                    "#text": "attorney"
+                                }
+                            ],
+                            "#text": "Complete your search for an"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "page appears for that person.",
+                                "#text": "Snapshot"
+                            },
+                            "#text": "At the search results list, select the name for the profile you want to view. The"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "link.",
+                                "#text": "Publications"
+                            },
+                            "#text": "Using the pane on the left, click the type of profile information you are interested in viewing. For example, select the type of publication you want to view by clicking the"
+                        }
+                    },
+                    {
+                        "cmd": {
+                            "uicontrol": {
+                                "#tail": "pane.",
+                                "#text": "Narrow By"
+                            },
+                            "#text": "Choose your filter from the"
+                        },
+                        "info": {
+                            "note": {
+                                "@type": "note",
+                                "uicontrol": [
+                                    {
+                                        "#tail": "link. (To minimize the list of options again, select",
+                                        "#text": "More"
+                                    },
+                                    {
+                                        "#tail": ".)",
+                                        "#text": "Less"
+                                    }
+                                ],
+                                "#text": "Only the top results are listed for each filter. To view the full list of options, select the"
+                            }
+                        }
+                    },
+                    {
+                        "cmd": "Use the following information to work with the different filters:",
+                        "info": {
+                            "simpletable": {
+                                "@conref": "narrowresults_hdi.xml#narrowresults_hdi/narrowby",
+                                "strow": null
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
