@@ -34,8 +34,8 @@ var luisRecognizer = new builder.LuisRecognizer(luisAppUrl);
 var qnarecognizer = new cognitiveservices.QnAMakerRecognizer({
     knowledgeBaseId: process.env.QNA_KB_ID,
     subscriptionKey: process.env.QNA_SUB_KEY,
-    top: 3,
-    qnaThreshold: 0.85
+    top: 1,
+    qnaThreshold: 0.6
 });
 
 var intents = new builder.IntentDialog({
