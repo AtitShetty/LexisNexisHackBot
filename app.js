@@ -28,13 +28,12 @@ var bot = new builder.UniversalBot(connector);
 
 
 
-var luisAppUrl = process.env.LUIS_APP_URL || 'https://westus.api.cognitive.microsoft.com/luis/v2.0/apps/7bd96fa8-e5bf-4259-9460-48b09433b79d?subscription-key=347c01af797140b6b9030b8e9560a3a3&staging=true&verbose=true&timezoneOffset=0&q=';
-
+var luisAppUrl = process.env.LUIS_APP_URL;
 var luisRecognizer = new builder.LuisRecognizer(luisAppUrl);
 
 var qnarecognizer = new cognitiveservices.QnAMakerRecognizer({
-    knowledgeBaseId: '632f7242-793b-4b9b-b800-71a004ebfe00',
-    subscriptionKey: 'e35ff937af7e4631a8c910c7a5a03a7b',
+    knowledgeBaseId: process.env.QNA_KB_ID,
+    subscriptionKey: process.env.QNA_SUB_KEY,
     top: 3,
     qnaThreshold: 0.6
 });
@@ -80,6 +79,12 @@ intents.matches('qna', [
         } else {
             session.send("That's alright, you can continue exploring more topics.");
         }
+    }
+]);
+
+intents.matches('Help', [
+    function(session) {
+        session.send("How can I help you?<br>You can ask questions like \"How do I filter results after search?\" or \"How to create a new folder?\"");
     }
 ]);
 
