@@ -2,14 +2,18 @@
   "name": "overruled",
   "version": "1.0.0",
   "description": "LexisNexis ChatBot",
-  "main": "main.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r dotenv/config app.js"
   },
   "author": "Decoders",
   "license": "ISC",
   "dependencies": {
     "botbuilder": "^3.11.0",
+    "botbuilder-cognitiveservices": "^1.1.0",
+    "dotenv": "^4.0.0",
+    "google": "^2.1.0",
     "restify": "^6.0.1"
   }
 }
