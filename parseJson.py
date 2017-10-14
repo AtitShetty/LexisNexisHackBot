@@ -1,6 +1,8 @@
 import json
 from collections import OrderedDict
 
+name_title = dict()
+
 json_file = 'map.json'
 json_data=open(json_file)
 
@@ -30,7 +32,7 @@ def flatten(keys):
     ret=''
     if isinstance(keys,OrderedDict):
         if 'name' in keys:
-            ret = ret + keys['name']
+            ret = ret + name_title[keys['name']]
         return ret
     else:
         count = 0
@@ -54,12 +56,20 @@ def constructfull(innerjson):
         return innerjson
     else:
         ns=''
+        count = 0
         if '#text' in innerjson:
             ns = ns + innerjson['#text']
+            count = count+1
         for keys in innerjson:
-            if keys != '#text':
-                k = innerjson[keys]
-                ns = ns + ' '+add_single_or_array(k)
+            if count == 0:
+                if keys != '#text':
+                    k = innerjson[keys]
+                    ns = ns + add_single_or_array(k)
+                    count = count + 1
+            else:
+                if keys != '#text':
+                    k = innerjson[keys]
+                    ns = ns + ' '+ add_single_or_array(k)
         return ns
                 
             
@@ -77,7 +87,7 @@ p = get_abstract('What is narrowing my results?')
 
 def get_add_links(conrefs):
     if isinstance(conrefs, basestring):
-        return conrefs
+        return name_title[conrefs]
     retref=''
     count = 0
     for keys in conrefs:
@@ -87,9 +97,15 @@ def get_add_links(conrefs):
         else:
             retref = retref +','+ flatten(conrefs[keys])
     return retref
+
+
         
-
-
+for val in j_array:
+    title = ''
+    if (val['title']):
+        title=constructfull(val['title'])
+    name_title[val['name']] = title
+    
 #Tutorial: Getting Started with Lexis Advance\u00ae
 text_file = open("output.tsv", "w")           
 for val in j_array:
